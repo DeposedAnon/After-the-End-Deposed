@@ -1,0 +1,8 @@
+# Removed Abbas rulers
+2622.5.5={
+	holder=1910184
+	liege=k_socal
+}
+2655.12.1={
+	holder=1910185
+}

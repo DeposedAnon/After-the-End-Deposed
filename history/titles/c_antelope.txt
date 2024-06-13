@@ -1,0 +1,4 @@
+2655.12.1 = {
+	holder = 1910170 #MyEdit, previously "1910165". Had to move him after I removed him from Riverside
+	liege = d_berdoo #MyEdit, previously "k_socal"
+}

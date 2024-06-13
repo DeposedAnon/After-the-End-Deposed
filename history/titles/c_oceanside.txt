@@ -1,0 +1,19 @@
+2055.10.5={
+	holder=2500110
+	liege=k_socal
+}
+2090.2.14 = {
+	holder = 0 #MyAddition
+}
+#MyEdit, removed Carmine Rulers
+2591.1.1 = {
+	holder = 7770003 #MyAddition
+}
+2635.1.1 = {
+	holder = 7770002 #MyAddition
+}
+2664.1.1 = {
+	holder = 7770001 #MyEdit
+	liege = k_socal
+}
+

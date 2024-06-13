@@ -1,0 +1,4 @@
+2660.1.1 = {
+	holder = 7770000 #MyEdit. Temporary Placeholder ruler
+	liege = k_socal
+}

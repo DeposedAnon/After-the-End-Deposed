@@ -1,0 +1,10 @@
+# Removed Imamite rulers
+2070.1.1={
+	liege=k_socal
+}
+2622.4.25={
+	holder=1910189
+}
+2654.11.30={
+	holder=1910190
+}
