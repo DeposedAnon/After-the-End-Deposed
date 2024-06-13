@@ -1,0 +1,60 @@
+###ÄNSI
+
+
+7770000 = {
+	name = "Tarsus"
+	culture = battleborn
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+7770001 = {
+	name = "Aurelio"
+	culture = angeleno
+	used_for_random = no
+}
+
+7770002 = {
+	name = "Hillwalker" #MyNote: Hillwalker was suggested by Chilean anon. I originally had the dynasty named "Walker"
+	culture = texan
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+7770003 = {
+	name = "Edwards"
+	culture = angeleno
+	used_for_random = no
+}
+
+7770004 = {
+	name = "Mitchell"
+	culture = angeleno
+	used_for_random = no
+}
+
+7770005 = {
+	name = "Travego"
+	culture = gulfard
+	used_for_random = no
+}
