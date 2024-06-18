@@ -1,0 +1,236 @@
+After the End - Deposed - Official Unofficial 4chan Fan Fork Fork (AtEDOU4cFFF) (Name Pending)
+
+Changelog for version 0.3 (May 20, 2024):
+	- Incorporated bugfix in afterend_decisions.txt that prevents non-cetic emperors from visiting their own court.
+	  Thank you, anon 1281614, for this bugfix.
+	- Gertrude Stoklasa should now actually be unmarried.
+	- Removed the last bit of the Woolleyite Mormon heresy that I missed the last time around.
+	- Fixed the Abbot of Herman's Brotherhood (The Nazarene Head of Faith) from going Feudal upon succession. This was 
+	  supposed to have been fixed in AtE FF 1.2a, but it wasn't implemented. The Nazarene Head of Faith should now always 
+	  be Theocratic.
+	- Fixed the High Priest of the Atomic Priesthood (The Aphite Head of Faith) from going Open Range Feudalism (ORF). 
+	  The Aphite Head of Faith should now always be Theocratic.
+	- Changed the religion of Fraser Littlefield, a previous High Priest of the Atomic Priesthood (The Aphite Head of 
+	  Faith) from Atomicist to Aphite, as he was the Aphite High Priest.
+	- Commented out a line (true_religion_thelemic_trigger = yes) in 00_societies.txt as it was referencing a non-existent 
+	  trigger.
+	- Added placeholder event pictures to many events in orf_election_events.txt.
+	- Commented out two triggered-only events ("orfelection.23" and "orfelection.24") in orf_election_events.txt as their 
+	  trigger in a previous event (An option in "orfelection.4") was already commented out.
+	- Fixed two event picture names (In events "fide.125" and "fide.128") in mex_misc.txt. They had the wrong names and 
+	  weren't referencing actual pictures.
+	- Fixed two event picture names (In events "hanovers.11" and "hanovers.13") in hanover_events.txt. They had the wrong 
+	  names and weren't referencing actual pictures.
+	- Added placeholder event pictures to two events ("texas.49" and "texas.75") in texas_events.txt as they were missing.
+	- Commented out two references to a non-existent trait (party_malcontent) in 01_pragmatist.txt and 04_malcontent.txt.
+	- Added a placeholder event picture to event redland.1 in event file redland_events.txt.
+	- Changed a line in event "mictlan.10" in file mictlantec_events.txt from "cash = -100" to "wealth = -100", as it was 
+	  the wrong command.
+	- In the 00_on_actions.txt file, under the on_death section, event "orfelection.102" was commented out as that event 
+	  doesn't actually exist.
+	- Both references to event "AMLT.1" in the 00_on_actions.txt file were commented out, as that event was already 
+	  commented out in am_lt_events.txt.
+	- The Mouse artifact "Cursed Apple of the Snow White Princess" had a non-functioning modifier (insane_opinion = 3) 
+	  removed. To compensate for this, it now gives 1 Intrigue.
+	- Chief Johnathan Nyukem of Esmeralda Pass county now has the "Strong" trait and the "Old World Shades" artifact. He 
+	  was also given the "diversity" and "physique" character flags to prevent randomization of his race and physique.
+	- Fixed (Maybe?) event "destape.8" in mex_imperial_succession_events.txt.
+	- Fixed (Maybe?) event "mictlan.50" in mictlantec_events.txt.
+	- Fixed any previous Abbot of Herman's Brotherhood (The Nazarene Head of Faith) from becoming unlanded upon death, 
+	  though this comes at a loss of any new Abbot having a dynasty. However, now every new Abbot will start with one of 
+	  the three unique Nazarene traits (Seraph, Acolyte and Presbyter). New Abbots will also start about 20 years older, 
+	  similar to how they were before. In addition, this fix now allows the Abbot to transfer their wealth and any 
+	  artifacts they have to their successor, as previously both their wealth and artifacts disappeared on succession, 
+	  leaving their successor with nothing. Also, now Nazarene characters will be notified of the Abbot's death via a 
+	  High Priority Message like other Heads of Faith, this was not the case previously for some reason. This fix 
+	  involved editing event "nazarene.2" in the file nazarene_events.txt and moving "nazarene.2" in the on_actions.txt 
+	  file from the "on_death" section to the "on_new_holder_inheritance" section.
+	- Fixed Senor Friedrich of Cuauhtemoc's (Under the Estado of Chihuahua in Sierra Madre) dynasty from Unger to Insbern, 
+	  as it was in a previous version. His children now also have the Insbern dynasty, as it used to be. His father is 
+	  also now Jeremias Insbern, fixing the Insbern family tree.
+	- Cristina Caballero, princess of Baja, has had her ethnicity changed to "Mediterranean", to match the rest of her 
+	  family. Her culture is still "Californiano", however.
+	- Subprefect Mark Aurelio of Orange county has had his ethnicity changed to "Mediterranean", his culture will remain 
+	  "Angeleno", however.
+	- Subprefect Arthur Douglas of Oceanside county and his family members have had their ethnicities changed to "White", 
+	  while their culture will remain "Angeleno".
+	- Subprefect Rock Douglas of Blythe county and his deceased father, Stone Douglas, have had their religion changed to 
+	  "Nazarene" to match the religion of their county. They no longer have the cetic trait "Way of the Fist", but now 
+	  have the "Wroth" trait in its place. Their ethnicity and culture will remain unchanged.
+	- Elizabeth Cameron, the old High Queen of Texas, has been deposed and replaced with George Hillwalker, a reference to 
+	  George Dubya, Walker, Texas Ranger, Hank Hill from King of the Hill and General George Hammond (of Texas) from 
+	  Stargate SG-1. Thank you, Chilean anon, for the idea of changing his dynasty name from Walker to Hillwalker.
+	- All references to the old High Queen in the file am_tex_flavor.csv have been replaced with references to the High 
+	  King. Some minor spelling and grammatical errors have also been fixed.
+	- The line "princely_elective_apply_elector_setup_effect = yes" in the file empire_decisions.txt has been commented 
+	  out, as it was referencing an already commented out section in file 00_scripted_effects.txt. This was under the 
+	  "Form Texarkana" decision. It will still give the holder Princely or HRE Elective Succession on creation without it.
+	- The "Northlander" culture has had various names restored to it. Thank you, Chilean anon.
+	- The "Bagley" dynasty has had its original name restored to "Venable". Thank you, Chilean anon.
+	- The "Randolph" dynasty has had its original name restored to "Semmes". Thank you, Chilean anon.
+	- The "Cockrell-South" dynasty has had its original name restored to "Rootes". Thank you, Chilean anon.
+	- The "Knights of the Golden Circle" mercenary company has been restored. Thank you, Chilean anon. They won't replace 
+	  the existing "Free Riders" mercenary company, but will exist alongside them.
+	- The "Tonton Macoutes" mercenary company has been restored. Thank you, Chilean anon. They won't replace the existing 
+	  "Vieux Lions" mercenary company, but will exist alongside them.
+	- Fixed a minor spelling error in the "Reunite the Kingdom of Illinois" decision in the file 00_am_events3.csv.
+	- Fixed the province of Kaskaskia in the duchy of The Gateway having the wrong name of Kaskasia.
+	- The old Kingom of Carolina in the HCC has been restored. However, it can only be formed by decision if you 
+	  completely control the duchies under the kingdoms of Tarheel and Palmetto while being independent. This will change 
+	  the dejure liege of these duchies to the Kingdom of Carolina, leaving the Kingdoms of Tarheel and Palmetto titular. 
+	  Thank you, Chilean anon, for the idea and flag. Thank you, anon 1756033, for the idea of replacing the two old 
+	  kingdoms with Carolina as the goal.
+	- The old Kingom of Dixieland in the HCC has been restored. However, it can only be formed by decision if you 
+	  completely control the duchies under the kingdoms of Georgia and Tuskegee while being independent. This will change 
+	  the dejure liege of these duchies to the Kingdom of Dixieland, leaving the Kingdoms of Georgia and Tuskegee titular. 
+	  Thank you, Chilean anon, for the idea and flag. Thank you, anon 1756033, for the idea of replacing the two old 
+	  kingdoms with Dixieland as the goal. Also, "k_dixieland" has been restored to the file 00_am_titles.csv.
+	- Reactivated the Fort Sumter barony in Charleston and made it the capital barony once again. The Citadel's building 
+	  upgrades have also been moved over to Fort Sumter.
+	- The "Royall" dynasty has been restored to being of "Southron" ethnicity and culture as it used to be. Thank you, 
+	  Chilean anon, for making all the necessary edits for this in the file dixie.txt.
+	- Added in a line of "Carmine" Kings to the Kingdom of Socal's history, as well as to San Diego county's history. 
+	  These characters were already in-game, but had no titles previously. These changes are to fill in a gap left by the 
+	  removal of the Abbas rulers in Deposed version 0.2.
+	- Eastern Ranges county's flag has been readjusted so that the entire emblem is visible.
+	- Fort Wayne county's flag has been readjusted so that the entire emblem is visible. It's also been edited to remove 
+	  any writing.
+	- Imperial county has had its flag changed to that of the IRL flag of Imperial County California, replacing the old 
+	  County Seal flag used in previous versions. The bottom half of the flag has been extended so that it fits properly.
+	- Tijuana county's flag has had its emblem made smaller and re-positioned up higher.
+	- Orange county's flag has been replaced with a modified version of the IRL flag of Orange County, California.
+	- Riverside county's flag has been replaced with a modified version of the IRL flag of the city of Riverside, 
+	  California. This replaces the old County Seal flag that was used in previous versions. This flag may change in the 
+	  future as I'm not entirely satisfied with it.
+	- Santa Barbara county's flag has been replaced with a modified version of the IRL flag of the city of Santa Barbara, 
+	  California. This replaces the old County Seal flag that was used in previous versions. This flag may also change in 
+	  the future as I'm not entirely satisfied with it either.
+	- The titular Kingdom of Indiana's flag has had its emblem made slightly smaller and re-positioned up higher.
+	- The Kingdom of Florida's flag has had its emblem made slightly smaller and re-positioned up higher so the bottom 
+	  part of the emblem is made more visible.
+	- Replaced "b_the_citadel_SC" with "b_fort_sumter_SC" under the two events where an army captures a major settlement 
+	  in the file chronicle_events.txt, to reflect the previous change of making Fort Sumter the capital of Charleston.
+	- Gave the "Hillwalker" dynasty (The High King of Texas) a modified flag of Texas as their CoA.
+	- The barony of Clearwater in Tampa has been activated.
+	- Added a new religion: Scientology. It's barebones at the moment, but it now exists. It's a small, hard to convert 
+	  and aggressive religion that can raid infidel neighbors for loot. Scientology's Holy Sites are: Riverside, 
+	  Los Angeles, San Francisco, Las Vegas and Tampa. Their head of faith is the Chairman of the Board of the Church of 
+	  Scientology. With this addition, come characters practicing this religion. There are now 4 landed Scientologists, 
+	  though only 2 are currently playable. Many files were edited to include Scientology properly, too many to list here. 
+	  Even still, I may have missed some.
+	- The religion of Riverside county has been changed to Scientologist.
+	- Edward Edwards now holds Riverside county (The previous holder, Sonny Stewart, has been moved to neighboring 
+	  Antelope county). he is an expy of David Miscavige, but I couldn't make up a fun alternative name, so I went with 
+	  alliteration. He is White in ethnicity, Angeleno in culture and Scientologist in religion. He also starts with 500 
+	  extra wealth because Scientology.
+	- Matthias Mitchell is a new patrician in Los Angeles, he's replacing the Imamite patrician, Dariush Sadafi, who is 
+	  now sadly homeless. Matthias Mitchell is a reference to Tom Cruise and some of his more famous film roles. His first 
+	  name Matthias comes from Matthew in Ethan Matthew Hunt (Mission Impossible) and his last name is from LT Pete 
+	  "Maverick" Mitchell (Top Gun). He is White in ethnicity, Angeleno in culture, and Scientologist in religion.
+	- Tarl Travego now holds the barony of Clearwater in Tampa. He is a reference to John Travolta and some of his more 
+	  famous film roles. His first name Tarl comes from Terl (Battlefield Earth) and his last name is a portmanteau of 
+	  Travolta, Tony Manero (Saturday Night Fever) and Vincent Vega (Pulp Fiction). He is Gulfard in culture and 
+	  Scientologist in religion.
+	- With the addition of Scientology comes "Sea Org", Scientology's sole holy order.
+	- Added lines for the "Knights of the Golden Circle", "Vieux Lions" (As the line for the "Tonton Macoutes" was left in 
+	  here after they were removed everywhere else, but the "Vieux Lions" weren't added here to replace it), and "Sea Org" 
+	  to the file HF_alternate_start_events.txt. This only affects Alternate Starts in Shattered or Random worlds.
+	- Added Scientologist options for characters with the "Way of the Cowl" trait to the Cetic Collapse events in 
+	  ceticreforms.txt and a line for it in 00_am_events2.csv.
+	- Elrond, the Chairman of the Board of the Church of Scientology in 2666, now holds the temple of Cucamonga in 
+	  Riverside county and he also starts with an extra 1000 wealth. He is also independent.
+	- Thank you, to all the anons that contributed and gave their ideas, suggestions and support.
+
+Changelog for version 0.2.2 (November 25, 2022):
+	- The culture and religion of Milwaukee county has been changed to Dellsman and Catholic, respectively.
+	- Milwaukee county is now held by Michael Stoklasa.
+	- Gertrude Stoklasa has had her stats, traits and age edited. She is no longer married, to allow for potential 
+	  alliances, and her children no longer exist.
+	- Dennis Reynolds is now, once again, Duke of Philadelphia. The former Duke, Philip Ashburn, and his family have been 
+	  moved to the court of his mother-in-law, Countess Babbs of Frederick.
+	- The holders of Oceanside and Orange counties have had their traits and stats adjusted, and each have been given 
+	  ownership of one barony from their respective counties.
+	- The Kingdom of Heaven event chain has been changed from being a Mormon/Neogodbeite revolt to being a Nazarene/True 
+	  Cross revolt as it was originally intended.
+	- The "ATEFF - Cowboy Units Fixed" mod has been incorporated.
+	- The "ATEFF - ORF Fixed" mod has been incorporated.
+	- Removed mention of Zakariyya from Qingzhen's description.
+	- Subprefect May Ia of Avenal county now follows the Qingzhen religion. Her "Way of the Dove" trait has been replaced 
+	  with the "Follower of Laozi" trait.
+	- The religion of Imperial and Avenal counties has been changed to Qinghzen, to reflect their owners.
+	- The holder of Orange county is now named Mark Aurelio, in reference to Roman Emperor Marcus Aurelius.
+	- The Hayek dynasty now has the CoA of the Eastern Protectorate, slightly modified, to reflect the family's history.
+	- The DeSalle dynasty now has the CoA of it's namesake: René-Robert Cavelier, Sieur de La Salle.
+	- The holder of Oceanside county is now named Arthur Douglas, in reference to General Douglas MacArthur. Due to his new 
+	  dynasty, he's now related to the holder of Blythe county and has been given a small family history to connect them.
+	- Cyrus of Redding and his twin brother Abbot Methodius of Saint Herman's Brotherhood have had their traits adjusted.
+	- Fallon county in Nevada has had it's province color changed to a reddish-brown color.
+
+Changelog for version 0.2.1 (August 21, 2022):
+	- Oceanside county's flag has been readjusted so that the entire emblem is visible.
+	- The "Ruins of Tomorrow's Land" landmark in Orange county has been renamed to "Ruins of Disney Land", and all mentions 
+	  of Zakariyya in it's description have been removed.
+	- The "Ruins of the Guiding Rocks" landmark in Athens county has been restored after it was removed in version 0.1 due 
+	  to restoring the Great Work.
+	- The "Ruins of the Guiding Rocks" landmark has been renamed to "The Georgia Guidestones" and it's description has been 
+	  rewritten to be more neutral.
+	- Removed Abbas and Imamite rulers from the histories of Imperial, Santa Barbara and Blythe counties.
+	- Removed Abbas and Imamite rulers from the histories of the duchies of Salton, Los Padres, Mojave and Death Valley.
+	- Anthony Mansour, brother of Zakariyya, now holds the barony of Huntington in Orange county and the Imamite religious
+	  head title. He is now the only landed member of the Abbas dynasty.
+	- Copied over the history of d_imamite to b_huntington_CA to reflect the above change.
+	- The first (And last) Pope, Petrus Romanus, has had his birthdate reverted back to it's original date, in keeping with 
+	  the 666 meme.
+	- Zakariyya Abbas and Michael Vermelha have been moved to Emperor Elton IV's court and given minor titles. Their stats
+	  and traits have also been altered.
+	- Removed mention of Zakariyya in the "Way of the Fist" trait. Instead, Alexander the Great is mentioned in his place.
+	- Abbot Methodius of Saint Herman's Brotherhood and Cyril of Redding are now properly twins as intended (Both have the 
+	  exact same birthdate, both have the "Twin" trait despite not having a twin in-game, etc.)
+	- The temporary placeholder rulers of Orange and Oceanside counties now have the "Great Egret" trait.
+	- Part of the "ATEFF - Religious Toleration Revert" mod has been incorporated into this mod (Namely the fix of the 
+	  Demand Conversion decision).
+	- The Vermelha dynasty has had it's name reverted back to Vermelho.
+	- The "Crown of Los Angeles" artifact now referes to the King of Socal, rather than the Emir of Socal.
+	- Removed Carmine rulers from the history of Oceanside county.
+	- Christina Caballero, princess of Baja, has had her first name changed to Cristina, the appropriate Californiano 
+	  spelling of that name.
+
+Changelog for version 0.2 (August 11,2022):
+	- The Holy Columbian Confederacy has had it's original flag restored.
+	- Forgot to mention that in version 0.1, the Orientalist religion was changed so that it could no longer start Jihads.
+	  This is a temporary fix.
+	- Revelationists now have Divine Marrige.
+	- Southron and Dixie men have had their Confederate hats restored (thanks, anon).
+	- All mentions of Zakariyya in the Loading Tips localisation file have been removed and replaced with quotes from 
+	  Homer and Marcus Aurelius.
+	- Zakariyya's events have been removed.
+	- Zakariyya has been deposed as the ruler of Orange county, and has been replaced by a temporary placeholder ruler of 
+	  Angeleno culture and Nazarene religion.
+	- Zakariyya has been removed as an Interesting Character from the Supreme Disunity bookmark.
+	- The Abbas line of kings have been removed from the Kingdom of Socal's history.
+	- The Imamite religious head title now has no holder.
+	- The Zakariyya bloodline has been removed.
+	- Removed Zakariyya's weak claim on Oceanside.
+	- The culture and religion of Orange county has been changed to Angeleno and Nazarene, respectively.
+	- The culture and religion of Oceanside county has been changed to Angeleno and Hamiltonian (Reflecting the first
+	  ruler of Oceanside's religion, and it being the location of Camp Pendleton), respectively.
+	- The barons under Orange county (At least one being a self-insert) have been deposed.
+	- Las Vegas county has had its flag changed to a simpler, but much more iconic symbol of the city.
+	- Oceanside county is now ruled by a temporary placeholder of Angeleno culture and Hamiltonian religion.
+
+Changelog for version 0.1 (July 4,2022):
+	- Mormons are now polygamous again.
+	- The Woolleyite Mormon heresy has been removed. Characters and provinces that were previously Woolleyite are now Mormon.
+	- Wrong Checksum Startup Event has been removed.
+	- Tolerance Laws have been removed for being game-breaking.
+	- Levi the Liberator had his martial skill reduced to 8, down from 9. His genius trait is now the quick trait.
+	- Some unlanded characters have had their traits and stats modified.
+	- Fixed wasteland provinces expecting a history file.
+	- Some small bugs have been fixed.
+	- The Kingdom of Baja is now the color of Baja Blue.
+	- The Duchy of Baja is now the color of Baja Blast.
+	- The "De Oro" dynasty now has their correct (Maybe?) Coat of Arms.
+	- The Georgia Guidestones are now a Great Work in the province of Athens once again.
+	- The Ruined Georgia Guidestones province modifier in the province of Athens has been removed.
+	- The Stone Mountain province modifier in the province of Atlanta has had it's original description restored.
+

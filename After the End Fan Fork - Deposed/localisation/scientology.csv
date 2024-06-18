@@ -1,0 +1,69 @@
+#####Scientology#####
+#Descriptions are currently temporary
+scientology_group;Scientology;;;;;;;;;;;;;x
+scientology_group_DESC;Scientology teaches that people are immortal spirits who have forgotten their true nature. Scientologists say that, through a system called auditing, they help people remember their true nature by re-experiencing painful events in their past and understanding them better.;;;;;;;;;;;;;x
+scientology;Scientologist;;;;;;;;;;;;;x
+scientology_full;Scientology;;;;;;;;;;;;;x
+scientology_DESC;Scientology teaches that people are immortal spirits who have forgotten their true nature. Scientologists say that, through a system called auditing, they help people remember their true nature by re-experiencing painful events in their past and understanding them better.;;;;;;;;;;;;;x
+
+OPERATION;Operation;;;;;;;;;;;;;x
+DIANETICS;Dianetics;;;;;;;;;;;;;x
+AUDITOR;Auditor;;;;;;;;;;;;;x
+OPERATING_THETANS;Operating Thetans;;;;;;;;;;;;;x
+XENU;Xenu;;;;;;;;;;;;;x
+IRS;The IRS;;;;;;;;;;;;;x
+
+CHAIRMAN_OF_THE_BOARD;Chairman of the Board;;;;;;;;;;;;;x
+CHAIRMAN_OF_THE_BOARD_FEMALE;Chairwoman of the Board;;;;;;;;;;;;;x
+
+d_scientology;Church of Scientology;;;;;;;;;;;;;x
+d_scientology_adj;Scientologist;;;;;;;;;;;;;x
+d_sea_org;Sea Org;;;;;;;;;;;;;x
+d_sea_org_adj;Organization;;;;;;;;;;;;;x
+
+STAT_PIETY_OPERATING_THETANS;Operating Thetans;;;;;;;;;;;;;x
+STAT_PIETY_DESC_OPERATING_THETANS;Operating Thetans are respected by the clergy and monastics of your religion. Like Prestige, it is added to your score on the death of a ruler.;;;;;;;;;;;;;x
+STAT_PIETY_MENU_OPERATING_THETANS;Operating Thetans;;;;;;;;;;;;;x
+
+b_mitchell;Mitchell;Mitchell;Mitchell;;Mitchell;;;;;;;;;x
+
+scientology_opinion;[scientology.GetName] Opinion;;;;;;;;;;;;;x
+
+ALT_SCIENTOLOGY;The [scientology.GetName] Temple;Temple [scientology.GetName];Der [scientology.GetName]e Tempel;;El templo [scientology.GetName];;;;;;;;;x
+ALT_SCIENTOLOGY_ADJ;[scientology.GetName] Temple;Temple [scientology.GetName];[scientology.GetName]e Tempel;;temple[scientology.GetName];;;;;;;;;x
+
+secret_religious_society_scientology;[GetReligiousCommunityName_scientology];[GetReligiousCommunityName_scientology];[GetReligiousCommunityName_scientology];;[GetReligiousCommunityName_scientology];;;;;;;;;x
+secret_religious_society_REAL_scientology;The Followers of Hubbard;;;;;;;;;;;;x
+alt_start_community_name_scientology;The [scientology.GetName] Faithful;;;;;;;;;;;;;x
+secret_religious_society_scientology_desc;[GetReligiousSocietyDesc_scientology];[GetReligiousSocietyDesc_scientology];[GetReligiousSocietyDesc_scientology];;[GetReligiousSocietyDesc_scientology];;;;;;;;;x
+secret_religious_society_scientology_desc_REAL;Ever since Hubbard revealed Dianetics, his followers have been shunned and despised by those who did not accept the new way. Although they have been forced underground, true Scientologists secretly continue the tradition of proselytizing and gathering wealth and power, until the day comes when they can once more practice the true faith openly.;;;;;;;;x
+secretly_convert_to_scientology_holy_site;Secretly Convert to Scientology;;;;;;;;;;;;;x
+secretly_convert_to_scientology_holy_site_desc;The ｧYScientologistｧ! pilgrims that flock to the holy site in ｧY[Root.Location.GetName]ｧ! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
+secret_religious_society_scientology_currency;Devotion;;;;;;;;;;;;;x
+secret_religious_society_scientology_rank_1_female;Faithful;;;;;;;;x
+secret_religious_society_scientology_rank_2_female;Adherent;;;;;;;;x
+secret_religious_society_scientology_rank_3_female;Preacher;;;;;;;;x
+secret_religious_society_scientology_rank_4_female;Herald;;;;;;;;x
+secret_religious_society_scientology_rank_1_male;Faithful;;;;;;;;x
+secret_religious_society_scientology_rank_2_male;Adherent;;;;;;;;x
+secret_religious_society_scientology_rank_3_male;Preacher;;;;;;;;x
+secret_religious_society_scientology_rank_4_male;Herald;;;;;;;;x
+secret_religious_community_scientology;Secret Scientologist Community;;;;;;;;;;;;;x
+secret_scientology_community;Secret Scientologist Community;;;;;;;;;;;;;x
+secret_scientology_community_desc;In secret, Scientologist faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;;;;;;;;;;;;;x
+secret_religious_society_scientology_leader_desc;The Chairman of the Board, leading the international effort of bringing more people into the fold.;;;;;;;;;;;;;x
+
+EVTDESC_operation;The great [Root.GetTitledFirstName] has declared a [Root.Religion.GetCrusadeName] against [New.GetTitledName] and the adherents of '[New.Religion.GetHighGodName]' in the [From.GetFullBaseName]! All true [Root.Religion.GetName] men are called to arms in the name of [Root.Religion.GetHighGodName]!\n\nThe power of [Root.Religion.GetHighGodName] will descend upon all who stand in our way!;;;;;;;;;;;;x
+EVTDESC_operation_pagan;The great [Root.GetTitledFirstName] has declared a [Root.Religion.GetCrusadeName] against [New.GetTitledName] and the followers of [New.Religion.GetHighGodName] in the [From.GetFullBaseName]! All true [Root.Religion.GetName] men are called to arms against the uncivilized barbarians!\n\nThese uneducated rubes will soon learn the power of [Root.Religion.GetHighGodName]!;;;;;;;;;;;;x
+EVTDESC_operation_christ;The great [Root.GetTitledFirstName] has declared a [Root.Religion.GetCrusadeName] against [New.GetTitledName] and the [New.Religion.GetName] infidels in [From.GetFullBaseName]! All true [Root.Religion.GetName] men are called to arms against the deniers of [Root.Religion.GetHighGodName]!\n\nTheir puny trinity is no match against our Thetans!;;;;;;;;;;;;x
+
+temple_barony_of_scientology;Church of;;;;;;;;;;;;;x
+temple_barony_scientology;Church;;;;;;;;;;;;;x
+temple_baron_scientology;Minister;;;;;;;;;;;;;x
+temple_baron_female_scientology;Minister;;;;;;;;;;;;;x
+
+job_chancellor_scientology;Chairperson;;;;;;;;;;;;;x
+job_marshal_scientology;Captain;;;;;;;;;;;;;x
+job_treasurer_scientology;Treasurer;;;;;;;;;;;;;x
+job_spymaster_scientology;Director of Special Affairs;;;;;;;;;;;;;x
+job_spiritual_scientology;Auditor;;;;;;;;;;;;;x

@@ -1,3 +1,0 @@
-namespace = orfrange
-
-#goofy event that did nothing removed
