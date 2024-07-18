@@ -539,10 +539,11 @@
 	2626.2.6={birth=yes}
 	
 	2666.1.1={
-		raise_levies={
-			location=1242 # Travis
-			force_mult=1.0
-		}
+		# raise_levies={ #MyEdit, moved to Hank Hillwalker, the new Duke of Metroplex
+			# location=1242 # Travis
+			# force_mult=1.0
+		# }
+		employer = 1836105 # Hank Hillwalker #MyAddition
 	}
 	2700.1.1={death=yes}
 	
@@ -1286,79 +1287,86 @@
 	2666.1.1={add_claim=d_neches}
 }
 
-2302208={
-	name="Allison" # AKA: Allison Maverick
-	religion=americanist
-	culture=texan
-	dna="deeeazhdaba" #dna="dcegfefdjdo"
-	properties="qj0cln00000000000000000000000000000000" #properties="qj0cln00000000000000000000000000000000"
-	female=yes
-	dynasty=1814074
-	martial=7
-	diplomacy=5
-	intrigue=3
-	stewardship=5
-	learning=7
-	disallow_random_traits=yes
-	trait=fair
-	trait=robust
-	trait=kind
-	trait=zealous
-	trait=stubborn
-	trait=tough_soldier
-	trait=bisexual
-	father=2302216 
-	mother=2302226
-	2644.4.2={
-		birth=yes
-		effect={ 
-			set_character_flag=is_special_character
+2302208 = { #MyEdit, changed the character into a reference to Samuel Augustus Maverick, a signer of the Texas Declaration of Independence
+	name = "Augustus" #MyEdit, previously ""Allison" # AKA: Allison Maverick"
+	#female = yes #MyEdit, commented out
+	dynasty = 1814074 #MyNote, Maverick
+	dna = "deeeazhdaba" #dna="dcegfefdjdo"
+	properties = "qj0cln00000000000000000000000000000000" #properties="qj0cln00000000000000000000000000000000"
+	diplomacy = 6 #MyEdit, previously 5
+	martial = 7
+	stewardship = 6 #MyEdit, previously 5
+	intrigue = 3
+	learning = 7
+	religion = "americanist"
+	culture = "texan"
+	disallow_random_traits = yes
+	trait = "skilled_tactician" #MyEdit, previously "tough_soldier"
+	trait = "strong" #MyEdit, previously "fair"
+	trait = "robust"
+	#trait = "bisexual" #MyEdit, removed
+	trait = "scholar" #Myaddition, as he attended Yale
+	trait = "kind"
+	trait = "zealous"
+	trait = "stubborn"
+	trait = "diligent" #MyAddition
+	father = 2302216 
+	mother = 2302226
+	2644.4.2 = {
+		birth = yes
+		effect = { 
+			set_character_flag = is_special_character
 		}
 	}
 	
-	2666.4.2={
-		add_spouse=2302209
-		effect={
-			set_character_flag=recieved_royal_marriage_aid_duty
-			set_character_flag=ORF_embrace
-			spouse={
-				set_character_flag=recieved_royal_marriage_aid_duty
-				remove_spouse=spouse
-				add_spouse_matrilineal=ROOT
+	2666.4.2 = {
+		add_spouse = 2302209
+		effect = {
+			set_character_flag = recieved_royal_marriage_aid_duty
+			set_character_flag = ORF_embrace
+			spouse = {
+				set_character_flag = recieved_royal_marriage_aid_duty
+				#remove_spouse = spouse #MyEdit, removed as it's no longer required
+				#add_spouse_matrilineal = ROOT
 				clr_character_flag=recieved_royal_marriage_aid_duty
 			}
-			clr_character_flag=recieved_royal_marriage_aid_duty
-			add_lover=2302209
+			clr_character_flag = recieved_royal_marriage_aid_duty
+			add_lover = 2302209
 		}
 	}
 }
-2302209={
-	name="Morgan" # AKA: Morgan the Brave
-	dynasty=1793093
-	martial=8
-	diplomacy=4
-	intrigue=5
-	stewardship=5
-	learning=3
-	religion=americanist
-	culture=rostmann
-	disallow_random_traits=yes
-	trait=strong
-	trait=robust
-	trait=brave
-	trait=gregarious
-	trait=giant
-	trait=wroth
-	trait=stubborn
-	trait=tough_soldier
-	2645.4.2={
-		birth=yes
-		effect={ 
-			set_character_flag=is_morgan #???
-			set_character_flag=is_special_character
+2302209 = { #MyEdit, changed the character into a reference to Mary Ann Adams Maverick, an early Texas pioneer, author, and wife of Samuel Augustus Maverick
+	name = "Annabelle" #MyEdit, previously ""Morgan" # AKA: Morgan the Brave"
+	female = yes #MyAddition
+	#dynasty = 1793093 #MyEdit, removed
+	diplomacy = 8 #MyEdit, previously 4
+	martial = 4 #MyEdit, previously 8
+	stewardship = 5
+	intrigue = 5
+	learning = 7 #MyEdit, previously 3
+	religion = "americanist"
+	culture = "texan" #MyEdit, previously "rostmann"
+	disallow_random_traits = yes
+	trait = "scholarly_theologian" #MyEdit, previously "tough_soldier". Due to her important diary/memoirs
+	trait = "fair" #MyEdit, previously "strong"
+	trait = "groomed" #MyEdit, previously "robust"
+	#trait = "giant" #MyEdit, removed
+	trait = "mystic" #MyAddition, as she became involved in the spiritualism movement later in life
+	trait = "poet" #MyAddition, as she wrote/kept many diaries of her experiences, which were eventually published as memoirs, detailing life on the Texan frontier
+	trait = "brave"
+	trait = "gregarious"
+	trait = "patient" #MyEdit, previously "wroth"
+	trait = "stubborn"
+	2645.4.2 = {
+		birth = yes
+		effect = { 
+			#set_character_flag = is_morgan #??? #MyEdit, what? Also, it was removed because it's not referenced anywhere else
+			set_character_flag = is_special_character
 		}
 	}
-	2666.4.2={add_spouse=2302208}
+	2666.4.2 = {
+		add_spouse = 2302208
+	}
 }
 2302211={
 	name="William" #Ironhorse
@@ -1439,7 +1447,7 @@
 	2651.12.26={
 		death={
 			death_reason=death_battle
-			killer=1836030
+			killer = 1836105 #MyEdit, Hank Hillwalker, previously "1836030"/Denton Wise
 		}
 	}
 }
@@ -1500,29 +1508,34 @@
 	}
 }
 
-2302220={
-	name="Elizabeth"
-	dynasty=1814079
-	religion=americanist
-	culture=texan
-	female=yes
-	stewardship=16
-	trait=brave
-	trait=diligent
-	trait=just
-	trait=honest
-	trait=strong
-	trait=robust
-	trait=legit_bastard
-	father=2302221
-	mother=2302225
-	2639.9.2={
-		give_nickname=nick_appletree
-		birth=yes
+2302220 = { #MyEdit/#MyAddition, gave/edited her stats, added traits, and cleaned up for readability
+	name = "Elizabeth"
+	female = yes
+	dynasty = 1814079
+	diplomacy = 7 #MyA
+	martial = 4 #MyA
+	stewardship = 9 #MyEdit, previously 16
+	intrigue = 5 #MyA
+	learning = 6 #MyA
+	religion = "americanist"
+	culture = "texan"
+	trait = "fortune_builder" #MyA, basing it off of her high stewardship stat
+	trait = "strong"
+	trait = "robust"
+	trait = "legit_bastard"
+	trait = "brave"
+	trait = "diligent"
+	trait = "just"
+	trait = "honest"
+	father = 2302221
+	mother = 2302225
+	2639.9.2 = {
+		#give_nickname=nick_appletree #MyEdit, removed
+		birth = yes
 	}
-	2650.6.4={
-		effect={
-			add_friend=2302219
+	2650.6.4 = {
+		effect = {
+			add_friend = 2302219
 		}
 	}
 }
@@ -1535,13 +1548,13 @@
 	culture=texan
 	trait=strong
 	2621.4.2={
-		give_nickname=nick_bright
+		#give_nickname=nick_bright #MyEdit, removed
 		birth=yes
 	}
 	2651.12.26={
 		death={
 			death_reason=death_battle
-			killer=1836030
+			killer = 1836105 #MyEdit, Hank Hillwalker, previously "1836030"/Denton Wise
 		}
 	}
 }
@@ -1556,39 +1569,61 @@
 	2651.12.26={
 		death={
 			death_reason=death_battle
-			killer=1836030
+			killer = 1836105 #MyEdit, Hank Hillwalker, previously "1836030"/Denton Wise
 		}
 	}
 }
 
-2302223={
-	name="Michelle"
-	dynasty=1814079
-	religion=americanist
-	culture=texan
-	female=yes
-	trait=robust
-	father=2302221
-	mother=2302225
-	2651.12.25={birth=yes}
+2302223 = { #MyEdit/#MyAddition, gave her stats, added traits, changed her name, and cleaned up for readability
+	name = "Isabelle" #MyEdit, previously "Michelle"
+	female = yes
+	dynasty = 1814079
+	diplomacy = 9 #MyA
+	martial = 3 #MyA
+	stewardship = 6 #MyA
+	intrigue = 3 #MyA
+	learning = 5 #MyA
+	religion = "americanist"
+	culture = "texan"
+	trait = "charismatic_negotiator" #MyA
+	trait = "robust"
+	trait = "diligent" #MyA
+	trait = "kind" #MyA
+	father = 2302221
+	mother = 2302225
+	2651.12.25 = {
+		birth = yes
+	}
 }
 
-2302224={
-	name="Macintosh"
-	dynasty=1814079
-	religion=americanist
-	culture=texan
-	trait=strong
-	trait=robust
-	father=2302221
-	mother=2302225
-	2645.12.25={birth=yes}
+2302224 = { #MyEdit/#MyAddition, gave him stats, added traits, changed his name, and cleaned up for readability
+	name = "Amos" #MyEdit, previously "Macintosh"
+	dynasty = 1814079
+	diplomacy = 7 #MyA
+	martial = 9 #MyA
+	stewardship = 5 #MyA
+	intrigue = 4 #MyA
+	learning = 6 #MyA
+	religion = "americanist"
+	culture = "texan"
+	trait = "skilled_tactician" #MyA, basing this off of his "strong" and "robust" traits
+	trait = "strong"
+	trait = "robust"
+	trait = "brave" #MyA
+	trait = "gregarious" #MyA
+	trait = "diligent" #MyA
+	trait = "patient" #MyA
+	father = 2302221
+	mother = 2302225
+	2645.12.25 = {
+		birth = yes
+	}
 }
 
 
 
 2302225={
-	name="Penny"
+	name = "Violet" #MyEdit, previously "Penny"
 	martial=15
 	religion=evangelical
 	female=yes
@@ -1596,7 +1631,7 @@
 	trait=robust
 	culture=dixie
 	2623.4.2={
-		give_nickname=nick_bright
+		#give_nickname=nick_bright #MyEdit, removed
 		birth=yes
 	}
 	2644.1.14={
@@ -1605,7 +1640,7 @@
 	2651.12.26={
 		death={
 			death_reason=death_battle
-			killer=1836030
+			killer = 1836105 #MyEdit, Hank Hillwalker, previously "1836030"/Denton Wise
 		}
 	}
 }
@@ -1628,7 +1663,7 @@
 	2651.12.26={
 		death={
 			death_reason=death_battle
-			killer=1836030
+			killer = 1836105 #MyEdit, Hank Hillwalker, previously "1836030"/Denton Wise
 		}
 	}
 }
@@ -2173,4 +2208,1527 @@
 	trait=trusting
 	2506.1.1={birth=yes}
 	2573.1.1={death=yes}
+}
+
+### #MyAddition, King of the Hill characters (1836105-1836153)###
+
+### The Hill/Hillwalker Family ###
+
+1836105 = {
+	name = "Hank"
+	dynasty = 7770002 # Hillwalker
+	dna = "hhhhhhhhccc" # Read it backwards and it's C3H8, or the chemical formula for Propane. "ccchhhhhhhh" would be better, but it makes him blonde.
+	diplomacy = 8
+	martial = 7
+	stewardship = 9
+	intrigue = 4
+	learning = 5
+	religion = "americanist"
+	culture = "texan"
+	trait = "fortune_builder" # He sells Propane and Propane Accessories
+	trait = "brave"
+	trait = "diligent"
+	trait = "just"
+	trait = "stubborn"
+	fertility = 0.3 # Narrow urethra
+	father = 1836108 # Cotton Hill
+	mother = 1836138 # Tilly/Matilda
+	2625.4.15 = { # Born on April 15th, his age is 41 in the show.
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+		culture = "gothamite" # Since he was born in New York at Yankee Stadium
+	}
+	2635.1.1 = {
+		effect = {
+			add_friend = 1836119 # Dale Gribble
+			add_friend = 1836123 # Jeff Boomhauer
+			add_friend = 1836124 # Bill Dauterive
+		}
+		culture = "texan"
+	}
+	2645.1.1 = {
+		add_spouse = 1836106 # Peggy
+	}
+	2655.1.1 = {
+		religion = "catholic" # Converts to Catholicism. Cotton refuses to do so and abdicates to Hank.
+		add_trait = "sympathy_oldworld"
+	}
+	2666.1.1 = {
+		effect = {
+			add_friend = 1836109 # Junichiro Hillwalker, his half-brother, as they got along well in the show
+		}
+		raise_levies = { #MyAddition, moved from Denton Wise
+			location = 1242 # Travis
+			force_mult = 1.0
+		}
+	}
+	2703.1.1 = {
+		death = yes
+	}
+}
+
+1836106 = {
+	name = "Margaret" # Long form of "Peggy"
+	female = yes
+	dynasty = 7770010 # Platter
+	diplomacy = 4
+	martial = 6
+	stewardship = 7
+	intrigue = 7
+	learning = 8
+	religion = "trailwalker" # The majority religion of Montana/Mountainers in-game
+	culture = "mountainer" # As she was from Montana
+	trait = "scholarly_theologian" # Substitute teacher, among other things
+	trait = "quick" # She's actually capable/smart, but that makes her overconfident, which often leads to trouble. Her smarts also leads her out of trouble as well
+	trait = "gamer" # State Champion in Boggle
+	trait = "stubborn" # Can't admit when she's wrong
+	trait = "proud" # Overconfident, thinks she's more capable than she actually is. Extremely narcissistic
+	trait = "diligent"
+	trait = "trusting" # Naive
+	father = 1836144 # Doc Platter
+	mother = 1836145 # Maddy
+	2625.1.1 = { # Same age as Hank
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2645.1.1 = {
+		religion = "americanist" # Converts to Hank's religion when they get married
+		add_trait = "sympathy_pagans"
+	}
+	2655.1.1 = { 
+		religion = "catholic" # Converts when Hank becomes Catholic
+		add_trait = "sympathy_oldworld"
+	}
+	2666.1.1 = {
+		employer = 1836105 # Hank Hillwalker
+	}
+	2703.1.1 = {
+		death = yes
+	}
+}
+
+1836107 = {
+	name = "Robert" # Long form of "Bobby"
+	dynasty = 7770002 # Hillwalker
+	diplomacy = 9
+	martial = 3
+	stewardship = 4
+	intrigue = 6
+	learning = 7
+	religion = "americanist"
+	culture = "texan"
+	trait = "thrifty_clerk" # Placeholder
+	trait = "gluttonous" # Alternatively, "is_fat"
+	trait = "humble"
+	trait = "content"
+	trait = "slothful"
+	trait = "gregarious"
+	trait = "kind"
+	father = 1836105 # Hank Hill
+	mother = 1836106 # Margaret/Peggy
+	2653.1.1 = { # He was about 13 towards the end of the show
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2655.1.1 = {
+		religion = "catholic"
+		add_trait = "sympathy_oldworld"
+	}
+	2666.1.1 = {
+		employer = 1836105 # Hank Hillwalker
+		effect = {
+			add_friend = 1836121 # Joseph Gribble
+			add_friend = 1836151 # Connie Souphanousinphone
+		}
+	}
+	2730.1.1 = {
+		death = yes
+	}
+}
+
+1836108 = {
+	name = "Cotton"
+	dynasty = 7770002 # Hillwalker
+	diplomacy = 2
+	martial = 9
+	stewardship = 6
+	intrigue = 7
+	learning = 5
+	religion = "americanist" # To represent the Americanist population of Dallas. It also serves to put him at odds with his family like in the show
+	culture = "texan"
+	trait = "skilled_tactician" # He's a decorated war he-ro, veteran of WWII
+	trait = "adventurer"
+	trait = "brave" # Signed up at age 14 to join WWII
+	trait = "diligent"
+	trait = "lustful"
+	trait = "wroth"
+	trait = "zealous"
+	trait = "stubborn"
+	father = 1836116 # Clint Hillwalker
+	2592.1.1 = { # He was in his 70s during the show
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2609.1.1 = {
+		trait = "one_legged" # Gets both of his shins blown off the day he kills fitty men.
+	}
+	2622.1.1 = {
+		add_spouse = 1836138 # Tilly/Matilda
+	}
+	2645.1.1 = {
+		remove_spouse = 1836138 # Tilly/Matilda
+	}
+	2664.1.1 = {
+		effect = {
+			add_friend = 1836107 # Robert "Bobby" Hillwalker. As he actually gets along with Bobby
+		}
+		add_spouse = 1836117 # Dierdre "Didi"
+	}
+	2666.1.1 = {
+		employer = 1836105 # Hank Hillwalker
+	}
+	2670.1.1 = { # He died at age 75 in the show
+		death = yes
+	}
+}
+
+1836109 = {
+	name = "Junichiro"
+	dynasty = 7770002 # Hillwalker
+	diplomacy = 6
+	martial = 3
+	stewardship = 9
+	intrigue = 5
+	learning = 8
+	religion = "shinto"
+	culture = "edokko"
+	trait = "fortune_builder" # He sells Robots and Robot Accessories
+	trait = "bastard"
+	trait = "diligent"
+	trait = "proud"
+	trait = "chaste"
+	father = 1836108 # Cotton Hill
+	2610.1.1 = { # He's about 15 years older than Hank
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836105 # Hank Hillwalker
+	}
+	2685.1.1 = {
+		death = yes
+	}
+}
+
+1836110 = {
+	name = "Austin"
+	dynasty = 7770002 # Hillwalker
+	religion = "americanist"
+	culture = "texan"
+	father = 1836096 # George Hillwalker
+	2422.1.1 = {
+		birth = yes
+	}
+	2494.1.1 = {
+		death = yes
+	}
+}
+
+1836111 = {
+	name = "Dustin"
+	dynasty = 7770002 # Hillwalker
+	religion = "americanist"
+	culture = "texan"
+	father = 1836110 # Austin Hillwalker
+	2447.1.1 = {
+		birth = yes
+	}
+	2512.1.1 = {
+		death = yes
+	}
+}
+
+1836112 = {
+	name = "Dallas"
+	dynasty = 7770002 # Hillwalker
+	religion = "americanist"
+	culture = "texan"
+	father = 1836111 # Dustin Hillwalker
+	2470.1.1 = {
+		birth = yes
+	}
+	2552.1.1 = {
+		death = yes
+	}
+}
+
+1836113 = {
+	name = "Houston"
+	dynasty = 7770002 # Hillwalker
+	religion = "americanist"
+	culture = "texan"
+	father = 1836112 # Dallas Hillwalker
+	2498.1.1 = {
+		birth = yes
+	}
+	2557.1.1 = {
+		death = yes
+	}
+}
+
+1836114 = {
+	name = "Emmett"
+	dynasty = 7770002 # Hillwalker
+	religion = "americanist"
+	culture = "texan"
+	father = 1836113 # Houston Hillwalker
+	2523.1.1 = {
+		birth = yes
+	}
+	2587.1.1 = {
+		death = yes
+	}
+}
+
+1836115 = {
+	name = "Avery"
+	dynasty = 7770002 # Hillwalker
+	religion = "americanist"
+	culture = "texan"
+	father = 1836114 # Emmett Hillwalker
+	2549.1.1 = {
+		birth = yes
+	}
+	2594.1.1 = {
+		death = yes
+	}
+}
+
+1836116 = {
+	name = "Clint"
+	dynasty = 7770002 # Hillwalker
+	religion = "americanist"
+	culture = "texan"
+	father = 1836115 # Avery Hillwalker
+	2572.1.1 = {
+		birth = yes
+	}
+	2626.1.1 = {
+		death = yes
+	}
+}
+
+1836117 = {
+	name = "Dierdre" # Didi
+	female = yes
+	diplomacy = 6
+	martial = 3
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+	religion = "americanist"
+	culture = "texan"
+	trait = "thrifty_clerk"
+	trait = "fair"
+	trait = "depressed"
+	trait = "dull"
+	trait = "kind"
+	trait = "slothful"
+	trait = "humble"
+	2626.1.1 = { # Around Hank's age
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836105 # Hank Hillwalker
+	}
+	2696.1.1 = {
+		death = yes
+	}
+}
+
+1836118 = {
+	name = "Hank" # G.H./Good Hank
+	dynasty = 7770002 # Hillwalker
+	religion = "americanist"
+	culture = "texan"
+	father = 1836108 # Cotton Hillwalker
+	mother = 1836117 # Dierdre/Didi
+	2665.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+		give_nickname = nick_the_good # Good Hank
+	}
+	2666.1.1 = {
+		employer = 1836105 # Hank Hillwalker
+	}
+	2744.1.1 = {
+		death = yes
+	}
+}
+
+1836119 = {
+	name = "Dale"
+	dynasty = 7770006 # Gribble
+	diplomacy = 4
+	martial = 5
+	stewardship = 8
+	intrigue = 9
+	learning = 7
+	religion = "catholic" # Can't see him ever being an Americanist
+	culture = "texan"
+	trait = "intricate_webweaver" # Conspiracy Theorist
+	trait = "paranoid"
+	trait = "cynical"
+	trait = "craven"
+	trait = "chaste"
+	father = 1836152 # Bug Gribble
+	mother = 1836153 # Nelly
+	2624.7.12 = { # He was born on July 12th
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2635.1.1 = {
+		effect = {
+			add_friend = 1836123 # Jeff Boomhauer
+			add_friend = 1836124 # Bill Dauterive
+		}
+	}
+	2645.1.1 = {
+		add_spouse = 1836120 # Nancy
+	}
+	2650.1.1 = {
+		effect = {
+			add_artifact = ate_firearm # NRA Member
+			add_artifact = old_world_shades # Aviators
+		}
+	}
+	2704.1.1 = {
+		death = yes
+	}
+}
+
+1836120 = {
+	name = "Nancy"
+	female = yes
+	diplomacy = 9
+	martial = 2
+	stewardship = 8
+	intrigue = 9
+	learning = 5
+	religion = "catholic"
+	culture = "texan"
+	trait = "charismatic_negotiator"
+	trait = "fair"
+	trait = "ambitious"
+	trait = "kind"
+	trait = "deceitful"
+	trait = "lustful"
+	trait = "temperate"
+	2626.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836119 # Dale Gribble
+	}
+	2706.1.1 = {
+		death = yes
+	}
+}
+
+1836121 = {
+	name = "Joseph"
+	dynasty = 7770006 # Gribble
+	diplomacy = 4
+	martial = 7
+	stewardship = 4
+	intrigue = 5
+	learning = 6
+	religion = "catholic"
+	culture = "muscogee" # To match his biological father
+	trait = "strong" # Like his biological father
+	trait = "shy" # Awkward in his teens
+	trait = "chaste" # Awkward
+	trait = "paranoid" # Like Dale
+	father = 1836119 # Dale Gribble
+	#real_father = 1836122 # John Redcorn # His biological father, but it would mess things up in-game
+	mother = 1836120 # Nancy Gribble
+	2653.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+		culture = "texan"
+	}
+	2666.1.1 = {
+		employer = 1836119 # Dale Gribble
+	}
+	2728.1.1 = {
+		death = yes
+	}
+}
+
+1836122 = {
+	name = "Johnathan" # John Redcorn
+	dynasty = 7770009 # Redcorn
+	diplomacy = 7
+	martial = 7
+	stewardship = 4
+	intrigue = 9
+	learning = 5
+	religion = "peyotist" # Not too sure, but I think it fits him
+	culture = "muscogee" # I'm not sure which culture to give him as I've read conflicting sources as to what tribe he belongs to
+	trait = "charismatic_negotiator"
+	trait = "strong" # Tall and robust
+	trait = "shrewd" # He uses peoples' ignorance about his culture to his advantage
+	trait = "seducer" # Obvious
+	trait = "musician" # "There's a hole in my pocket where my money should go!"
+	trait = "lustful" # He has at least two bastard children
+	trait = "kind"
+	trait = "proud"
+	trait = "deceitful"
+	trait = "greedy"
+	2626.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836119 # Dale Gribble
+	}
+	2709.1.1 = {
+		death = yes
+	}
+}
+
+1836123 = {
+	name = "Jeffrey" # Jeff Boomhauer III
+	dynasty = 7770007 # Boomhauer
+	diplomacy = 9
+	martial = 7
+	stewardship = 6
+	intrigue = 7
+	learning = 6
+	religion = "catholic"
+	culture = "texan"
+	trait = "skilled_tactician" # Texas Ranger
+	trait = "fair"
+	trait = "shrewd"
+	trait = "seducer"
+	trait = "just"
+	trait = "lustful"
+	trait = "gregarious"
+	trait = "patient"
+	trait = "temperate"
+	father = 1836139 # Jeff Boomhauer II
+	mother = 1836140 # Clara
+	2624.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836139 # Jeffrey Boomhauer II
+	}
+	2696.1.1 = {
+		death = yes
+	}
+}
+
+### The Dauterive Family ### Cajun/Catholic/Voodoo
+
+1836124 = {
+	name = "William" # Bill/William Fontaine de la Tour Dauterive
+	dynasty = 7770008 # Dauterive
+	diplomacy = 4
+	martial = 9
+	stewardship = 3
+	intrigue = 4
+	learning = 5
+	religion = "voodoo"
+	secret_religion = "catholic"
+	culture = "cajun"
+	trait = "skilled_tactician" # He's in the Army
+	trait = "strong" # The "Billdozer"
+	trait = "musician" # Can somehow play the accordion
+	trait = "brave"
+	trait = "kind"
+	trait = "trusting"
+	trait = "honest"
+	father = 1836129 # Eric Dauterive
+	mother = 1836130 # Bill's Mother
+	2626.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2635.1.1 = {
+		effect = {
+			add_friend = 1836123 # Jeff Boomhauer
+		}
+	}
+	2651.1.1 = {
+		add_spouse = 1836137 # Lenore
+	}
+	2656.1.1 = {
+		remove_spouse = 1836137 # Lenore
+		trait = "depressed" # "LENORE!"
+		trait = "uncouth"
+		trait = "is_fat"
+		trait = "gluttonous"
+	}
+	2666.1.1 = {
+		employer = 1836131 # Gilbert Dauterive
+		add_claim = c_st_landry
+		effect = {
+			add_lover = 1836135 # Lily
+			add_lover = 1836136 # Rose
+			add_friend = 1836131 # Gilbert Dauterive # So they don't try to kill each other
+		}
+	}
+	2706.1.1 = {
+		death = yes
+	}
+}
+
+1836125 = {
+	name = "Alain" # Father of Alphonse and Eric. Not named in the show.
+	dynasty = 7770008 # Dauterive
+	religion = "catholic"
+	culture = "cajun"
+	2555.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2583.1.1 = {
+		add_spouse = 1836126 # Charlotte
+	}
+	2598.4.15 = { # When John Creaux conquers Louisiana
+		religion = "voodoo"
+		secret_religion = "catholic"
+	}
+	2634.1.1 = {
+		death = yes
+	}
+}
+
+1836126 = {
+	name = "Charlotte" # Wife of Alain. Not named in the show.
+	female = yes
+	religion = "catholic"
+	culture = "cajun"
+	2565.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2598.4.15 = {
+		religion = "voodoo"
+		secret_religion = "catholic"
+	}
+	2646.1.1 = {
+		death = yes
+	}
+}
+
+1836127 = {
+	name = "Alphonse"
+	dynasty = 7770008 # Dauterive
+	diplomacy = 7
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 8
+	religion = "catholic"
+	culture = "cajun"
+	trait = "fortune_builder"
+	trait = "ambitious"
+	trait = "diligent"
+	trait = "temperate"
+	trait = "trusting"
+	father = 1836125 # Alain
+	mother = 1836126 # Charlotte
+	2583.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2598.4.15 = {
+		religion = "voodoo"
+		secret_religion = "catholic"
+	}
+	2619.1.1 = {
+		add_spouse = 1836128 # Esme
+	}
+	2663.1.1 = {
+		trait = "incapable"
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+
+1836128 = {
+	name = "Esme" # Wife of Alphonse
+	female = yes
+	diplomacy = 8
+	martial = 2
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	religion = "voodoo"
+	secret_religion = "catholic"
+	culture = "cajun"
+	trait = "charismatic_negotiator"
+	trait = "proud"
+	trait = "diligent"
+	trait = "temperate"
+	2600.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2675.1.1 = {
+		death = yes
+	}
+}
+
+1836129 = {
+	name = "Eric" # Abusive father of Bill/William
+	dynasty = 7770008 # Dauterive
+	religion = "catholic"
+	culture = "cajun"
+	trait = "tough_soldier"
+	trait = "drunkard"
+	trait = "cruel"
+	trait = "arbitrary"
+	trait = "wroth"
+	father = 1836125 # Alain
+	mother = 1836126 # Charlotte
+	2591.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2620.1.1 = {
+		add_spouse = 1836130 # Nadine
+	}
+	2666.1.1 = {
+		death = yes
+	}
+}
+
+1836130 = {
+	name = "Nadine" # Mother of Bill/William. May have been kind to him. Not named in the show.
+	female = yes # Wife of Eric
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 4
+	religion = "voodoo"
+	secret_religion = "catholic"
+	culture = "cajun"
+	trait = "underhanded_rogue"
+	trait = "kind"
+	trait = "patient"
+	trait = "charitable"
+	2598.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836131 # Gilbert Dauterive
+	}
+	2668.1.1 = {
+		death = yes
+	}
+}
+
+1836131 = {
+	name = "Gilbert" # Cousin of Bill/William
+	dynasty = 7770008 # Dauterive
+	diplomacy = 8
+	martial = 2
+	stewardship = 5
+	intrigue = 6
+	learning = 9
+	religion = "voodoo"
+	secret_religion = "catholic"
+	culture = "cajun"
+	trait = "charismatic_negotiator"
+	trait = "groomed"
+	trait = "hedonist" # "... sinners always look good."
+	trait = "homosexual" # "He was a beautiful man. I knew him... briefly."
+	trait = "poet"
+	trait = "deceitful" # Sneaky
+	trait = "proud" # Refuses to let Bill sell the Dauterive recipe 
+	trait = "lustful"
+	trait = "arbitrary" # Sells the family estate
+	trait = "wroth" # Chastises Bill when he wants to sell the Dauterive recipe
+	fertility = 0.2 # Represents him being unlikely to procreate and trying to rely on Bill to pass on the name
+	father = 1836127 # Alphonse
+	mother = 1836128 # Esme
+	2620.1.1 = { # Older than Bill/William
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2696.1.1 = {
+		death = yes
+	}
+}
+
+1836132 = {
+	name = "Girac" # Cousin of Bill/William
+	dynasty = 7770008 # Dauterive
+	religion = "voodoo"
+	secret_religion = "catholic"
+	culture = "cajun"
+	trait = "skilled_tactician"
+	trait = "drunkard"
+	trait = "gregarious"
+	trait = "gluttonous"
+	trait = "brave"
+	father = 1836127 # Alphonse
+	mother = 1836128 # Esme
+	2632.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2659.1.1 = {
+		add_spouse = 1836136 # Rose
+	}
+	2660.1.1 = {
+		trait = "chest_pain"
+	}
+	2661.1.1 = { # Died in his 20's of arteriosclerosis
+		death = {
+			death_reason = death_trait
+		}
+	}
+}
+
+1836133 = {
+	name = "Rene" # Cousin of Bill/William
+	dynasty = 7770008 # Dauterive
+	religion = "voodoo"
+	secret_religion = "catholic"
+	culture = "cajun"
+	trait = "fortune_builder"
+	trait = "drunkard"
+	trait = "greedy"
+	trait = "kind"
+	trait = "gluttonous"
+	trait = "patient"
+	father = 1836127 # Alphonse
+	mother = 1836128 # Esme
+	2634.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2657.1.1 = {
+		add_spouse = 1836135 # Lily
+	}
+	2662.1.1 = {
+		trait = "chest_pain"
+	}
+	2663.1.1 = { # Died in his 20's of arteriosclerosis
+		death = {
+			death_reason = death_trait
+		}
+	}
+}
+
+1836134 = {
+	name = "Violetta" # Cousin of Bill/William
+	female = yes
+	dynasty = 7770008 # Dauterive
+	diplomacy = 5
+	martial = 6
+	stewardship = 5
+	intrigue = 9
+	learning = 4
+	religion = "voodoo"
+	secret_religion = "catholic"
+	culture = "cajun"
+	trait = "intricate_webweaver"
+	trait = "fair" # "The pretty one."
+	trait = "hedonist" # Doesn't care that Bill is her cousin.
+	trait = "deceitful" # Lies to try and seduce Bill
+	trait = "wroth" # "Lily, BEGONE!"
+	trait = "lustful" # Tries to seduce Bill
+	trait = "temperate"
+	father = 1836127 # Alphonse
+	mother = 1836128 # Esme
+	2637.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836131 # Gilbert Dauterive
+	}
+	2680.1.1 = {
+		death = {
+			death_reason = death_trait
+		}
+	}
+}
+
+1836135 = {
+	name = "Lily" # Widow of Rene
+	female = yes
+	diplomacy = 6
+	martial = 6
+	stewardship = 7
+	intrigue = 3
+	learning = 9
+	religion = "voodoo"
+	secret_religion = "catholic"
+	culture = "cajun"
+	trait = "scholarly_theologian"
+	trait = "groomed" # "The youngest-looking."
+	trait = "musician" # Plays the triangle
+	trait = "kind"
+	trait = "ambitious"
+	trait = "lustful"
+	2638.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836131 # Gilbert Dauterive
+	}
+	2709.1.1 = {
+		death = yes
+	}
+}
+
+1836136 = {
+	name = "Rose" # Widow of Girac
+	female = yes
+	diplomacy = 9
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	religion = "voodoo"
+	secret_religion = "catholic"
+	culture = "cajun"
+	trait = "charismatic_negotiator"
+	trait = "kind"
+	trait = "ambitious"
+	trait = "temperate"
+	trait = "lustful"
+	2641.1.1 = { # "The youngest."
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836131 # Gilbert Dauterive
+	}
+	2709.1.1 = {
+		death = yes
+	}
+}
+
+1836137 = {
+	name = "Lenore" # Ex-Wife of Bill
+	female = yes
+	diplomacy = 8
+	martial = 2
+	stewardship = 5
+	intrigue = 9
+	learning = 4
+	religion = "catholic"
+	culture = "texan"
+	trait = "intricate_webweaver"
+	trait = "fair"
+	trait = "ambitious"
+	trait = "deceitful" # Faked Bill's signature on their divorce papers
+	trait = "lustful" # Cheated on Bill
+	trait = "arbitrary"
+	trait = "cruel"
+	trait = "envious"
+	2631.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836131 # Gilbert Dauterive
+	}
+	2705.1.1 = {
+		death = yes
+	}
+}
+
+1836138 = {
+	name = "Matilda" # Ex-Wife of Cotton/Mother of Hank
+	female = yes
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	religion = "catholic"
+	culture = "texan"
+	trait = "thrifty_clerk"
+	trait = "trusting"
+	trait = "honest"
+	trait = "patient"
+	2597.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836105 # Hank Hillwalker
+	}
+	2676.1.1 = {
+		death = yes
+	}
+}
+
+### The Boomhauer Family ###
+
+1836139 = {
+	name = "Jeffrey" # Dr. Jeff Boomhauer II, Jr., father of Boomhauer and Patch
+	dynasty = 7770007 # Boomhauer
+	diplomacy = 7
+	martial = 4
+	stewardship = 6
+	intrigue = 4
+	learning = 8
+	religion = "catholic"
+	culture = "texan"
+	trait = "scholarly_theologian" # Doctor
+	trait = "shrewd"
+	trait = "physician" # Doctor
+	trait = "patient"
+	trait = "temperate"
+	father = 1836142 # Jeff Boomhauer I
+	mother = 1836143 # Meemaw
+	2600.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2620.1.1 = {
+		add_spouse = 1836140 # Clara
+	}
+	2665.1.1 = {
+		death = yes
+	}
+}
+
+1836140 = {
+	name = "Clara" # Wife of Dr. Jeff Boomhauer II, Jr., mother of Boomhauer and Patch
+	female = yes
+	diplomacy = 8
+	martial = 3
+	stewardship = 7
+	intrigue = 5
+	learning = 5
+	religion = "catholic"
+	culture = "texan"
+	trait = "fair"
+	trait = "kind"
+	2607.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836139 # Jeffrey Boomhauer II
+	}
+	2686.1.1 = {
+		death = yes
+	}
+}
+
+1836141 = {
+	name = "Patch" # Brother of Boomhauer
+	dynasty = 7770007 # Boomhauer
+	diplomacy = 6
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	religion = "catholic"
+	culture = "texan"
+	trait = "thrifty_clerk"
+	trait = "fair"
+	trait = "seducer"
+	trait = "deceitful"
+	trait = "lustful"
+	trait = "arbitrary"
+	father = 1836139 # Jeff Boomhauer II
+	mother = 1836140 # Clara
+	2642.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836139 # Jeffrey Boomhauer II
+	}
+	2712.1.1 = {
+		death = yes
+	}
+}
+
+1836142 = {
+	name = "Jeffrey" # Jeff Boomhauer I, Sr.
+	dynasty = 7770007 # Boomhauer
+	religion = "catholic"
+	culture = "texan"
+	2575.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2598.1.1 = {
+		add_spouse = 1836143 # Meemaw
+	}
+	2650.1.1 = {
+		death = yes
+	}
+}
+
+1836143 = {
+	name = "Meemaw" # Grandmother of Boomhauer and Patch. Her "name" is just a way to say "grandmother" and not her actual real name, it's just funnier this way
+	female = yes
+	diplomacy = 5
+	martial = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	religion = "catholic"
+	culture = "texan"
+	trait = "martial_cleric"
+	trait = "kind"
+	trait = "patient"
+	2581.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836123 # Jeffrey Boomhauer III
+	}
+	2669.1.1 = {
+		death = yes
+	}
+}
+
+### The Platter Family ###
+
+1836144 = {
+	name = "Almo" # Doc Platter
+	dynasty = 7770010 # Platter
+	diplomacy = 7
+	martial = 9
+	stewardship = 6
+	intrigue = 5
+	learning = 9
+	religion = "trailwalker"
+	culture = "mountainer"
+	trait = "skilled_tactician"
+	trait = "robust"
+	trait = "shrewd"
+	trait = "brave"
+	trait = "diligent"
+	2599.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2619.1.1 = {
+		add_spouse = 1836145 # Maddy
+	}
+	2680.1.1 = {
+		death = yes
+	}
+}
+
+1836145 = {
+	name = "Madeline" # Maddy Platter - (Doc's Wife)
+	female = yes
+	diplomacy = 5
+	martial = 7
+	stewardship = 7
+	intrigue = 3
+	learning = 4
+	religion = "trailwalker"
+	culture = "mountainer"
+	trait = "underhanded_rogue"
+	trait = "humble" # Dislikes braggarts, opposite of the proud Peggy
+	trait = "diligent"
+	trait = "chaste"
+	trait = "stubborn"
+	2601.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2685.1.1 = {
+		death = yes
+	}
+}
+
+1836146 = {
+	name = "Hoyt" # Hoyt Platter - Son of Doc and Maddy. Older brother of Peggy. Ex-convict
+	dynasty = 7770010 # Platter
+	diplomacy = 4
+	martial = 6
+	stewardship = 3
+	intrigue = 7
+	learning = 2
+	religion = "trailwalker"
+	culture = "mountainer"
+	trait = "flamboyant_schemer" # Con artist
+	trait = "deceitful"
+	trait = "arbitrary"
+	trait = "envious"
+	trait = "craven"
+	trait = "drunkard"
+	father = 1836144 # Doc Platter
+	mother = 1836145 # Maddy
+	2621.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2643.1.1 = {
+		add_spouse = 1836147 # Leanne
+	}
+	2661.1.1 = {
+		remove_spouse = 1836147 # Leanne. Married for "18 years of drunken Hell"
+	}
+	2690.1.1 = {
+		death = yes
+	}
+}
+
+1836147 = {
+	name = "Leanne" # Leanne - Ex-Wife of Hoyt. Mother of Luanne. Ex-convict
+	female = yes
+	diplomacy = 7
+	martial = 6
+	stewardship = 2
+	intrigue = 6
+	learning = 2
+	religion = "catholic"
+	culture = "texan"
+	trait = "indulgent_wastrel"
+	trait = "groomed"
+	trait = "robust"
+	trait = "hedonist"
+	trait = "wroth" # Stabbed Hoyt for a stupid reason
+	trait = "gregarious"
+	trait = "envious"
+	trait = "arbitrary"
+	trait = "lustful"
+	trait = "drunkard"
+	2623.1.1 = { # Lies that she's 34, obviously older. Just reversed the number so she's 43 in 2666
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836105 # Hank Hillwalker
+	}
+	2690.1.1 = {
+		death = yes
+	}
+}
+
+1836148 = {
+	name = "Luanne Leanne" # Luanne Platter - Daughter of Hoyt and Leanne
+	female = yes
+	dynasty = 7770010 # Platter
+	diplomacy = 6
+	martial = 4
+	stewardship = 2
+	intrigue = 4
+	learning = 5
+	religion = "catholic"
+	culture = "texan"
+	trait = "underhanded_rogue"
+	trait = "fair"
+	trait = "groomed"
+	trait = "dull"
+	trait = "temperate"
+	trait = "kind"
+	trait = "gregarious"
+	trait = "diligent"
+	trait = "devout" # "Born-again virgin". Manger Babies. Very into Christianity
+	father = 1836146 # Hoyt Platter
+	mother = 1836147 # Leanne
+	2646.5.13 = { # She's ~19-21 during the show. Her birthday is apparently on the 13th of an unmentioned month
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836105 # Hank Hillwalker
+	}
+	2721.1.1 = {
+		death = yes
+	}
+}
+
+### The Souphanousinphone Family ### Calaotian/Americanist
+
+1836149 = {
+	name = "Kahn" # Kahn Soup. - lived in California for about 20 years before the show. Anaheim
+	dynasty = 7770011 # Souphanousinphone
+	diplomacy = 6
+	martial = 6
+	stewardship = 7
+	intrigue = 5
+	learning = 9
+	religion = "cetic"
+	culture = "calaotian" # "The Ocean? What Ocean?"
+	trait = "scholarly_theologian" # Systems analyst
+	trait = "shrewd"
+	trait = "scholar"
+	trait = "proud"
+	trait = "envious"
+	trait = "wroth"
+	trait = "diligent"
+	2625.1.1 = { # About 41 during the show
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2646.1.1 = {
+		religion = "americanist" # He's pretty pro-America, especially after having grown up under a Communist regime
+	}
+	2652.1.1 = {
+		add_spouse = 1836150 # Minh. Married to Minh for ~13/14 years
+	}
+	2666.1.1 = {
+		employer = 1836105 # Hank Hillwalker
+	}
+	2710.1.1 = {
+		death = yes
+	}
+}
+
+1836150 = {
+	name = "Minh" # Minh - Wife of Kahn
+	female = yes
+	diplomacy = 7
+	martial = 3
+	stewardship = 8
+	intrigue = 5
+	learning = 5
+	religion = "cetic"
+	culture = "calaotian"
+	trait = "thrifty_clerk"
+	trait = "diligent"
+	trait = "proud"
+	2628.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2646.1.1 = {
+		religion = "americanist"
+	}
+	2666.1.1 = {
+		employer = 1836105 # Hank Hillwalker
+	}
+	2712.1.1 = {
+		death = yes
+	}
+}
+
+1836151 = {
+	name = "Connie" # Connie/Kahn Jr. - Daughter of Kahn and Minh
+	female = yes
+	dynasty = 7770011 # Souphanousinphone
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 9
+	religion = "americanist"
+	culture = "calaotian"
+	trait = "scholarly_theologian"
+	trait = "quick"
+	trait = "kind"
+	trait = "patient"
+	trait = "diligent"
+	father = 1836149 # Kahn
+	mother = 1836150 # Minh
+	2653.1.1 = { # ~13 years old in the show
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 1836105 # Hank Hillwalker
+	}
+	2735.1.1 = {
+		death = yes
+	}
+}
+
+### The Gribble Family ###
+
+1836152 = {
+	name = "Bug" # Father of Dale Gribble
+	dynasty = 7770006 # Gribble
+	diplomacy = 6
+	martial = 7
+	stewardship = 7
+	intrigue = 3
+	learning = 4
+	religion = "catholic"
+	culture = "texan"
+	trait = "tough_soldier" # Cowboy in the Gay Rodeo 
+	trait = "homosexual"
+	trait = "shy"
+	trait = "craven"
+	trait = "chaste"
+	2604.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2622.1.1 = {
+		add_spouse = 1836153 # Nelly
+	}
+	2666.1.1 = {
+		employer = 1836119 # Dale Gribble
+	}
+	2704.1.1 = {
+		death = yes
+	}
+}
+
+1836153 = {
+	name = "Nelly" # Mother of Dale Gribble
+	female = yes
+	diplomacy = 7
+	martial = 4
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	religion = "catholic"
+	culture = "texan"
+	trait = "underhanded_rogue"
+	trait = "kind"
+	trait = "chaste"
+	2606.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2640.1.1 = { # She died sometime before Dale's wedding
+		death = yes
+	}
 }

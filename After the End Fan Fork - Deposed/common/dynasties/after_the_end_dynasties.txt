@@ -10333,7 +10333,22 @@ coat_of_arms = {
 1814071 = { name="Laffite" culture=texan }
 1814072 = { name="Ervin" culture=texan }
 1814073 = { name="Starlight" culture=texan }
-1814074 = { name="Maverick" culture=texan }
+1814074 = { #MyEdit, added the IRL CoA of Samuel Maverick
+	name = "Maverick"
+	culture = texan
+	used_for_random = no #MyA
+	coat_of_arms = { #MyA
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1814075 = { name="O'Niell" culture=texan }
 1814076 = { name="West" culture=texan }
 1814077 = { name="Ironhorse" culture=texan }

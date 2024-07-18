@@ -1,0 +1,756 @@
+###ÄNSI
+# The fitty men Cotton Hill killed in WWII. The ID's are 1945000 because 1945 is when WWII ended.
+1945000 = {
+	name = "Aimoto"
+	religion = "shinto"
+	culture = "edokko"
+	2585.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = { # Killed by Cotton Hill sometime after he joined the military at age 14. For now, He'll have kill his fitty men at age 17
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945001 = {
+	name = "Akifumi"
+	religion = "shinto"
+	culture = "edokko"
+	2584.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945002 = {
+	name = "Akihiro"
+	religion = "shinto"
+	culture = "edokko"
+	2583.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945003 = {
+	name = "Akikazu"
+	religion = "shinto"
+	culture = "edokko"
+	2582.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945004 = {
+	name = "Akinari"
+	religion = "shinto"
+	culture = "edokko"
+	2581.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945005 = {
+	name = "Akio"
+	religion = "shinto"
+	culture = "edokko"
+	2580.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945006 = {
+	name = "Akira"
+	religion = "shinto"
+	culture = "edokko"
+	2586.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945007 = {
+	name = "Baiko"
+	religion = "shinto"
+	culture = "edokko"
+	2587.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945008 = {
+	name = "Bakin"
+	religion = "shinto"
+	culture = "edokko"
+	2588.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945009 = {
+	name = "Basara"
+	religion = "shinto"
+	culture = "edokko"
+	2589.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945010 = {
+	name = "Batou"
+	religion = "shinto"
+	culture = "edokko"
+	2590.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945011 = {
+	name = "Chojiro"
+	religion = "shinto"
+	culture = "edokko"
+	2591.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945012 = {
+	name = "Daisuke"
+	religion = "shinto"
+	culture = "edokko"
+	2592.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945013 = {
+	name = "Eichi"
+	religion = "shinto"
+	culture = "edokko"
+	2593.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945014 = {
+	name = "Eiji"
+	religion = "shinto"
+	culture = "edokko"
+	2592.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945015 = {
+	name = "Eisuke"
+	religion = "shinto"
+	culture = "edokko"
+	2585.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945016 = {
+	name = "Eitoku"
+	religion = "shinto"
+	culture = "edokko"
+	2588.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945017 = {
+	name = "Fujimaro"
+	religion = "shinto"
+	culture = "edokko"
+	2590.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945018 = {
+	name = "Fumihiro"
+	religion = "shinto"
+	culture = "edokko"
+	2585.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945019 = {
+	name = "Gendo"
+	religion = "shinto"
+	culture = "edokko"
+	2584.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945020 = {
+	name = "Genichi"
+	religion = "shinto"
+	culture = "edokko"
+	2590.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945021 = {
+	name = "Genta"
+	religion = "shinto"
+	culture = "edokko"
+	2589.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945022 = {
+	name = "Goku"
+	religion = "shinto"
+	culture = "edokko"
+	trait = "strong"
+	2569.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945023 = {
+	name = "Gohan"
+	religion = "shinto"
+	culture = "edokko"
+	trait = "strong"
+	father = 1945022 # Goku
+	2589.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945024 = {
+	name = "Haruko"
+	religion = "shinto"
+	culture = "edokko"
+	2592.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945025 = {
+	name = "Heihachiro"
+	religion = "shinto"
+	culture = "edokko"
+	2591.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945026 = {
+	name = "Hidemichi"
+	religion = "shinto"
+	culture = "edokko"
+	2588.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945027 = {
+	name = "Hideo"
+	dynasty = 1543201 # Kojima
+	religion = "shinto"
+	culture = "edokko"
+	trait = "gamer"
+	2564.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945028 = {
+	name = "Hideyoshi"
+	religion = "shinto"
+	culture = "edokko"
+	2589.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945029 = {
+	name = "Hiro"
+	religion = "shinto"
+	culture = "edokko"
+	2589.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945030 = {
+	name = "Hiroshi"
+	religion = "shinto"
+	culture = "edokko"
+	2591.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945031 = {
+	name = "Hiroto"
+	religion = "shinto"
+	culture = "edokko"
+	2591.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945032 = {
+	name = "Hisao"
+	religion = "shinto"
+	culture = "edokko"
+	2590.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945033 = {
+	name = "Hitomaro"
+	religion = "shinto"
+	culture = "edokko"
+	2590.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945034 = {
+	name = "Hitoshi"
+	religion = "shinto"
+	culture = "edokko"
+	2592.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945035 = {
+	name = "Hyosuke"
+	religion = "shinto"
+	culture = "edokko"
+	2592.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945036 = {
+	name = "Ichigo"
+	religion = "shinto"
+	culture = "edokko"
+	2591.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945037 = {
+	name = "Ikemoto"
+	religion = "shinto"
+	culture = "edokko"
+	2580.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945038 = {
+	name = "Inejiro"
+	religion = "shinto"
+	culture = "edokko"
+	2570.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945039 = {
+	name = "Itachi"
+	religion = "shinto"
+	culture = "edokko"
+	2575.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945040 = {
+	name = "Izumo"
+	religion = "shinto"
+	culture = "edokko"
+	2572.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945041 = {
+	name = "Junichi"
+	religion = "shinto"
+	culture = "edokko"
+	2573.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945042 = {
+	name = "Kagehisa"
+	religion = "shinto"
+	culture = "edokko"
+	2583.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945043 = {
+	name = "Kenshiro"
+	religion = "shinto"
+	culture = "edokko"
+	2592.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945044 = {
+	name = "Kentaro"
+	religion = "shinto"
+	culture = "edokko"
+	2590.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945045 = {
+	name = "Masato"
+	religion = "shinto"
+	culture = "edokko"
+	2574.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945046 = {
+	name = "Renji"
+	religion = "shinto"
+	culture = "edokko"
+	2592.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945047 = {
+	name = "Sasuke"
+	religion = "shinto"
+	culture = "edokko"
+	2593.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945048 = {
+	name = "Takeshi"
+	religion = "shinto"
+	culture = "edokko"
+	2593.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}
+
+1945049 = {
+	name = "Yoshii"
+	religion = "shinto"
+	culture = "edokko"
+	2584.1.1 = {
+		birth = yes
+	}
+	2609.1.1 = {
+		death = {
+			death_reason = death_battle_duel
+			killer = 1836108 # Cotton Hill
+		}
+	}
+}

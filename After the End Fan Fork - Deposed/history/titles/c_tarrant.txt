@@ -1,0 +1,35 @@
+2300.1.1={
+	liege=d_metroplex
+}
+#MyAddition Start, copied over from c_dallas.txt:
+2426.1.1 = { #MyAddition
+	holder = 1836096 # George Hillwalker, High King of Texas
+}
+2437.1.1 = { #MyAddition
+	holder = 1836110 # Austin Hillwalker
+}
+2494.1.1 = { #MyAddition
+	holder = 1836111 # Dustin Hillwalker
+}
+2512.1.1 = { #MyAddition
+	holder = 1836112 # Dallas Hillwalker
+}
+2552.1.1 = { #MyAddition
+	holder = 1836113 # Houston Hillwalker
+}
+2557.1.1 = { #MyAddition
+	holder = 1836114 # Emmett Hillwalker
+}
+2587.1.1 = { #MyAddition
+	holder = 1836115 # Avery Hillwalker
+}
+2594.1.1 = { #MyAddition
+	holder = 1836116 # Clint Hillwalker
+}
+2626.1.1 = { #MyAddition
+	holder = 1836108 # Cotton Hillwalker
+}
+#MyAddition End
+2655.1.1 = {
+	holder = 1836105 #MyEdit, Hank Hillwalker, previously "1836030"/Denton Wise
+}

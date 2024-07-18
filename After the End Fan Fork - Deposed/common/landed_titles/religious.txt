@@ -930,16 +930,31 @@ d_monetarist = {
 	# Controls a religion
 	controls_religion = monetarist
 	
-	allow = {
-		OR = {
-			trait = mirza
-			trait = sayyid
-			trait = investor
-			religion = monetarist
-			wealth = 200
-			#lowered barriers for entry and added an obvious requirement
+	# allow = { #MyEdit, commented out
+		# OR = {
+			# trait = mirza
+			# trait = sayyid
+			# trait = investor
+			# religion = monetarist
+			# wealth = 200
+			# #lowered barriers for entry and added an obvious requirement
+		# }
+		# NOT = { has_global_flag = consumerist_revolt_ongoing }
+		# NOT = { has_global_flag = monetarist_heresy }
+	# }
+	allow = { # Fixed by Monetarist anon
+		AND = {
+			OR = {
+				trait = mirza
+				trait = sayyid
+				trait = investor
+				wealth = 5000
+			}
+		religion = monetarist
+		piety = 1000
+		#made the damn thing even remotely work
 		}
-		NOT = { has_global_flag = consumerist_revolt_ongoing }
+		#NOT = { has_global_flag = consumerist_revolt_ongoing }
 		NOT = { has_global_flag = monetarist_heresy }
 	}
 	

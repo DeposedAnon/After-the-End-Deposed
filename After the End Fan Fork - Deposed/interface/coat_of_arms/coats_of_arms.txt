@@ -158,8 +158,8 @@ culture =
 		}
 		texture = { #MyAddition
 			file = "gfx\\coats_of_arms\\deposed_dynasties.tga"
-			size = { x = 3 y = 1 }
-			noOfFrames = 3
+			size = { x = 5 y = 1 }
+			noOfFrames = 5
 			color = 0
 			emblem = no
 			random = no # Do not use for random CoAs

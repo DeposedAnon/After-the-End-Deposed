@@ -267,3 +267,51 @@
 		death = yes
 	}
 }
+
+7770010 = {
+	name = "Christopher Weston" # Christian Weston Chandler
+	dynasty = 7770012 # Chandler
+	dna = "dgbgezacdfc"
+	properties = "wd0d0k"
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	religion = "evangelical"
+	culture = "southron"
+	trait = "detached_priest"
+	trait = "distractible"
+	trait = "slow"
+	trait = "lunatic"
+	trait = "is_fat"
+	trait = "uncouth"
+	trait = "gamer"
+	trait = "gregarious"
+	trait = "proud"
+	trait = "zealous"
+	trait = "trusting"
+	trait = "arbitrary"
+	trait = "greedy"
+	trait = "lustful"
+	1982.2.24 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	1993.12.29 = { # The fateful day he meets Leonard Bearstein
+		name = "Christian Weston"
+	}
+	2078.1.1 = { # Stand-in for the Event/Dimensional Merge. I took the year from when Petrus Romanus became Pope
+		trait = "immortal"
+		immortal_age = 20
+	}
+	2666.1.1 = {
+		employer = 1861077 # George Bannister, as he's the Count of Charlottesville, and it's the county where Ruckersville is
+	}
+	3069.1.1 = {
+		death = yes
+	}
+}

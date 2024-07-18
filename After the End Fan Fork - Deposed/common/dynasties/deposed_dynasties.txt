@@ -58,3 +58,62 @@
 	culture = gulfard
 	used_for_random = no
 }
+
+7770006 = {
+	name = "Gribble"
+	culture = texan
+	used_for_random = no
+}
+
+7770007 = {
+	name = "Boomhauer"
+	culture = texan
+	used_for_random = no
+}
+
+7770008 = {
+	name = "Fontaine de la Tour Dauterive" #MyNote, alternatively "Dauterive"
+	culture = cajun
+	used_for_random = no
+}
+
+7770009 = {
+	name = "Redcorn"
+	culture = muscogee # Not sure on the culture
+	used_for_random = no
+}
+
+7770010 = {
+	name = "Platter"
+	culture = mountainer
+	used_for_random = no
+}
+
+7770011 = {
+	name = "Souphanousinphone"
+	culture = calaotian
+	used_for_random = no
+}
+
+7770012 = {
+	name = "Chandler"
+	culture = southron
+	used_for_random = no
+}
+
+7770013 = {
+	name = "Kennedy"
+	culture = yankee
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
