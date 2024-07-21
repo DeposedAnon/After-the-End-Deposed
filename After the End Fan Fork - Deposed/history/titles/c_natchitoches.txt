@@ -1,0 +1,41 @@
+# Edited by Chileanon
+2339.8.30 = {
+	holder=1803101 # George Long
+	liege=d_alexandria
+}
+2413.3.22 = {
+	holder=1803102 # Pierce Long
+}
+2424.8.3 = {
+	holder=1803103 # Palmer Long
+}
+2444.10.23 = {
+	holder=1803104 # Gerald Long
+}
+2472.3.3 = {
+	holder=1803105 # Willard Long
+}
+2491.5.2 = {
+	holder=1803106 # Gillis Long
+}
+2509.4.26 = {
+	holder=1803107 # Kemp Long
+}
+2539.6.7 = {
+	holder=1803108 # Russell Long
+}
+2567.10.11 = {
+	holder=1803109 # Dale Long
+}
+2589.6.26 = {
+	holder=1803110 # James Long
+}
+2619.4.13 = {
+	holder=1803111 # William Long
+}
+2638.1.5 = {
+	holder=1803112 # Huey Long
+}
+2660.9.5 = {
+	holder=1803113 # Earl Long
+}

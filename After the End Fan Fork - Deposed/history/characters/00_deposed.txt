@@ -273,27 +273,30 @@
 	dynasty = 7770012 # Chandler
 	dna = "dgbgezacdfc"
 	properties = "wd0d0k"
-	diplomacy = 1
-	martial = 1
-	stewardship = 1
-	intrigue = 1
-	learning = 1
+	diplomacy = 4 # Has managed to gather an online following somehow
+	martial = 5 # "Don't. call. anybody.", also hitting a man with his car
+	stewardship = 1 # Spends his "monthly tugboat" with wild abandon. Unable to handle money responsibly
+	intrigue = 3 # He was only pretending to be autistic the entire time! See his "Rollin' and Trollin'" video! Just kidding, he's still actually autistic
+	learning = 13 # No basis in reality, but he is the "founder" of "Neo Spiritual Christianity". Also, he allegedly has triskaidekaphobia, or the fear of the number 13
+	# Add up just his Diplomacy, Martial, Stewardship and Intrigue stats, and you get 13.
 	religion = "evangelical"
-	culture = "southron"
-	trait = "detached_priest"
-	trait = "distractible"
-	trait = "slow"
-	trait = "lunatic"
-	trait = "is_fat"
-	trait = "uncouth"
-	trait = "gamer"
-	trait = "gregarious"
-	trait = "proud"
-	trait = "zealous"
-	trait = "trusting"
-	trait = "arbitrary"
-	trait = "greedy"
-	trait = "lustful"
+	culture = "southron" # "cherokee" can also be used here due to his so-called "Cherokian" ancestry
+	trait = "detached_priest" # Believes he's a reincarnation of Jesus Christ. See also "Neo Spiritual Christianity"
+	trait = "distractible" # Autism trait, apparently
+	trait = "slow" # "Slow-in-the-mind"
+	trait = "lunatic" # "Un-clit"
+	trait = "slothful" # Obvious
+	trait = "is_fat" # Also obvious
+	trait = "uncouth" # "Recycles" his semen, uses Axe Body Spray in place of showering, etc.
+	trait = "gamer" # Pokemon, Sonic, etc.
+	trait = "gregarious" # Can't stop sharing his personal life with the world. "I want everything ABOUT. MY. HOUSE. OFF. THE. INTERNET!"
+	trait = "proud" # Proud of his "Cherokian" ancestry
+	trait = "zealous" # Holds some strange religious beliefs
+	trait = "trusting" # Gullible, easily trolled, which allowed him to be brainwashed/blackmailed/swindled/abused by the Idea Guys
+	trait = "arbitrary" # See the "Ten-Button Electric Chair" from Sonichu #10
+	trait = "greedy" # Gets a "monthly tugboat", yet begs online for more money
+	trait = "lustful" # Seeks a "boyfriend-free girl", makes weird lewd drawings, allegedly incestuous, etc.
+	trait = "honest" # "True and Honest"
 	1982.2.24 = {
 		birth = yes
 		effect = {
@@ -313,5 +316,78 @@
 	}
 	3069.1.1 = {
 		death = yes
+	}
+}
+
+7770011 = { # Added by Chileanon
+	name = "Terrence" # Terry A. Davis reference.
+	dynasty = 7770014
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 7
+	intrigue = 4
+	learning = 10
+
+	religion="catholic"
+	culture="white"
+
+	add_trait="quick"
+
+	2625.12.15 = {
+		birth = "2625.12.15"
+		culture = "chicagoan"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2641.12.15 = {
+		add_trait="scholarly_theologian"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="zealous"
+		add_trait="paranoid"
+		add_trait="lunatic"
+		add_trait="architect"
+		give_nickname=nick_godspeaker
+	}
+}
+
+7771488 = { # Added by Chileanon
+	name="William Francis" # American fascists reference.
+	dynasty=7771488
+	dna="ccice0db000"
+	properties="0j0f0k"
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+
+	religion="catholic"
+	culture="white"
+
+	add_trait="strong"
+
+	2646.3.9 = {
+		birth = "2646.3.9"
+		culture = "rostmann"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2662.12.15 = {
+		add_trait="skilled_tactician"
+		add_trait="brave"
+		add_trait="diligent"
+		add_trait="proud"
+		add_trait="gregarious"
+		add_trait="zealous"
+		effect = {
+			add_artifact = old_world_shades
+		}
 	}
 }

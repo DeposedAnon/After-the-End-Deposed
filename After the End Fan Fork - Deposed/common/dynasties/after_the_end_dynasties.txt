@@ -8014,7 +8014,22 @@ coat_of_arms = {
 1787079 = { name="Pember" culture=dixie }
 1787080 = { name="Poindexter" culture=dixie }
 1787081 = { name="Dennitt" culture=dixie }
-1787082 = { name="Long" culture=dixie }
+1787082 = { # Edited by Chileanon, added religion and coat of arms sections
+	name = "Long"
+	culture = dixie
+	religion = catholic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1787083 = { name="Jeffress" culture=dixie }
 1787084 = { name="Fairfax" culture=dixie }
 1787085 = { name="Byrd" culture=dixie }

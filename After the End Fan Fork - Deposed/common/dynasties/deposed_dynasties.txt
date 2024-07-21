@@ -117,3 +117,37 @@
 		}
 	}
 }
+
+7770014 = { # Added by Chileanon
+	name = "Davis"
+	culture = angeleno
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 6
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+7771488 = { # Added by Chileanon #MyNote, That ID number caught me off guard and made me laugh, so I'm leaving it as is.
+	name = "Rockwell"
+	culture = rostmann
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 7
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

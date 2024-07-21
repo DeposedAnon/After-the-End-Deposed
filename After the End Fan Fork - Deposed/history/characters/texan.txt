@@ -1318,7 +1318,11 @@
 			set_character_flag = is_special_character
 		}
 	}
-	
+	2651.12.26 = { #MyAddition, the date when Hank Hillwalker (Previously Denton Wise) kills Augustus' father and mother in battle
+		effect = {
+			add_rival = 1836105 # Hank Hillwalker
+		}
+	}
 	2666.4.2 = {
 		add_spouse = 2302209
 		effect = {
@@ -2217,7 +2221,8 @@
 1836105 = {
 	name = "Hank"
 	dynasty = 7770002 # Hillwalker
-	dna = "hhhhhhhhccc" # Read it backwards and it's C3H8, or the chemical formula for Propane. "ccchhhhhhhh" would be better, but it makes him blonde.
+	dna = "hhhhhhhhccc" # Read it backwards and it's C3H8, or the chemical formula for Propane. "ccchhhhhhhh" would've been better, but it makes him blonde.
+	properties = "qm0e0d"
 	diplomacy = 8
 	martial = 7
 	stewardship = 9
@@ -2230,7 +2235,7 @@
 	trait = "diligent"
 	trait = "just"
 	trait = "stubborn"
-	fertility = 0.3 # Narrow urethra
+	fertility = 0.2 # Narrow urethra
 	father = 1836108 # Cotton Hill
 	mother = 1836138 # Tilly/Matilda
 	2625.4.15 = { # Born on April 15th, his age is 41 in the show.
@@ -2591,6 +2596,8 @@
 1836119 = {
 	name = "Dale"
 	dynasty = 7770006 # Gribble
+	dna = "bibbicbbgdg" # "cehgftbqzwe"
+	properties = "kk0c0k0000f"
 	diplomacy = 4
 	martial = 5
 	stewardship = 8
@@ -2735,6 +2742,8 @@
 1836123 = {
 	name = "Jeffrey" # Jeff Boomhauer III
 	dynasty = 7770007 # Boomhauer
+	dna = "ajifducbhdr"
+	properties = "qm0c0k"
 	diplomacy = 9
 	martial = 7
 	stewardship = 6
@@ -2773,6 +2782,8 @@
 1836124 = {
 	name = "William" # Bill/William Fontaine de la Tour Dauterive
 	dynasty = 7770008 # Dauterive
+	dna = "afaedsidddf" # "lcynikxxoxw"
+	properties = "vk0j0j" # "vn0jbj"
 	diplomacy = 4
 	martial = 9
 	stewardship = 3
@@ -2997,6 +3008,7 @@
 1836131 = {
 	name = "Gilbert" # Cousin of Bill/William
 	dynasty = 7770008 # Dauterive
+	dna = "xcyqkgymdqw" # "xcyqkgymjqw"
 	diplomacy = 8
 	martial = 2
 	stewardship = 5
@@ -3015,7 +3027,7 @@
 	trait = "lustful"
 	trait = "arbitrary" # Sells the family estate
 	trait = "wroth" # Chastises Bill when he wants to sell the Dauterive recipe
-	fertility = 0.2 # Represents him being unlikely to procreate and trying to rely on Bill to pass on the name
+	fertility = 0.1 # Represents him being unlikely to procreate and trying to rely on Bill to pass on the name
 	father = 1836127 # Alphonse
 	mother = 1836128 # Esme
 	2620.1.1 = { # Older than Bill/William
