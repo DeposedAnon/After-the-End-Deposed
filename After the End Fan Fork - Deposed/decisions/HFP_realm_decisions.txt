@@ -1037,7 +1037,7 @@ decisions = {
 					de_jure_liege = k_georgia
 				}
 				primary_title = {
-					k_tuskegee = {
+					k_georgia = { #MyEdit, previously "k_tuskegee"
 						copy_title_laws = PREV
 					}
 				}
@@ -1168,24 +1168,22 @@ decisions = {
 			e_dixie = {
 				has_holder = no
 			}
-			completely_controls = c_arkabutla
-			completely_controls = c_holly_springs
-			completely_controls = c_ackia
-			completely_controls = c_tillatoba
-			completely_controls = c_yalobusha
-			completely_controls = c_oktibbeha
-			completely_controls = c_sunflower
-			completely_controls = c_vicksburg
-			completely_controls = c_tombigbee
-			completely_controls = c_meridian
-			completely_controls = c_jackson
-			completely_controls = c_tallahoma
-			completely_controls = c_bayou_pierre
-			completely_controls = c_natchez
-			completely_controls = c_homochitto
-			completely_controls = c_leaf
-			completely_controls = c_chickasawhay
-			completely_controls = c_itawamba
+			completely_controls = c_currituck #MyEdit, previously, the required provinces were incorrectly referencing the ones for Magnolia. It's now fixed.
+			completely_controls = c_dare
+			completely_controls = c_carteret
+			completely_controls = c_chowan
+			completely_controls = c_greenville
+			completely_controls = c_lejeune
+			completely_controls = c_roanoke_rapids
+			completely_controls = c_raleigh
+			completely_controls = c_fayetteville
+			completely_controls = c_durham
+			completely_controls = c_chapel_hill
+			completely_controls = c_uwharrie
+			completely_controls = c_metrolina
+			completely_controls = c_catawba
+			completely_controls = c_cheraw
+			completely_controls = c_cape_fear
 		}
 		effect = {
 			hidden_tooltip = {
@@ -1210,7 +1208,7 @@ decisions = {
 					de_jure_liege = k_tarheel
 				}
 				d_cape_fear = {
-					de_jure_liege = k_tarheel_grand_duchy
+					de_jure_liege = k_tarheel #MyEdit, previously "k_tarheel_grand_duchy"
 				}
 			}
 		}
@@ -1290,19 +1288,19 @@ decisions = {
 			grant_title_no_opinion = k_magnolia
 			hidden_tooltip = {
 				d_pine_belt = {
-					de_jure_liege = k_magnolia_archduchy
+					de_jure_liege = k_magnolia #MyEdit, previously "k_magnolia_archduchy"
 				}
 				d_natchez = {
-					de_jure_liege = k_magnolia_archduchy
+					de_jure_liege = k_magnolia #MyEdit, previously "k_magnolia_archduchy"
 				}
 				d_yazoo = {
-					de_jure_liege = k_magnolia_archduchy
+					de_jure_liege = k_magnolia #MyEdit, previously "k_magnolia_archduchy"
 				}
 				d_chickasaw = {
-					de_jure_liege = k_magnolia_archduchy
+					de_jure_liege = k_magnolia #MyEdit, previously "k_magnolia_archduchy"
 				}
 				d_choctaw = {
-					de_jure_liege = k_magnolia_archduchy
+					de_jure_liege = k_magnolia #MyEdit, previously "k_magnolia_archduchy"
 				}
 			}
 		}

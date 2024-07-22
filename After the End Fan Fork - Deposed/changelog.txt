@@ -77,17 +77,33 @@ Changelog for version 0.3.1 (?? ??, 202?):
 	  later date to be more accurate. Thank you to Chileanon for this, especially the Davis dynasty CoA.
 	  
 	- William Francis Rockwell now rules the country of Streatorland as a vassal of Queen Amanda of Illinois. He is an 
-	  amalgamation of (and a reference to) three American fascists; William Luther Pierce, Francis Parker Yockey and George 
-	  Lincoln Rockwell. The Rockwell dynasty has the CoA of House Salas from Chileanon's fork of the Sob o Anil mod. 
-	  William Francis Rockwell is Rostmann in culture and Catholic in religion. Thank you to Chileanon for this.
+	  amalgamation of (and a reference to) three American fascists; William Luther Pierce, Francis Parker Yockey and 
+	  George Lincoln Rockwell. He also serves as a reference to "Illinois Nazis" (The Blues Brothers, and the US Supreme 
+	  Court case of the National Socialist Party of America v. Village of Skokie). The Rockwell dynasty has the CoA of 
+	  House Salas from Chileanon's fork of the Sob o Anil mod. William Francis Rockwell is Rostmann in culture and 
+	  Catholic in religion. Thank you to Chileanon for this.
 	  
-	- Earl Long now rules the counties of Kisatchie, Natchitoches and Rapides as a vassal of Duke Pierre of Alexandria, in
-	  the Kingdom of Louisiana. He is a descendant of Grand Prince Huey "the Kingfish" of Louisiana, who himself is a 
-	  reference to the IRL Huey Long, 40th governor of Louisiana and later a US Senator who was assassinated while still in 
-	  office. Earl Long is the last in a long of of descendants of Huey Long, and is Dixie in culture and Catholic in 
+	- Earl Long now rules the counties of Kisatchie, Natchitoches and Rapides as a vassal of Duke Pierre of Alexandria, 
+	  in the Kingdom of Louisiana. He is a descendant of Grand Prince Huey "the Kingfish" of Louisiana, who himself is a 
+	  reference to the IRL Huey Long, 40th governor of Louisiana and later a US Senator who was assassinated while still 
+	  in office. Earl Long is the last in a long of of descendants of Huey Long, and is Dixie in culture and Catholic in 
 	  religion. However, he and his deceased family members publicly practice the Voodoo faith while having to practice 
-	  the Catholic faith in secret. The Long dynasty CoA has also been changed to that of the eagle from the American Union 
-	  State flag from Kaiserreich, edited by Chileanon. Thank you to Chileanon for this.
+	  the Catholic faith in secret. The Long dynasty CoA has also been changed to that of the eagle from the American 
+	  Union State flag from Kaiserreich, edited by Chileanon. Thank you to Chileanon for this.
+	  
+	- Fixed the "declare_kingdom_of_tarheel" decision in the file "decisions/HFP_realm_decisions.txt". The required 
+	  provinces were incorrectly referencing the provinces for the Kingdom of Magnolia. This has been fixed and they now 
+	  properly reference the provinces for the Kingdom of Tarheel. The duchy of Cape Fear was also incorrectly becoming 
+	  dejure to the Grand Duchy of Tarheel. It has been fixed to now become dejure to the Kingdom of Tarheel like the 
+	  other duchies. Thank you to Monetarist anon for bringing attention to this bug.
+	  
+	- Fixed the "declare_kingdom_of_magnolia" decision in the file "decisions/HFP_realm_decisions.txt". The duchies of 
+	  Magnolia were incorrectly becoming dejure to the Archduchy of Magnolia. This has been fixed and they now become 
+	  dejure to the Kingdom of Magnolia like intended. Thank you to Monetarist anon for bringing attention to this bug.
+	  
+	- Fixed a small bug in the "declare_kingdom_of_georgia" decision in the file "decisions/HFP_realm_decisions.txt". 
+	  The decision was incorrectly copying the player's previous title laws to the Kingdom of Tuskegee. The decision now 
+	  properly copies the player's previous title laws to the Kingdom of Georgia.
 	  
 	- 
 
