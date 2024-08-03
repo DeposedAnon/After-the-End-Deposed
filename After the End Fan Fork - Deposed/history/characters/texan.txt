@@ -2388,6 +2388,7 @@
 	}
 	2609.1.1 = {
 		trait = "one_legged" # Gets both of his shins blown off the day he kills fitty men.
+		trait = "medal_of_honor" # "I killed fitty men!"
 	}
 	2622.1.1 = {
 		add_spouse = 1836138 # Tilly/Matilda

@@ -10924,6 +10924,7 @@ defined_text = {
 				has_wonder = wonder_pyramid
 				has_wonder = wonder_pyramid_kukulcan
 				has_wonder = wonder_aztec_pyramid
+				has_wonder = wonder_pyramid_memphis #MyAddition
 			}
 		}
 		localisation_key = String_Pyramid
@@ -11134,6 +11135,7 @@ defined_text = {
 				has_wonder = wonder_pyramid
 				#has_wonder = wonder_pyramid_giza
 				has_wonder = wonder_pyramid_kukulcan
+				has_wonder = wonder_pyramid_memphis #MyAddition
 			}
 		}
 		localisation_key = String_pyramid
@@ -11254,6 +11256,7 @@ defined_text = {
 			OR = {
 				has_wonder = wonder_pyramid
 				has_wonder = wonder_pyramid_kukulcan
+				has_wonder = wonder_pyramid_memphis #MyAddition
 			}
 		}
 		localisation_key = String_impressive_feat_of_architecture

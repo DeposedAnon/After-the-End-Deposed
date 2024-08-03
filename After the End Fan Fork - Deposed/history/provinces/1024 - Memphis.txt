@@ -1,0 +1,34 @@
+# 1024 - Memphis
+
+# County Title
+title=c_memphis
+
+# Settlements
+max_settlements=5
+b_memphis_TN=tribal
+#b_germantown_TN=city
+b_cordova_TN=temple
+
+# Misc
+culture=tuskegean
+religion=revelationist
+terrain=marsh
+
+#History #MyAddition
+1989.9.15 = {
+	build_wonder = wonder_pyramid_memphis
+}
+1991.11.9 = { #MyA
+	set_wonder_stage = 1
+}
+2015.4.1 = { #MyA
+	set_wonder_stage = 2
+}
+2365.1.1 = { #MyA
+	set_wonder_stage = 3
+	build_wonder_upgrade = upgrade_tavern
+	build_wonder_upgrade = upgrade_roads
+}
+2399.1.1 = { #MyA
+	build_wonder_upgrade = upgrade_road_tolls
+}

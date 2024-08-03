@@ -282,7 +282,7 @@
 	religion = "evangelical"
 	culture = "southron" # "cherokee" can also be used here due to his so-called "Cherokian" ancestry
 	trait = "detached_priest" # Believes he's a reincarnation of Jesus Christ. See also "Neo Spiritual Christianity"
-	trait = "distractible" # Autism trait, apparently
+	trait = "reclusive" # Autism trait, apparently
 	trait = "slow" # "Slow-in-the-mind"
 	trait = "lunatic" # "Un-clit"
 	trait = "slothful" # Obvious
@@ -313,6 +313,10 @@
 	}
 	2666.1.1 = {
 		employer = 1861077 # George Bannister, as he's the Count of Charlottesville, and it's the county where Ruckersville is
+		effect = {
+			add_artifact = sonichu_medallion
+			add_artifact = sonic_totem
+		}
 	}
 	3069.1.1 = {
 		death = yes

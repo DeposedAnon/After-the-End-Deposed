@@ -25,18 +25,32 @@
 	}
 	2656.10.24={death=yes}
 }
-1919001={
-	name="Melis"
-	dynasty=1798004
-	martial=5
-	diplomacy=5
-	intrigue=5
-	stewardship=5
-	learning=5
-	culture=dellsman
-	religion=norse_pagan
-	2627.1.1={birth=yes}
-	2700.1.1={death=yes}
+1919001 = { #MyEdit/#MyAddition, cleaned up, changed stats and religion, gave him parents, added traits
+	name = "Melis"
+	dynasty = 1798004 #MyNote, Dachs
+	diplomacy = 8 #MyE, all stats were previously 5
+	martial = 8
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	religion = "norse_pagan"
+	culture = "dellsman"
+	trait = "charismatic_negotiator" #MyA
+	trait = "stubborn" #MyA
+	trait = "brave" #MyA
+	trait = "kind" #MyA
+	trait = "just" #MyA
+	father = 1920010 # Magnus Dachs #MyA
+	mother = 1920011 # Mechthild #MyA
+	2627.1.1 = {
+		birth = yes
+	}
+	2661.1.1 = {
+		religion = "catholic" #MyA
+	}
+	2700.1.1 = {
+		death = yes
+	}
 }
 1919003={
 	name="Thietmar"
@@ -2391,4 +2405,179 @@
 		employer=1919076
 	}
 	2700.1.1={death=yes}
+}
+
+#MyAddition
+###################
+### House Dachs ###
+###################
+
+# Father of Melis and Martin Dachs
+1920010 = {
+	name = "Magnus"
+	dynasty = 1798004 #Dachs
+	diplomacy = 8
+	martial = 6
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	religion = "norse_pagan"
+	culture = "dellsman"
+	trait = "charismatic_negotiator"
+	trait = "just"
+	trait = "brave"
+	trait = "proud"
+	trait = "gregarious"
+	2603.1.1 = {
+		birth = yes
+	}
+	2626.1.1 = {
+		add_spouse = 1920011 # Mechthild
+	}
+	2660.1.1 = {
+		death = yes
+	}
+}
+
+# Mother of Melis and Martin Dachs
+1920011 = {
+	name = "Mechthild"
+	female = yes
+	diplomacy = 8
+	martial = 6
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	religion = "norse_pagan"
+	culture = "dellsman"
+	trait = "thrifty_clerk"
+	trait = "zealous"
+	trait = "kind"
+	trait = "stubborn"
+	trait = "diligent"
+	2608.1.1 = {
+		birth = yes
+	}
+	2676.1.1 = {
+		death = yes
+	}
+}
+
+# Brother of Melis Dachs
+1920012 = {
+	name = "Martin"
+	dynasty = 1798004 #Dachs
+	diplomacy = 6
+	martial = 8
+	stewardship = 4
+	intrigue = 5
+	learning = 6
+	religion = "norse_pagan"
+	culture = "dellsman"
+	trait = "tough_soldier"
+	trait = "brave"
+	trait = "proud"
+	trait = "kind"
+	trait = "stubborn"
+	father = 1920010 # Magnus Dachs
+	mother = 1920011 # Mechthild
+	2636.1.1 = {
+		birth = yes
+	}
+	2709.1.1 = {
+		death = yes
+	}
+}
+
+# Sisters of Melis & Martin Dachs
+1920013 = {
+	name = "Morfind"
+	female = yes
+	dynasty = 1798004 #Dachs
+	diplomacy = 4
+	martial = 7
+	stewardship = 8
+	intrigue = 4
+	learning = 5
+	religion = "norse_pagan"
+	culture = "dellsman"
+	trait = "fortune_builder"
+	trait = "zealous"
+	trait = "brave"
+	trait = "paranoid"
+	trait = "humble"
+	trait = "gregarious"
+	father = 1920010 # Magnus Dachs
+	mother = 1920011 # Mechthild
+	2641.1.1 = {
+		birth = yes
+	}
+	2661.1.1 = {
+		employer = 1920012 # Martin Dachs
+	}
+	2717.1.1 = {
+		death = yes
+	}
+}
+
+1920014 = {
+	name = "Maria"
+	female = yes
+	dynasty = 1798004 #Dachs
+	diplomacy = 8
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	religion = "norse_pagan"
+	culture = "dellsman"
+	trait = "underhanded_rogue"
+	trait = "twin"
+	trait = "erudite"
+	trait = "patient"
+	trait = "charitable"
+	trait = "kind"
+	father = 1920010 # Magnus Dachs
+	mother = 1920011 # Mechthild
+	2646.1.1 = {
+		birth = yes
+	}
+	2661.1.1 = {
+		employer = 1919001 # Melis Dachs
+		religion = "catholic"
+	}
+	2726.1.1 = {
+		death = yes
+	}
+}
+
+1920015 = {
+	name = "Marjanne"
+	female = yes
+	dynasty = 1798004 #Dachs
+	diplomacy = 7
+	martial = 4
+	stewardship = 3
+	intrigue = 8
+	learning = 6
+	religion = "norse_pagan"
+	culture = "dellsman"
+	trait = "flamboyant_schemer"
+	trait = "twin"
+	trait = "cynical"
+	trait = "temperate"
+	trait = "stubborn"
+	trait = "diligent"
+	father = 1920010 # Magnus Dachs
+	mother = 1920011 # Mechthild
+	2646.1.1 = {
+		birth = yes
+	}
+	2661.1.1 = {
+		employer = 1919001 # Melis Dachs
+		religion = "catholic"
+	}
+	2726.1.1 = {
+		death = yes
+	}
 }

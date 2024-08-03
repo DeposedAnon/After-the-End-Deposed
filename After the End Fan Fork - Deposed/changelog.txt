@@ -71,10 +71,11 @@ Changelog for version 0.3.1 (?? ??, 202?):
 	- Likewise, the "gfx/coats_of_arms/deposed_dynasties.tga" file itself has had it's number of frames increased to 50. 
 	  Thank you again, to Chileanon.
 	  
-	- Terrence Davis now rules the County of Des Plaines as a vassal of Duke Robert II of Cook. He is a reference to the 
-	  late Terry A. Davis (RIP), creator and designer of TempleOS. The Davis dynasty has a modified TempleOS logo as its 
-	  CoA. Terrence Davis is Chicagoan in culture and Catholic in religion. His location and culture may be changed at a 
-	  later date to be more accurate. Thank you to Chileanon for this, especially the Davis dynasty CoA.
+	- Terrence "Godspeaker" Davis now rules the County of Des Plaines as a vassal of Duke Robert II of Cook. He is a 
+	  reference to the late Terry A. Davis (RIP), creator and designer of TempleOS. The Davis dynasty has a modified 
+	  TempleOS logo as its CoA. Terrence Davis is Chicagoan in culture and Catholic in religion. His location and culture 
+	  may be changed at a later date to be more accurate. Thank you to Chileanon for this, especially the Davis dynasty 
+	  CoA.
 	  
 	- William Francis Rockwell now rules the country of Streatorland as a vassal of Queen Amanda of Illinois. He is an 
 	  amalgamation of (and a reference to) three American fascists; William Luther Pierce, Francis Parker Yockey and 
@@ -104,6 +105,34 @@ Changelog for version 0.3.1 (?? ??, 202?):
 	- Fixed a small bug in the "declare_kingdom_of_georgia" decision in the file "decisions/HFP_realm_decisions.txt". 
 	  The decision was incorrectly copying the player's previous title laws to the Kingdom of Tuskegee. The decision now 
 	  properly copies the player's previous title laws to the Kingdom of Georgia.
+	  
+	- High Chief Melis Dachs of the Badgerlings is now Catholic, having converted five years prior to the start date. His 
+	  stats and traits have also been adjusted. He also now has a family, his parents and four siblings. Of his family, 
+	  only he and his two youngest sisters are Catholic. His mother, brother, oldest sister and deceased father are Norse. 
+	  The provinces of The Dells and Four Lakes are also now Catholic in religion. His brother, Martin Dachs, now rules 
+	  the counties of Portage and Puckaway as his vassal.
+	  
+	- Added in two unique artifacts for Christian Weston Chandler: "The True and Honest Sonichu Medallion", and "The Sonic
+	  Totem". Currently, they require the owner to have either the "Lunatic" or "Reclusive" traits to be used, but this may 
+	  be changed in the future. Events for these artifacts may also be added in the future. Generic versions of these two 
+	  artifacts may also be added in the future. Thank you to anon 1784366 for the texture files.
+	
+	- Added the "Memphis Pyramid" Great Work in Memphis. This is a direct reference to the Bass Pro Shops Pyramid in 
+	  Memphis, Tennessee.
+	  
+	- The following Great Works have had their images resized so they fit properly into the Great Work box: "Hoover Dam" 
+	  in Las Vegas, "Alamo Fortress" in San Antonio, "Mt. Rushmore" in Rushmore, "Capitol" in Washington and "Castillo de 
+	  Chapultepec" in Mexico.
+	  
+	- The "Lady Liberty" Great Work in Palisades has had its image replaced with one that's cleaner. The base of the statue, 
+	  Fort Wood, is also now visible.
+	  
+	- The starting technology levels for the Norse have been tuned down to more match the levels of their neighbors. Their 
+	  naval shipbuilding technology level will remain the same, however, and they will maintain a very slight military 
+	  infantry tech advantage. This is only a temporary solution, as a more in-depth rework of the technology levels is 
+	  planned for a later date.
+	  
+	- The "Disney World" Great Work in Orlando has had its image replaced with one that's cleaner.
 	  
 	- 
 

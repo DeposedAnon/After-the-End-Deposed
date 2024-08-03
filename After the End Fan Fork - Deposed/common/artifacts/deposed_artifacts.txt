@@ -1,0 +1,74 @@
+slots = {
+	weapon = 1
+	ceremonial_weapon = 1
+	scepter = 1
+	crown = 1
+	wrist = 1
+	neck = 1
+	torso = 1
+	ceremonial_torso = 1
+	mask = 1 
+	shoe = 1
+}
+
+##Chris Chan Artifacts##
+sonichu_medallion = { # Chris' Sonichu Medallion
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+	command_modifier = {
+		speed = 0.1 # Gotta go fast!/Zap to the extreme!
+	}
+	diplomacy = 3
+	stewardship = 3
+	learning = 3
+	fertility = -0.10
+	sonichu_modifier = 1
+	quality = 5
+	active = { 
+		is_adult = yes
+		OR = {
+			trait = lunatic
+			trait = reclusive
+		}
+	}
+	flags = { unique necklace jewelry crown_jewel very_rare curse }
+	stacking = no
+	picture = "GFX_sonichu_medallion"
+	indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+	slot = neck
+}
+
+#To Do: Generic Mass-Produced Sonichu Medallion
+
+sonic_totem = { # Chris' Sonic Totem
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+	combat_rating = 10
+	command_modifier = {
+		morale_offence = 0.1
+	}
+	martial = 3
+	intrigue = 3
+	sex_appeal_opinion = -10
+	sonichu_modifier = 1
+	quality = 5
+	active = { 
+		is_adult = yes
+		OR = {
+			trait = lunatic
+			trait = reclusive
+		}
+	}
+	flags = { unique very_rare curse }
+	stacking = no
+	picture = "GFX_sonic_totem"
+	indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+#To Do: Generic Mass-Produced Sonic Totem

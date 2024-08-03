@@ -235,3 +235,8 @@ String_Guadalupe_Icon_Catholic_Desc;Although the old basilica around it was dest
 String_Guadalupe_Icon_Mictlantec_Desc;Centuries ago, the Saint Cultists took this holy icon of Tonantzin and claimed that it depictd their Maria. However, its true identity has now been reclaimed.;;;;;;;;;;;;;x
 String_Guadalupe_Icon_Sol_Invicta_Desc;This icon was thought for centuries to be a depiction of the false god Maria, but it is now recognized as an image of the sun goddess Eréndira.;;;;;;;;;;;;;x
 String_Guadalupe_Icon_Fallback_Desc;Although the old basilica around it was destroyed following the Event, the holy icon of Our Lady of Guadelupe miraculously survived.;;;;;;;;;;;;;x
+
+#Memphis/Bass Pro Shops Pyramid #MyAddition
+wonder_pyramid_memphis;Memphis Pyramid;;;;;;;;;;;;;x
+wonder_pyramid_memphis_desc;The great shining pyramid has always been here, watching over the banks of the Mississippi River. The words "Bass Pro Shops" adorn the front of the pyramid, and have comforted visitors for centuries.;;;;;;;;;;;;;x
+wonder_pyramid_memphis_construction_desc;The great shining pyramid has always been here, watching over the banks of the Mississippi River. The words "Bass Pro Shops" adorn the front of the pyramid, and have comforted visitors for centuries.;;;;;;;;;;;;;x

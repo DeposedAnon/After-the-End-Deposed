@@ -1,0 +1,29 @@
+spriteTypes = {	
+	
+	##Artifacts##
+	
+	spriteType = {
+		name = "GFX_sonichu_medallion"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\sonichu_medallion.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_sonichu_medallion_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\sonichu_medallion_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_sonic_totem"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\sonic_totem.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_sonic_totem_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\sonic_totem_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+}

@@ -1,0 +1,9 @@
+2300.1.1 = {
+	liege = d_badgerlings
+}
+2626.1.1 = { #MyAddition
+	holder = 1920010 # Magnus Dachs 
+}
+2660.1.1 = {
+	holder = 1919001 #MyNote, Melis Dachs
+}
