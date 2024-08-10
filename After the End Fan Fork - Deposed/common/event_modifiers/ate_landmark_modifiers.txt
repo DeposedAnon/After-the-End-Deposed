@@ -408,3 +408,12 @@ landmark_utep_lhakhang = {
 landmark_plaza_lagartos = {
 	icon = 81
 }
+landmark_lemon_tree = { #MyAddition
+	icon = 81
+}
+landmark_turnip_patch = { #MyAddition
+	icon = 81
+}
+landmark_the_loop = { #MyAddition
+	icon = 81
+}

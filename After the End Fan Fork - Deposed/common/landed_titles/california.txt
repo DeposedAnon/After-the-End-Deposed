@@ -247,7 +247,7 @@ e_california = {
 	}
 
 	k_jefferson = {
-		color={ 179 158 255 }
+		color = { 35 115 10 } #MyEdit, previously "{ 179 158 255 }"
 		color2={ 255 255 255 }
 		
 		capital = 2059 # Redding

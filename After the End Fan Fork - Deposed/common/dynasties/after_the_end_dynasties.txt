@@ -7559,6 +7559,7 @@ coat_of_arms = {
 1784073 = { name="Bullet" culture=rostmann used_for_random=no }
 1784074 = { name="Kreitz" culture=rostmann used_for_random=no }
 1784075 = { name="Dorfmeister" culture=rostmann used_for_random=no }
+1784076 = { name = "Lincoln" culture = rostmann used_for_random = no } #MyA (Abraham Lincoln, sixteenth President of the United States)
 
 
 1785000 = { name="Latimer" culture=tuskegean
@@ -8168,7 +8169,7 @@ coat_of_arms = {
 1789001 = { name="Altgeld" culture=chicagoan }
 1789002 = { name="Haymarket" culture=chicagoan }
 1789003 = { name="Parsons" culture=chicagoan }
-1789004 = { name="Blues" culture=chicagoan }
+1789004 = { name = "Blues" culture = chicagoan used_for_random = no  } #MyEdit, made it non-random for later
 1789005 = { name="Boystown" culture=chicagoan }
 1789006 = { name="Cabrinigreen" culture=chicagoan }
 1789007 = { name="Budlong" culture=chicagoan }
@@ -8228,6 +8229,99 @@ coat_of_arms = {
 1789049 = { name="Halloran" culture=chicagoan}
 1789050 = { name="Callahan" culture=chicagoan}
 1789051 = { name="Arciszewki" culture=chicagoan}
+1789052 = { name = "Burnham" culture = chicagoan } #MyAddition (Daniel Burnham, Architect from Chicago, Director of Works for the World's Columbian Exposition in 1892)
+1789053 = { name = "Kedzie" culture = chicagoan } #MyA (John H. Kedzie, Attorney, Developed the North and West Sides of Chicago, Kedzie Avenue)
+1789054 = { name = "DuSable" culture = chicagoan } #MyA (Jean Baptiste Point du Sable, First non-native resident of what would become Chicago)
+1789055 = { name = "Van Buren" culture = chicagoan } #MyA (Martin Van Buren, 8th President of the U.S., Van Buren Street)
+1789056 = { name = "Wabash" culture = chicagoan } #MyA (Wabash Railroad, Wabash Avenue)
+1789057 = { name = "Wells" culture = chicagoan } #MyA (William Wells, Soldier, Died in the War of 1812 at Fort Dearborn, Wells Street)
+1789058 = { name = "Lake" culture = chicagoan } #MyA (Lake Michigan, Lake Street, Lake Shore Drive)
+1789059 = { name = "Dearborn" culture = chicagoan } #MyA (Henry Dearborn, American military officer and politican, Fort Dearborn, Dearborn Park/Street)
+1789060 = { name = "Randolph" culture = chicagoan } #MyA (Edmund Randolph, First U.S. Attorney General, Randolph County, Illinois, Randolph Street)
+1789061 = { name = "Garfield" culture = chicagoan } #MyA (James A. Garfield, 20th President of the U.S., Garfield Park, Garfield Boulevard)
+1789062 = { name = "Pulaski" culture = chicagoan } #MyA (Casimir Pulaski, Polish military commander during the Revolutionary War, Pulaski Road)
+1789063 = { name = "Cermak" culture = chicagoan } #MyA (Anton Cermak, 44th Mayor of Chicago from 1931-1933, Killed in office during a failed assassination attempt on Franklin D. Roosevelt, Cermak Road)
+1789064 = {
+	name = "Ashland" #MyA (Henry Clay, Kentucky statesman, His Ashland estate in Kentucky, Ashland Avenue)
+	culture = chicagoan
+	used_for_random = no
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 39
+			emblem = 0
+			color = 3
+			color = 1
+			color = 0
+		}
+	}
+}
+1789065 = { name = "Wacker" culture = chicagoan } #MyA (Charles Henry Wacker, Chairman of the Chicago Plan Commission from 1909-1926, Upper & Lower Wacker Drive)
+1789066 = { name = "Halsted" culture = chicagoan } #MyA (William and Caleb Halsted, brother from New York who developed parts of the Loop, Halsted Street)
+1789067 = { name = "Diversey" culture = chicagoan } #MyA (Michael Diversey, Beer brewer, Diversey Parkway)
+1789068 = { name = "Clark" culture = chicagoan } #MyA (George Rogers Clark, American military officer, Fought in the Revolutionary War, Clark Street)
+1789069 = { name = "DePaul" culture = chicagoan } #MyA (Vincent de Paul, French Catholic priest, DePaul University)
+1789070 = { name = "Clybourn" culture = chicagoan } #MyA (Archibald Clybourn, Early Chicago settler, First police constable of Chicago , North Clybourn Avenue)
+1789071 = { name = "Madison" culture = chicagoan } #MyA (James Madison, fourth President of the United States, Madison Street)
+1789072 = { name = "Morrison" culture = chicagoan } #MyA (Orsemus Morrison, Early Chicago settler and politician)
+1789073 = { name = "Fullerton" culture = chicagoan } #MyA (Alexander N. Fullerton, Lawyer and lumber magnate, Fullerton Avenue)
+1789074 = { name = "O'Hare" culture = chicagoan } #MyA (Edward "Butch" O'Hare, World War II flying ace and Medal of Honor recipient, O'Hare Airport)
+1789075 = { name = "Maxwell" culture = chicagoan } #MyA (Dr. Philip Maxwell, one of Chicago's first surgeons, The Maxwell Street Market, Maxwell Street)
+1789076 = { name = "Lincoln" culture = chicagoan } #MyA (Abraham Lincoln, sixteenth President of the United States, Lincoln Park/Avenue)
+1789077 = { name = "Cabrini" culture = chicagoan } #MyA (Francesca Saverio Cabrini, Mother Cabrini, Catholic nun, The first U.S. citizen to be canonized a saint, Cabrini-Green)
+1789078 = { name = "Green" culture = chicagoan } #MyA (William Green, President of the American Federation of Labor from 1924-1952, Cabrini-Green)
+1789079 = { name = "Bilandic" culture = chicagoan } #MyA (Michael A. Bilandic, The 49th mayor of Chicago from 1976-1979, Blizzard of 1979)
+1789080 = { name = "Byrne" culture = chicagoan } #MyA (Jane Byrne, The 50th mayor of Chicago from 1979-1983, First female mayor of Chicago)
+1789081 = { name = "Washington" culture = chicagoan } #MyA (Harold Washington, The 51st Mayor of Chicago from 1983-1987, Died in office, First black mayor of Chicago)
+1789082 = { name = "Thompson" culture = chicagoan } #MyA (William Hale Thompson, 41st & 43rd Mayor of Chicago from 1915-1923 & 1927-1931, Allied with Al Capone, Last non-Democrat mayor of Chicago)
+1789083 = {
+	name = "Ashford" #MyA (Used for a reference to the Ashford family from Resident Evil - Code: Veronica, Cadet branch of the Ashland dynasty)
+	culture = chicagoan
+	used_for_random = no
+	coat_of_arms = {
+		religion = catholic
+		template = 2
+		layer = {
+			texture = 9
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 5
+			color = 5
+		}
+		layer = {
+			texture = 9
+			texture_internal = 39
+			emblem = 0
+			color = 0
+			color = 3
+			color = 5
+		}
+	}
+}
+1789084 = {
+	name = "Aurora" #MyA ("Dawn" in Latin, Named after the city of Aurora, Illinois)
+	culture = chicagoan
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 8
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1789085 = { name = "Stolp" culture = chicagoan } #MyA (Joseph Stolp, Stolp Island on the Fox River in Aurora, Illinois)
+1789086 = { name = "Sill" culture = chicagoan } #MyA (Anna Peck Sill, founder of Rockford Female Seminary/Rockford University)
+1789087 = { name = "Kent" culture = chicagoan } #MyA (Germanicus Kent, founder of Kentville, on the west bank of the Rock River, which would later become a part of Rockford)
+1789088 = { name = "Blake" culture = chicagoan } #MyA (Thatcher Blake, founder of kentville alongside Germanicus Kent)
+1789089 = { name = "Haight" culture = chicagoan } #MyA  (Daniel Shaw Haight, settled the east bank of the Rock River, his settlement would later become a part of Rockford)
 
 1790000 = { name="Biegler" culture=yooper }
 1790001 = { name="Soady" culture=yooper
@@ -9528,6 +9622,99 @@ coat_of_arms = {
 1797069 = { name="Balderson" culture=grangelander }
 1797070 = { name="Breaker" culture=grangelander }
 1797071 = { name="Winters" culture=grangelander }
+#MyAddition, Quad Cities dynasties
+1797072 = {
+	name = "Deere" #MyA (John Deere, American blacksmith, businessman, inventor and politician, Founder of Deere & Company, Moline)
+	culture = grangelander
+	used_for_random = no
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 25
+			emblem = 0
+			color = 0
+			color = 4
+			color = 0
+		}
+	}
+}
+1797073 = {
+	name = "Ely" #MyA (Eugene Burton Ely, aviation pioneer, Davenport)
+	culture = grangelander
+	used_for_random = no
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 37
+			emblem = 0
+			color = 3
+			color = 2
+			color = 0
+		}
+	}
+}
+1797074 = {
+	name = "Rohwedder" #MyA (Otto Frederick Rohwedder, engineer, inventor of sliced bread, Davenport)
+	culture = grangelander
+	used_for_random = no
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 36
+			emblem = 0
+			color = 0
+			color = 2
+			color = 3
+		}
+	}
+}
+1797075 = {
+	name = "Cody" #MyA (William F. "Buffalo Bill" Cody, pioneer, LeClaire, close to Bettendorf)
+	culture = grangelander
+	used_for_random = no
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 25
+			emblem = 0
+			color = 3
+			color = 1
+			color = 0
+		}
+	}
+}
+1797076 = {
+	name = "Weyerhaeuser" #MyA (Friedrich Weyerhauser, lumber baron, Rock Island)
+	culture = grangelander
+	used_for_random = no
+	coat_of_arms = {
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 28
+			emblem = 0
+			color = 4
+			color = 1
+			color = 1
+		}
+	}
+}
+1797077 = { name = "Davenport" culture = grangelander } #MyA (Colonel George Davenport, One of the earliest settlers in Rock Island, Davenport, Iowa is named after him)
+1797078 = { name = "Bettendorf" culture = grangelander } #MyA (Brothers William and Joseph Bettendorf, founders of the Bettendorf Axle Company, Bettendorf, Iowa is named after them)
+1797079 = { name = "Cook" culture = grangelander } #MyA (George Cram Cook, author, university professor, led the founding of the Provincetown Players, born in Davenport)
+1797080 = { name = "Wiman" culture = grangelander } #MyA (Dwight Deere Wiman, silent film actor, playwright and theatrical director, born in Moline)
+1797081 = { name = "Price" culture = grangelander } #MyA (Hiram Price, collector, treasurer, and recorder of Scott County, Iowa, president of the State Bank of Iowa, Davenport)
+1797082 = { name = "Wallace" culture = grangelander } #MyA (Henry Cantwell Wallace, 7th United States Secretary of Agriculture, born in Rock Island)
+1797083 = { name = "Bloom" culture = grangelander } #MyA (Isabel Bloom, artist, gre up in Davenport)
 
 
 1798000 = { name="Heileman" culture=dellsman }

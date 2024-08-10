@@ -105,7 +105,7 @@ e_heartland = {
 		}
 
 		d_quad_cities = {
-			color={ 193 220 39 }
+			color = { 28 131 220 } #MyEdit, previously "{ 193 220 39 }" Alternatively: { 210 0 0 } Red, to match the flag, or: { 28 131 220 }, Blue, to match the Rock Island flag
 			color2={ 220 220 0 }
 
 			capital = 1148

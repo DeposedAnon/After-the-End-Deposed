@@ -1,6 +1,6 @@
 After the End - Deposed - Official Unofficial 4chan Fan Fork Fork (AtEDOU4cFFF) (Name Pending)
 
-Changelog for version 0.3.1 (?? ??, 202?):
+Changelog for version 0.3.1 August 9, 2024):
 
 	- Added in descendants of the High King of Texas, George Hillwalker. There's now an unbroken line of Hillwalkers in 
 	  the history of Metroplex, from George Hillwalker down to Hank Hillwalker.
@@ -134,7 +134,24 @@ Changelog for version 0.3.1 (?? ??, 202?):
 	  
 	- The "Disney World" Great Work in Orlando has had its image replaced with one that's cleaner.
 	  
-	- 
+	- The Kingdom of Jefferson has had its color changed to a dark green color, to more match its flag.
+	  
+	- Added in 50 new dynasties: 38 Chicagoan dynasties named after streets, places and notable people from in and around 
+	  the Chicagoland area, 11 Grangelander dynasties named after notable people from the Quad Cities, and 1 Rostmann 
+	  dynasty named after a former president.
+	  
+	- Added 3 new landmark province modifiers: "The Sacred Lemon Tree" in Sangamon, "The Hallowed Turnip Patch" in West 
+	  Okaw, and "The Loop" in Chicago. The first two are references to The Simpsons. "The Loop" will also become a Great 
+	  Work in the next update.
+	  
+	- The Duchy of The Quad Cities has had its color changed to a light blue.
+	  
+	- The County of Galena has had its flag changed to the IRL flag of the city of Galena, Illinois.
+	  
+	- The County of Dodge has had its flag changed to the IRL flag of Dodge City, Kansas. Thank you to anon 1817299 for this.
+	  
+	- The County of Rockford has had its flag changed to the IRL logo of the Rockford Regents, slightly edited. This flag may 
+	  be changed further later on.
 
 Changelog for version 0.3 (May 20, 2024):
 	- Incorporated bugfix in afterend_decisions.txt that prevents non-cetic emperors from visiting their own court.
