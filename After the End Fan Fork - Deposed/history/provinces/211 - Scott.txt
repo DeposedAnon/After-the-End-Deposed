@@ -1,0 +1,44 @@
+# 211 - Scott
+
+# County Title
+title=c_scott
+
+# Settlements
+max_settlements = 6 #MyEdit, previously 4
+b_bettendorf_IA = city #MyEdit: Previously: "castle"
+b_davenport_IA=city
+b_eldridge_IA=temple
+b_blue_grass_IA = castle #MyAddition
+
+# Misc
+culture=grangelander
+religion=catholic
+terrain=farmlands
+
+# History
+2300.1.1 = { capital = b_bettendorf_IA } #MyAddition
+2550.1.9 = { capital = b_davenport_IA } #MyAddition
+2666.1.1 = { #MyAddition
+	b_davenport_IA = ct_wall_1
+	b_davenport_IA = ct_wall_2
+	b_davenport_IA = ct_wall_3
+	b_davenport_IA = ct_wall_q_1
+	b_davenport_IA = ct_wall_q_2
+	b_davenport_IA = ct_wall_q_3
+	b_davenport_IA = ct_port_1
+	b_davenport_IA = ct_port_2
+	b_davenport_IA = ct_port_3
+	b_bettendorf_IA = ca_wall_1
+	b_bettendorf_IA = ca_wall_2
+	b_bettendorf_IA = ca_wall_q_1
+	b_bettendorf_IA = ca_wall_q_2
+	b_eldridge_IA = tp_wall_1
+	b_eldridge_IA = tp_wall_2
+	b_eldridge_IA = tp_wall_q_1
+	b_eldridge_IA = tp_wall_q_2
+	b_blue_grass_IA = ct_wall_1
+	b_blue_grass_IA = ct_wall_2
+	b_blue_grass_IA = ct_wall_q_1
+	b_blue_grass_IA = ct_wall_q_2
+	trade_post = b_cody
+}

@@ -1,0 +1,15 @@
+# 2272 - Aurora
+
+# County Title
+title = c_aurora
+
+# Settlements
+max_settlements = 5
+b_aurora_IL = castle
+b_naperville_IL = temple
+b_bolingbrook_IL = city
+
+# Misc
+culture = chicagoan
+religion = catholic
+terrain = farmlands

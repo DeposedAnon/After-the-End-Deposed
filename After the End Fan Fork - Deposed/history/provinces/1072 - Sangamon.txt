@@ -1,0 +1,26 @@
+# 1072 - Sangamon
+
+# County Title
+title=c_sangamon
+
+# Settlements
+max_settlements = 6 #MyEdit, previously 5
+b_springfield_IL=castle
+b_chatham_IL=temple
+b_petersburg_IL=city
+b_riverton_IL = castle #MyAddition
+
+# Misc
+culture=rostmann
+religion=catholic
+
+# History #MyAddition
+2666.1.1 = { #MyAddition
+	b_springfield_IL = ca_wall_1
+	b_springfield_IL = ca_wall_2
+	b_springfield_IL = ca_wall_q_1
+	b_springfield_IL = ca_wall_q_2
+	b_springfield_IL = ca_keep_1
+	b_springfield_IL = ca_keep_2
+	b_springfield_IL = ca_training_grounds_1
+}

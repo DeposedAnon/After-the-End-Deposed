@@ -1,0 +1,13 @@
+# 2279 - Gale
+
+# County Title
+title = c_gale
+
+# Settlements
+max_settlements = 3
+b_galesburg_IL = castle
+
+# Misc
+culture = rostmann
+religion = catholic
+terrain = plains

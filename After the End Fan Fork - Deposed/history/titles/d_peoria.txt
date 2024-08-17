@@ -1,0 +1,16 @@
+2527.1.1 = {
+	holder = 1967136 # Veronica Ashford
+	liege = d_rockford
+}
+2567.1.1 = {
+	holder = 1967137 # Stanley Ashford
+}
+2570.1.1 = {
+	holder = 1967138 # Tomas Ashford
+}
+2582.1.1 = {
+	holder = 1967139 # Artur Ashford
+}
+2594.1.3 = {
+	holder = 0
+}

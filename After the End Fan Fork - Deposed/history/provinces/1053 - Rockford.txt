@@ -1,0 +1,27 @@
+# 1053 - Rockford
+
+# County Title
+title=c_rockford
+
+# Settlements
+max_settlements = 5 #MyEdit, previously 4
+b_rockford_IL=castle
+b_belvidere_IL=temple
+b_rockton_IL = city #MyAddition
+
+# Misc
+culture=chicagoan
+religion=catholic
+
+# History
+2666.1.1 = { #MyAddition
+	b_rockford_IL = ca_wall_1
+	b_rockford_IL = ca_wall_2
+	b_rockford_IL = ca_wall_q_1
+	b_rockford_IL = ca_wall_q_2
+	b_rockford_IL = ca_keep_1
+	b_rockford_IL = ca_keep_2
+	b_rockford_IL = ca_militia_barracks_1
+	b_rockford_IL = ca_barracks_1
+	b_rockford_IL = ca_culture_chicagoan_1
+}

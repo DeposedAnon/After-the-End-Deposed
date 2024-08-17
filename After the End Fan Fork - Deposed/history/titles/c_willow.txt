@@ -1,0 +1,10 @@
+2300.1.1={
+	liege=d_twin_cities
+}
+# 2646.1.1={ #MyEdit: Commented out in favor of the below addition.
+	# holder=1919079
+# }
+2660.1.1 = { #MyAddition: Gave him the county and made him independent in order to try and balance the region. The Norse are currently too strong.
+	holder = 1920000
+	liege = 0
+}

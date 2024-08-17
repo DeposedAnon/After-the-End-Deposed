@@ -1,0 +1,24 @@
+2510.1.1 = {
+	holder = 1967127 # Adolfas I Ashland
+	liege = d_waukegan
+}
+2529.1.1 = {
+	holder = 1967128 # Jerome I Ashland
+}
+2545.1.1 = {
+	holder = 1967129 # Henrikas I Ashland
+}
+2587.1.1 = {
+	holder = 1967130 # Klement I Ashland
+}
+2596.1.1 = {
+	holder = 1967131 # Alfonse II Ashland
+}
+2628.6.21 = {
+	holder = 1919000 # Albert Soady, conquers Cook, Waukegan, Rockford and Aurora
+	liege = k_superior
+}
+2653.1.1 = {
+	holder = 7770011 # Terrence Davis # Added by Chileanon, moved from Des Plaines/Waukegan
+	liege = d_cook
+}

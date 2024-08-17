@@ -1,0 +1,14 @@
+2550.1.9 = {
+	holding_dynasty = 1797075 # Cody - makes this a FAMILY_PALACE type Holding
+	liege = "d_quad_cities"
+	holder = 1967156 # William Cody
+}
+2590.1.1 = {
+	holder = 1967157 # Andrew Cody
+}
+2625.1.1 = {
+	holder = 1967158 # Jerome Cody
+}
+2656.1.1 = {
+	holder = 1967159 # Philip Cody
+}

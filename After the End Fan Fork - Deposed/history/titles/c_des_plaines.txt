@@ -1,4 +1,36 @@
-2660.1.1={ # Edited by Chileanon
-	holder=7770011
-	liege=d_cook
+2424.1.1 = { #MyAddition
+	holder = 1967124 # Mathias I Ashland
 }
+2461.1.1 = { #MyAddition
+	holder = 1967125 # Alfonse I Ashland
+}
+2487.1.1 = { #MyAddition
+	holder = 1967126 # Nikolas I Ashland
+}
+2510.1.1 = { #MyAddition
+	holder = 1967127 # Adolfas I Ashland
+	liege = d_waukegan
+}
+2529.1.1 = { #MyAddition
+	holder = 1967128 # Jerome I Ashland
+}
+2545.1.1 = { #MyAddition
+	holder = 1967129 # Henrikas I Ashland
+}
+2587.1.1 = { #MyAddition
+	holder = 1967130 # Klement I Ashland
+}
+2596.1.1 = { #MyAddition
+	holder = 1967131 # Alfonse II Ashland
+}
+2628.6.21 = { #MyAddition
+	holder = 1919000 # Albert Soady, conquers Cook, Waukegan, Rockford and Aurora
+	liege = k_superior
+}
+2653.1.1 = { #MyAddition
+	holder = 1967132 # Petras I Ashland
+	liege = d_cook
+}
+# 2660.1.1 = { #MyEdit: Commented out.
+	# holder = 1967007
+# }

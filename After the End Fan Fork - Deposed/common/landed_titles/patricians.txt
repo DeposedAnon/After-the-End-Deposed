@@ -336,3 +336,30 @@ b_chamorro = {
 b_cascante = {
 	culture = nicoyano
 }
+
+## Quad Cities #MyAddition
+
+b_deere = { # Named for John Deere, Inventor. Moved to Moline.
+	culture = grangelander
+	religion = catholic
+}
+
+b_weyerhaeuser = { # Named for Friedrich Weyerhaeuser, Lumber Baron. Moved to Rock Island for a time.
+	culture = chicagoan
+	religion = catholic
+}
+
+b_ely = { # Named for Eugene Burton Ely, Aviation Pioneer. Raised in Davenport.
+	culture = grangelander
+	religion = catholic
+}
+
+b_rohwedder = { # Named for Otto Frederick Rohwedder, Inventor of Sliced Bread. Born in Davenport.
+	culture = grangelander
+	religion = catholic
+}
+
+b_cody = { # Named for William F. "Buffalo Bill" Cody, Soldier, Hunter, Showman. Born on a farm just outside LeClaire, A suburb of the Quad Cities, nearest to Bettendorf.
+	culture = grangelander
+	religion = catholic
+}

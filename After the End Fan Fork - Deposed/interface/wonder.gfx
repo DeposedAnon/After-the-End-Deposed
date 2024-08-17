@@ -1102,4 +1102,29 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_chapultepec_small.dds"
 		noOfFrames = 5
 	}
+	#MyAddition, unique upgrades for The Loop:
+	spriteType = {
+		name = "GFX_upgrade_unique_buckingham_fountain"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_upgrades\\wonder_upgrade_unique_buckingham_fountain.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_upgrade_unique_grant_park"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_upgrades\\wonder_upgrade_unique_grant_park.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_upgrade_unique_museum_campus"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_upgrades\\wonder_upgrade_unique_museum_campus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_upgrade_unique_soldier_field"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_upgrades\\wonder_upgrade_unique_soldier_field.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_upgrade_unique_navy_pier"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_upgrades\\wonder_upgrade_unique_navy_pier.dds"
+	}
 }

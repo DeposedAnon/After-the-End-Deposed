@@ -1,0 +1,5 @@
+2655.1.1 = {
+	holding_dynasty = 1797074 # Rohwedder - makes this a FAMILY_PALACE type Holding
+	liege = "d_quad_cities"
+	holder = 1967186 # Frederick Rohwedder
+}

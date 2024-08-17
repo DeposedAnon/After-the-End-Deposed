@@ -1,0 +1,7 @@
+2631.8.23={
+	holder=1846032
+	set_tribute_suzerain = { #MyAddition
+		who = k_iowa
+		type = permanent 
+	}
+}

@@ -1,0 +1,39 @@
+2337.1.1 = {
+	holder = 1967243 # Alastar Aurora I
+	liege = d_aurora
+}
+2358.1.1 = {
+	holder = 1967242 # Cyrus Aurora I
+}
+2411.1.1 = {
+	holder = 1967241 # Mateo Aurora I
+}
+2450.1.1 = {
+	holder = 1967240 # Alastar Aurora II
+}
+2464.1.1 = {
+	holder = 1967239 # Constantine Aurora I
+}
+2505.1.1 = {
+	holder = 1967238 # Teodor Aurora I
+}
+2538.1.1 = {
+	holder = 1967237 # Augustin Aurora I
+}
+2567.1.1 = {
+	holder = 1967236 # Dominick Aurora I
+}
+2596.1.1 = {
+	holder = 1967235 # Klement Aurora I
+}
+2613.1.1 = {
+	holder = 1967229 # Jerome Aurora I
+}
+2628.6.21 = { #MyNote: Albert Soady conquers Cook, Waukegan, Rockford and Aurora
+	holder = 1919000 # Albert Soady
+	liege = k_superior
+}
+2653.1.1 = {
+	holder = 1967196 # "Joliet" Jake Blues
+	liege = d_cook # Robert DeSalle becomes Duke of Cook
+}

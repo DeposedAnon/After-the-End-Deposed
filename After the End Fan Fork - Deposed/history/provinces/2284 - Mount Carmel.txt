@@ -1,0 +1,13 @@
+# 2284 - Mount Carmel
+
+# County Title
+title = c_mount_carmel
+
+# Settlements
+max_settlements = 3
+b_mt_carmel_IL = castle
+
+# Misc
+culture = riverlander
+religion = revelationist
+terrain = marsh

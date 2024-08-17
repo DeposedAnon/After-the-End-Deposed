@@ -1,0 +1,9 @@
+100.1.1={
+	pentarch=b_chicago_IL
+}
+2623.1.1 = { #MyEdit: Previously: "2598.1.1". Changed so that he becomes king at age 25 instead of at his birth.
+	holder = 1919000
+}
+2656.10.24={
+	holder=0
+}

@@ -326,7 +326,8 @@
 7770011 = { # Added by Chileanon
 	name = "Terrence" # Terry A. Davis reference.
 	dynasty = 7770014
-
+	dna = "rlcvoohxgdh" #MyAddition
+	properties = "qd0dmk" #MyA
 	diplomacy = 4
 	martial = 2
 	stewardship = 7

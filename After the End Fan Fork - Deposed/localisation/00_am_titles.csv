@@ -891,8 +891,8 @@ c_denver;Denver;Denver;Denver;;Denver;;;;;;;;;x
 c_denver_adj;Denverite;Denverite;Denverite;;Denverite;;;;;;;;;x
 c_des_moines;Des Moines;Des Moines;Des Moines;;Des Moines;;;;;;;;;x
 c_des_moines_adj;Des Moinesite;Des Moinesite;Des Moinesite;;Des Moinesite;;;;;;;;;x
-c_des_plaines;Des Plaines;Des Plaines;Des Plaines;;Des Plaines;;;;;;;;;x
-c_des_plaines_adj;Kenoshan;Kenoshan;Kenoshan;;Kenoshan;;;;;;;;;x
+c_des_plaines;Waukegan;Waukegan;Waukegan;;Waukegan;;;;;;;;;x #MyEdit, previously "Des Plaines"
+c_des_plaines_adj;Waukeganite;Waukeganite;Waukeganite;;Waukeganite;;;;;;;;;x #MyEdit, previously "Kenoshan"
 c_descanso;Descanso;Descanso;Descanso;;Descanso;;;;;;;;;x
 c_descanso_adj;Descansian;Descansian;Descansian;;Descansian;;;;;;;;;x
 c_deschutes;Deschutes;Deschutes;Deschutes;;Deschutes;;;;;;;;;x
@@ -3255,8 +3255,8 @@ c_wellington;Wellington;Wellington;Wellington;;Wellington;;;;;;;;;x
 c_wellington_adj;Wellingtonian;Wellingtonian;Wellingtonian;;Wellingtonian;;;;;;;;;x
 c_wescomma;Wescomma;Wescomma;Wescomma;;Wescomma;;;;;;;;;x
 c_wescomma_adj;Wescomman;Wescomman;Wescomman;;Wescomman;;;;;;;;;x
-c_west_okaw;West Okaw;West Okaw;West Okaw;;West Okaw;;;;;;;;;x
-c_west_okaw_adj;West Okawite;West Okawite;West Okawite;;West Okawite;;;;;;;;;x
+c_west_okaw;Shelby;Shelby;Shelby;;Shelby;;;;;;;;;x #MyEdit, previously "West Okaw"
+c_west_okaw_adj;Shelbyian;Shelbyian;Shelbyian;;Shelbyian;;;;;;;;;x #MyEdit, previously "West Okawite"
 c_west_turtle_mountain;West Turtle Mountain;West Turtle Mountain;West Turtle Mountain;;West Turtle Mountain;;;;;;;;;x
 c_west_turtle_mountain_adj;West Turtler;West Turtler;West Turtler;;West Turtler;;;;;;;;;x
 c_whatcom;Whatcom;Whatcom;Whatcom;;Whatcom;;;;;;;;;x
@@ -3983,8 +3983,8 @@ d_iatse;Alliance of Stagehands;Alliance of Stagehands;Alliance of Stagehands;;Al
 d_iatse_adj;Backstager;Backstager;Backstager;;Backstager;;;;;;;;;x
 d_illinois;Illinois;Illinois;Illinois;;Illinois;;;;;;;;;x
 d_illinois_adj;Illinoisan;Illinoisan;Illinoisan;;Illinoisan;;;;;;;;;x
-d_indianapolis;Indianapolis;Indianapolis;Indianapolis;;Indianapolis;;;;;;;;;x
-d_indianapolis_adj;Indianapolitan;Indianapolitan;Indianapolitan;;Indianapolitan;;;;;;;;;x
+d_indianapolis;Indiana;Indiana;Indiana;;Indiana;;;;;;;;;x #MyEdit, previously "Indianapolis"
+d_indianapolis_adj;Hoosier;Hoosier;Hoosier;;Hoosier;;;;;;;;;x #MyEdit, previously "Indianapolitan"
 d_inner_banks;The Inner Banks;The Inner Banks;The Inner Banks;;The Inner Banks;;;;;;;;;x
 d_inner_banks_adj;Inner Banks;Inner Banks;Inner Banks;;Inner Banks;;;;;;;;;x
 d_iowa;Iowa;Iowa;Iowa;;Iowa;;;;;;;;;x
@@ -5037,8 +5037,8 @@ e_hawaiian;Hawaiian Empire;Hawaiian Empire;Hawaiian Empire;;Hawaiian Empire;;;;;
 e_hawaiian_adj;Hawaiian;Hawaiian;Hawaiian;;Hawaiian;;;;;;;;;x
 e_heartland;The Heartland;The Heartland;The Heartland;;The Heartland;;;;;;;;;x
 e_heartland_adj;Heartlander;Heartlander;Heartlander;;Heartlander;;;;;;;;;x
-e_heaven;Eden;Eden;Eden;;Eden;;;;;;;;;x
-e_heaven_adj;Edenic;Edenic;Edenic;;Edenic;;;;;;;;;x
+e_heaven;Heaven;Heaven;Heaven;;Heaven;;;;;;;;;x #MyEdit, previously "Eden"
+e_heaven_adj;Heavenly;Heavenly;Heavenly;;Heavenly;;;;;;;;;x #MyEdit, previously "Edenic"
 e_hong_konger;Greater Hong Kong;Greater Hong Kong;Greater Hong Kong;;Greater Hong Kong;;;;;;;;;x
 e_hong_konger_adj;Hong Konger;Hong Konger;Hong Konger;;Hong Konger;;;;;;;;;x
 e_hopi;Hopi Empire;Hopi Empire;Hopi Empire;;Hopi Empire;;;;;;;;;x

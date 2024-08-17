@@ -1,0 +1,25 @@
+# 1145 - La Crosse
+
+# County Title
+title=c_la_crosse
+
+# Settlements
+max_settlements = 5 #MyEdit, previously 4
+b_la_crosse_WI=castle
+b_onalaska_WI=temple
+
+# Misc
+culture=dellsman
+religion=catholic
+
+# History #MyAddition
+2666.1.1 = { #MyAddition
+	b_la_crosse_WI = ca_wall_1
+	b_la_crosse_WI = ca_wall_2
+	b_la_crosse_WI = ca_wall_q_1
+	b_la_crosse_WI = ca_wall_q_2
+	b_la_crosse_WI = ca_keep_1
+	b_la_crosse_WI = ca_keep_2
+	b_la_crosse_WI = ca_training_grounds_1
+	b_la_crosse_WI = ca_training_grounds_2
+}

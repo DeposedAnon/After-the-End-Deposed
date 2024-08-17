@@ -1,0 +1,14 @@
+# 2286 - Allegan
+
+# County Title
+title = c_allegan
+
+# Settlements
+max_settlements = 4
+b_allegan_MI = castle
+b_south_haven_MI = city
+
+# Misc
+culture = chicagoan
+religion = rust_cultist
+terrain = plains

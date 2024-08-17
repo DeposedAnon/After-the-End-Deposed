@@ -1,0 +1,27 @@
+2527.1.1 = { #MyAddition
+	holder = 1967136 # Veronica Ashford
+	liege = d_rockford
+}
+2567.1.1 = { #MyAddition
+	holder = 1967137 # Stanley Ashford
+}
+2570.1.1 = { #MyAddition
+	holder = 1967138 # Tomas Ashford
+}
+2582.1.1 = { #MyAddition
+	holder = 1967139 # Artur Ashford
+}
+2594.1.3={
+	holder=1967048
+	liege=d_illinois
+}
+#2657.1.4={ #MyEdit, commented out
+#	holder=1967049
+#}
+#MyAddition, copied over the below from "c_gale"
+2631.1.1 = {
+	holder = 1967214 # Richardt Hafner I
+}
+2653.1.1 = {
+	holder = 1967215 # Richardt Hafner II
+}

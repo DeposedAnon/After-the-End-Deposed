@@ -1,0 +1,19 @@
+#MyEdit, commented out:
+# 2594.1.3={
+	# holder=1967048
+	# liege=d_illinois
+# }
+# 2657.1.4={
+	# holder=1967052
+# }
+#MyAddition:
+2583.1.1 = {
+	holder = 1967249 # Florent Steiger
+	liege = d_illinois
+}
+2626.1.1 = {
+	holder = 1967250 # Martin Steiger
+}
+2650.1.1 = {
+	holder = 1967251 # Edmund Steiger
+}

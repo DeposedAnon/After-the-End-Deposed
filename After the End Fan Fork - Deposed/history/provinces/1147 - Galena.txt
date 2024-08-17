@@ -1,0 +1,30 @@
+# 1147 - Galena
+
+# County Title
+title=c_galena
+
+# Settlements
+max_settlements = 4 #MyEdit, previously "2"
+b_galena_IL=castle
+b_freeport_WI = city #MyAddition
+
+# Misc
+culture=grangelander
+religion=catholic
+terrain=farmlands
+
+# History #MyAddition
+2666.1.1 = { #MyAddition
+	b_galena_IL = ca_wall_1
+	b_galena_IL = ca_wall_2
+	b_galena_IL = ca_wall_q_1
+	b_galena_IL = ca_wall_q_2
+	b_galena_IL = ca_keep_1
+	b_galena_IL = ca_keep_2
+	b_galena_IL = ca_stable_1
+	b_galena_IL = ca_stable_2
+	b_galena_IL = ca_training_grounds_1
+	b_galena_IL = ca_training_grounds_2
+	b_galena_IL = ca_barracks_1
+	b_galena_IL = ca_militia_barracks_1
+}

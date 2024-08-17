@@ -1,0 +1,13 @@
+# 1076 - Watseka
+
+# County Title
+title=c_watseka
+
+# Settlements
+max_settlements = 4 #MyEdit, previously 3
+b_watseka_IL=castle
+b_gilman_IL = city #MyAddition
+
+# Misc
+culture=rostmann
+religion=rust_cultist

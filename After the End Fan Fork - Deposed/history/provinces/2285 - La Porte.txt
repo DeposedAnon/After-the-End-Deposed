@@ -1,0 +1,14 @@
+# 2285 - La Porte
+
+# County Title
+title = c_la_porte
+
+# Settlements
+max_settlements = 4
+b_la_porte_IN = castle
+b_michigan_city_IN = city
+
+# Misc
+culture = chicagoan
+religion = rust_cultist
+terrain = plains

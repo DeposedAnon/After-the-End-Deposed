@@ -1477,7 +1477,7 @@ decisions = {
 				OR = {
 					province = 1149 #Milwaukee
 					province = 1150 #Four Lakes
-					province = 1147 #Galena
+					#province = 1147 #Galena #MyEdit
 					province = 1146 #Kickapoo
 					province = 1151 #The Dells
 					province = 1145 #La Crosse
@@ -1509,13 +1509,13 @@ decisions = {
 				tier = KING
 			}
 			completely_controls = d_badgerland
-#			completely_controls = d_coulee
+			completely_controls = d_coulee #MyE, re-enabled as it was commented out before
 			completely_controls = d_green_bay
 			completely_controls = d_northwoods
 			completely_controls = d_chippewa
-			completely_controls = c_la_crosse
-			completely_controls = c_kickapoo
-			completely_controls = c_the_dells
+			#completely_controls = c_la_crosse #MyE, commented out these counties as Coulee is now re-enabled above
+			#completely_controls = c_kickapoo
+			#completely_controls = c_the_dells
 
 			wealth = 200
 			prestige = 500
@@ -1549,16 +1549,16 @@ decisions = {
 						copy_title_laws = PREV
 					}
 				}
-				if = {
-					limit = {
-						NOT = {
-							completely_controls = c_galena
-						}
-					}
-					c_galena = {
-						de_jure_liege = d_outer_chicagoland
-					}
-				}
+				# if = { #MyEdit, no longer needed as Galena is part of its own duchy now
+					# limit = {
+						# NOT = {
+							# completely_controls = c_galena
+						# }
+					# }
+					# c_galena = {
+						# de_jure_liege = d_outer_chicagoland
+					# }
+				# }
 				if = {
 					limit = {
 						NOT = {
@@ -1611,6 +1611,7 @@ decisions = {
 					province = 1061 #Versailles
 					province = 1060 #Hoosier
 					province = 1059 #Evansville
+					province = 2285 #La Porte #MyAddition
 				}
 			}
 		}
@@ -1627,12 +1628,14 @@ decisions = {
 			}
 			completely_controls = d_indianapolis
 			completely_controls = d_kentuckiana
-			completely_controls = c_gary
+			completely_controls = d_calumet #MyA
+			completely_controls = d_wabash #MyA
+			# completely_controls = c_gary #MyEdit
 			completely_controls = c_southold
 			completely_controls = c_fort_wayne
-			completely_controls = c_kenapocomoco
-			completely_controls = c_tippecanoe
-			completely_controls = c_high_land
+			# completely_controls = c_kenapocomoco #MyE
+			# completely_controls = c_tippecanoe #MyE
+			# completely_controls = c_high_land #MyE
 
 			wealth = 200
 			prestige = 500
@@ -1652,21 +1655,30 @@ decisions = {
 				d_wabash = {
 					de_jure_liege = k_indiana
 				}
-				d_michiana = {
+				d_calumet = { #MyA
 					de_jure_liege = k_indiana
 				}
-				c_st_joseph = {
-					de_jure_liege = d_west_michigan
+				c_southold = { #MyA, temporary until I create the Duchy of Fort Wayne
+					de_jure_liege = d_wabash
 				}
-				c_chambana = {
-					de_jure_liege = d_illinois
+				c_fort_wayne = { #MyA, see about comment for c_southold
+					de_jure_liege = d_wabash
 				}
-				c_watseka = {
-					de_jure_liege = d_illinois
-				}
-				c_peoria = {
-					de_jure_liege = d_forgottonia
-				}
+				# d_michiana = { #MyE
+					# de_jure_liege = k_indiana
+				# }
+				# c_st_joseph = { #MyE
+					# de_jure_liege = d_west_michigan
+				# }
+				# c_chambana = { #MyE
+					# de_jure_liege = d_illinois
+				# }
+				# c_watseka = { #MyE
+					# de_jure_liege = d_illinois
+				# }
+				# c_peoria = { #MyE
+					# de_jure_liege = d_forgottonia
+				# }
 				primary_title = {
 					k_indiana = {
 						copy_title_laws = PREV
@@ -1713,6 +1725,15 @@ decisions = {
 					province = 1072 #Sangamon
 					province = 1071 #Peoria
 					province = 1079 #La Moine
+					province = 1070 #Streatorland #MyAddition
+					province = 2284 #Mount Carmel #MyA
+					province = 2295 #Sparta #MyA
+					province = 2283 #Vermilion #MyA
+					province = 2280 #McLean #MyA
+					province = 2281 #Fandon #MyA
+					province = 2282 #Mercer #MyA
+					province = 2279 #Gale #MyA
+					province = 2278 #Bureau #MyA
 				}
 			}
 		}
@@ -1737,12 +1758,19 @@ decisions = {
 			completely_controls = d_little_egypt
 			completely_controls = d_forgottonia
 			completely_controls = d_cook
-			completely_controls = d_outer_chicagoland
-			completely_controls = c_watseka
-			completely_controls = c_chambana
-			completely_controls = c_peoria
-			completely_controls = c_kaskaskia
-			completely_controls = c_galena
+			#completely_controls = d_outer_chicagoland #MyEdit, removed
+			completely_controls = d_rockford #MyA
+			completely_controls = d_waukegan #MyA
+			completely_controls = d_aurora #MyA
+			completely_controls = d_peoria #MyA
+			completely_controls = d_chambana #MyA
+			completely_controls = d_kaskaskia #MyA
+			completely_controls = d_galena #MyA
+			# completely_controls = c_watseka #MyE
+			# completely_controls = c_chambana #MyE
+			# completely_controls = c_peoria #MyE
+			# completely_controls = c_kaskaskia #MyE
+			# completely_controls = c_galena #MyE
 
 			wealth = 200
 			prestige = 500
@@ -1763,26 +1791,47 @@ decisions = {
 				d_forgottonia = {
 					de_jure_liege = k_chicagoland
 				}
-				d_outer_chicagoland = {
+				# d_outer_chicagoland = { #MyE
+					# de_jure_liege = k_chicagoland
+				# }
+				d_rockford = { #MyA
+					de_jure_liege = k_chicagoland
+				}
+				d_waukegan = { #MyA
+					de_jure_liege = k_chicagoland
+				}
+				d_aurora = { #MyA
 					de_jure_liege = k_chicagoland
 				}
 				d_cook = {
 					de_jure_liege = k_chicagoland
 				}
-				c_peoria = {
-					de_jure_liege = d_forgottonia
+				# c_peoria = { #MyE
+					# de_jure_liege = d_forgottonia
+				# }
+				# c_kaskaskia = { #MyE
+					# de_jure_liege = d_little_egypt
+				# }
+				# c_chambana = { #MyE
+					# de_jure_liege = d_illinois
+				# }
+				# c_watseka = { #MyE
+					# de_jure_liege = d_illinois
+				# }
+				# c_galena = { #MyE
+					# de_jure_liege = d_outer_chicagoland
+				# }
+				d_peoria = { #MyA
+					de_jure_liege = k_chicagoland
 				}
-				c_kaskaskia = {
-					de_jure_liege = d_little_egypt
+				d_chambana = { #MyA
+					de_jure_liege = k_chicagoland
 				}
-				c_chambana = {
-					de_jure_liege = d_illinois
+				d_kaskaskia = { #MyA
+					de_jure_liege = k_chicagoland
 				}
-				c_watseka = {
-					de_jure_liege = d_illinois
-				}
-				c_galena = {
-					de_jure_liege = d_outer_chicagoland
+				d_galena = { #MyA
+					de_jure_liege = k_chicagoland
 				}
 				k_chicagoland = {
 					set_name = "ILLINOIS"

@@ -1,0 +1,6 @@
+2616.1.1 = { #MyAddition: He had to have started somewhere before becoming king.
+	holder = 1919000
+}
+2656.10.24 = { #MyEdit: Previously: "2630.12.26". Changed so that he inherits upon his father's death.
+	holder = 1919047
+}

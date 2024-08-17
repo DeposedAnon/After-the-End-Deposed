@@ -1,0 +1,15 @@
+# 2271 - Joliet
+
+# County Title
+title = c_joliet
+
+# Settlements
+max_settlements = 5
+b_joliet_IL = castle
+b_new_lenox_IL = city
+b_mokena_IL = temple
+
+# Misc
+culture = chicagoan
+religion = americanist
+terrain = farmlands

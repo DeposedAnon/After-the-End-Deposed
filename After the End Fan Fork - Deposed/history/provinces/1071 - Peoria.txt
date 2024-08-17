@@ -1,0 +1,27 @@
+# 1071 - Peoria
+
+# County Title
+title=c_peoria
+
+# Settlements
+max_settlements = 6 #MyEdit, previously 4
+b_peoria_IL=castle
+b_chillicothe_IL=city
+b_bartonville_IL = temple #MyEdit, previously "b_pekin_IL=temple"
+b_canton_IL = castle #MyAddition
+
+# Misc
+culture=rostmann
+religion=catholic
+
+# History #MyAddition
+2666.1.1 = { #MyAddition
+	b_peoria_IL = ca_wall_1
+	b_peoria_IL = ca_wall_2
+	b_peoria_IL = ca_wall_q_1
+	b_peoria_IL = ca_wall_q_2
+	b_peoria_IL = ca_keep_1
+	b_peoria_IL = ca_keep_2
+	b_peoria_IL = ca_training_grounds_1
+	b_peoria_IL = ca_training_grounds_2
+}

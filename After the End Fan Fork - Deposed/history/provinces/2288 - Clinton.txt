@@ -1,0 +1,14 @@
+# 2288 - Clinton
+
+# County Title
+title = c_clinton
+
+# Settlements
+max_settlements = 4
+b_clinton_IA = castle
+b_camanche_IA = city
+
+# Misc
+culture = grangelander
+religion = catholic
+terrain = farmlands

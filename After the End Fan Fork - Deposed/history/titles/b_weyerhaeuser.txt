@@ -1,0 +1,8 @@
+2630.1.1 = {
+	holding_dynasty = 1797076 # Weyerhaeuser - makes this a FAMILY_PALACE type Holding
+	liege = "d_quad_cities"
+	holder = 1967146 # Friedrich Weyerhaeuser
+}
+2660.1.1 = {
+	holder = 1967147 # Benjamin Weyerhaeuser
+}

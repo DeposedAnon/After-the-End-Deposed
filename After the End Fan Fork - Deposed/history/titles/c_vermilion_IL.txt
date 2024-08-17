@@ -1,0 +1,7 @@
+2638.1.1 = {
+	holder = 1967050 # Daniel Zeeb
+	liege = d_illinois
+}
+2657.9.15 = {
+	holder = 1967054 # Kasimir Zeeb
+}

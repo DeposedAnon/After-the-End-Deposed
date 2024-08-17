@@ -1,0 +1,24 @@
+# 2277 - Sterling
+
+# County Title
+title = c_sterling
+
+# Settlements
+max_settlements = 4
+b_sterling_IL = castle
+b_morrison_IL = city
+
+# Misc
+culture = grangelander
+religion = catholic
+terrain = farmlands
+
+# History
+2666.1.1 = {
+	b_sterling_IL = ca_wall_1
+	b_sterling_IL = ca_wall_2
+	b_sterling_IL = ca_wall_q_1
+	b_sterling_IL = ca_wall_q_2
+	b_sterling_IL = ca_barracks_1
+	b_sterling_IL = ca_militia_barracks_1
+}

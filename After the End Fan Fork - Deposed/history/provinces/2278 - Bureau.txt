@@ -1,0 +1,14 @@
+# 2278 - Bureau
+
+# County Title
+title = c_bureau
+
+# Settlements
+max_settlements = 4
+b_princeton_IL = castle
+b_kewanee_IL = city
+
+# Misc
+culture = rostmann
+religion = catholic
+terrain = plains

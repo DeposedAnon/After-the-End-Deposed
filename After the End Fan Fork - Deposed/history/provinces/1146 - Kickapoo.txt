@@ -1,0 +1,25 @@
+# 1146 - Kickapoo
+
+# County Title
+title=c_kickapoo
+
+# Settlements
+max_settlements = 4 #MyEdit, previously 2
+b_bridgeport_WI=castle
+b_wyalusing_WI=temple
+
+# Misc
+culture=dellsman
+religion=catholic
+
+# History #MyAddition
+2666.1.1 = { #MyAddition
+	b_bridgeport_WI = ca_wall_1
+	b_bridgeport_WI = ca_wall_2
+	b_bridgeport_WI = ca_wall_q_1
+	b_bridgeport_WI = ca_wall_q_2
+	b_bridgeport_WI = ca_keep_1
+	b_bridgeport_WI = ca_keep_2
+	b_bridgeport_WI = ca_training_grounds_1
+	b_bridgeport_WI = ca_training_grounds_2
+}

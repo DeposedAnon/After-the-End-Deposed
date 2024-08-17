@@ -1,3 +1,13 @@
-2653.2.1={
-	holder=1920004 #MyEdit, previously 1919002
+2595.1.1 = { #MyAddition
+	holder = 1920016 # Heinrich Stoklasa
+}
+2628.6.21 = { #MyAddition
+	holder = 1919000 # Albert Soady, conquers Cook, Waukegan, Rockford and Aurora
+}
+2653.1.1 = { #MyEdit, previously "2653.2.1"
+	holder = 1920004 #MyEdit, previously "1919002"
+	set_tribute_suzerain = { #MyAddition
+		who = d_cook
+		type = permanent 
+	}
 }

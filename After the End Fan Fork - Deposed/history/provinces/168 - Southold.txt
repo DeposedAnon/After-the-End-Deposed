@@ -1,0 +1,14 @@
+# 168 - Southold
+
+# County Title
+title=c_southold
+
+# Settlements
+max_settlements=4
+b_south_bend_IN=castle
+b_elkhart_IN=temple
+b_goshen_IN = city #MyEdit, previously "b_niles_MI=city", as it was moved to "c_cass"
+
+# Misc
+culture=rostmann
+religion=rust_cultist

@@ -1,0 +1,43 @@
+2344.1.1 = {
+	holder = 1967243 # Alastar Aurora I
+	liege = d_aurora
+}
+2358.1.1 = {
+	holder = 1967242 # Cyrus Aurora I
+}
+2411.1.1 = {
+	holder = 1967241 # Mateo Aurora I
+}
+2450.1.1 = {
+	holder = 1967240 # Alastar Aurora II
+}
+2464.1.1 = {
+	holder = 1967239 # Constantine Aurora I
+}
+2505.1.1 = {
+	holder = 1967238 # Teodor Aurora I
+}
+2515.1.1 = {
+	holder = 1967136 # Veronica Ashford
+	liege = d_rockford
+}
+2567.1.1 = {
+	holder = 1967137 # Stanley Ashford
+}
+2570.1.1 = {
+	holder = 1967138 # Tomas Ashford
+}
+2582.1.1 = {
+	holder = 1967139 # Artur Ashford
+}
+2620.1.1 = {
+	holder = 1967140 # Edward Ashford
+}
+2628.6.21 = {
+	holder = 1919000 # Albert Soady, conquers Cook, Waukegan, Rockford and Aurora
+	liege = k_superior
+}
+2653.1.1 = {
+	holder = 1967200 # Theodore Kaczynski
+	liege = d_cook
+}

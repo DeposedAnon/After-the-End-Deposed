@@ -1,0 +1,13 @@
+# 2295 - Sparta
+
+# County Title
+title = c_sparta
+
+# Settlements
+max_settlements = 3
+b_sparta_IL = castle
+
+# Misc
+culture = riverlander
+religion = catholic
+terrain = plains

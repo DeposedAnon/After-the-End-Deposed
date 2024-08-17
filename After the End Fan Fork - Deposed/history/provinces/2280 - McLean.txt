@@ -1,0 +1,15 @@
+# 2280 - McLean
+
+# County Title
+title = c_mclean
+
+# Settlements
+max_settlements = 5
+b_bloomington_IL = castle
+b_east_peoria_IL = city
+b_pekin_IL = temple
+
+# Misc
+culture = rostmann
+religion = catholic
+terrain = plains

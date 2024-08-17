@@ -1,0 +1,14 @@
+# 2283 - Vermilion
+
+# County Title
+title = c_vermilion_IL
+
+# Settlements
+max_settlements = 4
+b_danville_IL = castle
+b_vermilion_IL = city
+
+# Misc
+culture = rostmann
+religion = rust_cultist
+terrain = plains

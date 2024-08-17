@@ -1,0 +1,14 @@
+# 2276 - DeKalb
+
+# County Title
+title = c_dekalb
+
+# Settlements
+max_settlements = 4
+b_dekalb_IL = castle
+b_sycamore_IL = city
+
+# Misc
+culture = chicagoan
+religion = catholic
+terrain = plains

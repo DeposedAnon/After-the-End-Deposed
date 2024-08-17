@@ -1,0 +1,14 @@
+# 2275 - LaSalle
+
+# County Title
+title = c_lasalle
+
+# Settlements
+max_settlements = 4
+b_lasalle_IL = castle
+b_peru_IL = temple
+
+# Misc
+culture = chicagoan
+religion = catholic
+terrain = plains

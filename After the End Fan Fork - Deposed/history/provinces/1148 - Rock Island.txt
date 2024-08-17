@@ -1,0 +1,50 @@
+# 1148 - Rock Island
+
+# County Title
+title=c_rock_island
+
+# Settlements
+max_settlements = 6 #MyEdit, previously 4
+b_rock_island_IL = city #MyEdit, previously "castle"
+b_moline_IL = city #MyEdit, previously "castle"
+b_milan_IL = castle #MyAddition
+b_silvis_IL=temple
+b_geneseo_IL = city #MyAddition
+
+
+# Misc
+culture=grangelander
+religion=catholic
+terrain = farmlands #MyAddition
+
+# History
+2300.1.1 = { capital = b_milan_IL } #MyAddition
+2550.1.9 = { capital = b_rock_island_IL } #MyAddition
+2666.1.1 = { #MyAddition
+	b_rock_island_IL = ct_wall_1
+	b_rock_island_IL = ct_wall_2
+	b_rock_island_IL = ct_wall_3
+	b_rock_island_IL = ct_wall_q_1
+	b_rock_island_IL = ct_wall_q_2
+	b_rock_island_IL = ct_wall_q_3
+	b_rock_island_IL = ct_rep_arsenal_1
+	b_rock_island_IL = ct_rep_arsenal_2
+	b_rock_island_IL = ct_port_1
+	b_rock_island_IL = ct_port_2
+	b_rock_island_IL = ct_port_3
+	b_milan_IL = ca_wall_1
+	b_milan_IL = ca_wall_2
+	b_milan_IL = ca_wall_q_1
+	b_milan_IL = ca_wall_q_2
+	b_milan_IL = ca_shipyard_1
+	b_milan_IL = ca_shipyard_2
+	b_moline_IL = ct_wall_1
+	b_moline_IL = ct_wall_2
+	b_moline_IL = ct_wall_q_1
+	b_moline_IL = ct_wall_q_2
+	b_silvis_IL = tp_wall_1
+	b_silvis_IL = tp_wall_2
+	b_silvis_IL = tp_wall_q_1
+	b_silvis_IL = tp_wall_q_2
+	trade_post = b_rohwedder
+}

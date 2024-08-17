@@ -102,43 +102,21 @@ e_heartland = {
 				}
 				b_kiester_MN = {}
 			}
-		}
-
-		d_quad_cities = {
-			color = { 28 131 220 } #MyEdit, previously "{ 193 220 39 }" Alternatively: { 210 0 0 } Red, to match the flag, or: { 28 131 220 }, Blue, to match the Rock Island flag
-			color2={ 220 220 0 }
-
-			capital = 1148
-
-			c_rock_island = {
-				color={ 204 228 67 }
+			c_clinton = { #MyAddition
+				color={ 124 105 175 }
 				color2={ 220 220 0 }
-
-				b_rock_island_IL = {}
-				b_moline_IL = {}
-				b_silvis_IL = {}
-				b_geneseo_IL = {}
-				b_milan_IL = {}
-				b_hillsdale_IL = {}
-				b_andalusia_IL = {}
-				b_orion_IL = {}
-			}
-			c_scott = {
-				color = { 197 230 66 }
-				color2= { 255 255 20 }
-
-				b_davenport_IA = {}
-				b_bettendorf_IA = {}
-				b_eldridge_IA = {}
-				b_clinton_IA = {}
-				b_blue_grass_IA = {
-					used_for_dynasty_names = no
-				}
-				b_walcott_IA = {}
-				b_buffalo_IA = {}
-				b_camanche_IA = {}
+				
+				b_clinton_IA = {} #MyEdit, moved from "c_scott", below "b_eldridge_IA" in "d_iowa"
+				b_camanche_IA = {} #MyEdit, moved from "c_scott", below "b_buffalo_IA" in "d_iowa"
+				b_de_witt_IA = {} #MyAddition
+				b_maquoketa_IA = {} #MyAddition
+				b_preston_IA = {} #MyAddition
+				b_miles_IA = {} #MyAddition
+				b_spragueville_IA = {} #MyAddition
+				b_delmar_IA = {} #MyAddition
 			}
 		}
+#MyEdit, moved "d_quad_cities" from here to "k_quad_cities", below "k_iowa" and above "k_ozarks"
 		d_iowa = {
 			color = { 227 221 187 }
 			color2= { 255 255 20 }
@@ -323,6 +301,67 @@ e_heartland = {
 		}
 	}
 
+	k_quad_cities = { #MyAddition
+		color={ 23 109 185 }
+		color2={ 220 220 0 }
+		
+		capital = 1148 #Rock Island
+		
+		dignity = 200 # Never want the Republic of the Quad Cities to change primary title
+		
+		allow = {
+			is_republic = yes
+			k_venice = {
+				is_titular = no
+			}
+		}
+
+		# Crusade target weight
+		catholic = 200
+		revelationist_reformed = 5
+		rust_cultist = 5
+		norse_pagan_reformed = 50
+		trailwalker_reformed = 50
+		americanist = 50
+		
+		d_quad_cities = { #MyEdit, moved here from "k_iowa" under "d_driftless" and above "d_iowa"
+			color={ 28 131 220 } #MyEdit, was previously "{ 193 220 39 }"
+			color2={ 220 220 0 }
+
+			capital = 1148 #Rock Island
+			
+			dignity = 20 #MyAddition
+
+			c_rock_island = { #MyEdit
+				color={ 60 147 222 } #MyEdit, was previously "{ 204 228 67 }"
+				color2={ 220 220 0 }
+
+				b_rock_island_IL = {}
+				b_moline_IL = {}
+				b_silvis_IL = {}
+				b_geneseo_IL = {}
+				b_milan_IL = {}
+				b_hillsdale_IL = {}
+				b_andalusia_IL = {}
+				b_orion_IL = {}
+			}
+			c_scott = { #MyEdit #MyAddition
+				color = { 32 150 221 } #MyEdit, was previously "{ 197 230 66 }"
+				color2= { 255 255 20 }
+
+				b_davenport_IA = {}
+				b_bettendorf_IA = {}
+				b_eldridge_IA = {}
+				b_blue_grass_IA = { #MyEdit, was previously below "b_clinton_IA", but that was moved to "c_clinton"
+					used_for_dynasty_names = no
+				}
+				b_walcott_IA = {}
+				b_buffalo_IA = {}
+				b_wilton_IA = {} #MyAddition
+				b_durant_IA = {} #MyAddition
+			}
+		}
+	}
 
 	k_ozarks = {
 		color = { 162 181 147 }
@@ -1265,22 +1304,7 @@ e_heartland = {
 				b_afton_MO = {}
 				b_ballwin_MO = {}
 			}
-			c_kaskaskia = {
-				color={ 50 50 224 }
-				color2={ 220 220 0 }
-
-				b_belleville_IL = {}
-				b_east_st_louis_IL = {
-					used_for_dynasty_names = no
-					beltway = "Illinoistown" # First name of the city.
-				}
-				b_centralia_IL = {}
-				b_carlyle_IL = {}
-				b_pinckneyville_IL = {}
-				b_steeleville_IL = {}
-				b_sparta_IL = {}
-				b_oakdale_IL = {}
-			}
+#MyEdit, moved "c_kaskaskia" to "d_little_egypt"
 			c_gasconade = {
 				color={ 222 111 111 }
 				color2={ 220 220 0 }
@@ -1630,15 +1654,27 @@ e_heartland = {
 			color={ 112 123 76 }
 			color2={ 220 220 0 }
 
-			capital = 1078 #Quincy
-
+			capital = 2281 #Fandon #MyEdit, previously "1078 #Quincy". Fandon is the "traditional" "capital" of Forgottonia
+			
+			c_fandon = { #MyAddition
+				color={ 0 39 104 }
+				color2={ 220 220 0 }
+				
+				b_fandon_IL = {} #MyAddition
+				b_macomb_IL = {} #MyEdit, moved from "c_la_moine", at the top
+				b_rushville_IL = {} #MyAddition
+				b_astoria_IL = {} #MyAddition
+				b_vermont_IL = {} #MyAddition
+				b_littleton_IL = {} #MyAddition
+				b_table_grove_IL = {} #MyAddition
+				b_bushnell_IL = {} #MyEdit, moved from "c_la_moine", below "b_monmouth_IL"
+			}
 			c_quincy = {
 				color={ 120 119 80 }
 				color2={ 220 220 0 }
 
 				b_quincy_IL = {}
 				b_pittsfield_IL = {}
-				b_mt_sterling_IL = {}
 				b_payson_IL = {}
 				b_barry_IL = {}
 				b_nebo_IL = {}
@@ -1652,15 +1688,64 @@ e_heartland = {
 				#holy_site = woolleyite #MyEdit
 				holy_site = strangite
 
-				b_macomb_IL = {}
 				b_carthage_IL = {}
-				b_monmouth_IL = {}
-				b_bushnell_IL = {}
-				b_galesburg_IL = {}
-				b_aledo_IL = {}
+				b_mt_sterling_IL = {} #MyEdit, moved from "c_quincy", below "b_pittsfield_IL"
+				b_warsaw_IL = {} #MyAddition
+				b_hamilton_IL = {} #MyAddition
 				b_blandinsville_IL = {}
-				b_stronghurst_IL = {}
-				b_nauvoo_IL = {}
+				b_la_harpe_IL = {} #MyAddition
+				b_nauvoo_IL = {} #MyNote Mormon Holy Site
+				b_dallas_city_IL = {}  #MyAddition
+			}
+			c_mercer = { #MyAddition
+				color={ 255 94 118 }
+				color2={ 220 220 0 }
+
+				b_aledo_IL = {} #MyEdit, moved from "c_la_moine", below "b_galesburg_IL"
+				b_monmouth_IL = {} #MyEdit, moved from "c_la_moine", below "b_carthage_IL"
+				b_roseville_IL = {} #MyAddition
+				b_keithsburg_IL = {} #MyAddition
+				b_new_boston_IL = {} #MyAddition
+				b_seaton_IL = {} #MyAddition
+				b_kirkwood_IL = {} #MyAddition
+				b_stronghurst_IL = {} #MyEdit, moved from "c_la_moine", below "b_blandinsville_IL"
+			}
+		}
+		d_kaskaskia = { #MyAddition
+			color={ 200 170 100 }
+			color2={ 220 220 0 }
+			
+			capital = 1056 #Kaskaskia
+			
+			c_kaskaskia = { #MyEdit, moved from "d_gateway", below "c_st_louis" in "the_heartland.txt"
+				color={ 50 50 224 }
+				color2={ 220 220 0 }
+
+				b_belleville_IL = {}
+				b_east_st_louis_IL = {
+					used_for_dynasty_names = no
+					beltway = "Illinoistown" # First name of the city.
+				}
+				b_o_fallon_IL = {} #MyAddition
+				b_edwardsville_IL = {} #MyAddition
+				b_collinsville_IL = {} #MyAddition
+				b_highland_IL = {} #MyAddition
+				b_vandalia_IL = {} #MyAddition
+				b_greenville_IL = {} #MyAddition
+				b_carlyle_IL = {}
+			}
+			c_alton = { #MyEdit, moved from "d_illinois", below "c_west_okaw"
+				color={ 166 151 82 }
+				color2={ 220 220 0 }
+
+				b_alton_IL = {}
+				b_litchfield_IL = {}
+				b_jerseyville_IL = {}
+				b_carlinville_IL = {}
+				b_godfrey_IL = {}
+				b_carrollton_IL = {}
+				b_gillespie_IL = {}
+				b_shipman_IL = {}
 			}
 		}
 	}

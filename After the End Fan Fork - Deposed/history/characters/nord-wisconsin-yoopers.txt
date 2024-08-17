@@ -2280,9 +2280,10 @@
 	trait=drunkard
 	trait=scholar
 	trait=cynical
+	father = 1920016 #MyAddition: Heinrich/Henry/Harry S. Plinkett
 	2615.1.1={birth=yes}
 	2660.1.1={
-		add_claim=c_milwaukee
+		#add_claim=c_milwaukee #MyEdit
 		#employer=1919002 #MyEdit
 		effect={ #MyEdit, moved from Gertrude (1919002)
 			spawn_unit={
@@ -2578,6 +2579,38 @@
 		religion = "catholic"
 	}
 	2726.1.1 = {
+		death = yes
+	}
+}
+
+# Stoklasa #MyAddition
+1920016 = {
+	name = "Heinrich" #MyAddition #MyNote: Henry/Harry S. Plinkett
+	dynasty = 1798025 # Stoklasa
+	diplomacy = 3
+	martial = 7
+	stewardship = 4
+	intrigue = 8
+	learning = 3
+	religion = "catholic"
+	culture = "dellsman"
+	trait = "skilled_tactician"
+	trait = "wroth"
+	trait = "deceitful"
+	trait = "lustful"
+	trait = "envious"
+	trait = "gluttonous"
+	trait = "slothful"
+	trait = "gregarious"
+	trait = "drunkard"
+	2570.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2630.1.1 = {
 		death = yes
 	}
 }

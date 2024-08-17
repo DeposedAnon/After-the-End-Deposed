@@ -10,6 +10,8 @@ technology={
 		d_macondo
 		d_grand_cayman
 		d_home
+		#MyEdit: My New Merchant Republics
+		d_quad_cities #MyAddition, moved from "# catholic lands" below, as it's now a Merchant Republic
 	}
 
 	768={
@@ -233,7 +235,7 @@ technology={
 }
 
 # rustlands
-technology={
+technology={ #MyAddition, added "d_calumet" and "d_chambana"
 	titles={
 		d_toledo_strip
 		d_detroit
@@ -253,6 +255,8 @@ technology={
 		d_niagara
 		d_vandalia
 		d_wilds
+		d_calumet #MyAddition
+		d_chambana #MyAddition
 	}
 
 	768={
@@ -305,14 +309,14 @@ technology={
 }
 
 # catholic lands
-technology={
+technology={ #MyEdit #MyAddition, multiple changes
 	titles={
-		d_outer_chicagoland
+		d_rockford #MyEdit, previously "d_outer_chicagoland", which is no longer in use
 		d_illinois
 		d_forgottonia
 		d_coulee
 		d_driftless
-		d_quad_cities
+		#d_quad_cities #MyEdit, commented out and moved to "# centers of trade" above
 		d_iowa
 		d_moingona
 		d_great_river
@@ -340,6 +344,11 @@ technology={
 		d_smoky_hills
 		d_colorado_brazos
 		d_torian
+		d_aurora #MyAddition
+		d_waukegan #MyAddition
+		d_galena #MyAddition
+		d_peoria #MyAddition
+		d_kaskaskia #MyAddition
 	}
 
 	768={

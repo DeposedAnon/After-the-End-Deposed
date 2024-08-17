@@ -1,0 +1,13 @@
+# 2282 - Mercer
+
+# County Title
+title = c_mercer
+
+# Settlements
+max_settlements = 3
+b_aledo_IL = castle
+
+# Misc
+culture = grangelander
+religion = catholic
+terrain = plains

@@ -1,0 +1,307 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+d_rockford;Rockford;;;;;;;;;;;;;x
+d_rockford_adj;Rockfordian;;;;;;;;;;;;;x
+d_chambana;Chambana;;;;;;;;;;;;;x
+d_chambana_adj;Chambanan;;;;;;;;;;;;;x
+d_aurora;Aurora;;;;;;;;;;;;;x
+d_aurora_adj;Auroran;;;;;;;;;;;;;x
+c_aurora;Aurora;;;;;;;;;;;;;x
+c_aurora_adj;Auroran;;;;;;;;;;;;;x
+c_geneva;Geneva;;;;;;;;;;;;;x
+c_geneva_adj;Genevan;;;;;;;;;;;;;x
+b_ohare;O'Hare;;;;;;;;;;;;;x
+b_ohare_adj;O'Haren;;;;;;;;;;;;;x
+b_geneva_IL;Geneva;;;;;;;;;;;;;x
+b_geneva_IL_adj;Genevan;;;;;;;;;;;;;x
+b_st_charles_IL;St. Charles;;;;;;;;;;;;;x
+b_st_charles_IL_adj;St. Charlesian;;;;;;;;;;;;;x
+b_montgomery_IL;Montgomery;;;;;;;;;;;;;x
+b_montgomery_IL_adj;Montgomerian;;;;;;;;;;;;;x
+b_plainfield_IL;Plainfield;;;;;;;;;;;;;x
+b_plainfield_IL_adj;Plainfieldian;;;;;;;;;;;;;x
+b_skokie;Skokie;;;;;;;;;;;;;x
+b_skokie_adj;Skokian;;;;;;;;;;;;;x
+b_bolingbrook_IL;Bolingbrook;;;;;;;;;;;;;x
+b_bolingbrook_IL_adj;Bolingbrookite;;;;;;;;;;;;;x
+b_burr_ridge_IL;Burr Ridge;;;;;;;;;;;;;x
+b_burr_ridge_IL_adj;Burr Ridgean;;;;;;;;;;;;;x
+b_hinsdale_IL;Hinsdale;;;;;;;;;;;;;x
+b_hinsdale_IL_adj;Hinsdalean;;;;;;;;;;;;;x
+b_downers_grove_IL;Downers Grove;;;;;;;;;;;;;x
+b_downers_grove_IL_adj;Downers Grovean;;;;;;;;;;;;;x
+b_willowbrook_IL;Willowbrook;;;;;;;;;;;;;x
+b_willowbrook_IL_adj;Willowbrookite;;;;;;;;;;;;;x
+b_woodridge_IL;Woodridge;;;;;;;;;;;;;x
+b_woodridge_IL_adj;Woodridgean;;;;;;;;;;;;;x
+b_lisle_IL;Lisle;;;;;;;;;;;;;x
+b_lisle_IL_adj;Lislite;;;;;;;;;;;;;x
+b_crest_hill_IL;Crest Hill;;;;;;;;;;;;;x
+b_crest_hill_IL_adj;Crest Hillian;;;;;;;;;;;;;x
+b_minooka_IL;Minooka;;;;;;;;;;;;;x
+b_minooka_IL_adj;Minookan;;;;;;;;;;;;;x
+b_plattville_IL;plattville;;;;;;;;;;;;;x
+b_plattville_IL_adj;plattvillian;;;;;;;;;;;;;x
+b_sheridan_IL;Sheridan;;;;;;;;;;;;;x
+b_sheridan_IL_adj;Sheridanian;;;;;;;;;;;;;x
+b_campton_hills_IL;Campton Hills;;;;;;;;;;;;;x
+b_campton_hills_IL_adj;Campton Hillsian;;;;;;;;;;;;;x
+b_elgin_IL;Elgin;;;;;;;;;;;;;x
+b_elgin_IL_adj;Elginiian;;;;;;;;;;;;;x
+b_hampshire_IL;Hampshire;;;;;;;;;;;;;x
+b_hampshire_IL_adj;Hampshirian;;;;;;;;;;;;;x
+b_burlington_IL;Burlington;;;;;;;;;;;;;x
+b_burlington_IL_adj;Burlingtonian;;;;;;;;;;;;;x
+b_palestine_AR;Palestine;;;;;;;;;;;;;x
+b_palestine_AR_adj;Palestinian;;;;;;;;;;;;;x
+c_joliet;Joliet;;;;;;;;;;;;;x
+c_joliet_adj;Joliet;;;;;;;;;;;;;x
+b_frankfort_IL;Frankfort;;;;;;;;;;;;;x
+b_frankfort_IL_adj;Frankforter;;;;;;;;;;;;;x
+b_bridgeview_IL;Bridgeview;;;;;;;;;;;;;x
+b_bridgeview_I_adj;Bridgeviewer;;;;;;;;;;;;;x
+b_homer_glen_IL;Homer Glen;;;;;;;;;;;;;x
+b_homer_glen_IL_adj;Homer Glenian;;;;;;;;;;;;;x
+b_chicago_heights_IL;Chicago Heights;;;;;;;;;;;;;x
+b_chicago_heights_IL_adj;Chicago Heightsian;;;;;;;;;;;;;x
+b_lyons_IL;Lyons;;;;;;;;;;;;;x
+b_lyons_IL_adj:Lyonsian;;;;;;;;;;;;;x
+b_schaumburg_IL;Schaumburg;;;;;;;;;;;;;x
+b_schaumburg_IL_adj;Schaumburgian;;;;;;;;;;;;;x
+b_arlington_heights_IL;Arlington Heights;;;;;;;;;;;;;x
+b_arlington_heights_IL_adj;Arlington Heightsian;;;;;;;;;;;;;x
+b_crete_IL;Crete;;;;;;;;;;;;;x
+b_crete_IL_adj;Cretan;;;;;;;;;;;;;x
+b_monee_IL;Monee;;;;;;;;;;;;;x
+b_monee_IL_adj;Monian;;;;;;;;;;;;;x
+b_elwood_IL;Elwood;;;;;;;;;;;;;x
+b_elwood_IL_adj:Elwoodian;;;;;;;;;;;;;x
+b_mokena_IL;Mokena;;;;;;;;;;;;;x
+b_mokena_IL_adj;Mokenite;;;;;;;;;;;;;x
+b_des_plaines_IL;Des Plaines;;;;;;;;;;;;;x
+b_des_plaines_IL_adj;Des Plainesian;;;;;;;;;;;;;x
+b_mt_prospect_IL;Mt Prospect;;;;;;;;;;;;;x
+b_mt_prospect_IL_adj;Mt Prospectian;;;;;;;;;;;;;x
+b_manteno_IL;Manteno;;;;;;;;;;;;;x
+b_manteno_IL_adj;Mantenite;;;;;;;;;;;;;x
+c_mchenry;McHenry;;;;;;;;;;;;;x
+c_mchenry_adj;McHenrian;;;;;;;;;;;;;x
+b_mchenry_IL;McHenry;;;;;;;;;;;;;x
+b_mchenry_IL_adj;McHenrian;;;;;;;;;;;;;x
+b_woodstock_IL;Woodstock;;;;;;;;;;;;;x
+b_woodstock_IL_adj;Woodstockite;;;;;;;;;;;;;x
+b_crystal_lake_IL;Crystal Lake;;;;;;;;;;;;;x
+b_crystal_lake_IL_adj;Crystal Lakian;;;;;;;;;;;;;x
+b_harvard_IL;Harvard;;;;;;;;;;;;;x
+b_harvard_IL_adj;Harvardian;;;;;;;;;;;;;x
+b_twin_lakes_WI;Twin Lakes;;;;;;;;;;;;;x
+b_twin_lakes_WI_adj;Twin Lakesian;;;;;;;;;;;;;x
+b_delavan_WI;Delavan;;;;;;;;;;;;;x
+b_delavan_WI_adj;Delavanite;;;;;;;;;;;;;x
+b_richmond_IL;Richmond;;;;;;;;;;;;;x
+b_richmond_IL_adj;Richmondian;;;;;;;;;;;;;x
+b_spring_grove_IL;Spring Grove;;;;;;;;;;;;;x
+b_spring_grove_IL_adj;Spring Grovian;;;;;;;;;;;;;x
+b_pontiac_IL;Pontiac;;;;;;;;;;;;;x
+b_pontiac_IL_adj;Pontiacan;;;;;;;;;;;;;x
+c_lasalle;LaSalle;;;;;;;;;;;;;x
+c_lasalle_adj;LaSallan;;;;;;;;;;;;;x
+b_lasalle_IL;LaSalle;;;;;;;;;;;;;x
+b_lasalle_IL_adj;LaSallan;;;;;;;;;;;;;x
+b_princeton_IL;Princeton;;;;;;;;;;;;;x
+b_princeton_IL_adj;Princetonite;;;;;;;;;;;;;x
+b_mendota_IL;Mendota;;;;;;;;;;;;;x
+b_mendota_IL_adj;Mendotan;;;;;;;;;;;;;x
+b_earlville;Earlville;;;;;;;;;;;;;x
+b_earlville_adj;Earlvillite;;;;;;;;;;;;;x
+b_spring_valley_IL;Spring Valley;;;;;;;;;;;;;x
+b_spring_valley_IL_adj;Spring Valleyite;;;;;;;;;;;;;x
+b_la_moille_IL;La Moille;;;;;;;;;;;;;x
+b_la_moille_IL_adj;La Moillan;;;;;;;;;;;;;x
+c_dekalb;DeKalb;;;;;;;;;;;;;x
+c_dekalb_adj;DeKalbian;;;;;;;;;;;;;x
+b_dekalb_IL;DeKalb;;;;;;;;;;;;;x
+b_dekalb_IL_adj;DeKalbite;;;;;;;;;;;;;x
+b_sycamore_IL;Sycamore;;;;;;;;;;;;;x
+b_sycamore_IL_adj;Sycamorite;;;;;;;;;;;;;x
+b_cortland_IL;Cortland;;;;;;;;;;;;;x
+b_cortland_IL_adj;Cortlander;;;;;;;;;;;;;x
+b_rochelle_IL;Rochelle;;;;;;;;;;;;;x
+b_rochelle_IL_adj;Rochellite;;;;;;;;;;;;;x
+b_dixon_IL;Dixon;;;;;;;;;;;;;x
+b_dixon_IL_adj;Dixonite;;;;;;;;;;;;;x
+b_amboy_IL;Amboy;;;;;;;;;;;;;x
+b_amboy_IL_adj;Amboyan;;;;;;;;;;;;;x
+b_hillcrest_IL;Hillcrest;;;;;;;;;;;;;x
+b_hillcrest_IL_adj;Hillcrestian;;;;;;;;;;;;;x
+b_kirkland_IL;Kirkland;;;;;;;;;;;;;x
+b_kirkland_IL_adj;Kirklandian;;;;;;;;;;;;;x
+b_winnebago_IL;Winnebago;;;;;;;;;;;;;x
+b_winnebago_IL_adj;Winnebagan;;;;;;;;;;;;;x
+b_roscoe_IL;Roscoe;;;;;;;;;;;;;x
+b_roscoe_IL_adj;Rosconite;;;;;;;;;;;;;x
+d_waukegan;Waukegan;;;;;;;;;;;;;x
+d_waukegan_adj;Waukeganite;;;;;;;;;;;;;x
+d_galena;Galena;;;;;;;;;;;;;x
+d_galena_adj;Galenan;;;;;;;;;;;;;x
+b_manhattan_IL;Manhattan;;;;;;;;;;;;;x
+b_manhattan_IL_adj;Manhattanite;;;;;;;;;;;;;x
+d_peoria;Peoria;;;;;;;;;;;;;x
+d_peoria_adj;Peorian;;;;;;;;;;;;;x
+c_vermilion_IL;Vermilion;;;;;;;;;;;;;x
+c_vermilion_IL_adj;Vermilian;;;;;;;;;;;;;x
+b_buchanan_MI;Buchanan;;;;;;;;;;;;;x
+b_berrien_springs_MI;Berrien Springs;;;;;;;;;;;;;x
+b_fair_plain_MI;Fair Plain;;;;;;;;;;;;;x
+b_benton_heights_MI;Benton Heights;;;;;;;;;;;;;x
+c_allegan;Allegan;;;;;;;;;;;;;x
+c_allegan_adj;Alleganian;;;;;;;;;;;;;x
+b_allegan_MI;Allegan;;;;;;;;;;;;;x
+b_allegan_MI_adj;Alleganian;;;;;;;;;;;;;x
+b_fennville_MI;Fennville;;;;;;;;;;;;;x
+b_fennville_MI_adj;Fennvillian;;;;;;;;;;;;;x
+b_douglas_MI;Douglas;;;;;;;;;;;;;x
+b_douglas_MI_adj;Douglasian;;;;;;;;;;;;;x
+b_bangor_MI;Bangor;;;;;;;;;;;;;x
+b_bangor_MI_adj;Bangorian;;;;;;;;;;;;;x
+b_paw_paw_MI;Paw Paw;;;;;;;;;;;;;x
+b_paw_paw_MI_adj;Paw Pawan;;;;;;;;;;;;;x
+c_cass;Cass;;;;;;;;;;;;;x
+c_cass_adj;Cassian;;;;;;;;;;;;;x
+b_cassopolis_MI;Cassopolis;;;;;;;;;;;;;x
+b_cassopolis_MI_adj;Cassopolisian;;;;;;;;;;;;;x
+b_vandalia_MI;Vandalia;;;;;;;;;;;;;x
+b_vandalia_MI_adj;Vandalian;;;;;;;;;;;;;x
+b_simonton_lake_IN;Simonton Lake;;;;;;;;;;;;;x
+b_north_liberty_IN;North Liberty;;;;;;;;;;;;;x
+b_walkerton_IN;Walkerton;;;;;;;;;;;;;x
+b_bradley_IL;Bradley;;;;;;;;;;;;;x
+b_moomence_IL;Moomence;;;;;;;;;;;;;x
+b_bartonville_IL;Bartonville;;;;;;;;;;;;;x
+c_mclean;McLean;;;;;;;;;;;;;x
+b_brimfield_IL;Brimfield;;;;;;;;;;;;;x
+b_west_peoria;West Peoria;;;;;;;;;;;;;x
+c_bureau;Bureau;;;;;;;;;;;;;x
+c_bureau_adj;Burean;;;;;;;;;;;;;x
+b_wyanet_IL;Wyanet;;;;;;;;;;;;;x
+b_tiskilwa_IL;Tiskilwa;;;;;;;;;;;;;x
+b_prophetstown_IL;Prophetstown;;;;;;;;;;;;;x
+b_manlius_IL;Manlius;;;;;;;;;;;;;x
+b_bureau_IL;Bureau;;;;;;;;;;;;;x
+b_kewanee_IL;Kewanee;;;;;;;;;;;;;x
+b_galva_IL;Galva;;;;;;;;;;;;;x
+b_galva_IL_adj;Galvan;;;;;;;;;;;;;x
+b_neponset_IL;Neponset;;;;;;;;;;;;;x
+b_cambridge_IL;Cambridge;;;;;;;;;;;;;x
+b_toulon_IL;Toulon;;;;;;;;;;;;;x
+b_bishop_hill_IL;Bishop Hill;;;;;;;;;;;;;x
+b_annawan_IL;Annawan;;;;;;;;;;;;;x
+b_walnut_IL;Walnut;;;;;;;;;;;;;x
+b_walnut_IL_adj;Walnuttie;;;;;;;;;;;;;x
+b_st_joseph_IL;St. Joseph;;;;;;;;;;;;;x
+b_diamond_IL;Diamond;;;;;;;;;;;;;x
+b_coal_city_IL;Coal City;;;;;;;;;;;;;x
+b_dwight_IL;Dwight;;;;;;;;;;;;;x
+b_essex_IL;Essex;;;;;;;;;;;;;x
+b_herscher_IL;Herscher;;;;;;;;;;;;;x
+c_vermilion_IL;Vermilion;;;;;;;;;;;;;x
+b_georgetown_IL;Georgetown;;;;;;;;;;;;;x
+b_paris_IL;Paris;;;;;;;;;;;;;x
+b_vermilion_IL;Vermilion;;;;;;;;;;;;;x
+b_tilton_IL;Tilton;;;;;;;;;;;;;x
+b_bismarck_IL;Bismarck;;;;;;;;;;;;;x
+c_fandon;Fandon;;;;;;;;;;;;;x
+b_fandon_IL;Fandon;;;;;;;;;;;;;x
+b_rushville_IL;Rushville;;;;;;;;;;;;;x
+b_astoria_IL;Astoria;;;;;;;;;;;;;x
+b_astoria_IL_adj;Astorian;;;;;;;;;;;;;x
+b_vermont_IL;Vermont;;;;;;;;;;;;;x
+b_littleton_IL;Littleton;;;;;;;;;;;;;x
+b_table_grove_IL;Table Grove;;;;;;;;;;;;;x
+b_warsaw_IL;Warsaw;;;;;;;;;;;;;x
+b_hamilton_IL;Hamilton;;;;;;;;;;;;;x
+b_la_harpe_IL;La Harpe;;;;;;;;;;;;;x
+b_dallas_city_IL;Dallas City;;;;;;;;;;;;;x
+c_mercer;Mercer;;;;;;;;;;;;;x
+b_roseville_IL;Roseville;;;;;;;;;;;;;x
+b_keithsburg_IL;Keithsburg;;;;;;;;;;;;;x
+b_new_boston_IL;New Boston;;;;;;;;;;;;;x
+b_seaton_IL;Seaton;;;;;;;;;;;;;x
+b_kirkwood_IL;Kirkwood;;;;;;;;;;;;;x
+c_gale;Gale;;;;;;;;;;;;;x
+b_knoxville_IL;Knoxville;;;;;;;;;;;;;x
+b_abingdon_IL;Abingdon;;;;;;;;;;;;;x
+b_wataga_IL;Wataga;;;;;;;;;;;;;x
+b_woodhull_IL;Woodhull;;;;;;;;;;;;;x
+b_st_augustine_IL;St. Augustine;;;;;;;;;;;;;x
+b_avon_IL;Avon;;;;;;;;;;;;;x
+d_calumet;Calumet;;;;;;;;;;;;;x
+b_hammond_IN;Hammond;;;;;;;;;;;;;x
+b_east_chicago_IN;East Chicago;;;;;;;;;;;;;x
+c_la_porte;La Porte;;;;;;;;;;;;;x
+b_la_porte_IN;La Porte;;;;;;;;;;;;;x
+b_kingsbury_IN;Kingsbury;;;;;;;;;;;;;x
+b_kingsford_heights_IN;Kingsford Heights;;;;;;;;;;;;;x
+b_kouts_IN;Kouts;;;;;;;;;;;;;x
+b_la_crosse_IN;La Crosse;;;;;;;;;;;;;x
+b_crown_point_IN;Crown Point;;;;;;;;;;;;;x
+b_cedar_lake_IN;Cedar Lake;;;;;;;;;;;;;x
+b_lowell_IN;Lowell;;;;;;;;;;;;;x
+b_hebron_IN;Hebron;;;;;;;;;;;;;x
+b_st_john_IN;St. John;;;;;;;;;;;;;x
+b_winfield_IN;Winfield;;;;;;;;;;;;;x
+b_bloomington_IL;Bloomington;;;;;;;;;;;;;x
+b_normal_IL;Normal;;;;;;;;;;;;;x
+b_morton_IL;Morton;;;;;;;;;;;;;x
+b_east_peoria_IL;East Peoria;;;;;;;;;;;;;x
+b_washington_IL;Washington;;;;;;;;;;;;;x
+b_eureka_IL;Eureka;;;;;;;;;;;;;x
+b_marshall_IL;Marshall;;;;;;;;;;;;;x
+b_palestine_IL;Palestine;;;;;;;;;;;;;x
+b_martinsville_IL;Martinsville;;;;;;;;;;;;;x
+b_casey_IL;Casey;;;;;;;;;;;;;x
+b_oblong_IL;Oblong;;;;;;;;;;;;;x
+b_greenup_IL;Greenup;;;;;;;;;;;;;x
+c_kaskaskia;Kaskaskia;;;;;;;;;;;;;x
+c_kaskaskia_adj;Kaskaskian;;;;;;;;;;;;;x
+d_kaskaskia;Kaskaskia;;;;;;;;;;;;;x
+d_kaskaskia_adj;Kaskaskian;;;;;;;;;;;;;x
+c_clinton;Clinton;;;;;;;;;;;;;x
+c_clinton_adj;Clintonite;;;;;;;;;;;;;x
+b_de_witt_IA;De Witt;;;;;;;;;;;;;x
+b_maquoketa_IA;Maquoketa;;;;;;;;;;;;;x
+b_preston_IA;Preston;;;;;;;;;;;;;x
+b_miles_IA;Miles;;;;;;;;;;;;;x
+b_spragueville_IA;Spragueville;;;;;;;;;;;;;x
+b_delmar_IA;Delmar;;;;;;;;;;;;;x
+b_wilton_IA;Wilton;;;;;;;;;;;;;x
+b_durant_IA;Durant;;;;;;;;;;;;;x
+k_quad_cities;The Quad Cities;The Quad Cities;The Quad Cities;;The Quad Cities;;;;;;;;;x
+k_quad_cities_adj;Quadurbanite;Quadurbanite;Quadurbanite;;Quadurbanite;;;;;;;;;x
+b_oregon_IL;Oregon;;;;;;;;;;;;;x
+b_elizabeth_IL;Elizabeth;;;;;;;;;;;;;x
+c_sterling;Sterling;;;;;;;;;;;;;x
+c_sterling_adj;Sterlinger;;;;;;;;;;;;;x
+b_sterling_IL;Sterling;;;;;;;;;;;;;x
+b_morrison_IL;Morrison;;;;;;;;;;;;;x
+b_fulton_IL;Fulton;;;;;;;;;;;;;x
+b_mt_carroll_IL;Mt. Carroll;;;;;;;;;;;;;x
+b_milledgeville_IL;Milledgeville;;;;;;;;;;;;;x
+b_lanark_IL;Lanark;;;;;;;;;;;;;x
+b_newton_IL;Newton;;;;;;;;;;;;;x
+b_albion_IL;Albion;;;;;;;;;;;;;x
+b_carmi_IL;Carmi;;;;;;;;;;;;;x
+b_grayville_IL;Grayville;;;;;;;;;;;;;x
+b_west_salem_IL;West Salem;;;;;;;;;;;;;x
+b_o_fallon_IL;O'Fallon;;;;;;;;;;;;;x
+b_edwardsville_IL;Edwardsville;;;;;;;;;;;;;x
+b_collinsville_IL;Collinsville;;;;;;;;;;;;;x
+b_highland_IL;Highland;;;;;;;;;;;;;x
+b_vandalia_IL;Vandalia;;;;;;;;;;;;;x
+b_greenville_IL;Greenville;;;;;;;;;;;;;x
+b_chester_IL;Chester;;;;;;;;;;;;;x
+b_salem_IL;Salem;;;;;;;;;;;;;x
+b_flora_IL;Flora;;;;;;;;;;;;;x
+b_new_athens_IL;New Athens;;;;;;;;;;;;;x
+b_marissa_IL;Marissa;;;;;;;;;;;;;x
+c_sparta;Sparta;;;;;;;;;;;;;x
+c_sparta_adj;Spartan;;;;;;;;;;;;;x

@@ -1,0 +1,6 @@
+2618.1.1 = { #MyAddition: He had to have started somewhere before becoming king.
+	holder = 1919000
+}
+2656.10.24 = { #MyAddition: Oldest son inherits the duchy unpon his father's death.
+	holder = 1919047
+}

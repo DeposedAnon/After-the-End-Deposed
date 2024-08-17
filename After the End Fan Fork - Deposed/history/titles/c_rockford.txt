@@ -1,0 +1,30 @@
+2512.1.1 = { #MyAddition
+	holder = 1967136 # Veronica Ashford
+	liege = d_rockford
+}
+2567.1.1 = { #MyAddition
+	holder = 1967137 # Stanley Ashford
+}
+2570.1.1 = { #MyAddition
+	holder = 1967138 # Tomas Ashford
+}
+2582.1.1 = { #MyAddition
+	holder = 1967139 # Artur Ashford
+}
+2620.1.1 = { #MyAddition
+	holder = 1967140 # Edward Ashford
+}
+2628.6.21 = { #MyAddition
+	holder = 1919000 # Albert Soady, conquers Cook, Waukegan, Rockford and Aurora
+	liege = k_superior
+}
+2653.1.1 = { #MyAddition
+	holder = 1967141 # Alecksander Ashford
+	liege = d_cook
+}
+2655.1.1 = { #MyAddition
+	holder = 1967143 # Alfred Ashford
+}
+# 2660.1.1 = { #MyEdit: Commented out.
+	# holder = 1967007
+# }

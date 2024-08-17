@@ -1,0 +1,14 @@
+# 2274 - McHenry
+
+# County Title
+title = c_mchenry
+
+# Settlements
+max_settlements = 4
+b_mchenry_IL = castle
+b_woodstock_IL = city
+
+# Misc
+culture = chiraqi
+religion = traditionalist
+terrain = plains

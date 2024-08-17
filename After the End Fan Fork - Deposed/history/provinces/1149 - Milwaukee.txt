@@ -11,5 +11,5 @@ b_voree_WI=temple
 b_wauwatosa_WI=city
 
 # Misc
-culture=dellsman #MyEdit, previously "chiraqi"
-religion=catholic #MyEdit, previously "traditionalist"
+culture = dellsman #MyEdit, previously "chiraqi"
+religion = catholic #MyEdit, previously "traditionalist"

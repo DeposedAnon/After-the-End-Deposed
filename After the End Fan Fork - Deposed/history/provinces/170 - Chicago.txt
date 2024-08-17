@@ -1,0 +1,63 @@
+# County Title
+title=c_chicago
+
+# Settlements
+max_settlements = 7 #MyEdit: Previously: "6". Chicago is the 3rd most populous city in the US. It should have the max number of possible holdings.
+b_elmhurst_IL=castle
+b_chicago_IL=temple
+b_cicero_IL=city
+b_schaumburg_IL = castle #MyEdit, previously "b_aurora_IL=castle"
+b_evanston_IL = temple #MyEdit, previously "b_oak_park_IL=temple"
+b_skokie = city #MyAddition
+
+# Misc
+culture=chicagoan
+religion=catholic
+terrain=farmlands
+
+
+# History
+1895.1.1 = {
+	build_wonder = wonder_the_loop #MyAddition, the year is when construction on The Loop started, though parts of the El had already been built by 1892.
+}
+1897.9.6 = {
+	set_wonder_stage = 1 #MyA, the date when The Loop first opened to passengers, September 6, 1897.
+}
+2100.1.1 = {
+	set_wonder_damaged = yes #MyA, sometime after (or during?) the Event. The Loop gets destroyed/rendered unusable.
+}
+2200.1.1={ capital=b_chicago_IL }
+2287.1.1 = {
+	set_wonder_stage = 2 #MyA, 15 years into the reign of the first ruler of Chicago (Canon Brian Lake). He starts the conversion/construction of The Loop into a fortress.
+	set_wonder_damaged = no #MyA
+	build_wonder_upgrade = upgrade_grant_park #MyA
+	build_wonder_upgrade = upgrade_watch_tower #MyA
+}
+2377.1.1={ capital=b_elmhurst_IL }
+2392.1.1 = {
+	capital = b_cicero_IL
+	set_wonder_stage = 3 #MyA, 12 years into President Stanislaus Avondale's reign, the first Speaker of the Republic of Cook. He renovates and expands The Loop even further.
+	build_wonder_upgrade = upgrade_watchtower_network #MyA
+}
+2628.6.21 = {
+	capital = b_elmhurst_IL
+	set_wonder_damaged = yes #MyA, when Albert Soady conquers Chicago. The fortress is left damaged and unrepaired, paving the way for Robert II DeSalle to retake Chicago.
+}
+2666.1.1 = { #MyAddition
+	b_elmhurst_IL = ca_wall_1
+	b_elmhurst_IL = ca_wall_2
+	b_elmhurst_IL = ca_wall_3
+	b_elmhurst_IL = ca_wall_q_1
+	b_elmhurst_IL = ca_wall_q_2
+	b_elmhurst_IL = ca_keep_1
+	b_elmhurst_IL = ca_keep_2
+	b_cicero_IL = ct_wall_1
+	b_cicero_IL = ct_wall_2
+	b_cicero_IL = ct_wall_q_1
+	b_cicero_IL = ct_wall_q_2
+	b_chicago_IL = tp_wall_1
+	b_chicago_IL = tp_wall_2
+	b_chicago_IL = tp_wall_q_1
+	b_chicago_IL = tp_wall_q_2
+	trade_post = d_cook
+}

@@ -1,0 +1,14 @@
+# 2287 - Cass
+
+# County Title
+title = c_cass
+
+# Settlements
+max_settlements = 4
+b_cassopolis_MI = castle
+b_dowagiac_MI = city
+
+# Misc
+culture = chicagoan
+religion = rust_cultist
+terrain = plains

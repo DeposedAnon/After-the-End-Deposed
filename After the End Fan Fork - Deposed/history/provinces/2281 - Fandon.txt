@@ -1,0 +1,24 @@
+# 2281 - Fandon
+
+# County Title
+title = c_fandon
+
+# Settlements
+max_settlements = 5
+b_fandon_IL = castle
+b_macomb_IL = city
+
+# Misc
+culture = rostmann
+religion = catholic
+terrain = plains
+
+# History
+2666.1.1 = {
+	b_fandon_IL = ca_wall_1
+	b_fandon_IL = ca_wall_2
+	b_fandon_IL = ca_wall_q_1
+	b_fandon_IL = ca_wall_q_2
+	b_fandon_IL = ca_keep_1
+	b_fandon_IL = ca_keep_2
+}

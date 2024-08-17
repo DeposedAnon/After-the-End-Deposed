@@ -8169,7 +8169,23 @@ coat_of_arms = {
 1789001 = { name="Altgeld" culture=chicagoan }
 1789002 = { name="Haymarket" culture=chicagoan }
 1789003 = { name="Parsons" culture=chicagoan }
-1789004 = { name = "Blues" culture = chicagoan used_for_random = no  } #MyEdit, made it non-random for later
+1789004 = {
+	name = "Blues"
+	culture = chicagoan
+	used_for_random = no #MyAddition
+	coat_of_arms = { #MyAddition
+		religion = catholic
+		template = 0
+		layer = {
+			texture = 9
+			texture_internal = 21
+			emblem = 0
+			color = 2
+			color = 9
+			color = 2
+		}
+	}
+}
 1789005 = { name="Boystown" culture=chicagoan }
 1789006 = { name="Cabrinigreen" culture=chicagoan }
 1789007 = { name="Budlong" culture=chicagoan }
@@ -8322,6 +8338,7 @@ coat_of_arms = {
 1789087 = { name = "Kent" culture = chicagoan } #MyA (Germanicus Kent, founder of Kentville, on the west bank of the Rock River, which would later become a part of Rockford)
 1789088 = { name = "Blake" culture = chicagoan } #MyA (Thatcher Blake, founder of kentville alongside Germanicus Kent)
 1789089 = { name = "Haight" culture = chicagoan } #MyA  (Daniel Shaw Haight, settled the east bank of the Rock River, his settlement would later become a part of Rockford)
+1789090 = { name = "Kaczynski" culture = chicagoan } #MyA (Theodore John Kaczynski, "Uncle Ted", the Unabomber, born in Chicago)
 
 1790000 = { name="Biegler" culture=yooper }
 1790001 = { name="Soady" culture=yooper
@@ -14558,6 +14575,7 @@ coat_of_arms = {
 1967048 = { name="Crisman" culture=motowner }
 1967049 = { name="Hankins" culture=motowner }
 1967050 = { name="Norfleet" culture=motowner }
+1967051 = { name = "Jackson" culture = motowner } #MyAddition (Michael Jackson, singer, songwriter, musician. Gary, Indiana)
 
 
 1975000 = { name="Quang" culture=kinh }

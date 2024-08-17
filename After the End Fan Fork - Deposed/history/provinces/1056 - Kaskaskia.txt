@@ -1,0 +1,16 @@
+# 1056- Kaskaskia
+
+# County Title
+title=c_kaskaskia
+
+# Settlements
+max_settlements = 5 #MyEdit, previously 4
+b_belleville_IL=temple
+b_east_st_louis_IL=temple
+b_o_fallon_IL = castle #MyEdit, previously "b_centralia_IL=castle"
+b_edwardsville_IL = city #MyAddition, to buff the Papal States
+
+# Misc
+culture=riverlander
+religion=catholic
+terrain=marsh

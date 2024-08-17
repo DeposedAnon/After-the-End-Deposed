@@ -1,0 +1,5 @@
+2666.1.1 = {
+	holding_dynasty = 1797073 # Ely - makes this a FAMILY_PALACE type Holding
+	liege = "d_quad_cities"
+	holder = 1967176 # Eugene Ely
+}
