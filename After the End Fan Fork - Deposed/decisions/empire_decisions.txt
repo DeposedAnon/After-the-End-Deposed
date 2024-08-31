@@ -1006,7 +1006,10 @@ decisions = {
 			completely_controls = d_east_bay
 			completely_controls = d_salinas
 			completely_controls = d_wineland
-
+			completely_controls = d_joshua_tree #MyAddition
+			completely_controls = d_orange #MyAddition
+			completely_controls = d_san_diego #MyAddition
+			completely_controls = d_channel_islands #MyAddition
 		}
 		effect = {
 			set_global_flag = new_california_formed
@@ -1116,6 +1119,10 @@ decisions = {
 			completely_controls = d_east_bay
 			completely_controls = d_salinas
 			completely_controls = d_wineland
+			completely_controls = d_joshua_tree #MyAddition
+			completely_controls = d_orange #MyAddition
+			completely_controls = d_san_diego #MyAddition
+			completely_controls = d_channel_islands #MyAddition
 		}
 		effect = {
 			ROOT = {

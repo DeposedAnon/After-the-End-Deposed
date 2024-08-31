@@ -2,6 +2,12 @@
 	holding_dynasty = 7770004 # Mitchell
 	liege = d_los_angeles
 }
-2650.1.1 = {
+2616.1.1 = {
+	holder = 1910228 # William Mitchell
+}
+2643.1.1 = {
+	holder = 1910219 # Melvyn Mitchell
+}
+2662.1.1 = {
 	holder = 7770008 # Matthias Mitchell
 }

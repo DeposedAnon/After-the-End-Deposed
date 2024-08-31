@@ -1714,6 +1714,7 @@ christian = {
 		priests_can_inherit = no
 		allow_rivermovement = yes
 		autocephaly = yes
+		hard_to_convert = yes #MyAddition
 		
 		religious_clothing_head = 0
 		religious_clothing_priest = 1
@@ -1780,6 +1781,7 @@ christian = {
 		allow_rivermovement = yes
 		aggression = 2.0 #highly aggressive
 		allow_looting = yes	#will loot infidels
+		defensive_attrition = yes #MyAddition
 		
 		religious_clothing_head = 0
 		religious_clothing_priest = 1

@@ -1,4 +1,17 @@
-2660.1.1 = {
-	holder = 7770000 #MyEdit. Temporary Placeholder ruler
+#MyEdit: Removed Abbas rulers, added Aurelio rulers
+2520.1.1 = {
+	holder = 1910241 # Niven Aurelio
 	liege = k_socal
+}
+2550.1.1 = {
+	holder = 1910240 # Tracy Aurelio
+}
+2582.1.1 = {
+	holder = 1910239 # Hadrian Aurelio
+}
+2624.1.1 = {
+	holder = 1910238 # Anthony Aurelio
+}
+2660.1.1 = {
+	holder = 7770000 # Mark Aurelio
 }

@@ -521,36 +521,44 @@
 	2690.11.7={death=yes}
 }
 
-2200027={
-	name="Sophia" #Countess of Joshua
-	dynasty=1850068 #Hayek
-	father=2500066
-	female=yes
-	martial=8
-	diplomacy=4
-	stewardship=10
-	intrigue=4 
-	learning=10
-	culture=angeleno
-	religion=nazarene
-	disallow_random_traits=yes		
-	trait=erudite
-	trait=nz_acolyte
-	trait=shrewd
-	trait=kind
-	trait=scholar
-	trait=musician
-	trait=devout
-	trait=scholarly_theologian
-	trait=way_book
-	2649.4.5={birth=yes}
-	2660.1.1={
-		effect={
-			set_character_flag=diversity
-			set_character_flag=physique
+2200027 = { #MyEdit: Cleaned up, added a mother
+	name = "Sophia" # Countess of Joshua
+	female = yes
+	dynasty = 1850068 # Hayek
+	diplomacy = 4
+	martial = 8
+	stewardship = 10
+	intrigue = 4 
+	learning = 10
+	religion = "nazarene"
+	culture = "angeleno"
+	disallow_random_traits = yes
+	trait = "scholarly_theologian"
+	trait = "nz_acolyte"
+	trait = "shrewd"
+	trait = "musician"
+	trait = "scholar"
+	trait = "erudite"
+	trait = "kind"
+	trait = "devout"
+	#trait = "way_book" #MyEdit: Commented out as she's not Cetic
+	father = 2500066 # Jose Hayek
+	mother = 1910237 # Brigitte Aurelio #MyAddition
+	2649.4.5 = {
+		birth = yes
+	}
+	2660.1.1 = {
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
 		}
 	}
-	2690.11.7={death=yes}
+	2666.4.1 = {
+		capital = c_joshua_tree #MyAddition
+	}
+	2690.11.7 = {
+		death = yes
+	}
 }
 
 2200028={

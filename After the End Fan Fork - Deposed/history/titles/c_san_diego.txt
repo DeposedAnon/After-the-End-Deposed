@@ -20,7 +20,7 @@
 2600.7.11 = { #MyAddition
 	holder = 2200030 # David "the Soldier" Carmine
 }
-2616.11.7 = { #MyEdit, previously "2622.5.5". Changed to match his father's death
+2616.11.7 = { #MyEdit: Previously: "2622.5.5". Changed to match his father's death date.
 	holder = 1910150 #MyNote, William Carmine
 }
 2650.12.1 = {

@@ -6887,6 +6887,22 @@ coat_of_arms = {
 1780065 = { name="Drown" culture=yankee }
 1780066 = { name="Stanhope" culture=yankee }
 1780067 = { name="Ferreira" culture=yankee }
+1780068 = {
+	name = "Kennedy"
+	culture = yankee
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 3
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 
 1781000 = { name="Atherton" culture=beltway }
@@ -8339,6 +8355,7 @@ coat_of_arms = {
 1789088 = { name = "Blake" culture = chicagoan } #MyA (Thatcher Blake, founder of kentville alongside Germanicus Kent)
 1789089 = { name = "Haight" culture = chicagoan } #MyA  (Daniel Shaw Haight, settled the east bank of the Rock River, his settlement would later become a part of Rockford)
 1789090 = { name = "Kaczynski" culture = chicagoan } #MyA (Theodore John Kaczynski, "Uncle Ted", the Unabomber, born in Chicago)
+1789091 = { name = "Sheridan" culture = chicagoan } #MyA (Philip Henry Sheridan, Union general in the American Civil War, later he was made General of the Army, helped save Chicago during the great Chicago Fire of 1871)
 
 1790000 = { name="Biegler" culture=yooper }
 1790001 = { name="Soady" culture=yooper

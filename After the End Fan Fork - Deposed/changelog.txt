@@ -22,7 +22,7 @@ Changelog for version 0.4 (?? ??, 20??):
 	  Vermilion (IL), Mount Carmel, Sparta, La Porte, Cass and Allegan.
 	
 	- Edited the "history/characters/rustbelt.txt" and "history/characters/nord-wisconsin-yoopers.txt" files to add in 
-	  many new characters, both landed and unlanded (Also both living and dead).
+	  many new characters, both landed and unlanded (Also both living and dead). Some old characters were also edited.
 	  
 	- Edited and added 38 files within the "history/titles" folder.
 	  
@@ -144,7 +144,64 @@ Changelog for version 0.4 (?? ??, 20??):
 	  Watseka since at least 2583. There are 4 living members of the family and all are Rostmann in culture and Catholic 
 	  in religion.
 	  
-	-
+	- Added 2 new dynasties. 1 Chicagoan, 1 Motowner.
+	  
+	- The Duchy of Kern and the Kingdoms of Socal and Nevada have had most of their provinces reshaped.
+	  
+	- 3 New duchies have been added to Socal: Joshua Tree, Orange and San Diego. 1 New duchy has been added to Baja 
+	  California: Tijuana. 
+	  
+	- The County of Tollhouse in the Duchy of Kern has been moved to the Duchy of Central Valley. The Counties of Joshua 
+	  Tree and Antelope in the Duchy of Berdoo have been moved to the newly-created Duchy of Joshua Tree. The titular 
+	  Duchy of Channel Islands is now a dejure part of Socal. The County of Orange has been moved to the newly-created 
+	  Duchy of Orange. The Counties of San Diego and Oceanside have been moved to the newly-created Duchy of San Diego. 
+	  The County of Tijuana have been moved to the newly-created Duchy of Tijuana.
+	  
+	- Some landed characters in Socal have been moved around, been given a higher rank or have had their immediate liege 
+	  changed: Mark Aurelio of Orange is now the Duke of Orange. Denzel Brando of Barstow has been moved to Tejon Pass. 
+	  Sophia Hayek now holds the County of Barstow, and she is no longer a vassal of Dustin Garland of Berdoo, but is now 
+	  a direct vassal of King Ronald Carmine of Socal. Sonny Stewart of Antelope is also no longer a vassal of Dustin 
+	  Garland of Berdoo, but of King Ronald Carmine of Socal.
+	  
+	- The Hughes, Zukor and Mitchell patrician families in the Republic of Los Angeles, and the Carmine, Hayek, Aurelio 
+	  and Edwards families in Socal have been given more family members so that they don't die out early and to have more 
+	  of a history. Existing members of these dynasties have had some adjustments made to their traits and stats. More 
+	  members may be be added to these and other Socal dynasties at a later date.
+	  
+	- The Nazarene religion now has the "Hard to Convert" attribute.
+	  
+	- The True Cross religion now has the "Defensive Attrition" attribute.
+	  
+	- Hawthorne and Inyo counties within the duchy of Death Valley are now of the True Cross religion. This was done as in 
+	  the lore, it's stated that the last of the True Cross believers fled to the Sierra Nevadas, which the duchy of Death 
+	  Valley borders.
+	  
+	- The Kennedy dynasty has had its internal dynasty number changed. It's been moved from the "deposed_dynasties.txt" 
+	  file to the "after_the_end_dynasties.txt" file. The old entry will remain as an unused placeholder for now.
+	  
+	- Chief Cotton Boomer is no longer the Count of Plymouth as he now rules the County of Quiet Corner as a vassal to 
+	  High Chief Onesiphorus Miskaton of Nogad in New England.
+	  
+	- Johnathan Paul Kennedy now rules the County of Plymouth in New England. He is an independent ruler. The family is a 
+	  reference to the IRL US political family. His nephew, Leon Scott Kennedy, is a reference to the same character from 
+	  the Resident Evil franchise. The Kennedy family has called Plymouth home since before the Event, as it's the 
+	  location of the IRL Kennedy Compound. All memebers of the family are Yankee in culture and Occultist in religion. 
+	  Their names, culture, religion and number of members will likely be changed in the near future.
+	  
+	- Christian Weston Chandler is no longer immortal (Events for this may be added later, tied to the Absurd Events game 
+	  rule).
+	  
+	- The "The True and Honest Sonichu Medallion" and "The Sonic Totem" artifacts have been renamed to "The True and 
+	  Honest Hedgerat Medallion" and "The Blue Hedgehog Totem", respectively. They both have had their quality and effects 
+	  greatly diminished. More adjustments (Either positive or negative) may be made to these artifacts in the future.
+	  
+	- Clarification on an earlier change in the changelog for version 0.3.1: The Rockwell dynasty's CoA is actually an 
+	  edited fascist flag of the Free State of Prussia.
+	  
+	- Duke Hank Hillwalker of Metroplex no longer starts with extra raised levies. This was carried over from when Denton 
+	  Wise was Duke of Metroplex. This was done as he doesn't start at war, so he really doesn't need them.
+	  
+	- 
 
 Changelog for version 0.3.1 (August 9, 2024):
 

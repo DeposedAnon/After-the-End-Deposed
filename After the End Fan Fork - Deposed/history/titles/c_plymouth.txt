@@ -1,0 +1,11 @@
+# 2641.9.21={ #MyEdit: Moved him to "c_quiet_corner,txt"
+	# holder=1620022
+	# law=succ_tanistry
+# }
+#MyAddition: Kennedy family members:
+2598.1.1 = {
+	holder = 1620249 # Paul Johnathan Kennedy
+}
+2649.1.1 = {
+	holder = 1620250 # Johnathan Paul Kennedy
+}

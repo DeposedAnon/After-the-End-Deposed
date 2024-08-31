@@ -13,17 +13,17 @@ slots = {
 
 ##Chris Chan Artifacts##
 sonichu_medallion = { # Chris' Sonichu Medallion
-	monthly_character_prestige = 0.5
-	monthly_character_piety = 0.5
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.05
 	command_modifier = {
-		speed = 0.1 # Gotta go fast!/Zap to the extreme!
+		speed = 0.01 # Gotta go fast!/Zap to the extreme!
 	}
-	diplomacy = 3
-	stewardship = 3
-	learning = 3
+	diplomacy = 1
+	stewardship = 1
+	learning = 1
 	fertility = -0.10
 	sonichu_modifier = 1
-	quality = 5
+	quality = 2
 	active = { 
 		is_adult = yes
 		OR = {
@@ -44,17 +44,16 @@ sonichu_medallion = { # Chris' Sonichu Medallion
 #To Do: Generic Mass-Produced Sonichu Medallion
 
 sonic_totem = { # Chris' Sonic Totem
-	monthly_character_prestige = 0.5
-	monthly_character_piety = 0.5
-	combat_rating = 10
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.05
 	command_modifier = {
-		morale_offence = 0.1
+		morale_offence = 0.01
 	}
-	martial = 3
-	intrigue = 3
+	martial = 1
+	intrigue = 1
 	sex_appeal_opinion = -10
 	sonichu_modifier = 1
-	quality = 5
+	quality = 2
 	active = { 
 		is_adult = yes
 		OR = {

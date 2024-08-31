@@ -89,9 +89,9 @@ world_southwest = {
 	}
 }
 
-world_west_coast = {
+world_west_coast = { #MyAddition, added "d_joshua_tree", "d_channel_islands", "d_san_diego", "d_orange"
 	duchies = {
-		d_goldengate d_nevada d_klamath d_shasta_cascade d_redwoods d_east_bay d_salinas d_wineland d_central_valley d_kern d_motherlode d_north_valley d_sacramento d_los_angeles d_berdoo d_salton d_los_padres d_puget d_olympus d_portlandia d_willamette d_outback d_lewis d_oregon_coast
+		d_goldengate d_nevada d_klamath d_shasta_cascade d_redwoods d_east_bay d_salinas d_wineland d_central_valley d_kern d_motherlode d_north_valley d_sacramento d_los_angeles d_berdoo d_salton d_los_padres d_puget d_olympus d_portlandia d_willamette d_outback d_lewis d_oregon_coast d_joshua_tree d_channel_islands d_san_diego d_orange
 	}
 }
 
@@ -330,9 +330,9 @@ custom_childrens_crusade_east = {
 	}
 }
 
-custom_california = {
+custom_california = { #MyAddition, added "d_joshua_tree" & "d_channel_islands", "d_san_diego", "d_orange"
 	duchies = {
-		d_baja d_baja_sur d_ensenada d_nevada d_shasta_cascade d_redwoods d_goldengate d_east_bay d_salinas d_wineland d_central_valley d_kern d_motherlode d_north_valley d_sacramento d_death_valley d_los_angeles d_berdoo d_salton d_los_padres d_mojave d_basin d_northern_basin
+		d_baja d_baja_sur d_ensenada d_nevada d_shasta_cascade d_redwoods d_goldengate d_east_bay d_salinas d_wineland d_central_valley d_kern d_motherlode d_north_valley d_sacramento d_death_valley d_los_angeles d_berdoo d_salton d_los_padres d_mojave d_basin d_northern_basin d_joshua_tree d_channel_islands d_san_diego d_orange
 	}
 	provinces = {
 		2058 2061
@@ -345,9 +345,9 @@ custom_pacific_nw = {
 		}
 }
 
-custom_greater_deseret = { # for greater deseret decision
+custom_greater_deseret = { # for greater deseret decision #MyAddition, added "d_joshua_tree" & "d_channel_islands", "d_san_diego", "d_orange"
 	duchies = {
-		d_wasatch d_south_wasatch d_sevier d_green_river d_navajoland d_apacheria d_hopi d_arizona d_gadsden d_mogollon d_colorado_river d_mojave d_berdoo d_salton d_los_angeles d_los_padres d_death_valley d_nevada d_northern_basin d_east_snake d_sweetwater d_western_slope d_basin
+		d_wasatch d_south_wasatch d_sevier d_green_river d_navajoland d_apacheria d_hopi d_arizona d_gadsden d_mogollon d_colorado_river d_mojave d_berdoo d_salton d_los_angeles d_los_padres d_death_valley d_nevada d_northern_basin d_east_snake d_sweetwater d_western_slope d_basin d_joshua_tree d_channel_islands d_san_diego d_orange
 	}
 }
 
@@ -412,14 +412,14 @@ custom_weather_region = {
 	regions = {
 		world_gulf_coast world_caribbean
 	}
-	duchies = {
-		d_baja d_salton d_los_angeles d_berdoo d_los_padres d_salinas d_goldengate d_east_bay d_central_valley d_kern
+	duchies = { #MyAddition: Added: "d_joshua_tree", "d_channel_islands", "d_san_diego" & "d_orange"
+		d_baja d_salton d_los_angeles d_berdoo d_los_padres d_salinas d_goldengate d_east_bay d_central_valley d_kern d_joshua_tree d_channel_islands d_san_diego d_orange
 	}
 }
 
 custom_earthquake_region = {
-	duchies = {
-		d_redwoods d_wineland d_goldengate d_east_bay d_salinas d_los_padres d_los_angeles d_salton d_baja d_olympus d_great_river d_nayarit d_jalisco d_costalegre d_colima d_tierra_caliente d_costa_grande d_mixteca d_costa_chica d_guerrero d_oaxaca d_istmo d_chiapas d_guatemala d_salvador d_nicaragua d_costa_rica d_coiba d_trinidad_and_tobago d_french_antilles d_leeward_isles d_puerto_rico d_santo_domingo d_el_cibao d_tortuga d_haiti d_oriente d_gitmo d_jamaica d_grand_cayman d_atlantida d_chiriqui d_panama d_darien d_choco d_cundinamarca d_santander d_los_andes d_lara d_gran_caracas d_sucre d_gran_cafetal d_cauca d_viejo_caldas d_magdalena_medio d_berdoo
+	duchies = { #MyAddition: Added: "d_joshua_tree", "d_channel_islands", "d_san_diego" & "d_orange"
+		d_redwoods d_wineland d_goldengate d_east_bay d_salinas d_los_padres d_los_angeles d_salton d_baja d_olympus d_great_river d_nayarit d_jalisco d_costalegre d_colima d_tierra_caliente d_costa_grande d_mixteca d_costa_chica d_guerrero d_oaxaca d_istmo d_chiapas d_guatemala d_salvador d_nicaragua d_costa_rica d_coiba d_trinidad_and_tobago d_french_antilles d_leeward_isles d_puerto_rico d_santo_domingo d_el_cibao d_tortuga d_haiti d_oriente d_gitmo d_jamaica d_grand_cayman d_atlantida d_chiriqui d_panama d_darien d_choco d_cundinamarca d_santander d_los_andes d_lara d_gran_caracas d_sucre d_gran_cafetal d_cauca d_viejo_caldas d_magdalena_medio d_berdoo d_joshua_tree d_channel_islands d_san_diego d_orange
 	}
 	provinces = {
 		2027 238 1018 1023 164

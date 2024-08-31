@@ -1745,32 +1745,169 @@
 	2689.12.1={death=yes}
 }
 
-1910130={
-	name="Harold"
-	female=no
-	dynasty=1850045
-	culture=angeleno
-	religion=cetic
-	stewardship=8
-	intrigue=8
-	trait=midas_touched
-	trait=way_book
-	trait=mystic
-	trait=lunatic
-	trait=paranoid
-	trait=shy
-	trait=patient
-	trait=imp_ex3
-	trait=greedy
-	trait=craven
-	2624.12.16={birth=yes}
-	2689.12.1={death=yes}
+1910130 = { #MyAddition #MyEdit: Cleaned up, added notes
+	name = "Harold" #MyNote: Likely a reference to Howard Hughes (The aerospace engineer, pilot and business magnate), and not Harold Hughes (Governor and later Senator of Iowa).
+	female = no
+	dynasty = 1850045 #MyNote: Hughes
+	diplomacy = 5 #MyAddition
+	martial = 3 #MyA
+	stewardship = 8
+	intrigue = 8
+	learning = 7 #MyA: Aerospace engineer
+	religion = "cetic"
+	culture = "white" #MyEdit: Previously: "angeleno"
+	trait = "midas_touched"
+	trait = "way_book"
+	trait = "imp_ex3"
+	trait = "mystic"
+	trait = "lunatic" #MyNote: Had severe OCD and was a germophobe
+	trait = "paranoid" #MyNote: Very secretive
+	trait = "shy" #MyNote: Basically a hermit later in life
+	trait = "patient"
+	trait = "greedy"
+	trait = "craven"
+	father = 1910131 #MyA: Harold Hughes Sr.
+	mother = 1910132 # Rosalind
+	2624.12.16 = {
+		birth = yes
+		culture = "angeleno" #MyA
+		effect = { #MyA
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2689.12.1 = {
+		death = yes
+	}
+}
+
+#MyAddition: Extra Hughes family members so it doesn't die out early (1910131-1910134).
+
+1910131 = {
+	name = "Harold" # Based partially on Howard Hughes' IRL father, an inventor and businessman
+	dynasty = 1850045 # Hughes
+	diplomacy = 7
+	martial = 3
+	stewardship = 8
+	intrigue = 5
+	learning = 8
+	religion = "cetic"
+	culture = "white"
+	trait = "fortune_builder"
+	trait = "way_book"
+	trait = "imp_ex3"
+	trait = "patient"
+	trait = "diligent"
+	trait = "ambitious"
+	2596.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2620.1.1 = {
+		add_spouse = 1910132 # Rosalind
+	}
+	2650.1.1 = {
+		death = yes
+	}
+}
+
+1910132 = {
+	name = "Rosalind"
+	female = yes
+	diplomacy = 8
+	martial = 2
+	stewardship = 4
+	intrigue = 7
+	learning = 5
+	religion = "cetic"
+	culture = "white"
+	trait = "charismatic_negotiator"
+	trait = "way_dove"
+	trait = "kind"
+	trait = "paranoid"
+	trait = "craven"
+	trait = "charitable"
+	2600.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2675.1.1 = {
+		death = yes
+	}
+}
+
+1910133 = {
+	name = "Spencer"
+	dynasty = 1850045 # Hughes
+	diplomacy = 8
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 6
+	trait = "charismatic_negotiator"
+	trait = "way_dove"
+	trait = "kind"
+	trait = "diligent"
+	trait = "gregarious"
+	religion = "cetic"
+	culture = "white"
+	father = 1910131 #MyA: Harold Hughes Sr.
+	mother = 1910132 # Rosalind
+	2627.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2702.1.1 = {
+		death = yes
+	}
+}
+
+1910134 = {
+	name = "Leonid"
+	dynasty = 1850045 # Hughes
+	diplomacy = 4
+	martial = 8
+	stewardship = 5
+	intrigue = 5
+	learning = 4
+	religion = "cetic"
+	culture = "white"
+	trait = "tough_soldier"
+	trait = "way_fist"
+	trait = "brave"
+	trait = "greedy"
+	trait = "patient"
+	father = 1910131 #MyA: Harold Hughes Sr.
+	mother = 1910132 # Rosalind
+	2634.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2708.1.1 = {
+		death = yes
+	}
 }
 
 1910135={
 	name="Brandon"
 	female=no
-	dynasty=1850057
+	dynasty=1850057 #MyNote: Warner
 	trait=way_dove
 	culture=angeleno
 	religion=nazarene
@@ -1782,7 +1919,7 @@
 1910136={
 	name="Henry"
 	female=no
-	dynasty=1850057
+	dynasty=1850057 #MyNote: Warner
 	culture=angeleno
 	religion=nazarene
 	trait=charismatic_negotiator
@@ -1800,7 +1937,7 @@
 1910137={
 	name="Alfred"
 	female=no
-	dynasty=1850057
+	dynasty=1850057 #MyNote: Warner
 	culture=angeleno
 	religion=nazarene
 	trait=misguided_warrior
@@ -1815,7 +1952,7 @@
 1910138={
 	name="Stanley"
 	female=no
-	dynasty=1850057
+	dynasty=1850057 #MyNote: Warner
 	culture=angeleno
 	religion=nazarene
 	learning=8
@@ -1832,7 +1969,7 @@
 1910139={
 	name="Jacob"
 	female=no
-	dynasty=1850057
+	dynasty=1850057 #MyNote: Warner
 	culture=angeleno
 	religion=nazarene
 	trait=elusive_shadow
@@ -1851,7 +1988,7 @@
 1910140={
 	name="Angelina Contessa"
 	female=yes
-	dynasty=1850057
+	dynasty=1850057 #MyNote: Warner
 	culture=angeleno
 	religion=nazarene
 	trait=nz_presbyter
@@ -1864,7 +2001,7 @@
 1910141={
 	name="Anita"
 	female=yes
-	dynasty=2034034
+	dynasty=2034034 #MyNote: Zankou
 	culture=tehrangeleno
 	religion=nazarene
 	trait=fortune_builder
@@ -1881,7 +2018,7 @@
 1910142={
 	name="Davit"
 	female=no
-	dynasty=2034033
+	dynasty=2034033 #MyNote: Bagdasarian
 	culture=tehrangeleno
 	religion=nazarene
 	trait=fortune_builder
@@ -1899,7 +2036,7 @@
 1910143={
 	name="Alvin"
 	female=no
-	dynasty=2034033
+	dynasty=2034033 #MyNote: Bagdasarian
 	father=1910142
 	mother=1910141
 	culture=tehrangeleno
@@ -1917,7 +2054,7 @@
 1911149={
 	name="Simon"
 	female=no
-	dynasty=2034033
+	dynasty=2034033 #MyNote: Bagdasarian
 	father=1910142
 	mother=1910141
 	culture=tehrangeleno
@@ -1932,25 +2069,36 @@
 	2720.12.1={death=yes}
 }
 
-1910145={
-	name="Aaron"
-	female=no
-	dynasty=1850059
-	culture=yiddish
-	religion=reform
-	trait=fortune_builder
-	trait=way_book
-	trait=hedonist
-	trait=diligent
-	trait=gregarious
-	2638.12.16={birth=yes}
-	2690.12.1={death=yes}
+1910145 = { #MyAddition #MyEdit: Cleaned up
+	name = "Aaron"
+	female = no
+	dynasty = 1850059 #MyNote: Zukor
+	diplomacy = 7
+	martial = 4
+	stewardship = 8
+	intrigue = 5
+	learning = 4
+	religion = "reform"
+	culture = "yiddish"
+	trait = "fortune_builder"
+	trait = "scholar" #MyEdit: Previously "way_book". Removed because he's not Cetic. It didn't show up in-game anyway.
+	trait = "hedonist"
+	trait = "diligent"
+	trait = "gregarious"
+	father = 1910213 # Avraham Zukor #MyAddition
+	mother = 1910214 # Leah #MyA
+	2638.12.16 = {
+		birth = yes
+	}
+	2690.12.1 = {
+		death = yes
+	}
 }
 
 1911150={
 	name="Thoros"
 	female=no
-	dynasty=2034033
+	dynasty=2034033  #MyNote: Bagdasarian
 	father=1910142
 	mother=1910141
 	culture=tehrangeleno
@@ -1982,53 +2130,65 @@
 	2690.12.1={death=yes}
 }
 
-1910150={
-	name="William"
-	female=no
-	dynasty=1850066
-	father=2200030
-	culture=angeleno
-	religion=cetic
-	diplomacy=8
-	learning=5
-	martial=5
-	trait=imp_ex1
-	trait=charismatic_negotiator
-	trait=way_dove
-	trait=socializer
-	trait=gregarious
-	2596.3.1={birth=yes}
-	2650.12.1={death=yes}
+1910150 = { #MyEdit #MyAddition, cleaned up and added spouse
+	name = "William"
+	female = no
+	dynasty = 1850066 # MyNote: Carmine
+	diplomacy = 8
+	martial = 5
+	learning = 5
+	religion = "cetic"
+	culture = "angeleno"
+	trait = "charismatic_negotiator"
+	trait = "imp_ex1"
+	trait = "way_dove"
+	trait = "socializer"
+	trait = "gregarious"
+	father = 2200030 #MyNote: David Carmine
+	2596.3.1 = {
+		birth = yes
+	}
+	2632.1.1 = { #MyAddition
+		add_spouse = 1910245 # Catherine
+	}
+	2650.12.1 = {
+		death = yes
+	}
 }
 
-1910151={
-	name="Ronald"
-	female=no
-	dynasty=1850066
-	culture=angeleno
-	religion=cetic
-	martial=5
-	diplomacy=8
-	stewardship=5
-	intrigue=1
-	learning=2
-	trait=charismatic_negotiator
-	trait=way_fist
-	trait=poet
-	trait=proud
-	trait=imp_ex1
-	trait=honest
-	trait=gregarious
-	trait=trusting
-	father=1910150
-	2636.3.1={birth=yes}
-	2664.3.1={
-		add_spouse=1910152
-		effect={
-			set_character_flag=no_historical_family #prevents children from spawning in
+1910151 = { #MyEdit #MyAddition, cleaned up and added mother
+	name = "Ronald"
+	female = no
+	dynasty = 1850066 # MyNote: Carmine
+	diplomacy = 8
+	martial = 5
+	stewardship = 5
+	intrigue = 1
+	learning = 2
+	religion = "cetic"
+	culture = "angeleno"
+	trait = "charismatic_negotiator"
+	trait = "way_fist"
+	trait = "poet"
+	trait = "imp_ex1"
+	trait = "proud"
+	trait = "honest"
+	trait = "gregarious"
+	trait = "trusting"
+	father = 1910150 #MyNote: William Carmine
+	mother = 1910245 # Catherine #MyAddition
+	2636.3.1 = {
+		birth = yes
+	}
+	2664.3.1 = {
+		add_spouse = 1910152
+		effect = {
+			set_character_flag = no_historical_family #prevents children from spawning in
 		}
 	}
-	2695.12.1={death=yes}
+	2695.12.1 = {
+		death = yes
+	}
 }
 
 1910152={
@@ -2550,4 +2710,1024 @@ trait=quick
 trait=nz_seraph
 2385.1.26={birth=yes}
 2468.12.26={death=yes}
+}
+
+#MyAddition: Extra Zukor family members so it doesn't die out early (1910213-1910218).
+
+1910213 = {
+	name = "Avraham"
+	dynasty = 1850059 #MyNote: Zukor
+	diplomacy = 7
+	martial = 6
+	stewardship = 8
+	intrigue = 6
+	learning = 4
+	religion = "reform"
+	culture = "yiddish"
+	trait = "fortune_builder"
+	trait = "diligent"
+	trait = "gregarious"
+	2601.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2632.1.1 = {
+		add_spouse = 1910214 # Leah
+	}
+	2650.1.1 = {
+		death = yes
+	}
+}
+
+1910214 = {
+	name = "Leah"
+	female = yes
+	diplomacy = 8
+	martial = 3
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	religion = "reform"
+	culture = "yiddish"
+	trait = "underhanded_rogue"
+	trait = "charitable"
+	trait = "gregarious"
+	2612.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2692.1.1 = {
+		death = yes
+	}
+}
+
+1910215 = {
+	name = "Alisa"
+	female = yes
+	dynasty = 1850059 #MyNote: Zukor
+	diplomacy = 4
+	martial = 3
+	stewardship = 6
+	intrigue = 8
+	learning = 5
+	religion = "reform"
+	culture = "yiddish"
+	trait = "intricate_webweaver"
+	trait = "paranoid"
+	trait = "greedy"
+	trait = "humble"
+	father = 1910213 # Avraham Zukor
+	mother = 1910214 # Leah
+	2634.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2708.1.1 = {
+		death = yes
+	}
+}
+
+1910216 = {
+	name = "Issac"
+	dynasty = 1850059 #MyNote: Zukor
+	diplomacy = 8
+	martial = 5
+	stewardship = 7
+	intrigue = 2
+	learning = 4
+	religion = "reform"
+	culture = "yiddish"
+	trait = "charismatic_negotiator"
+	trait = "gardener"
+	trait = "honest"
+	trait = "trusting"
+	trait = "kind"
+	trait = "greedy"
+	father = 1910213 # Avraham Zukor
+	mother = 1910214 # Leah
+	2640.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2717.1.1 = {
+		death = yes
+	}
+}
+
+1910217 = {
+	name = "Matiyahu"
+	dynasty = 1850059 #MyNote: Zukor
+	diplomacy = 4
+	martial = 8
+	stewardship = 5
+	intrigue = 3
+	learning = 4
+	religion = "reform"
+	culture = "yiddish"
+	trait = "tough_soldier"
+	trait = "patient"
+	trait = "brave"
+	trait = "envious"
+	trait = "zealous"
+	father = 1910213 # Avraham Zukor
+	mother = 1910214 # Leah
+	2643.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2698.1.1 = {
+		death = yes
+	}
+}
+
+1910218 = {
+	name = "Eliezer"
+	dynasty = 1850059 #MyNote: Zukor
+	diplomacy = 3
+	martial = 4
+	stewardship = 7
+	intrigue = 6
+	learning = 8
+	religion = "reform"
+	culture = "yiddish"
+	trait = "scholarly_theologian"
+	trait = "shy"
+	trait = "diligent"
+	trait = "devout"
+	trait = "chaste"
+	trait = "humble"
+	father = 1910213 # Avraham Zukor
+	mother = 1910214 # Leah
+	2645.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2730.1.1 = {
+		death = yes
+	}
+}
+
+#MyAddition: Extra Mitchell family members so it doesn't die out early (1910219-1910233).
+
+1910219 = {
+	name = "Melvyn"
+	dynasty = 7770004 # Mitchell
+	diplomacy = 5
+	martial = 3
+	stewardship = 8
+	intrigue = 5
+	learning = 7
+	religion = "scientology"
+	culture = "white"
+	trait = "fortune_builder"
+	trait = "kind"
+	trait = "greedy"
+	trait = "slothful"
+	father = 1910228 # William Mitchell
+	mother = 1910229 # Hazel
+	2600.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2625.1.1 = {
+		add_spouse = 1910220 # Samantha
+	}
+	2662.1.1 = {
+		death = yes
+	}
+}
+
+1910220 = {
+	name = "Samantha"
+	female = yes
+	diplomacy = 7
+	martial = 4
+	stewardship = 6
+	intrigue = 8
+	learning = 3
+	religion = "scientology"
+	culture = "white"
+	trait = "flamboyant_schemer"
+	trait = "fair"
+	trait = "deceitful"
+	trait = "charitable"
+	trait = "gregarious"
+	trait = "patient"
+	2606.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2680.1.1 = {
+		death = yes
+	}
+}
+
+1910221 = {
+	name = "Blaine"
+	dynasty = 7770004 # Mitchell
+	diplomacy = 4
+	martial = 8
+	stewardship = 4
+	intrigue = 7
+	learning = 5
+	religion = "scientology"
+	culture = "white"
+	trait = "skilled_tactician"
+	trait = "scarred"
+	trait = "wroth"
+	trait = "just"
+	trait = "lustful"
+	trait = "zealous"
+	father = 1910219 # Melvyn Mitchell
+	mother = 1910220 # Samantha
+	2629.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2697.1.1 = {
+		death = yes
+	}
+}
+
+1910222 = {
+	name = "Kenneth"
+	dynasty = 7770004 # Mitchell
+	diplomacy = 5
+	martial = 4
+	stewardship = 9
+	intrigue = 7
+	learning = 6
+	religion = "scientology"
+	culture = "white"
+	trait = "thrifty_clerk"
+	trait = "greedy"
+	trait = "patient"
+	trait = "envious"
+	trait = "humble"
+	father = 1910219 # Melvyn Mitchell
+	mother = 1910220 # Samantha
+	2632.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2702.1.1 = {
+		death = yes
+	}
+}
+
+1910223 = {
+	name = "Gregory"
+	dynasty = 7770004 # Mitchell
+	diplomacy = 3
+	martial = 7
+	stewardship = 4
+	intrigue = 8
+	learning = 5
+	religion = "scientology"
+	culture = "white"
+	trait = "intricate_webweaver"
+	trait = "fair"
+	trait = "envious"
+	trait = "proud"
+	trait = "patient"
+	trait = "cynical"
+	father = 1910219 # Melvyn Mitchell
+	mother = 1910220 # Samantha
+	2636.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2712.1.1 = {
+		death = yes
+	}
+}
+
+1910224 = {
+	name = "Kathryn"
+	female = yes
+	dynasty = 7770004 # Mitchell
+	diplomacy = 6
+	martial = 3
+	stewardship = 4
+	intrigue = 6
+	learning = 8
+	religion = "scientology"
+	culture = "white"
+	trait = "martial_cleric"
+	trait = "fair"
+	trait = "humble"
+	trait = "zealous"
+	trait = "gregarious"
+	trait = "lustful"
+	father = 1910219 # Melvyn Mitchell
+	mother = 1910220 # Samantha
+	2638.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2712.1.1 = {
+		death = yes
+	}
+}
+
+1910225 = {
+	name = "Laurence"
+	dynasty = 7770004 # Mitchell
+	diplomacy = 7
+	martial = 7
+	stewardship = 6
+	intrigue = 4
+	learning = 8
+	religion = "scientology"
+	culture = "white"
+	trait = "mastermind_theologian"
+	trait = "shrewd"
+	trait = "humble"
+	trait = "brave"
+	trait = "erudite"
+	trait = "patient"
+	father = 1910219 # Melvyn Mitchell
+	mother = 1910220 # Samantha
+	2640.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2659.1.1 = {
+		religion = "nazarene"
+		trait = "nz_acolyte"
+		employer = 1910238 # Anthony Aurelio - Nearest strong Nazarene Acolyte ruler
+	}
+	2660.1.1 = {
+		employer = 7770000 # Mark Aurelio
+	}
+	2720.1.1 = {
+		death = yes
+	}
+}
+
+1910226 = {
+	name = "Vivien"
+	female = yes
+	dynasty = 7770004 # Mitchell
+	diplomacy = 8
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	religion = "scientology"
+	culture = "white"
+	trait = "charismatic_negotiator"
+	trait = "fair"
+	trait = "gregarious"
+	trait = "temperate"
+	trait = "kind"
+	trait = "just"
+	trait = "diligent"
+	father = 1910219 # Melvyn Mitchell
+	mother = 1910220 # Samantha
+	2642.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2659.1.1 = {
+		religion = "nazarene"
+		trait = "nz_acolyte"
+		employer = 1910238 # Anthony Aurelio - Nearest strong Nazarene Acolyte ruler
+	}
+	2660.1.1 = {
+		employer = 7770000 # Mark Aurelio
+	}
+	2727.1.1 = {
+		death = yes
+	}
+}
+
+1910227 = {
+	name = "Miranda"
+	female = yes
+	dynasty = 7770004 # Mitchell
+	diplomacy = 3
+	martial = 5
+	stewardship = 6
+	intrigue = 8
+	learning = 7
+	religion = "scientology"
+	culture = "white"
+	trait = "flamboyant_schemer"
+	trait = "chaste"
+	trait = "envious"
+	trait = "arbitrary"
+	trait = "deceitful"
+	trait = "ambitious"
+	father = 1910219 # Melvyn Mitchell
+	mother = 1910220 # Samantha
+	2646.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2722.1.1 = {
+		death = yes
+	}
+}
+
+1910228 = {
+	name = "William"
+	dynasty = 7770004 # Mitchell
+	diplomacy = 6
+	martial = 5
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	religion = "scientology"
+	culture = "white"
+	trait = "fortune_builder"
+	trait = "diligent"
+	trait = "patient"
+	trait = "honest"
+	2572.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2643.1.1 = {
+		death = yes
+	}
+}
+
+1910229 = {
+	name = "Hazel"
+	female = yes
+	diplomacy = 8
+	martial = 5
+	stewardship = 3
+	intrigue = 5
+	learning = 4
+	religion = "scientology"
+	culture = "white"
+	trait = "charismatic_negotiator"
+	trait = "patient"
+	trait = "shy"
+	trait = "proud"
+	2577.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2649.1.1 = {
+		death = yes
+	}
+}
+
+1910230 = {
+	name = "Philip"
+	dynasty = 7770004 # Mitchell
+	diplomacy = 5
+	martial = 8
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	religion = "scientology"
+	culture = "white"
+	trait = "skilled_tactician"
+	trait = "robust"
+	trait = "scarred"
+	trait = "gregarious"
+	trait = "proud"
+	trait = "just"
+	trait = "cynical"
+	father = 1910228 # William Mitchell
+	mother = 1910229 # Hazel
+	2612.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2660.1.1 = {
+		religion = "hamiltonian"
+		employer = 7770002 # Arthur I Douglas - Nearest Hamiltonian ruler
+	}
+	2664.1.1 = {
+		employer = 7770001 # Arthur II Douglas
+	}
+	2681.1.1 = {
+		death = yes
+	}
+}
+
+1910231 = {
+	name = "Alec"
+	dynasty = 7770004 # Mitchell
+	diplomacy = 6
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 6
+	religion = "scientology"
+	culture = "white"
+	trait = "tough_soldier"
+	trait = "strong"
+	trait = "proud"
+	trait = "zealous"
+	trait = "temperate"
+	trait = "brave"
+	father = 1910230 # Philip Mitchell
+	2641.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2660.1.1 = {
+		religion = "hamiltonian"
+		employer = 7770002 # Arthur I Douglas - Nearest Hamiltonian ruler
+	}
+	2664.1.1 = {
+		employer = 7770001 # Arthur II Douglas
+	}
+	2706.1.1 = {
+		death = yes
+	}
+}
+
+1910232 = {
+	name = "Liam"
+	dynasty = 7770004 # Mitchell
+	diplomacy = 6
+	martial = 3
+	stewardship = 4
+	intrigue = 5
+	learning = 8
+	religion = "scientology"
+	culture = "white"
+	trait = "scholarly_theologian"
+	trait = "mystic"
+	trait = "chaste"
+	trait = "zealous"
+	trait = "just"
+	trait = "trusting"
+	trait = "gregarious"
+	father = 1910230 # Philip Mitchell
+	2643.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2666.1.1 = {
+		employer = 7770008 # Matthias Mitchell
+	}
+	2719.1.1 = {
+		death = yes
+	}
+}
+
+### Extra Edwards dynasty characters ###
+
+1910233 = {
+	name = "Katharine"
+	female = yes
+	dynasty = 7770003 # Edwards
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 8
+	learning = 4
+	religion = "scientology"
+	culture = "white"
+	trait = "intricate_webweaver"
+	trait = "patient"
+	trait = "gregarious"
+	trait = "diligent"
+	father = 7770006 # Edward Edwards
+	mother = 7770007 # Eleanor
+	2642.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2718.1.1 = {
+		death = yes
+	}
+}
+
+1910234 = {
+	name = "Claude"
+	dynasty = 7770003 # Edwards
+	diplomacy = 7
+	martial = 8
+	stewardship = 4
+	intrigue = 7
+	learning = 5
+	religion = "scientology"
+	culture = "white"
+	trait = "skilled_tactician"
+	trait = "ambitious"
+	trait = "shy"
+	trait = "paranoid"
+	trait = "diligent"
+	trait = "proud"
+	father = 7770006 # Edward Edwards
+	mother = 7770007 # Eleanor
+	2646.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2715.1.1 = {
+		death = yes
+	}
+}
+
+1910235 = {
+	name = "Heath"
+	dynasty = 7770003 # Edwards
+	diplomacy = 7
+	martial = 4
+	stewardship = 9
+	intrigue = 6
+	learning = 6
+	religion = "scientology"
+	culture = "white"
+	trait = "fortune_builder"
+	trait = "fair"
+	trait = "charitable"
+	trait = "gregarious"
+	trait = "ambitious"
+	trait = "just"
+	father = 7770006 # Edward Edwards
+	mother = 1910224 # Kathryn Mitchell
+	2660.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2734.1.1 = {
+		death = yes
+	}
+}
+
+### Extra Socal characters ###
+
+1910236 = {
+	name = "Lilian"
+	female = yes
+	dynasty = 1850068 # Hayek
+	diplomacy = 7
+	martial = 5
+	stewardship = 6
+	intrigue = 8
+	learning = 8
+	religion = "nazarene"
+	culture = "angeleno"
+	trait = "scholarly_theologian"
+	trait = "nz_acolyte"
+	trait = "reclusive"
+	trait = "fair"
+	trait = "poet"
+	trait = "mystic"
+	trait = "erudite"
+	trait = "shy"
+	trait = "kind"
+	trait = "lustful"
+	trait = "temperate"
+	father = 2500066 # Jose Hayek
+	mother = 1910237 # Brigitte
+	2650.1.1 = {
+		birth = yes
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2725.1.1 = {
+		death = yes
+	}
+}
+
+1910237 = {
+	name = "Brigitte"
+	female = yes
+	dynasty = 7770001 # Aurelio
+	diplomacy = 7
+	martial = 5
+	stewardship = 6
+	intrigue = 8
+	learning = 8
+	religion = "nazarene"
+	culture = "mediterranean"
+	trait = "fortune_builder"
+	trait = "nz_acolyte"
+	trait = "fair"
+	trait = "administrator"
+	trait = "kind"
+	trait = "temperate"
+	trait = "diligent"
+	trait = "content"
+	trait = "patient"
+	father = 1910238 # Anthony Aurelio
+	2622.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2702.1.1 = {
+		death = yes
+	}
+}
+
+1910238 = {
+	name = "Anthony"
+	dynasty = 7770001 # Aurelio
+	diplomacy = 8
+	martial = 5
+	stewardship = 12
+	intrigue = 6
+	learning = 7
+	religion = "nazarene"
+	culture = "mediterranean"
+	trait = "fortune_builder"
+	trait = "nz_acolyte"
+	trait = "administrator"
+	trait = "diligent"
+	father = 1910239 # Hadrian Aurelio
+	2586.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2660.1.1 = {
+		death = yes
+	}
+}
+
+1910239 = {
+	name = "Hadrian"
+	dynasty = 7770001 # Aurelio
+	diplomacy = 9
+	martial = 6
+	stewardship = 8
+	intrigue = 6
+	learning = 6
+	religion = "nazarene"
+	culture = "mediterranean"
+	trait = "charismatic_negotiator"
+	trait = "nz_acolyte"
+	trait = "architect"
+	trait = "ambitious"
+	trait = "charitable"
+	trait = "cruel"
+	father = 1910240 # Tracy Aurelio
+	2562.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2624.1.1 = {
+		death = yes
+	}
+}
+
+1910240 = {
+	name = "Tracy"
+	dynasty = 7770001 # Aurelio
+	diplomacy = 8
+	martial = 10
+	stewardship = 9
+	intrigue = 7
+	learning = 6
+	religion = "nazarene"
+	culture = "mediterranean"
+	trait = "brilliant_strategist"
+	trait = "nz_acolyte"
+	trait = "architect"
+	trait = "diligent"
+	trait = "just"
+	father = 1910241 # Niven Aurelio
+	2519.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2582.1.1 = {
+		death = yes
+	}
+}
+
+1910241 = {
+	name = "Niven"
+	dynasty = 7770001 # Aurelio
+	diplomacy = 8
+	martial = 4
+	stewardship = 6
+	intrigue = 8
+	learning = 9
+	religion = "nazarene"
+	culture = "mediterranean"
+	trait = "mastermind_theologian"
+	trait = "shrewd"
+	trait = "nz_acolyte"
+	2483.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2550.1.1 = {
+		death = yes
+	}
+}
+
+1910242 = {
+	name = "Conrad"
+	dynasty = 7770001 # Aurelio
+	religion = "nazarene"
+	culture = "mediterranean"
+	trait = "nz_acolyte"
+	father = 7770000 # Mark Aurelio
+	mother = 1910226 # Vivien Mitchell
+	2660.1.1 = {
+		birth = yes
+		culture = "angeleno"
+		effect = {
+			set_character_flag = diversity
+			set_character_flag = physique
+		}
+	}
+	2691.1.1 = {
+		death = yes
+	}
+}
+
+1910243 = {
+	name = "Isabella"
+	female = yes
+	dynasty = 1850066 # Carmine
+	dna = "yheuzeddbfa"
+	properties = "wf0emd"
+	religion = "cetic"
+	culture = "angeleno"
+	diplomacy = 4
+	martial = 4
+	stewardship = 8
+	intrigue = 5
+	learning = 3
+	trait = "fortune_builder"
+	trait = "way_branch"
+	trait = "gardener"
+	trait = "kind"
+	trait = "just"
+	trait = "stubborn"
+	father = 1910150 # William Carmine
+	mother = 1910245 # Catherine
+	2643.1.1 = {
+		birth = yes
+	}
+	2709.1.1 = {
+		death = yes
+	}
+}
+
+1910244 = {
+	name = "Carmen" # Carmen Carmine just sounds funny
+	female = yes
+	dynasty = 1850066 # Carmine
+	dna = "ypipxkddbfa"
+	properties = "nd0ejd"
+	religion = "cetic"
+	culture = "angeleno"
+	diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 7
+	learning = 8
+	trait = "scholarly_theologian"
+	trait = "way_book"
+	trait = "erudite"
+	trait = "gregarious"
+	trait = "temperate"
+	trait = "lustful"
+	trait = "ambitious"
+	father = 1910150 # William Carmine
+	mother = 1910245 # Catherine
+	2645.1.1 = {
+		birth = yes
+	}
+	2712.1.1 = {
+		death = yes
+	}
+}
+
+1910245 = {
+	name = "Catherine"
+	female = yes
+	religion = "cetic"
+	culture = "angeleno"
+	diplomacy = 8
+	martial = 4
+	stewardship = 5
+	intrigue = 6
+	learning = 7
+	trait = "charismatic_negotiator"
+	trait = "way_dove"
+	trait = "groomed"
+	trait = "socializer"
+	trait = "gregarious"
+	trait = "stubborn"
+	trait = "lustful"
+	2612.1.1 = {
+		birth = yes
+	}
+	2677.1.1 = {
+		death = yes
+	}
 }

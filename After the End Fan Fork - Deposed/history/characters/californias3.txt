@@ -787,7 +787,7 @@
 
 		}
 	}
-	2660.1.1={
+	2662.1.1 = { #MyEdit: Previously: "2660.1.1"
 		employer = 7770008 #MyEdit, previously "2200026". He's no longer landed
 	}
 }
@@ -1406,25 +1406,32 @@
 	2653.1.1={death=yes}
 }
 
-2500066={
-	name="Jose"
-	culture=angeleno
-	religion=nazarene
-	dynasty=1850068 #Hayek
-	father=2500065
-	trait=martial_cleric
-	trait=way_book
-	trait=feeble
-	trait=kind
-	trait=distractible
-	trait=shy
-	trait=patient
-	trait=imp_ex1
-	trait=gardener
-	trait=stressed
-	2602.1.1={birth=yes}
-	2655.1.1={death={
-			death_reason=death_trait
+2500066 = { #MyEdit: Cleaned up, added spouse
+	name = "Jose"
+	dynasty = 1850068 # Hayek
+	religion = "nazarene"
+	culture = "angeleno"
+	father = 2500065 # Hernando Hayek
+	trait = "martial_cleric"
+	#trait = "way_book" #MyEdit: Commented out as he's not Cetic
+	trait = "feeble"
+	trait = "distractible"
+	trait = "imp_ex1"
+	trait = "gardener"
+	trait = "erudite" #MyAddition: As compensation for "way_book" not working on non-Cetics
+	trait = "kind"
+	trait = "shy"
+	trait = "patient"
+	trait = "stressed"
+	2602.1.1 = {
+		birth = yes
+	}
+	2645.1.1 = {
+		add_spouse = 1910237 # Brigitte Aurelio #MyAddition
+	}
+	2655.1.1 = {
+		death = {
+			death_reason = death_trait
 		}	
 	}
 }

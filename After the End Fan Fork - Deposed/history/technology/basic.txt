@@ -650,6 +650,7 @@ technology={
 		d_baja
 		d_baja_sur
 		d_ensenada
+		d_tijuana #MyAddition
 	}
 
 	768={
@@ -684,6 +685,10 @@ technology={
 		d_salton
 		d_los_padres
 		d_equinox_isles
+		d_channel_islands #MyAddition
+		d_joshua_tree #MyAddition
+		d_san_diego #MyAddition
+		d_orange #MyAddition
 	}
 
 	768={

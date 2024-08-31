@@ -1,10 +1,12 @@
 ###ÄNSI
 
-##Californians##
+### Californians ###
 
 7770000 = {
-	name = "Mark" # Ruler of Orange county (c_orange) # Marcus Aurelius
+	name = "Mark" # Ruler of Orange county (c_orange) # Marcus Aurelius, 5th of the Five Good Emperors of Rome
 	dynasty = 7770001 # Aurelio
+	dna = "behjbahbbal"
+	properties = "wf0dbd"
 	diplomacy = 8
 	martial = 7
 	stewardship = 7
@@ -16,14 +18,15 @@
 	trait = "brilliant_strategist"
 	trait = "inspiring_leader"
 	trait = "shrewd"
+	trait = "imp_ex2"
+	trait = "nz_acolyte"
 	trait = "scholar"
 	trait = "just"
 	trait = "temperate"
 	trait = "diligent"
-	trait = "imp_ex2"
-	trait = "nz_acolyte"
 	trait = "erudite"
-	2633.1.1 = {
+	father = 1910238 # Anthony Aurelio
+	2620.1.1 = {
 		birth = yes
 		effect = {
 			set_character_flag = diversity
@@ -31,7 +34,10 @@
 		}
 		culture = "angeleno"
 	}
-	2691.1.1 = {
+	2659.1.1 = {
+		add_spouse = 1910226 # Vivien Mitchell
+	}
+	2678.1.1 = {
 		death = yes
 	}
 }
@@ -122,7 +128,7 @@
 	}
 }
 
-##Scientologists##
+### Scientologists ###
 
 7770005 = {
 	name = "Elrond"
@@ -165,6 +171,8 @@
 	religion = "scientology"
 	culture = "white"
 	trait = "midas_touched"
+	trait = "shrewd"
+	trait = "imp_ex2"
 	trait = "envious"
 	trait = "ambitious"
 	trait = "cruel"
@@ -181,6 +189,9 @@
 	}
 	2646.1.1 = {
 		add_spouse = 7770007 # Eleanor
+	}
+	2658.1.1 = {
+		add_spouse = 1910224 # Kathryn Mitchell
 	}
 	2706.1.1 = {
 		death = yes
@@ -200,7 +211,7 @@
 	trait = "charismatic_negotiator"
 	trait = "trusting"
 	trait = "kind"
-	2632.1.1 = {
+	2622.1.1 = {
 		birth = yes
 		effect = {
 			set_character_flag = diversity
@@ -218,6 +229,8 @@
 7770008 = {
 	name = "Matthias" # Tom Cruise Expy. Matthias from Matthew in Ethan Matthew Hunt (Mission Impossible). Mitchell from LT Pete "Maverick" Mitchell (Top Gun)
 	dynasty = 7770004 # Mitchell
+	dna = "aebjcwgbdew"
+	properties = "wd0c0k"
 	diplomacy = 9
 	martial = 8
 	stewardship = 6
@@ -226,9 +239,12 @@
 	religion = "scientology"
 	culture = "white"
 	trait = "charismatic_negotiator"
+	trait = "fair"
 	trait = "gregarious"
 	trait = "brave"
 	trait = "diligent"
+	father = 1910219 # Melvyn Mitchell
+	mother = 1910220 # Samantha
 	2627.1.1 = {
 		birth = yes
 		effect = {
@@ -236,6 +252,9 @@
 			set_character_flag = physique
 		}
 		culture = "angeleno"
+	}
+	2661.1.1 = {
+		add_spouse = 1910233 # Katharine
 	}
 	2708.1.1 = {
 		death = yes
@@ -268,6 +287,8 @@
 	}
 }
 
+### Others ###
+
 7770010 = {
 	name = "Christopher Weston" # Christian Weston Chandler
 	dynasty = 7770012 # Chandler
@@ -297,20 +318,21 @@
 	trait = "greedy" # Gets a "monthly tugboat", yet begs online for more money
 	trait = "lustful" # Seeks a "boyfriend-free girl", makes weird lewd drawings, allegedly incestuous, etc.
 	trait = "honest" # "True and Honest"
-	1982.2.24 = {
+	2636.2.24 = { # IRL DoB: 1982.2.24
 		birth = yes
 		effect = {
 			set_character_flag = diversity
 			set_character_flag = physique
 		}
 	}
-	1993.12.29 = { # The fateful day he meets Leonard Bearstein
+	2647.12.29 = { # The fateful day he meets Leonard Bearstein # IRL Event: 1993.12.29
 		name = "Christian Weston"
 	}
-	2078.1.1 = { # Stand-in for the Event/Dimensional Merge. I took the year from when Petrus Romanus became Pope
-		trait = "immortal"
-		immortal_age = 20
-	}
+	#MyNote: The below should be tied to the Absurd Events game rule somehow
+	# 2078.1.1 = { # Stand-in for the Event/Dimensional Merge. I took the year from when Petrus Romanus became Pope
+		# trait = "immortal"
+		# immortal_age = 20
+	# }
 	2666.1.1 = {
 		employer = 1861077 # George Bannister, as he's the Count of Charlottesville, and it's the county where Ruckersville is
 		effect = {
@@ -318,7 +340,7 @@
 			add_artifact = sonic_totem
 		}
 	}
-	3069.1.1 = {
+	2706.4.20 = {
 		death = yes
 	}
 }

@@ -101,7 +101,7 @@
 	used_for_random = no
 }
 
-7770013 = {
+7770013 = { # Unused. Currently a placeholder.
 	name = "Kennedy"
 	culture = yankee
 	used_for_random = no

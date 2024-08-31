@@ -1,0 +1,28 @@
+#MyAddition: Copied over entirely from "c_san_diego"
+# 2350.11.7 = { #MyAddition
+	# holder = 2200199 # Eris Carmine
+# }
+# 2380.11.7 = { #MyAddition
+	# holder = 2200200 # Daniel Carmine
+# }
+2419.7.11 = { #MyAddition
+	holder = 2200201 # Johnny Carmine
+}
+2469.7.11 = { #MyAddition
+	holder = 2200202 # Michael I Carmine
+}
+2500.7.11 = { #MyAddition
+	holder = 2200203 # Skyler Carmine
+}
+2530.7.11 = { #MyAddition
+	holder = 2200204 # Michael II Carmine
+}
+2600.7.11 = { #MyAddition
+	holder = 2200030 # David "the Soldier" Carmine
+}
+2616.11.7 = { #MyEdit: Previously: "2622.5.5". Changed to match his father's death date.
+	holder = 1910150 #MyNote: William Carmine
+}
+2650.12.1 = {
+	holder = 1910151 #MyNote: Ronald Carmine
+}

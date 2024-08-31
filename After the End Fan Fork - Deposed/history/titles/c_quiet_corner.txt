@@ -1,0 +1,10 @@
+2627.1.1={
+	liege=d_nogad
+}
+2628.1.1={
+	holder=1620001
+}
+2659.1.1 = { #MyAddition: Moved him from "c_plymouth" and gave a more reasonable date for when he becomes the holder
+	holder = 1620022 # Cotton Boomer
+	law = succ_tanistry
+}

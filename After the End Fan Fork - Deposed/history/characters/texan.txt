@@ -2265,10 +2265,10 @@
 		effect = {
 			add_friend = 1836109 # Junichiro Hillwalker, his half-brother, as they got along well in the show
 		}
-		raise_levies = { #MyAddition, moved from Denton Wise
-			location = 1242 # Travis
-			force_mult = 1.0
-		}
+		# raise_levies = { #MyAddition, moved from Denton Wise #MyEdit, commented out for now.
+			# location = 1242 # Travis
+			# force_mult = 1.0
+		# }
 	}
 	2703.1.1 = {
 		death = yes

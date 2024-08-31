@@ -43,7 +43,7 @@ e_california = {
 		
 		
 		d_baja = {		
-			color={ 99 255 224 } #MyEdit, previously "{ 245 247 210 }". # "Baja Blast"
+			color={ 99 255 224 } #MyEdit, previously "{ 245 247 210 }". # The color of Baja Blast. DO THE DEW.
 			color2={ 255 255 255 }	
 	
 			capital = 2003 # c_mexicali	
@@ -70,8 +70,17 @@ e_california = {
 				b_carranza_BAJ = {}
 				b_tecolotes_BAJ = {}
 				b_bataquez_BAJ = {}
-			}	
-			c_tijuana = { # 2002	
+			}
+		}
+		d_tijuana = { #MyAddition
+			color = { 244 225 197 } #MyNote: Baja White
+			color2 = { 255 255 255 }
+			
+			capital = 2002 # c_tijuana
+			
+			paiute = "Tiwana"
+			
+			c_tijuana = { # 2002 #MyEdit: Previously under "d_baja", below "c_mexicali".
 				color={ 0 255 163 }
 				color2={ 255 255 255 }
 	
@@ -847,6 +856,20 @@ e_california = {
 				b_vernalis_CA = {}
 				b_diablo_grande_CA = {}
 			}
+			c_tollhouse = { # 2037 #MyEdit: Moved from: "d_kern", below: "c_avenal"
+				color={ 193 220 68 }
+				color2={ 255 255 255 }
+	
+				californiano = "La Garita"
+	
+				b_tollhouse_CA = {}
+				b_woodlake_CA = {}
+				b_orange_cove_CA = {}
+				b_squaw_valley_CA = {}
+				b_shaver_lake_CA = {}
+				b_sawmill_flat_CA = {}
+				b_auberry_CA = {}
+			}
 		}
 		d_kern = {
 			color={ 193 220 108 }
@@ -883,20 +906,6 @@ e_california = {
 				b_kettleman_city_CA = {}
 				b_avenal_CA = {}
 				b_murray_CA = {}
-			}
-			c_tollhouse = { # 2037
-				color={ 193 220 68 }
-				color2={ 255 255 255 }
-	
-				californiano = "La Garita"
-	
-				b_tollhouse_CA = {}
-				b_woodlake_CA = {}
-				b_orange_cove_CA = {}
-				b_squaw_valley_CA = {}
-				b_shaver_lake_CA = {}
-				b_sawmill_flat_CA = {}
-				b_auberry_CA = {}
 			}
 			c_tulare = { # 2034
 				color={ 203 200 88 }
@@ -1133,7 +1142,7 @@ e_california = {
 				b_tahoma_NV = {}
 				b_dayton_NV = {}
 				b_yerington_NV = {}
-				b_schurz_NV = {}
+				b_schurz_NV = {} #MyNote: Should be moved to "c_fallon" or "c_walker" whenever I make that one.
 				b_gardnerville_NV = {}
 			}
 			c_black_rock = { # 2067
@@ -1142,11 +1151,11 @@ e_california = {
 	
 				paiute = "Tuudöpi" #black rock
 				californiano = "Piedra Negra"
-	
+				
+				b_lovelock_NV = {} #MyEdit, moved from below "b_sulphur_NV"
 				b_rye_patch_NV = {}
 				b_imlay_NV = {}
 				b_sulphur_NV = {}
-				b_lovelock_NV = {}
 				b_mill_city_NV = {}
 				b_unionville_NV = {}
 				b_rochester_NV = {}
@@ -1177,12 +1186,13 @@ e_california = {
 				californiano = "Fálon"
 
 				b_fallon_NV = {}
-				b_austin_NV = {}
+				b_austin_NV = {} #MyNote: Should be moved to a new county between "c_fallon" and "c_white_pine"
 				b_eastgate_NV = {}
 				b_middlegate_NV = {}
 				b_stillwater_NV = {}
 				b_salt_wells_NV = {}
 				b_dixie_valley_NV = {}
+				b_hazen_NV = {} #MyAddition
 			}
 			c_white_pine = {
 				color = { 150 150 150 }
@@ -1197,6 +1207,7 @@ e_california = {
 				b_baker_NV = {}
 				b_lund_NV = {}
 				b_shermantown_UT = {}
+				b_eureka_NV = {} #MyAddition #MyNote: Should be moved to a new county between "c_fallon" and "c_white_pine"
 			}
 			c_goshute = {
 				color = { 75 121 175 }
@@ -1255,7 +1266,7 @@ e_california = {
 				californiano = "Barrancos"
 	
 				b_hawthorne_CA = {}
-				b_yerington_CA = {}
+				b_yerington_CA = {} #MyNote: Should be moved to "c_carson"
 				b_lee_vining_CA = {}
 				b_bridgeport_CA = {}
 				b_june_lake_CA = {}
@@ -1279,14 +1290,18 @@ e_california = {
 				color2={ 255 255 255 }
 	
 				californiano = "Paso Esmeralda"
-	
+				
+				b_goldfield_CA = {} #MyEdit, moved from below "b_bonnie_claire_CA" to the top
 				b_amargosa_valley_CA = {}
 				b_beatty_CA = {}
 				b_rhyolite_CA = {}
 				b_bonnie_claire_CA = {}
-				b_goldfield_CA = {}
 				b_mercury_CA = {}
 				b_lida_CA = {}
+				b_silver_peak_NV = {} #MyAddition
+				b_gold_point_NV = {} #MyAddition
+				b_alkali_NV = {} #MyAddition
+				b_blair_NV = {} #MyAddition
 			}
 		}
 		d_northern_basin = {
@@ -1364,15 +1379,6 @@ e_california = {
 		
 		capital = 2019 # c_los_angeles
 		
-		d_channel_islands = {
-			color={ 189 187 190 }
-			color2={ 255 255 255 }
-
-			californiano = "Islas del Canal"
-
-			capital = 2023
-		}
-		
 		d_pharaohs = {
 			color = { 73 86 122 }
 			color2={ 220 220 20 }
@@ -1427,7 +1433,18 @@ e_california = {
 				b_glendale_CA = {}
 				b_alhambra_CA = {}
 			}
-			c_orange = { # 2014
+		}
+		d_orange = { #MyAddition
+			color={ 255 102 0 }
+			color2={ 255 255 255 }
+			
+			capital = 2014 # c_orange
+			
+			edokko = "Daidairiku" #Land of Bitter Oranges (I am totally not shitting on Orange County)
+			paiute = "Wogoaapo"
+			californiano = "Naranjas"
+			
+			c_orange = { # 2014 #MyEdit: Moved from "d_los_angeles", below "c_los_angeles".
 				color={ 220 130 74 }
 				color2={ 255 255 255 }
 				holy_site = imamite
@@ -1446,7 +1463,16 @@ e_california = {
 				b_orange_CA = {}
 				b_yorba_linda_CA = {}
 			}
-			c_channel_islands = {
+		}
+		d_channel_islands = { #MyEdit: No longer titular. Moved from above "d_pharaohs"
+			color={ 189 187 190 }
+			color2={ 255 255 255 }
+
+			californiano = "Islas del Canal"
+
+			capital = 2023
+			
+			c_channel_islands = { #MyEdit: Moved from "d_los_angeles", below "c_orange"
 				color={ 189 187 190 }
 				color2={ 255 255 255 }
 
@@ -1462,7 +1488,6 @@ e_california = {
 				b_san_nicolas_CA = {}
 			}
 		}
-
 		d_berdoo = {
 			color={ 241 190 144 }
 			color2={ 255 255 255 }
@@ -1470,22 +1495,7 @@ e_california = {
 			capital = 2015 # c_riverside
 
 			paiute = "Baaduu"
-
-			c_antelope = { # 2020
-				color={ 201 190 144 }
-				color2={ 255 255 255 }
-	
-				paiute = "Tönna" #literal antelope
-				californiano = "Antílope"
-	
-				b_lancaster_CA = {}
-				b_santa_clarita_CA = {}
-				b_palmdale_CA = {}
-				b_edwards_CA = {}
-				b_mojave_CA = {}
-				b_rosamond_CA = {}
-				b_california_city_CA = {}
-			}
+			
 			c_palm_springs = { # 2016
 				color={ 241 160 144 }
 				color2={ 255 255 255 }
@@ -1516,21 +1526,6 @@ e_california = {
 				b_menifee_CA = {}
 				b_redlands_CA = {}
 			}
-			c_joshua_tree = { # 2077
-				color={ 221 200 104 }
-				color2={ 255 255 255 }
-	
-				paiute = "Zosuwahuupi"
-				californiano = "Árbol Joshua"
-	
-				b_victorville_CA = {}
-				b_hesperia_CA = {}
-				b_yucca_valley_CA = {}
-				b_sheephole_valley_CA = {}
-				b_desert_heights_CA = {}
-				b_twentynine_palms_CA = {}
-				b_cleghorn_lakes_CA = {}
-			}
 		}
 		d_mojave = {
 			color={ 241 215 194 }
@@ -1539,10 +1534,10 @@ e_california = {
 			capital = 2073 # c_las_vegas
 
 			paiute = "Mohabe"
-
-			c_las_vegas = { # 2073
-				color={ 201 215 144 }
-				color2={ 255 255 255 }
+			
+			c_las_vegas = { # 2073 #MyEdit.
+				color={ 73 86 122 } #MyEdit, previously "{ 201 215 144 }"
+				color2={ 220 220 20 } #MyEdit, previously "{ 255 255 255 }"
 				holy_site = cetic
 				holy_site = neognostic
 				holy_site = atomicist
@@ -1592,18 +1587,63 @@ e_california = {
 				b_kelso_CA = {}
 				b_zzyzx_CA = {}
 				b_glasgow_CA = {}
+				b_daggett_CA = {} #MyAddition
+				b_lenwood_CA = {} #MyAddition
+				b_hinkley_CA = {} #MyAddition
+				b_hodge_CA = {} #MyAddition
+				b_newberry_springs_CA = {} #MyAddition
 			}
 		}
-		d_salton = {
-			color={ 211 241 144 }
+		d_joshua_tree = { #MyAddition. Moved "c_antelope" and "c_joshua_tree" from "d_berdoo", and moved "c_barstow" from "d_mojave" to here.
+			color={ 221 200 104 }
 			color2={ 255 255 255 }
-
+			
+			capital = 2077 # c_joshua_tree
+			
+			paiute = "Zosuwahuupi"
+			californiano = "Árbol Joshua"
+			
+			c_joshua_tree = { # 2077 #MyEdit, moved from "d_berdoo", below "c_riverside"
+				color={ 221 200 104 }
+				color2={ 255 255 255 }
+	
+				paiute = "Zosuwahuupi"
+				californiano = "Árbol Joshua"
+	
+				b_victorville_CA = {}
+				b_hesperia_CA = {}
+				b_yucca_valley_CA = {}
+				b_sheephole_valley_CA = {}
+				b_desert_heights_CA = {}
+				b_twentynine_palms_CA = {}
+				b_cleghorn_lakes_CA = {}
+			}
+			c_antelope = { # 2020 #MyEdit, moved from "d_berdoo", at the top
+				color={ 201 190 144 }
+				color2={ 255 255 255 }
+	
+				paiute = "Tönna" #literal antelope
+				californiano = "Antú‰ope"
+	
+				b_lancaster_CA = {}
+				b_santa_clarita_CA = {}
+				b_palmdale_CA = {}
+				b_edwards_CA = {}
+				b_mojave_CA = {}
+				b_rosamond_CA = {}
+				b_california_city_CA = {}
+			}
+		}
+		d_san_diego = { #MyAddition
+			color={ 0 67 136 } # Alternate: { 181 241 144 }
+			color2={ 255 255 255 }
+			
 			capital = 2010 # c_san_diego
-
-			edokko = "Chofuu" # Saltwater Wind
-			paiute = "Tudupö" #Old lake bed
-
-			c_san_diego = { # 2010
+			
+			edokko = "Deigo" #Transliterated
+			paiute = "Saaddzego"
+			
+			c_san_diego = { # 2010 #MyEdit: Moved from "d_salton", at the top, above "c_descanso".
 				color={ 181 241 144 }
 				color2={ 255 255 255 }
 				holy_site = mormon
@@ -1621,22 +1661,7 @@ e_california = {
 				b_otay_CA = {}
 				b_coronado_CA = {}
 			}
-			c_descanso = { # 2011
-				color={ 211 211 144 }
-				color2={ 255 255 255 }
-				edokko = "Sankyuumachi" #Mountain Rest Town
-
-	
-				b_borrego_CA = {}
-				b_campo_CA = {}
-				b_julian_CA = {}
-				b_cuyamaca_CA = {}
-				b_desert_shores_CA = {}
-				b_borrego_springs_CA = {}
-				b_mt_laguna_CA = {}
-				b_boulevard_CA = {}
-			}
-			c_oceanside = { # 2012
+			c_oceanside = { # 2012 #MyEdit: Moved from "d_salton", below "c_descanso".
 				color={ 211 241 114 }
 				color2={ 255 255 255 }
 				holy_site = atomicist #San Onofre
@@ -1653,7 +1678,18 @@ e_california = {
 				b_carlsbad_CA = {}
 				b_pala_CA = {}
 			}
-			c_imperial = { # 2013
+		}
+		d_salton = {
+			color={ 211 241 144 }
+			color2={ 255 255 255 }
+
+			capital = 2013 # c_imperial #MyEditL Previously: "2010 # c_san_diego"
+
+			edokko = "Chofuu" # Saltwater Wind
+			paiute = "Tudupö" #Old lake bed
+
+			
+			c_imperial = { # 2013 #MyEdit: Moved from the bottom of "d_salton", below "c_oceanside" to the top.
 				color={ 221 221 124 }
 				color2={ 255 255 255 }
 	
@@ -1667,6 +1703,21 @@ e_california = {
 				b_imperial_CA = {}
 				b_salton_city_CA = {}
 				b_plaster_city_CA = {}
+			}
+			c_descanso = { # 2011
+				color={ 211 211 144 }
+				color2={ 255 255 255 }
+				edokko = "Sankyuumachi" #Mountain Rest Town
+
+	
+				b_borrego_CA = {}
+				b_campo_CA = {}
+				b_julian_CA = {}
+				b_cuyamaca_CA = {}
+				b_desert_shores_CA = {}
+				b_borrego_springs_CA = {}
+				b_mt_laguna_CA = {}
+				b_boulevard_CA = {}
 			}
 		}
 		d_los_padres = {
