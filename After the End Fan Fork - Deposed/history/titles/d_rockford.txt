@@ -1,17 +1,17 @@
 2522.1.1 = {
-	holder = 1967136 # Veronica Ashford
+	holder = 1967136 # Veronica Ashland
 }
 2567.1.1 = {
-	holder = 1967137 # Stanley Ashford
+	holder = 1967137 # Stanley Ashland
 }
 2570.1.1 = {
-	holder = 1967138 # Tomas Ashford
+	holder = 1967138 # Tomas Ashland
 }
 2582.1.1 = {
-	holder = 1967139 # Artur Ashford
+	holder = 1967139 # Artur Ashland
 }
 2620.1.1 = {
-	holder = 1967140 # Edward Ashford
+	holder = 1967140 # Edward Ashland
 }
 2628.6.21 = { #MyNote: Albert Soady conquers Cook, Waukegan, Rockford and Aurora
 	holder = 0

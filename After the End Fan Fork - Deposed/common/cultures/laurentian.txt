@@ -162,10 +162,10 @@ laurentian = {
 		#MyNote: It looks like a few names that would normally contain -ic or -ik instead have -ick or -eck in them.
 		
 		male_names = {
-			Adolfas_Adolf Aldo Ashburn Ashton Augustin_Augustine Austin_Augustine Albin_Albinus Anatol_Anatole Aron_Aaron Alecksey_Alexander Artur_Arthur Alfonse_Alphonse 
-			Aiden_Aidan Angus_Angus Antanas_Anthony Anton_Anthony Antoni_Anthony Alfred Alastar_Alexander Alecksander_Alexander
+			Adolfas_Adolf Aldo Ashburn Ashton Augustin_Augustine Austin_Augustine Albin_Albinus Anatol_Anatole Aron_Aaron Alecksey_Alexander Aleksander Artur_Arthur Alfonse_Alphonse 
+			Aiden_Aidan Angus_Angus Antanas_Anthony Anton_Anthony Antoni_Anthony Alfred Alastar_Alexander Alecksander_Alexander Augustyn_Augustine
 			Boris Belmont Brian Bernard_Bernard Bartosh Boleck Bruno_Bruno
-			Cragin Chatham Clarendon Cyrus_Cyrus Cormick_Cormac Connor Casper_Casper Constantine_Constantine Colin_Nicholas Klemens_Clement Klement_Clement Casimir_Casimir
+			Cragin Chatham Clarendon Cyrus_Cyrus Cormick_Cormac Connor Casper_Casper Constantine_Constantine Colin_Nicholas Casimir_Casimir
 			Damen_Damian Daley Donald Douglas Dearborn Deering Dagmar Dunning Dean David_David Dominik_Dominic
 			Elwood Elsdon Emil_Aemilius Eustace Edward_Edward
 			Franck_Francis Frank_Francis Fergus Fionnslav Fuller Fulton Felick_Felix Feliks_Felix Fabian_Fabian
@@ -173,9 +173,9 @@ laurentian = {
 			Homan Hymie Harrison Henry_Henry Henryk_Henry Henrikas_Henry Hieronim_Jerome
 			Ian_John Irving Izaack_Isaac Ignacy_Ignatius Ignatius_Ignatius
 			Jokubas_Jacob Jake_Jacob Jonas_Jonah Jozef_Joseph Jim_James James_James Juleck_Julius Jurgis_George Jerome_Jerome Jersey_George Jerzy_George Jurek_George Jureck_George
-			Kenneth Koz Krak Krystian_Christian Krystof_Christopher Kazimierz_Casimir Kasimir_Casimir Kristijonas_Christian Klaes_Nicholas
+			Kenneth Koz Krak Krystian_Christian Krystof_Christopher Kazimierz_Casimir Kasimir_Casimir Kristijonas_Christian Konstantyn_Constantine Klemens_Clement Klement_Clement
 			Leary Lincoln Liam_William Logan Lester Loreck_Laurence Lech Leonard_Leonard Ludeck_Louis Ludwik_Louis Liudvikas_Louis
-			Marshall Morgan Michael_Michael Mareck_Mark Marek_Mark Mark_Mark Mathias_Matthew Mateo_Matthew Matteo_Matthew Muiropolk Markas_Mark Matyas_Matthew Marion_Marianus
+			Marshall Morgan Michael_Michael Mareck_Mark Marek_Mark Mark_Mark Mathias_Matthew Mateo_Matthew Matteo_Matthew Muiropolk Markas_Mark Matyas_Matthew Marion_Marianus Mateusz_Matthew
 			Natan_Nathan Niko_Nicholas Nikolas_Nicholas Niklas_Nicholas Nikolai_Nicholas Nikola_Nicholas
 			Oleck_Helge
 			Piast Popiel Pulaski Pullman Peter_Peter Paul_Paul Petras_Peter Petar_Peter Piotr_Peter Paulius_Paul Pavel_Paul

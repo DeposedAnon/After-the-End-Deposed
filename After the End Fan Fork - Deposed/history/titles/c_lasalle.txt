@@ -1,31 +1,31 @@
 2344.1.1 = {
-	holder = 1967243 # Alastar Aurora I
+	holder = 1967243 # Aleksander Pulaski I
 	liege = d_aurora
 }
 2358.1.1 = {
-	holder = 1967242 # Cyrus Aurora I
+	holder = 1967242 # Kazimierz Pulaski I
 }
 2411.1.1 = {
-	holder = 1967241 # Mateo Aurora I
+	holder = 1967241 # Mateusz Pulaski I
 }
 2450.1.1 = {
-	holder = 1967240 # Alastar Aurora II
+	holder = 1967240 # Aleksander Pulaski II
 }
 2464.1.1 = {
-	holder = 1967239 # Constantine Aurora I
+	holder = 1967239 # Krystian Pulaski II
 }
 2505.1.1 = {
-	holder = 1967238 # Teodor Aurora I
+	holder = 1967238 # Teodor Pulaski I
 }
 2515.1.1 = {
-	holder = 1967136 # Veronica Ashford
+	holder = 1967136 # Veronica Ashland
 	liege = d_rockford
 }
 2567.1.1 = {
-	holder = 1967137 # Stanley Ashford
+	holder = 1967137 # Stanley Ashland
 }
 2570.1.1 = {
-	holder = 1967138 # Tomas Ashford
+	holder = 1967138 # Tomas Ashland
 }
 2579.1.1 = {
 	holder = 1967098 # Sheridan DeSalle

@@ -1,0 +1,46 @@
+# 121 - Cincinnati
+
+# County Title
+title=c_cincinnati
+
+# Settlements
+max_settlements = 6 #MyEdit: Previously: "5"
+b_cincinnati_OH = city #MyEdit: Previously: "castle"
+b_amberley_OH=temple #home of oldest synagogue west of the Appalachians, involved in early Reform Judaism 
+b_miamitown_OH=city
+b_sharonville_OH=castle
+b_covedale_OH=temple
+
+culture=rostmann
+religion=americanist
+terrain=farmlands
+
+# History #MyAddition
+2666.1.1 = { #MyAddition
+	b_cincinnati_OH = ct_wall_1
+	b_cincinnati_OH = ct_wall_2
+	b_cincinnati_OH = ct_wall_3
+	b_cincinnati_OH = ct_wall_q_1
+	b_cincinnati_OH = ct_wall_q_2
+	b_cincinnati_OH = ct_wall_q_3
+	b_cincinnati_OH = ct_rep_arsenal_1
+	b_cincinnati_OH = ct_rep_arsenal_2
+	b_cincinnati_OH = ct_port_1
+	b_cincinnati_OH = ct_port_2
+	b_cincinnati_OH = ct_port_3
+	b_amberley_OH = tp_wall_1
+	b_amberley_OH = tp_wall_2
+	b_amberley_OH = tp_wall_q_1
+	b_amberley_OH = tp_wall_q_2
+	b_miamitown_OH = ct_wall_1
+	b_miamitown_OH = ct_wall_2
+	b_miamitown_OH = ct_wall_q_1
+	b_miamitown_OH = ct_wall_q_2
+	b_sharonville_OH = ca_wall_1
+	b_sharonville_OH = ca_wall_2
+	b_sharonville_OH = ca_wall_q_1
+	b_sharonville_OH = ca_wall_q_2
+	b_sharonville_OH = ca_shipyard_1
+	b_sharonville_OH = ca_shipyard_2
+	trade_post = b_procter
+}

@@ -7576,6 +7576,8 @@ coat_of_arms = {
 1784074 = { name="Kreitz" culture=rostmann used_for_random=no }
 1784075 = { name="Dorfmeister" culture=rostmann used_for_random=no }
 1784076 = { name = "Lincoln" culture = rostmann used_for_random = no } #MyA (Abraham Lincoln, sixteenth President of the United States)
+1784077 = { name = "Crosley" culture = rostmann used_for_random = no } #MyA (Powel Crosley Jr., an inventor, industrialist and entrepreneur. Owned the Cincinnati Reds, and Crosley Field was renamed for him)
+1784078 = { name = "Procter" culture = rostmann used_for_random = no} #MyA (William Procter, Co-founder of Procter & Gamble, Industrialist and candlemaker, moved from England to Cincinnati)
 
 
 1785000 = { name="Latimer" culture=tuskegean
@@ -8271,10 +8273,25 @@ coat_of_arms = {
 1789059 = { name = "Dearborn" culture = chicagoan } #MyA (Henry Dearborn, American military officer and politican, Fort Dearborn, Dearborn Park/Street)
 1789060 = { name = "Randolph" culture = chicagoan } #MyA (Edmund Randolph, First U.S. Attorney General, Randolph County, Illinois, Randolph Street)
 1789061 = { name = "Garfield" culture = chicagoan } #MyA (James A. Garfield, 20th President of the U.S., Garfield Park, Garfield Boulevard)
-1789062 = { name = "Pulaski" culture = chicagoan } #MyA (Casimir Pulaski, Polish military commander during the Revolutionary War, Pulaski Road)
+1789062 = {
+	name = "Pulaski" #MyA (Casimir Pulaski, Polish military commander during the Revolutionary War, Pulaski Road)
+	culture = chicagoan
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 9
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 1789063 = { name = "Cermak" culture = chicagoan } #MyA (Anton Cermak, 44th Mayor of Chicago from 1931-1933, Killed in office during a failed assassination attempt on Franklin D. Roosevelt, Cermak Road)
 1789064 = {
-	name = "Ashland" #MyA (Henry Clay, Kentucky statesman, His Ashland estate in Kentucky, Ashland Avenue)
+	name = "Ashburn" #MyA (One of Chicago's 77 community areas. The name came from when it was used as a dumping site for the city's ashes)
 	culture = chicagoan
 	used_for_random = no
 	coat_of_arms = {
@@ -8291,7 +8308,7 @@ coat_of_arms = {
 	}
 }
 1789065 = { name = "Wacker" culture = chicagoan } #MyA (Charles Henry Wacker, Chairman of the Chicago Plan Commission from 1909-1926, Upper & Lower Wacker Drive)
-1789066 = { name = "Halsted" culture = chicagoan } #MyA (William and Caleb Halsted, brother from New York who developed parts of the Loop, Halsted Street)
+1789066 = { name = "Halsted" culture = chicagoan } #MyA (William and Caleb Halsted, brothers from New York who developed parts of the Loop, Halsted Street)
 1789067 = { name = "Diversey" culture = chicagoan } #MyA (Michael Diversey, Beer brewer, Diversey Parkway)
 1789068 = { name = "Clark" culture = chicagoan } #MyA (George Rogers Clark, American military officer, Fought in the Revolutionary War, Clark Street)
 1789069 = { name = "DePaul" culture = chicagoan } #MyA (Vincent de Paul, French Catholic priest, DePaul University)
@@ -8309,10 +8326,10 @@ coat_of_arms = {
 1789081 = { name = "Washington" culture = chicagoan } #MyA (Harold Washington, The 51st Mayor of Chicago from 1983-1987, Died in office, First black mayor of Chicago)
 1789082 = { name = "Thompson" culture = chicagoan } #MyA (William Hale Thompson, 41st & 43rd Mayor of Chicago from 1915-1923 & 1927-1931, Allied with Al Capone, Last non-Democrat mayor of Chicago)
 1789083 = {
-	name = "Ashford" #MyA (Used for a reference to the Ashford family from Resident Evil - Code: Veronica, Cadet branch of the Ashland dynasty)
+	name = "Ashland" #MyA (Henry Clay, Kentucky statesman, His Ashland estate in Kentucky, Ashland Avenue)
 	culture = chicagoan
 	used_for_random = no
-	coat_of_arms = {
+	coat_of_arms = { # The CoA of the Ashford family in Resident Evil - Code: Veronica
 		religion = catholic
 		template = 2
 		layer = {
@@ -8355,7 +8372,38 @@ coat_of_arms = {
 1789088 = { name = "Blake" culture = chicagoan } #MyA (Thatcher Blake, founder of kentville alongside Germanicus Kent)
 1789089 = { name = "Haight" culture = chicagoan } #MyA  (Daniel Shaw Haight, settled the east bank of the Rock River, his settlement would later become a part of Rockford)
 1789090 = { name = "Kaczynski" culture = chicagoan } #MyA (Theodore John Kaczynski, "Uncle Ted", the Unabomber, born in Chicago)
-1789091 = { name = "Sheridan" culture = chicagoan } #MyA (Philip Henry Sheridan, Union general in the American Civil War, later he was made General of the Army, helped save Chicago during the great Chicago Fire of 1871)
+1789091 = {
+	name = "Sheridan" #MyA (Philip Henry Sheridan, Union general in the American Civil War, later he was made General of the Army, helped save Chicago during the great Chicago Fire of 1871, Sheridan Road)
+	culture = chicagoan
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 10
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1789092 = {
+	name = "Archer" #MyA (William Beatty Archer, A captain in the Black Hawk War, Involved in the construction of the Illinois & Michigan Canal, Founded the city of Marshall, Illinois, Friends with Abraham Lincoln, Archer Avenue)
+	culture = chicagoan
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 11
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
 
 1790000 = { name="Biegler" culture=yooper }
 1790001 = { name="Soady" culture=yooper
@@ -8567,6 +8615,7 @@ coat_of_arms = {
 1791063 = { name="Lightstricken" culture=riverlander used_for_random = no}
 1791064 = { name="Towerbreak" culture=riverlander used_for_random = no}
 1791065 = { name="Rocksteady" culture=riverlander used_for_random = no}
+1791066 = { name = "Gamble" culture = riverlander used_for_random = no} #MyA (James Gamble, Co-founder of Procter & Gamble, Industrialist and soapmaker, moved from Ireland to Cincinnati)
 
 1792000 = { name="Gump" culture=gulfard }
 1792001 = { name="Buford" culture=gulfard }

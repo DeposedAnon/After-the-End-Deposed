@@ -363,3 +363,30 @@ b_cody = { # Named for William F. "Buffalo Bill" Cody, Soldier, Hunter, Showman.
 	culture = grangelander
 	religion = catholic
 }
+
+## Cincy/Zinzinnati #MyAddition
+
+b_zinn  = {
+	culture = rostmann
+	religion = americanist
+}
+
+b_wise  = { # Named after Isaac Mayer Wise, a Reform rabbi. Moved to Cincinnati from Bohemia.
+	culture = yiddish
+	religion = reform
+}
+
+b_crosley  = { # Named after Powel Crosley Jr., an inventor, industrialist and entrepreneur. Crosley Field, a stadium in Cincinnati, was renamed for him.
+	culture = rostmann
+	religion = rust_cultist
+}
+
+b_procter  = { # Named after William Procter, co-founder of Procter & Gamble, moved to Cincinnati from England.
+	culture = rostmann
+	religion = americanist
+}
+
+b_gamble  = { # Named after James Gamble, co-founder of Procter & Gamble, moved to Cincinnati from Ireland.
+	culture = riverlander # Arrived in Cincinnati via a river boat.
+	religion = catholic
+}

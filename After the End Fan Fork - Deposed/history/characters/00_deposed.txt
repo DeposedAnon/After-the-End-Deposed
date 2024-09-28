@@ -318,7 +318,7 @@
 	trait = "greedy" # Gets a "monthly tugboat", yet begs online for more money
 	trait = "lustful" # Seeks a "boyfriend-free girl", makes weird lewd drawings, allegedly incestuous, etc.
 	trait = "honest" # "True and Honest"
-	2636.2.24 = { # IRL DoB: 1982.2.24
+	2641.2.24 = { # IRL DoB: 1982.2.24 # He starts at age 25 as that's when the internet first discovered him.
 		birth = yes
 		effect = {
 			set_character_flag = diversity
@@ -338,6 +338,7 @@
 		effect = {
 			add_artifact = sonichu_medallion
 			add_artifact = sonic_totem
+			set_character_flag = cwc
 		}
 	}
 	2706.4.20 = {

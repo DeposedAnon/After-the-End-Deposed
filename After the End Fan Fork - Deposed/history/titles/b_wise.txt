@@ -1,0 +1,8 @@
+2609.1.1 = {
+	holding_dynasty = 2005037 # Wise - makes this a FAMILY_PALACE type Holding
+	liege = "d_cincy"
+	holder = 1967280 # Leonard Wise
+}
+2653.1.1 = {
+	holder = 1967282 # Todres Wise
+}

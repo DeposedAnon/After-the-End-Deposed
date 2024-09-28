@@ -1,0 +1,11 @@
+2569.1.1 = {
+	holding_dynasty = 1784078 # Procter - makes this a FAMILY_PALACE type Holding
+	liege = "d_cincy"
+	holder = 1967307 # Willelm Procter
+}
+2626.1.1 = {
+	holder = 1967309 # Filip Procter
+}
+2649.1.1 = {
+	holder = 1967313 # Benjamin Procter
+}

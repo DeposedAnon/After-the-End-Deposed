@@ -1,33 +1,59 @@
+2184.1.1 = {
+	holder = 1967255 # Dearborn Archer
+}
+2213.1.1 = {
+	holder = 1967256 # Wentworth Archer
+}
+2226.1.1 = {
+	holder = 1967257 # Damen Archer
+}
+2231.1.1 = {
+	holder = 1967258 # Homan Archer
+}
+2253.1.1 = {
+	holder = 1967259 # Kenneth Archer
+}
+2265.1.1 = {
+	holder = 1967260 # Austin Archer
+}
+2291.1.1 = {
+	holder = 1967261 # Robert Archer
+}
+2315.1.1 = {
+	holder = 1967262 # Mary Archer
+}
+2319.1.1 = {
+	holder = 1967243 # Aleksander Pulaski I
+}
 2337.1.1 = {
-	holder = 1967243 # Alastar Aurora I
 	liege = d_aurora
 }
 2358.1.1 = {
-	holder = 1967242 # Cyrus Aurora I
+	holder = 1967242 # Kazimierz Pulaski I
 }
 2411.1.1 = {
-	holder = 1967241 # Mateo Aurora I
+	holder = 1967241 # Mateusz Pulaski I
 }
 2450.1.1 = {
-	holder = 1967240 # Alastar Aurora II
+	holder = 1967240 # Aleksander Pulaski II
 }
 2464.1.1 = {
-	holder = 1967239 # Constantine Aurora I
+	holder = 1967239 # Krystian Pulaski II
 }
 2505.1.1 = {
-	holder = 1967238 # Teodor Aurora I
+	holder = 1967238 # Teodor Pulaski I
 }
 2538.1.1 = {
-	holder = 1967237 # Augustin Aurora I
+	holder = 1967237 # Mateusz Pulaski II
 }
 2567.1.1 = {
-	holder = 1967236 # Dominick Aurora I
+	holder = 1967236 # Dominik Pulaski I
 }
 2596.1.1 = {
-	holder = 1967235 # Klement Aurora I
+	holder = 1967235 # Klemens Pulaski I
 }
 2613.1.1 = {
-	holder = 1967229 # Jerome Aurora I
+	holder = 1967229 # Mateusz Pulaski III
 }
 2628.6.21 = { #MyNote: Albert Soady conquers Cook, Waukegan, Rockford and Aurora
 	holder = 1919000 # Albert Soady

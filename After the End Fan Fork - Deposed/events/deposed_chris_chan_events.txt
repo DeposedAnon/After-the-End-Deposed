@@ -1,0 +1,55 @@
+#############################################
+#
+# CHRIS CHAN EVENTS
+#
+#############################################
+
+# Most (If not all) of these events will require the Absurd Events game rule to be active
+
+namespace = chrischan
+
+# Immortal Chris
+character_event = {
+	id = chrischan.1
+	hide_window = yes
+	only_playable = yes
+	prisoner = no
+	
+	mean_time_to_happen = {
+		days = 1
+	}	
+	
+	trigger = {
+		NOT = {
+			has_game_rule = {
+				name = silly_events
+				value = off
+			}
+		}
+		OR = {
+			ai = no
+			has_game_rule = {
+				name = silly_events
+				value = unrestricted
+			}
+		}
+		c_7770010 = {
+			is_alive = yes
+			has_character_flag = cwc
+		}
+	}
+	
+	immediate = {
+		c_7770010 = {
+			add_trait = "immortal"
+			add_age = 659 # He reveals himself as the True and Honest Chris Chan
+			clr_character_flag = cwc
+			set_character_flag = cwc2
+			unsafe_destroy_artifact = sonichu_medallion # The decoy artifacts are destroyed
+			unsafe_destroy_artifact = sonic_totem
+			add_artifact = true_sonichu_medallion # The real artifacts are revealed
+			add_artifact = true_sonic_totem
+			#save_global_event_target_as = christian_weston_chandler # For future events
+		}
+	}
+}

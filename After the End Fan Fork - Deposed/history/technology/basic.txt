@@ -12,6 +12,7 @@ technology={
 		d_home
 		#MyEdit: My New Merchant Republics
 		d_quad_cities #MyAddition, moved from "# catholic lands" below, as it's now a Merchant Republic
+		d_cincy #MyEdit: Moved from "# rustlands" below, as it's now a Merchant Republic
 	}
 
 	768={
@@ -246,7 +247,7 @@ technology={ #MyAddition, added "d_calumet" and "d_chambana"
 		d_ohio
 		d_reserve
 		d_maumee
-		d_cincy
+		#d_cincy #MyEdit: Moved to centers of trade above
 		d_miami_valley
 		d_upper_ohio
 		d_indianapolis

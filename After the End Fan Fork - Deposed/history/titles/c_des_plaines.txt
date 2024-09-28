@@ -1,34 +1,59 @@
-2424.1.1 = { #MyAddition
-	holder = 1967124 # Mathias I Ashland
+#MyAddition: Sheridan Line
+2223.1.1 = {
+	holder = 1967357 # David I Sheridan
 }
-2461.1.1 = { #MyAddition
-	holder = 1967125 # Alfonse I Ashland
+2270.1.1 = {
+	holder = 1967356 # John I Sheridan
 }
-2487.1.1 = { #MyAddition
-	holder = 1967126 # Nikolas I Ashland
+2281.1.14 = {
+	holder = 1967355 # David II Sheridan
 }
-2510.1.1 = { #MyAddition
-	holder = 1967127 # Adolfas I Ashland
+2335.1.1 = {
+	holder = 1967354 # Paul I Sheridan
+}
+2348.1.1 = {
+	holder = 1967353 # Brian I Sheridan
+}
+2375.1.1 = {
+	holder = 1967352 # Morgan I Sheridan
+}
+2389.1.1 = {
+	holder = 1967351 # Alastar I Sheridan
+}
+2414.1.1 = {
+	holder = 1967350 # John II Sheridan
+}
+2424.1.1 = {
+	holder = 1967124 # Peter I Sheridan
+}
+2461.1.1 = {
+	holder = 1967125 # Alastar II Sheridan
+}
+2487.1.1 = {
+	holder = 1967126 # Brian II Sheridan
+}
+2510.1.1 = {
+	holder = 1967127 # David III Sheridan
 	liege = d_waukegan
 }
-2529.1.1 = { #MyAddition
-	holder = 1967128 # Jerome I Ashland
+2529.1.1 = {
+	holder = 1967128 # Douglas I Sheridan
 }
-2545.1.1 = { #MyAddition
-	holder = 1967129 # Henrikas I Ashland
+2545.1.1 = {
+	holder = 1967129 # John III Sheridan
 }
-2587.1.1 = { #MyAddition
-	holder = 1967130 # Klement I Ashland
+2587.1.1 = {
+	holder = 1967130 # Kenneth I Sheridan
 }
-2596.1.1 = { #MyAddition
-	holder = 1967131 # Alfonse II Ashland
+2596.1.1 = {
+	holder = 1967131 # Douglas II Sheridan
 }
 2628.6.21 = { #MyAddition
 	holder = 1919000 # Albert Soady, conquers Cook, Waukegan, Rockford and Aurora
 	liege = k_superior
 }
-2653.1.1 = { #MyAddition
-	holder = 1967132 # Petras I Ashland
+2653.1.1 = {
+	holder = 1967132 # Brian III Sheridan
 	liege = d_cook
 }
 # 2660.1.1 = { #MyEdit: Commented out.

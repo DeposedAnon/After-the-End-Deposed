@@ -2964,10 +2964,9 @@
 	stewardship = 9
 	intrigue = 8
 	learning = 7
-	religion = "occultist"
-	culture = "yankee"
+	religion = "americanist"
+	culture = "yankee" # "new_english"/Colonial
 	trait = "midas_touched"
-	trait = "lore_masons"
 	trait = "shrewd"
 	trait = "ambitious"
 	trait = "diligent"
@@ -2990,10 +2989,9 @@
 	stewardship = 9
 	intrigue = 7
 	learning = 6
-	religion = "occultist"
+	religion = "americanist"
 	culture = "yankee"
 	trait = "fortune_builder"
-	trait = "lore_masons"
 	trait = "shrewd"
 	trait = "gregarious"
 	trait = "lustful"
@@ -3022,10 +3020,9 @@
 	stewardship = 6
 	intrigue = 7
 	learning = 5
-	religion = "occultist"
+	religion = "americanist"
 	culture = "yankee"
 	trait = "charismatic_negotiator"
-	trait = "lore_masons"
 	trait = "gregarious"
 	trait = "diligent"
 	trait = "zealous"
@@ -3047,10 +3044,9 @@
 	stewardship = 5
 	intrigue = 4
 	learning = 6
-	religion = "occultist"
+	religion = "americanist"
 	culture = "yankee"
 	trait = "skilled_tactician"
-	trait = "lore_masons"
 	trait = "diligent"
 	trait = "gregarious"
 	trait = "brave"
@@ -3072,10 +3068,9 @@
 	stewardship = 7
 	intrigue = 5
 	learning = 5
-	religion = "occultist"
+	religion = "americanist"
 	culture = "yankee"
 	trait = "charismatic_negotiator"
-	trait = "lore_masons"
 	trait = "gregarious"
 	trait = "lustful"
 	trait = "trusting"
@@ -3099,10 +3094,9 @@
 	stewardship = 5
 	intrigue = 8
 	learning = 5
-	religion = "occultist"
+	religion = "americanist"
 	culture = "yankee"
 	trait = "flamboyant_schemer"
-	trait = "lore_masons"
 	trait = "cynical"
 	trait = "humble"
 	trait = "patient"
@@ -3125,10 +3119,9 @@
 	stewardship = 5
 	intrigue = 4
 	learning = 5
-	religion = "occultist"
+	religion = "americanist"
 	culture = "yankee"
 	trait = "underhanded_rogue"
-	trait = "lore_masons"
 	trait = "fair"
 	trait = "brave"
 	trait = "kind"
@@ -3153,10 +3146,9 @@
 	stewardship = 5
 	intrigue = 3
 	learning = 9
-	religion = "occultist"
+	religion = "americanist"
 	culture = "yankee"
 	trait = "scholarly_theologian"
-	trait = "lore_masons"
 	trait = "charitable"
 	trait = "just"
 	trait = "gregarious"
@@ -3179,10 +3171,9 @@
 	stewardship = 8
 	intrigue = 4
 	learning = 7
-	religion = "occultist"
+	religion = "americanist"
 	culture = "yankee"
 	trait = "thrifty_clerk"
-	trait = "lore_masons"
 	trait = "shy"
 	trait = "patient"
 	trait = "chaste"
@@ -3205,10 +3196,9 @@
 	stewardship = 5
 	intrigue = 7
 	learning = 8
-	religion = "occultist"
+	religion = "americanist"
 	culture = "yankee"
 	trait = "martial_cleric"
-	trait = "lore_masons"
 	trait = "erudite"
 	trait = "humble"
 	trait = "temperate"
@@ -3231,10 +3221,9 @@
 	stewardship = 3
 	intrigue = 8
 	learning = 5
-	religion = "occultist"
+	religion = "americanist"
 	culture = "yankee"
 	trait = "flamboyant_schemer" # Leon's father had connections to crime
-	trait = "lore_masons"
 	trait = "arbitrary"
 	trait = "ambitious"
 	trait = "cruel"
@@ -3260,10 +3249,9 @@
 	stewardship = 7
 	intrigue = 4
 	learning = 5
-	religion = "occultist"
+	religion = "americanist"
 	culture = "yankee"
 	trait = "underhanded_rogue"
-	trait = "lore_masons"
 	trait = "kind"
 	trait = "just"
 	trait = "brave"
@@ -3285,10 +3273,9 @@
 	stewardship = 5
 	intrigue = 3
 	learning = 6
-	religion = "occultist"
+	religion = "americanist"
 	culture = "yankee"
 	trait = "tough_soldier"
-	trait = "lore_masons"
 	trait = "adventurer"
 	trait = "just"
 	trait = "brave"
@@ -3301,7 +3288,7 @@
 	}
 	2666.1.1 = {
 		effect = {
-			add_artifact = ate_firearm # Police Officer
+			add_artifact = famous_ancient_gun # Police Officer
 		}
 	}
 	2720.1.1 = {
@@ -3312,10 +3299,9 @@
 1620262 = {
 	name = "Mabel"
 	female = yes
-	religion = "occultist"
+	religion = "americanist"
 	culture = "yankee"
 	trait = "charismatic_negotiator"
-	trait = "lore_masons"
 	2588.1.1 = {
 		birth = yes
 	}

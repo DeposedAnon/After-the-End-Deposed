@@ -1,0 +1,18 @@
+2300.1.1={
+	liege=d_cincy
+}
+2569.1.1 = { #MyAddition
+	holder = 1967307 # Willelm Procter
+}
+2626.1.1 = { #MyAddition
+	holder = 1967325 # Jim Gamble
+}
+2634.1.1 = { #MyAddition
+	holder = 1967264 # Paul Crosley
+}
+2639.1.1 = { #MyAddition
+	holder = 1967280 # Leonard Wise
+}
+2653.1.1 = { #MyEdit: Previously: "2660.1.1"
+	holder = 1821003 #MyNote: Mathias Zinn
+}

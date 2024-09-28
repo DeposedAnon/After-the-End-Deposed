@@ -1,0 +1,18 @@
+# 1061 - Versailles
+
+# County Title
+title=c_versailles
+
+# Settlements
+max_settlements=3
+b_versailles_IN=castle
+b_canaan_IN=temple
+
+# Misc
+culture=riverlander
+religion=revelationist
+
+# History #MyAddition
+2666.1.1 = { #MyAddition
+	trade_post = b_gamble
+}

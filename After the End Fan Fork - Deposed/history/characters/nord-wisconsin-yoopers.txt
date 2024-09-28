@@ -2595,6 +2595,8 @@
 	religion = "catholic"
 	culture = "dellsman"
 	trait = "skilled_tactician"
+	trait = "peasant_leader"
+	trait = "hunter"
 	trait = "wroth"
 	trait = "deceitful"
 	trait = "lustful"

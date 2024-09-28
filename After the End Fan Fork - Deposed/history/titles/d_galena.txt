@@ -21,8 +21,26 @@
 #2538.7.23={
 #	holder=1846061
 #}
-2520.1.1 = { #MyAddition: Separate from the above and below copy notes
-	holder = 1967136 # Veronica Ashford
+2362.1.1 = { #MyAddition
+	holder = 1967346 # Ashburn Ashland
+}
+2367.1.1 = { #MyAddition
+	holder = 1967345 # Clarendon Ashland
+}
+2420.1.1 = { #MyAddition
+	holder = 1967344 # Fabian Ashland
+}
+2447.1.1 = { #MyAddition
+	holder = 1967343 # Bernard Ashland
+}
+2478.1.1 = { #MyAddition
+	holder = 1967342 # Ignatius Ashland
+}
+2500.1.1 = { #MyAddition
+	holder = 1967341 # Stefan Ashland
+}
+2512.1.1 = { #MyAddition: Separate from the above and below copy notes
+	holder = 1967136 # Veronica Ashland
 }
 2550.1.9={
 	holder=1846062

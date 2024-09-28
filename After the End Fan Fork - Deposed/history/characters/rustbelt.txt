@@ -1101,7 +1101,7 @@
 		birth = yes
 	}
 	2641.3.26 = {
-		add_spouse = 1967053 # Cecylia Aurora
+		add_spouse = 1967053 # Cecylia Pulaski
 	}
 	2699.9.21 = {
 		death = yes
@@ -1111,7 +1111,7 @@
 1967053 = {
 	name = "Cecylia" #MyAddition #MyEdit previously "Courtney". Changed her family as it didn't make sense, edited/added dna, stats, traits, etc., cleaned up
 	female = yes
-	dynasty = 1789084 #MyEdit, previously "1784009" # Aurora
+	dynasty = 1789062 #MyEdit, previously "1784009" # Pulaski
 	dna = "affabxhaecz" #MyE, previously "okmfbnidckl"
 	properties = "qk0e0d" #MyA
 	religion = "catholic"
@@ -1127,7 +1127,7 @@
 	trait = "patient"
 	trait = "charitable"
 	trait = "chaste"
-	father = 1967226 # Constantine Aurora #MyAddition
+	father = 1967226 # Krystian Pulaski #MyEdit, previously "1967088"
 	mother = 1967227 # Emilia Avondale #MyAddition
 	2626.1.28 = { #MyEdit, previously 2624.1.28
 		birth = yes
@@ -1183,7 +1183,7 @@
 	trait = "brave"
 	trait = "just" #MyEdit, previously arbitrary
 	father = 1967052 # Vincentz Steinbach
-	mother = 1967053 # Cecylia Aurora
+	mother = 1967053 # Cecylia Pulaski
 	2642.9.13 = {
 		birth = yes
 	}
@@ -1209,7 +1209,7 @@
 	trait = "brave"
 	trait = "charitable"
 	father = 1967052 # Vincentz Steinbach
-	mother = 1967053 # Cecylia Aurora
+	mother = 1967053 # Cecylia Pulaski
 	2647.9.4 = {
 		birth = yes
 	}
@@ -2237,11 +2237,11 @@
 
 ### #MyAddition, Chicagoan characters (1967124-) ###
 
-### The Ashland Dynasty (1967124-1967135) ###
+### The Sheridan Dynasty (1967124-1967135) ###
 
 1967124 = {
-	name = "Mathias" # The Founder of the Ashland Dynasty
-	dynasty = 1789064 # Ashland
+	name = "Peter"
+	dynasty = 1789091 # Sheridan
 	diplomacy = 6
 	martial = 7
 	stewardship = 6
@@ -2254,6 +2254,7 @@
 	trait = "kind"
 	trait = "brave"
 	trait = "just"
+	father = 1967350 # John Sheridan
 	2398.1.1 = {
 		birth = yes
 	}
@@ -2263,8 +2264,8 @@
 }
 
 1967125 = {
-	name = "Alfonse"
-	dynasty = 1789064 # Ashland
+	name = "Alastar"
+	dynasty = 1789091 # Sheridan
 	diplomacy = 7
 	martial = 7
 	stewardship = 5
@@ -2277,7 +2278,7 @@
 	trait = "diligent"
 	trait = "kind"
 	trait = "just"
-	father = 1967124 # Mathias I
+	father = 1967124 # Peter I
 	2421.1.1 = {
 		birth = yes
 	}
@@ -2287,8 +2288,8 @@
 }
 
 1967126 = {
-	name = "Nikolas"
-	dynasty = 1789064 # Ashland
+	name = "Brian"
+	dynasty = 1789091 # Sheridan
 	diplomacy = 5
 	martial = 4
 	stewardship = 8
@@ -2300,7 +2301,7 @@
 	trait = "temperate"
 	trait = "diligent"
 	trait = "greedy"
-	father = 1967125 # Alfonse I
+	father = 1967125 # Alastar II
 	2444.1.1 = {
 		birth = yes
 	}
@@ -2310,8 +2311,8 @@
 }
 
 1967127 = {
-	name = "Adolfas"
-	dynasty = 1789064 # Ashland
+	name = "David"
+	dynasty = 1789091 # Sheridan
 	diplomacy = 7
 	martial = 6
 	stewardship = 7
@@ -2320,11 +2321,12 @@
 	religion = "catholic"
 	culture = "chicagoan"
 	trait = "skilled_tactician"
+	trait = "strong"
 	trait = "quick"
 	trait = "kind"
 	trait = "proud"
 	trait = "brave"
-	father = 1967126 # Nikolas I
+	father = 1967126 # Brian I
 	2467.1.1 = {
 		birth = yes
 	}
@@ -2334,8 +2336,8 @@
 }
 
 1967128 = {
-	name = "Jerome"
-	dynasty = 1789064 # Ashland
+	name = "Douglas"
+	dynasty = 1789091 # Sheridan
 	diplomacy = 6
 	martial = 7
 	stewardship = 8
@@ -2344,12 +2346,13 @@
 	religion = "catholic"
 	culture = "chicagoan"
 	trait = "skilled_tactician"
-	trait = "quick"
+	trait = "strong"
+	trait = "shrewd"
 	trait = "just"
 	trait = "proud"
 	trait = "patient"
 	trait = "brave"
-	father = 1967127 # Adolfas I
+	father = 1967127 # David III
 	2489.1.1 = {
 		birth = yes
 	}
@@ -2359,8 +2362,8 @@
 }
 
 1967129 = {
-	name = "Henrikas"
-	dynasty = 1789064 # Ashland
+	name = "John"
+	dynasty = 1789091 # Sheridan
 	diplomacy = 5
 	martial = 8
 	stewardship = 6
@@ -2375,7 +2378,7 @@
 	trait = "proud"
 	trait = "zealous"
 	trait = "just"
-	father = 1967128 # Jerome I
+	father = 1967128 # Douglas I
 	2517.1.1 = {
 		birth = yes
 	}
@@ -2385,8 +2388,8 @@
 }
 
 1967130 = {
-	name = "Klement"
-	dynasty = 1789064 # Ashland
+	name = "Kenneth"
+	dynasty = 1789091 # Sheridan
 	diplomacy = 8
 	martial = 6
 	stewardship = 7
@@ -2401,7 +2404,7 @@
 	trait = "temperate"
 	trait = "zealous"
 	trait = "kind"
-	father = 1967129 # Henrikas I
+	father = 1967129 # John III
 	2544.1.1 = {
 		birth = yes
 	}
@@ -2411,8 +2414,8 @@
 }
 
 1967131 = {
-	name = "Alfonse"
-	dynasty = 1789064 # Ashland
+	name = "Douglas"
+	dynasty = 1789091 # Sheridan
 	diplomacy = 8
 	martial = 6
 	stewardship = 7
@@ -2426,7 +2429,7 @@
 	trait = "wroth"
 	trait = "zealous"
 	trait = "honest"
-	father = 1967130 # Klement I
+	father = 1967130 # Kenneth I
 	2580.1.1 = {
 		birth = yes
 	}
@@ -2436,8 +2439,8 @@
 }
 
 1967132 = {
-	name = "Petras"
-	dynasty = 1789064 # Ashland
+	name = "Brian"
+	dynasty = 1789091 # Sheridan
 	dna = "chjabjdagbk"
 	properties = "qj0eik"
 	diplomacy = 6
@@ -2454,7 +2457,7 @@
 	trait = "honest"
 	trait = "brave"
 	trait = "trusting"
-	father = 1967131 # Alfonse II
+	father = 1967131 # Douglas II
 	2617.5.3 = {
 		birth = yes
 		effect = {
@@ -2468,7 +2471,7 @@
 		}
 	}
 	2643.5.12 = {
-		add_spouse = 1967133 # Moira
+		add_spouse = 1967133 # Ashley
 	}
 	2684.1.1 = {
 		death = yes
@@ -2476,7 +2479,7 @@
 }
 
 1967133 = {
-	name = "Apolonia"
+	name = "Ashley"
 	female = yes
 	dynasty = 1789012 # DeSalle
 	dna = "ghjaajjdgbj"
@@ -2503,7 +2506,7 @@
 		}
 	}
 	2643.5.12 = {
-		add_spouse = 1967132 # Petras I
+		add_spouse = 1967132 # Brian II
 	}
 	2703.1.1 = {
 		death = yes
@@ -2511,8 +2514,8 @@
 }
 
 1967134 = {
-	name = "Mathias"
-	dynasty = 1789064 # Ashland
+	name = "Michael"
+	dynasty = 1789091 # Sheridan
 	diplomacy = 6
 	martial = 8
 	stewardship = 7
@@ -2528,8 +2531,8 @@
 	trait = "charitable"
 	trait = "brave"
 	trait = "just"
-	father = 1967132 # Petras I
-	mother = 1967133 # Apolonia
+	father = 1967132 # Brian II
+	mother = 1967133 # Ashley
 	2646.8.16 = {
 		birth = yes
 		effect = {
@@ -2543,9 +2546,9 @@
 }
 
 1967135 = {
-	name = "Marika"
+	name = "Moira"
 	female = yes
-	dynasty = 1789064 # Ashland
+	dynasty = 1789091 # Sheridan
 	dna = "abjaarjdgbj"
 	properties = "0k0emk"
 	diplomacy = 8
@@ -2563,8 +2566,8 @@
 	trait = "wroth"
 	trait = "temperate"
 	trait = "diligent"
-	father = 1967132 # Petras I
-	mother = 1967133 # Apolonia
+	father = 1967132 # Brian II
+	mother = 1967133 # Ashley
 	2646.8.16 = {
 		birth = yes
 		effect = {
@@ -2577,12 +2580,12 @@
 	}
 }
 
-### The Ashford Cadet Dynasty (1967136-1967145) ###
+### The Ashland Dynasty (1967136-1967145) ###
 
 1967136 = {
-	name = "Veronica"
+	name = "Veronica" # Veronica Ashford - Resident Evil - Code: Veronica
 	female = yes
-	dynasty = 1789083 # Ashford
+	dynasty = 1789083 # Ashland
 	dna = "deyxcxyegfd"
 	diplomacy = 9
 	martial = 9
@@ -2599,7 +2602,7 @@
 	trait = "kind"
 	trait = "diligent"
 	trait = "patient"
-	father = 1967127 # Adolfas I
+	father = 1967341 # Stefan Ashland
 	2487.1.1 = {
 		birth = yes
 	}
@@ -2609,8 +2612,8 @@
 }
 
 1967137 = {
-	name = "Stanley"
-	dynasty = 1789083 # Ashford
+	name = "Stanley" # Stanley Ashford - Resident Evil - Code: Veronica
+	dynasty = 1789083 # Ashland
 	religion = "catholic"
 	culture = "chicagoan"
 	trait = "quick"
@@ -2624,8 +2627,8 @@
 }
 
 1967138 = {
-	name = "Tomas" # Thomas
-	dynasty = 1789083 # Ashford
+	name = "Tomas" # Thomas Ashford - Resident Evil - Code: Veronica
+	dynasty = 1789083 # Ashland
 	religion = "catholic"
 	culture = "chicagoan"
 	trait = "twin"
@@ -2640,8 +2643,8 @@
 }
 
 1967139 = {
-	name = "Artur" # Arthur
-	dynasty = 1789083 # Ashford
+	name = "Artur" # Arthur Ashford - Resident Evil - Code: Veronica
+	dynasty = 1789083 # Ashland
 	religion = "catholic"
 	culture = "chicagoan"
 	trait = "fortune_builder"
@@ -2657,8 +2660,8 @@
 }
 
 1967140 = {
-	name = "Edward"
-	dynasty = 1789083 # Ashford
+	name = "Edward" # Edward Ashford - Resident Evil - Code: Veronica
+	dynasty = 1789083 # Ashland
 	diplomacy = 8
 	martial = 5
 	stewardship = 9
@@ -2681,8 +2684,8 @@
 }
 
 1967141 = {
-	name = "Alecksander" # Alexander
-	dynasty = 1789083 # Ashford
+	name = "Alecksander" # Alexander Ashford - Resident Evil - Code: Veronica
+	dynasty = 1789083 # Ashland
 	diplomacy = 6
 	martial = 7
 	stewardship = 7
@@ -2710,10 +2713,10 @@
 }
 
 1967142 = {
-	name = "Alexia"
+	name = "Alexia" # Alexia Ashford - Resident Evil - Code: Veronica
 	female = yes
-	dynasty = 1789083 # Ashford
-	dna = "deyxcxyegfd" #MyNote, same dna as Veronica Ashford
+	dynasty = 1789083 # Ashland
+	dna = "deyxcxyegfd" #MyNote, same dna as Veronica Ashland
 	properties = "qk0iki"
 	diplomacy = 8
 	martial = 6
@@ -2734,7 +2737,7 @@
 	trait = "gregarious"
 	trait = "zealous"
 	father = 1967141 # Alexander
-	mother = 1967248 # Veronica DeSalle # Has the same dna as Veronica Ashford, for the memes, as they were cloned from her dna in the game
+	mother = 1967248 # Veronica DeSalle # Has the same dna as Veronica Ashland, for the memes, as they were cloned from her dna in the game
 	2640.1.1 = {
 		birth = yes
 		effect = {
@@ -2753,9 +2756,9 @@
 }
 
 1967143 = {
-	name = "Alfred"
-	dynasty = 1789083 # Ashford
-	dna = "deyxcxyegfd" #MyNote, same dna as Veronica Ashford, except for the hair color gene. For some reason, it came out different for Alfred. # "deyxcxyesfd"
+	name = "Alfred" # Alfred Ashford - Resident Evil - Code: Veronica
+	dynasty = 1789083 # Ashland
+	dna = "deyxcxyegfd" #MyNote, same dna as Veronica Ashland, except for the hair color gene. For some reason, it came out different for Alfred. # "deyxcxyesfd"
 	properties = "qc0cid"
 	diplomacy = 6
 	martial = 5
@@ -2774,7 +2777,7 @@
 	trait = "diligent"
 	trait = "zealous"
 	father = 1967141 # Alexander
-	mother = 1967248 # Veronica DeSalle # Has the same dna as Veronica Ashford, for the memes, as they were cloned from her dna in the game
+	mother = 1967248 # Veronica DeSalle # Has the same dna as Veronica Ashland, for the memes, as they were cloned from her dna in the game
 	2640.1.1 = {
 		birth = yes
 		effect = {
@@ -2800,8 +2803,8 @@
 }
 
 1967144 = {
-	name = "Klaes"
-	dynasty = 1789083 # Ashford
+	name = "Nikolas" # Klaes Ashford - The Expanse
+	dynasty = 1789083 # Ashland
 	diplomacy = 5
 	martial = 8
 	stewardship = 4
@@ -2835,9 +2838,9 @@
 }
 
 1967145 = {
-	name = "Klementina"
+	name = "Klementina" # Unnamed deceased daughter of Klaes Ashford - The Expanse
 	female = yes
-	dynasty = 1789083 # Ashford
+	dynasty = 1789083 # Ashland
 	religion = "catholic"
 	culture = "chicagoan"
 	father = 1967144 # Klaes
@@ -3597,11 +3600,11 @@
 	}
 }
 
-### Aurora (1967225-1967245) ###
+### Pulaski (1967225-1967245) ###
 
 1967225 = {
 	name = "Artur"
-	dynasty = 1789084 # Aurora
+	dynasty = 1789062 # Pulaski
 	dna = "ahfajdadcaa"
 	properties = "qe0dlk"
 	diplomacy = 7
@@ -3617,7 +3620,7 @@
 	trait = "erudite"
 	trait = "brave"
 	trait = "patient"
-	father = 1967226 # Constantine Aurora
+	father = 1967226 # Krystian Pulaski
 	mother = 1967227 # Emilia Avondale
 	2638.6.9 = {
 		birth = yes
@@ -3627,7 +3630,7 @@
 		}
 	}
 	2664.1.1 = {
-		add_spouse = 1967135 # Marika Ashland
+		add_spouse = 1967135 # Moira Sheridan
 	}
 	2666.1.1 = {
 		add_claim = d_aurora
@@ -3638,8 +3641,8 @@
 }
 
 1967226 = {
-	name = "Constantine"
-	dynasty = 1789084 # Aurora
+	name = "Krystian"
+	dynasty = 1789062 # Pulaski
 	dna = "ahfajdadcaa" # Copied over from his son, Artur
 	diplomacy = 6
 	martial = 8
@@ -3655,7 +3658,7 @@
 	trait = "zealous"
 	trait = "wroth"
 	trait = "honest"
-	father = 1967229 # Jerome Aurora
+	father = 1967229 # Mateusz Pulaski
 	2602.3.12 = {
 		birth = yes
 	}
@@ -3695,8 +3698,8 @@
 }
 
 1967228 = {
-	name = "Alastar"
-	dynasty = 1789084 # Aurora
+	name = "Aleksander"
+	dynasty = 1789062 # Pulaski
 	diplomacy = 6
 	martial = 9
 	stewardship = 5
@@ -3711,7 +3714,7 @@
 	trait = "brave"
 	trait = "kind"
 	trait = "lustful"
-	father = 1967226 # Constantine Aurora
+	father = 1967226 # Krystian Pulaski
 	mother = 1967227 # Emilia Avondale
 	2628.2.13 = {
 		birth = yes
@@ -3728,8 +3731,8 @@
 }
 
 1967229 = {
-	name = "Jerome"
-	dynasty = 1789084 # Aurora
+	name = "Mateusz"
+	dynasty = 1789062 # Pulaski
 	diplomacy = 3
 	martial = 6
 	stewardship = 3
@@ -3741,7 +3744,7 @@
 	trait = "diligent"
 	trait = "brave"
 	trait = "content"
-	father = 1967235 # Klement Aurora
+	father = 1967235 # Klemens Pulaski
 	2586.3.12 = {
 		birth = yes
 	}
@@ -3751,8 +3754,8 @@
 }
 
 1967230 = {
-	name = "Gregor"
-	dynasty = 1789084 # Aurora
+	name = "Ignacy"
+	dynasty = 1789062 # Pulaski
 	diplomacy = 7
 	martial = 9
 	stewardship = 5
@@ -3766,12 +3769,12 @@
 	trait = "proud"
 	trait = "gregarious"
 	trait = "diligent"
-	father = 1967229 # Jerome Aurora
+	father = 1967229 # Mateusz Pulaski
 	2618.4.1 = {
 		birth = yes
 	}
 	2642.1.1 = {
-		add_spouse = 1967231 # Kristina Ashland
+		add_spouse = 1967231 # Kristina Sheridan
 	}
 	2700.12.27 = {
 		death = yes
@@ -3781,7 +3784,7 @@
 1967231 = {
 	name = "Kristina"
 	female = yes
-	dynasty = 1789064 # Ashland
+	dynasty = 1789091 # Sheridan
 	diplomacy = 8
 	martial = 8
 	stewardship = 6
@@ -3797,7 +3800,7 @@
 	trait = "proud"
 	trait = "kind"
 	trait = "chaste"
-	father = 1967131 # Alfonse II Ashland
+	father = 1967131 # Douglas II Sheridan
 	2626.1.1 = {
 		birth = yes
 	}
@@ -3807,8 +3810,8 @@
 }
 
 1967232 = {
-	name = "Gregor"
-	dynasty = 1789084 # Aurora
+	name = "Ignacy"
+	dynasty = 1789062 # Pulaski
 	diplomacy = 5
 	martial = 8
 	stewardship = 3
@@ -3821,8 +3824,8 @@
 	trait = "brave"
 	trait = "charitable"
 	trait = "diligent"
-	father = 1967230 # Gregor Aurora
-	mother = 1967231 # Kristina Ashland
+	father = 1967230 # Ignacy Pulaski
+	mother = 1967231 # Kristina Sheridan
 	2643.1.1 = {
 		birth = yes
 	}
@@ -3832,8 +3835,8 @@
 }
 
 1967233 = {
-	name = "Petras"
-	dynasty = 1789084 # Aurora
+	name = "Augustyn"
+	dynasty = 1789062 # Pulaski
 	diplomacy = 8
 	martial = 5
 	stewardship = 7
@@ -3846,7 +3849,7 @@
 	trait = "humble"
 	trait = "charitable"
 	trait = "gregarious"
-	father = 1967229 # Jerome Aurora
+	father = 1967229 # Mateusz Pulaski
 	2624.1.1 = {
 		birth = yes
 	}
@@ -3857,7 +3860,7 @@
 
 1967234 = {
 	name = "Krystian"
-	dynasty = 1789084 # Aurora
+	dynasty = 1789062 # Pulaski
 	diplomacy = 7
 	martial = 4
 	stewardship = 5
@@ -3871,7 +3874,7 @@
 	trait = "zealous"
 	trait = "chaste"
 	trait = "erudite"
-	father = 1967229 # Jerome Aurora
+	father = 1967229 # Mateusz Pulaski
 	2627.1.1 = {
 		birth = yes
 	}
@@ -3881,8 +3884,8 @@
 }
 
 1967235 = {
-	name = "Klement"
-	dynasty = 1789084 # Aurora
+	name = "Klemens"
+	dynasty = 1789062 # Pulaski
 	diplomacy = 7
 	martial = 8
 	stewardship = 6
@@ -3891,10 +3894,11 @@
 	religion = "catholic"
 	culture = "chicagoan"
 	trait = "charismatic_negotiator"
+	trait = "gamer"
 	trait = "brave"
 	trait = "erudite"
 	trait = "patient"
-	father = 1967236 # Dominik Aurora
+	father = 1967236 # Dominik Pulaski
 	2557.1.1 = {
 		birth = yes
 	}
@@ -3905,7 +3909,7 @@
 
 1967236 = {
 	name = "Dominik"
-	dynasty = 1789084 # Aurora
+	dynasty = 1789062 # Pulaski
 	diplomacy = 7
 	martial = 6
 	stewardship = 8
@@ -3918,7 +3922,7 @@
 	trait = "scholar"
 	trait = "temperate"
 	trait = "patient"
-	father = 1967237 # Augustin Aurora
+	father = 1967237 # Mateusz Pulaski II
 	2526.1.1 = {
 		birth = yes
 	}
@@ -3928,8 +3932,8 @@
 }
 
 1967237 = {
-	name = "Augustin"
-	dynasty = 1789084 # Aurora
+	name = "Mateusz"
+	dynasty = 1789062 # Pulaski
 	diplomacy = 7
 	martial = 9
 	stewardship = 8
@@ -3941,7 +3945,7 @@
 	trait = "temperate"
 	trait = "brave"
 	trait = "gregarious"
-	father = 1967238 # Teodor Aurora
+	father = 1967238 # Teodor Pulaski
 	2499.1.1 = {
 		birth = yes
 	}
@@ -3952,7 +3956,7 @@
 
 1967238 = {
 	name = "Teodor"
-	dynasty = 1789084 # Aurora
+	dynasty = 1789062 # Pulaski
 	diplomacy = 8
 	martial = 8
 	stewardship = 7
@@ -3967,7 +3971,7 @@
 	trait = "brave"
 	trait = "just"
 	trait = "honest"
-	father = 1967239 # Constantine Aurora
+	father = 1967239 # Krystian Pulaski
 	2464.1.1 = {
 		birth = yes
 	}
@@ -3977,8 +3981,8 @@
 }
 
 1967239 = {
-	name = "Constantine"
-	dynasty = 1789084 # Aurora
+	name = "Krystian"
+	dynasty = 1789062 # Pulaski
 	diplomacy = 6
 	martial = 7
 	stewardship = 5
@@ -3989,7 +3993,7 @@
 	trait = "flamboyant_schemer"
 	trait = "patient"
 	trait = "diligent"
-	father = 1967240 # Alastar Aurora
+	father = 1967240 # Aleksander Pulaski
 	2428.1.1 = {
 		birth = yes
 	}
@@ -3999,8 +4003,8 @@
 }
 
 1967240 = {
-	name = "Alastar"
-	dynasty = 1789084 # Aurora
+	name = "Aleksander"
+	dynasty = 1789062 # Pulaski
 	diplomacy = 6
 	martial = 7
 	stewardship = 4
@@ -4011,7 +4015,7 @@
 	trait = "tough_soldier"
 	trait = "brave"
 	trait = "temperate"
-	father = 1967241 # Mateo Aurora
+	father = 1967241 # Mateusz Pulaski
 	2399.1.1 = {
 		birth = yes
 	}
@@ -4021,8 +4025,8 @@
 }
 
 1967241 = {
-	name = "Mateo"
-	dynasty = 1789084 # Aurora
+	name = "Mateusz"
+	dynasty = 1789062 # Pulaski
 	diplomacy = 8
 	martial = 8
 	stewardship = 6
@@ -4035,7 +4039,7 @@
 	trait = "just"
 	trait = "zealous"
 	trait = "brave"
-	father = 1967242 # Cyrus Aurora
+	father = 1967242 # Kazimierz Pulaski
 	2376.1.1 = {
 		birth = yes
 	}
@@ -4045,20 +4049,21 @@
 }
 
 1967242 = {
-	name = "Cyrus"
-	dynasty = 1789084 # Aurora
-	diplomacy = 7
-	martial = 6
+	name = "Kazimierz"
+	dynasty = 1789062 # Pulaski
+	diplomacy = 6
+	martial = 7
 	stewardship = 7
 	intrigue = 6
-	learning = 6
+	learning = 7
 	religion = "catholic"
 	culture = "chicagoan"
-	trait = "charismatic_negotiator"
+	trait = "brilliant_strategist"
 	trait = "quick"
+	trait = "brave"
 	trait = "diligent"
 	trait = "gregarious"
-	father = 1967243 # Alastar Aurora
+	father = 1967243 # Aleksander Pulaski
 	2340.1.1 = {
 		birth = yes
 	}
@@ -4068,8 +4073,10 @@
 }
 
 1967243 = {
-	name = "Alastar"
-	dynasty = 1789084 # Aurora
+	name = "Aleksander"
+	dynasty = 1789062 # Pulaski
+	dna = "cdxggqhknhs"
+	properties = "dc0end"
 	diplomacy = 9
 	martial = 9
 	stewardship = 7
@@ -4087,6 +4094,8 @@
 	trait = "gregarious"
 	trait = "patient"
 	trait = "ambitious"
+	father = 1967263 # Krystian Pulaski
+	mother = 1967262 # Mary Archer
 	2317.1.1 = {
 		birth = yes
 	}
@@ -4096,8 +4105,8 @@
 }
 
 1967244 = {
-	name = "Klement"
-	dynasty = 1789084 # Aurora
+	name = "Klemens"
+	dynasty = 1789062 # Pulaski
 	diplomacy = 7
 	martial = 6
 	stewardship = 7
@@ -4111,7 +4120,7 @@
 	trait = "proud"
 	trait = "stubborn"
 	trait = "patient"
-	father = 1967226 # Constantine Aurora
+	father = 1967226 # Krystian Pulaski
 	mother = 1967227 # Emilia Avondale
 	2640.1.1 = {
 		birth = yes
@@ -4124,7 +4133,7 @@
 1967245 = {
 	name = "Gabriela"
 	female = yes
-	dynasty = 1789084 # Aurora
+	dynasty = 1789062 # Pulaski
 	diplomacy = 7
 	martial = 7
 	stewardship = 5
@@ -4137,7 +4146,7 @@
 	trait = "kind"
 	trait = "brave"
 	trait = "charitable"
-	father = 1967228 # Alastar Aurora
+	father = 1967228 # Aleksander Pulaski
 	2648.1.1 = {
 		birth = yes
 	}
@@ -4146,7 +4155,7 @@
 	}
 }
 
-### More characters, mixed dynasties (1967246- ) ###
+### More characters, mixed dynasties (1967246-1967248 ) ###
 
 1967246 = {
 	name = "Blanca"
@@ -4202,7 +4211,7 @@
 	name = "Veronica"
 	female = yes
 	dynasty = 1789012 # DeSalle
-	dna = "deyxcxyegfd" # Same as Veronica Ashford, for the memes
+	dna = "deyxcxyegfd" # Same as Veronica Ashland, for the memes
 	diplomacy = 7
 	martial = 7
 	stewardship = 7
@@ -4224,6 +4233,8 @@
 		death = yes
 	}
 }
+
+### Steiger (1967249-1967254 ) ###
 
 1967249 = {
 	name = "Florent"
@@ -4365,6 +4376,2496 @@
 		birth = yes
 	}
 	2692.1.1 = {
+		death = yes
+	}
+}
+
+### Archer (1967255-1967262 ) ###
+### (All landed male Archer members are named after roads that either intersect w/ or meet up w/ Archer Ave. IRL, starting from the East, going West) ###
+
+1967255 = {
+	name = "Dearborn"
+	dynasty = 1789092 # Archer
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 6
+	religion = "evangelical"
+	culture = "chicagoan"
+	occluded = yes
+	trait = "skilled_tactician"
+	trait = "legendary"
+	trait = "shrewd"
+	trait = "strategist"
+	trait = "ambitious"
+	trait = "brave"
+	trait = "just"
+	trait = "gregarious"
+	2159.1.1 = {
+		birth = yes
+	}
+	2213.1.1 = {
+		death = yes
+	}
+}
+
+1967256 = {
+	name = "Wentworth"
+	dynasty = 1789092 # Archer
+	diplomacy = 8
+	martial = 7
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	religion = "evangelical"
+	culture = "chicagoan"
+	occluded = yes
+	trait = "charismatic_negotiator"
+	trait = "legendary"
+	trait = "shrewd"
+	trait = "kind"
+	trait = "brave"
+	trait = "diligent"
+	trait = "charitable"
+	father = 1967255 # Dearborn Archer
+	2181.1.1 = {
+		birth = yes
+	}
+	2226.1.1 = {
+		death = yes
+	}
+}
+
+1967257 = {
+	name = "Damen"
+	dynasty = 1789092 # Archer
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 6
+	religion = "evangelical"
+	culture = "chicagoan"
+	occluded = yes
+	trait = "skilled_tactician"
+	trait = "legendary"
+	trait = "duelist"
+	trait = "ambitious"
+	trait = "diligent"
+	trait = "just"
+	trait = "honest"
+	trait = "brave"
+	father = 1967256 # Wentworth Archer
+	2200.1.1 = {
+		birth = yes
+	}
+	2231.1.1 = {
+		death = yes
+	}
+}
+
+1967258 = {
+	name = "Homan"
+	dynasty = 1789092 # Archer
+	diplomacy = 6
+	martial = 4
+	stewardship = 6
+	intrigue = 6
+	learning = 5
+	religion = "americanist"
+	culture = "chicagoan"
+	occluded = yes
+	trait = "underhanded_rogue"
+	trait = "legendary"
+	trait = "shrewd"
+	trait = "proud"
+	trait = "deceitful"
+	trait = "gregarious"
+	father = 1967256 # Wentworth Archer
+	2203.1.1 = {
+		birth = yes
+	}
+	2253.1.1 = {
+		death = yes
+	}
+}
+
+1967259 = {
+	name = "Kenneth"
+	dynasty = 1789092 # Archer
+	diplomacy = 9
+	martial = 5
+	stewardship = 6
+	intrigue = 6
+	learning = 7
+	religion = "americanist"
+	culture = "chicagoan"
+	trait = "charismatic_negotiator"
+	trait = "shrewd"
+	trait = "socializer"
+	trait = "gregarious"
+	trait = "patient"
+	trait = "diligent"
+	father = 1967258 # Homan Archer
+	2225.1.1 = {
+		birth = yes
+	}
+	2265.1.1 = {
+		death = yes
+	}
+}
+
+1967260 = {
+	name = "Austin"
+	dynasty = 1789092 # Archer
+	diplomacy = 4
+	martial = 5
+	stewardship = 7
+	intrigue = 6
+	learning = 6
+	religion = "americanist"
+	culture = "chicagoan"
+	trait = "thrifty_clerk"
+	trait = "gardener"
+	trait = "patient"
+	trait = "greedy"
+	trait = "humble"
+	trait = "honest"
+	father = 1967259 # Kenneth Archer
+	2248.1.1 = {
+		birth = yes
+	}
+	2291.1.1 = {
+		death = yes
+	}
+}
+
+1967261 = {
+	name = "Robert"
+	dynasty = 1789092 # Archer
+	diplomacy = 5
+	martial = 7
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "tough_soldier"
+	trait = "content"
+	trait = "wroth"
+	trait = "just"
+	trait = "brave"
+	trait = "temperate"
+	father = 1967260 # Austin Archer
+	2270.1.1 = {
+		birth = yes
+	}
+	2315.1.1 = {
+		death = yes
+	}
+}
+
+1967262 = { # Resurrection Mary, A Chicago ghost story of a girl that died on Archer Ave. She appears as a vanishing hitchhiker to men driving along Archer Ave.)
+	name = "Mary"
+	female = yes
+	dynasty = 1789092 # Archer
+	diplomacy = 7
+	martial = 3
+	stewardship = 5
+	intrigue = 4
+	learning = 6
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "charismatic_negotiator"
+	trait = "fair"
+	trait = "kind"
+	trait = "wroth"
+	trait = "shy"
+	father = 1967261 # Robert Archer
+	2294.1.1 = {
+		birth = yes
+	}
+	2319.1.1 = {
+		death = {
+			death_reason = death_accident # Struck and killed by a hit-and-run driver that fled the scene
+		}
+	}
+}
+
+### More characters, mixed dynasties (1967263- ) ###
+
+1967263 = { # Founder of the Pulaski dynasty
+	name = "Krystian"
+	dynasty = 1789062 # Pulaski
+	diplomacy = 6
+	martial = 7
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "fortune_builder"
+	trait = "shrewd"
+	trait = "administrator"
+	trait = "diligent"
+	trait = "gregarious"
+	trait = "humble"
+	2287.1.1 = {
+		birth = yes
+	}
+	2314.1.1 = {
+		add_spouse = 1967262 # Mary Archer
+	}
+	2319.1.1 = {
+		trait = "depressed"
+		trait = "charitable"
+	}
+	2337.1.1 = {
+		death = {
+			death_reason = death_trait
+		}
+	}
+}
+
+### Zinzinnati/Cincinnati Patricians (1967264-1967340) ###
+
+### Crosley (1967264-1967279) ###
+
+1967264 = {
+	name = "Paul"
+	dynasty = 1784077 # Crosley
+	diplomacy = 6
+	martial = 5
+	stewardship = 9
+	intrigue = 5
+	learning = 5
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "midas_touched"
+	trait = "ambitious"
+	trait = "diligent"
+	2573.1.1 = {
+		birth = yes
+	}
+	2600.1.1 = {
+		add_spouse = 1967278 # Hedwig
+	}
+	2639.1.1 = {
+		death = yes
+	}
+}
+
+1967265 = {
+	name = "Marshall"
+	dynasty = 1784077 # Crosley
+	diplomacy = 5
+	martial = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "thrifty_clerk"
+	trait = "greedy"
+	trait = "deceitful"
+	father = 1967264 # Paul Crosley
+	mother = 1967278 # Hedwig
+	2602.1.1 = {
+		birth = yes
+	}
+	2632.1.1 = {
+		add_spouse = 1967273 # Aurora
+	}
+	2663.1.1 = {
+		death = yes
+	}
+}
+
+1967266 = {
+	name = "Raymund"
+	dynasty = 1784077 # Crosley
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "fortune_builder"
+	trait = "patient"
+	trait = "brave"
+	father = 1967265 # Marshall Crosley
+	mother = 1967273 # Aurora
+	2634.1.1 = {
+		birth = yes
+	}
+	2657.1.1 = {
+		add_spouse = 1967267 # Hailey
+	}
+	2708.1.1 = {
+		death = yes
+	}
+}
+
+1967267 = {
+	name = "Hailey"
+	female = yes
+	diplomacy = 8
+	martial = 4
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "underhanded_rogue"
+	trait = "gregarious"
+	trait = "kind"
+	2638.1.1 = {
+		birth = yes
+	}
+	2714.1.1 = {
+		death = yes
+	}
+}
+
+1967268 = {
+	name = "Maynard"
+	dynasty = 1784077 # Crosley
+	diplomacy = 4
+	martial = 8
+	stewardship = 5
+	intrigue = 6
+	learning = 6
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "tough_soldier"
+	trait = "patient"
+	trait = "just"
+	trait = "brave"
+	father = 1967265 # Marshall Crosley
+	mother = 1967273 # Aurora
+	2637.1.1 = {
+		birth = yes
+	}
+	2703.1.1 = {
+		death = yes
+	}
+}
+
+1967269 = {
+	name = "Karles"
+	dynasty = 1784077 # Crosley
+	diplomacy = 6
+	martial = 5
+	stewardship = 8
+	intrigue = 7
+	learning = 5
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "fortune_builder"
+	trait = "gregarious"
+	trait = "proud"
+	father = 1967266 # Raymund Crosley
+	mother = 1967267 # Hailey
+	2659.1.1 = {
+		birth = yes
+	}
+	2730.1.1 = {
+		death = yes
+	}
+}
+
+1967270 = {
+	name = "Paul"
+	dynasty = 1784077 # Crosley
+	diplomacy = 8
+	martial = 6
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "charismatic_negotiator"
+	trait = "kind"
+	trait = "charitable"
+	father = 1967266 # Raymund Crosley
+	mother = 1967267 # Hailey
+	2661.1.1 = {
+		birth = yes
+	}
+	2735.1.1 = {
+		death = yes
+	}
+}
+
+1967271 = {
+	name = "Johannes"
+	dynasty = 1784077 # Crosley
+	diplomacy = 6
+	martial = 3
+	stewardship = 5
+	intrigue = 8
+	learning = 7
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "intricate_webweaver"
+	trait = "deceitful"
+	trait = "temperate"
+	father = 1967265 # Marshall Crosley
+	mother = 1967273 # Aurora
+	2640.1.1 = {
+		birth = yes
+	}
+	2715.1.1 = {
+		death = yes
+	}
+}
+
+1967272 = {
+	name = "Dawn"
+	female = yes
+	dynasty = 1784077 # Crosley
+	diplomacy = 8
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "charismatic_negotiator"
+	trait = "erudite"
+	trait = "just"
+	father = 1967265 # Marshall Crosley
+	mother = 1967273 # Aurora
+	2643.1.1 = {
+		birth = yes
+	}
+	2715.1.1 = {
+		death = yes
+	}
+}
+
+1967273 = {
+	name = "Aurora"
+	female = yes
+	diplomacy = 7
+	martial = 3
+	stewardship = 4
+	intrigue = 8
+	learning = 5
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "intricate_webweaver"
+	trait = "shy"
+	trait = "diligent"
+	2612.1.1 = {
+		birth = yes
+	}
+	2695.1.1 = {
+		death = yes
+	}
+}
+
+1967274 = {
+	name = "Jennifer"
+	female = yes
+	dynasty = 1784077 # Crosley
+	diplomacy = 6
+	martial = 5
+	stewardship = 8
+	intrigue = 6
+	learning = 4
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "fortune_builder"
+	trait = "greedy"
+	trait = "patient"
+	father = 1967266 # Raymund Crosley
+	mother = 1967267 # Hailey
+	2663.1.1 = {
+		birth = yes
+	}
+	2738.1.1 = {
+		death = yes
+	}
+}
+
+1967275 = {
+	name = "Jerome"
+	dynasty = 1784077 # Crosley
+	diplomacy = 7
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 3
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "underhanded_rogue"
+	trait = "kind"
+	trait = "content"
+	father = 1967264 # Paul Crosley
+	mother = 1967278 # Hedwig
+	2607.1.1 = {
+		birth = yes
+	}
+	2632.1.1 = {
+		add_spouse = 1967276 # Eisentrude
+	}
+	2677.1.1 = {
+		death = yes
+	}
+}
+
+1967276 = {
+	name = "Eisentrude"
+	female = yes
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "thrifty_clerk"
+	trait = "groomed"
+	trait = "diligent"
+	2611.1.1 = {
+		birth = yes
+	}
+	2688.1.1 = {
+		death = yes
+	}
+}
+
+1967277 = {
+	name = "Jerome"
+	dynasty = 1784077 # Crosley
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 5
+	learning = 6
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "tough_soldier"
+	trait = "adventurer"
+	trait = "brave"
+	trait = "proud"
+	father = 1967275 # Jerome Crosley
+	mother = 1967276 # Eisentrude
+	2635.1.1 = {
+		birth = yes
+	}
+	2709.1.1 = {
+		death = yes
+	}
+}
+
+1967278 = {
+	name = "Hedwig"
+	female = yes
+	diplomacy = 7
+	martial = 3
+	stewardship = 5
+	intrigue = 6
+	learning = 6
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "charismatic_negotiator"
+	trait = "gregarious"
+	trait = "kind"
+	2579.1.1 = {
+		birth = yes
+	}
+	2659.1.1 = {
+		death = yes
+	}
+}
+
+1967279 = {
+	name = "Walther"
+	dynasty = 1784077 # Crosley
+	diplomacy = 4
+	martial = 3
+	stewardship = 6
+	intrigue = 8
+	learning = 7
+	religion = "rust_cultist"
+	culture = "rostmann"
+	trait = "flamboyant_schemer"
+	trait = "patient"
+	trait = "erudite"
+	trait = "diligent"
+	father = 1967275 # Jerome Crosley
+	mother = 1967276 # Eisentrude
+	2639.1.1 = {
+		birth = yes
+	}
+	2711.1.1 = {
+		death = yes
+	}
+}
+
+### Wise (1967280-1967292) ###
+
+1967280 = {
+	name = "Leonard"
+	dynasty = 2005037 # Wise
+	diplomacy = 7
+	martial = 5
+	stewardship = 8
+	intrigue = 4
+	learning = 6
+	religion = "reform"
+	culture = "yiddish"
+	trait = "fortune_builder"
+	trait = "erudite"
+	trait = "gregarious"
+	trait = "diligent"
+	2584.1.1 = {
+		birth = yes
+	}
+	2612.1.1 = {
+		add_spouse = 1967281 # Rebecca
+	}
+	2653.1.1 = {
+		death = yes
+	}
+}
+
+1967281 = {
+	name = "Rebecca"
+	female = yes
+	diplomacy = 8
+	martial = 4
+	stewardship = 5
+	intrigue = 6
+	learning = 7
+	religion = "reform"
+	culture = "yiddish"
+	trait = "charismatic_negotiator"
+	trait = "patient"
+	trait = "just"
+	trait = "content"
+	2592.1.1 = {
+		birth = yes
+	}
+	2664.1.1 = {
+		death = yes
+	}
+}
+
+1967282 = {
+	name = "Todres"
+	dynasty = 2005037 # Wise
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 5
+	learning = 7
+	religion = "reform"
+	culture = "yiddish"
+	trait = "fortune_builder"
+	trait = "greedy"
+	trait = "diligent"
+	trait = "kind"
+	trait = "humble"
+	father = 1967280 # Leonard Wise
+	mother = 1967281 # Rebecca
+	2614.1.1 = {
+		birth = yes
+	}
+	2640.1.1 = {
+		add_spouse = 1967283 # Catherine
+	}
+	2689.1.1 = {
+		death = yes
+	}
+}
+
+1967283 = {
+	name = "Catherine"
+	female = yes
+	diplomacy = 5
+	martial = 5
+	stewardship = 7
+	intrigue = 8
+	learning = 7
+	religion = "reform"
+	culture = "yiddish"
+	trait = "flamboyant_schemer"
+	trait = "charitable"
+	trait = "gregarious"
+	2620.1.1 = {
+		birth = yes
+	}
+	2702.1.1 = {
+		death = yes
+	}
+}
+
+1967284 = {
+	name = "Immanuel"
+	dynasty = 2005037 # Wise
+	diplomacy = 8
+	martial = 4
+	stewardship = 6
+	intrigue = 6
+	learning = 5
+	religion = "reform"
+	culture = "yiddish"
+	trait = "underhanded_rogue"
+	trait = "temperate"
+	trait = "humble"
+	trait = "honest"
+	father = 1967280 # Leonard Wise
+	mother = 1967281 # Rebecca
+	2617.1.1 = {
+		birth = yes
+	}
+	2645.1.1 = {
+		add_spouse = 1967285 # Esther
+	}
+	2695.1.1 = {
+		death = yes
+	}
+}
+
+1967285 = {
+	name = "Esther"
+	female = yes
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 8
+	religion = "reform"
+	culture = "yiddish"
+	trait = "martial_cleric"
+	trait = "erudite"
+	trait = "humble"
+	trait = "zealous"
+	2624.1.1 = {
+		birth = yes
+	}
+	2704.1.1 = {
+		death = yes
+	}
+}
+
+1967286 = {
+	name = "Lazar"
+	dynasty = 2005037 # Wise
+	diplomacy = 7
+	martial = 5
+	stewardship = 6
+	intrigue = 6
+	learning = 4
+	religion = "reform"
+	culture = "yiddish"
+	trait = "charismatic_negotiator"
+	trait = "kind"
+	trait = "chaste"
+	father = 1967282 # Todres Wise
+	mother = 1967283 # Catherine
+	2642.1.1 = {
+		birth = yes
+	}
+	2719.1.1 = {
+		death = yes
+	}
+}
+
+1967287 = {
+	name = "Hershel"
+	dynasty = 2005037 # Wise
+	diplomacy = 4
+	martial = 8
+	stewardship = 5
+	intrigue = 7
+	learning = 4
+	religion = "reform"
+	culture = "yiddish"
+	trait = "skilled_tactician"
+	trait = "brave"
+	trait = "deceitful"
+	father = 1967282 # Todres Wise
+	mother = 1967283 # Catherine
+	2645.1.1 = {
+		birth = yes
+	}
+	2710.1.1 = {
+		death = yes
+	}
+}
+
+1967288 = {
+	name = "Avigayil"
+	female = yes
+	dynasty = 2005037 # Wise
+	diplomacy = 8
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	religion = "reform"
+	culture = "yiddish"
+	trait = "underhanded_rogue"
+	trait = "kind"
+	trait = "lustful"
+	trait = "gregarious"
+	father = 1967282 # Todres Wise
+	mother = 1967283 # Catherine
+	2648.1.1 = {
+		birth = yes
+	}
+	2729.1.1 = {
+		death = yes
+	}
+}
+
+1967289 = {
+	name = "Matiyahu"
+	dynasty = 2005037 # Wise
+	diplomacy = 3
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 8
+	religion = "reform"
+	culture = "yiddish"
+	trait = "scholarly_theologian"
+	trait = "scholar"
+	trait = "erudite"
+	trait = "shy"
+	trait = "patient"
+	father = 1967282 # Todres Wise
+	mother = 1967283 # Catherine
+	2650.1.1 = {
+		birth = yes
+	}
+	2735.1.1 = {
+		death = yes
+	}
+}
+
+1967290 = {
+	name = "Leonard"
+	dynasty = 2005037 # Wise
+	diplomacy = 6
+	martial = 5
+	stewardship = 8
+	intrigue = 4
+	learning = 7
+	religion = "reform"
+	culture = "yiddish"
+	trait = "thrifty_clerk"
+	trait = "charitable"
+	trait = "diligent"
+	father = 1967284 # Immanuel Wise
+	mother = 1967285 # Esther
+	2647.1.1 = {
+		birth = yes
+	}
+	2720.1.1 = {
+		death = yes
+	}
+}
+
+1967291 = {
+	name = "Seth"
+	dynasty = 2005037 # Wise
+	diplomacy = 6
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 6
+	religion = "reform"
+	culture = "yiddish"
+	trait = "tough_soldier"
+	trait = "twin"
+	trait = "brave"
+	trait = "diligent"
+	father = 1967284 # Immanuel Wise
+	mother = 1967285 # Esther
+	2649.1.1 = {
+		birth = yes
+	}
+	2726.1.1 = {
+		death = yes
+	}
+}
+
+1967292 = {
+	name = "Sara"
+	female = yes
+	dynasty = 2005037 # Wise
+	diplomacy = 5
+	martial = 5
+	stewardship = 6
+	intrigue = 6
+	learning = 7
+	religion = "reform"
+	culture = "yiddish"
+	trait = "martial_cleric"
+	trait = "twin"
+	trait = "brave"
+	trait = "patient"
+	father = 1967284 # Immanuel Wise
+	mother = 1967285 # Esther
+	2649.1.1 = {
+		birth = yes
+	}
+	2731.1.1 = {
+		death = yes
+	}
+}
+
+### Zinn (1967293-1967306) ###
+
+1967293 = {
+	name = "Martin"
+	dynasty = 1784064 # Zinn
+	diplomacy = 8
+	martial = 6
+	stewardship = 6
+	intrigue = 3
+	learning = 6
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "charismatic_negotiator"
+	trait = "socializer"
+	trait = "erudite"
+	trait = "kind"
+	trait = "gregarious"
+	2582.1.1 = {
+		birth = yes
+	}
+	2605.1.1 = {
+		add_spouse = 1967294 # Alyssa
+	}
+	2657.1.1 = {
+		death = yes
+	}
+}
+
+1967294 = {
+	name = "Alyssa"
+	female = yes
+	diplomacy = 7
+	martial = 4
+	stewardship = 8
+	intrigue = 4
+	learning = 7
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "fortune_builder"
+	trait = "gardener"
+	trait = "kind"
+	trait = "temperate"
+	trait = "proud"
+	2587.1.1 = {
+		birth = yes
+	}
+	2663.1.1 = {
+		death = yes
+	}
+}
+
+1967295 = {
+	name = "Florent"
+	dynasty = 1784064 # Zinn
+	diplomacy = 3
+	martial = 8
+	stewardship = 2
+	intrigue = 7
+	learning = 6
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "skilled_tactician"
+	trait = "duelist"
+	trait = "brave"
+	trait = "wroth"
+	trait = "temperate"
+	father = 1967293 # Martin Zinn
+	mother = 1967294 # Alyssa
+	2610.1.1 = {
+		birth = yes
+	}
+	2637.1.1 = {
+		add_spouse = 1967296 # Natalie
+	}
+	2680.1.1 = {
+		death = yes
+	}
+}
+
+1967296 = {
+	name = "Natalie"
+	female = yes
+	diplomacy = 8
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "charismatic_negotiator"
+	trait = "kind"
+	trait = "temperate"
+	trait = "stubborn"
+	2615.1.1 = {
+		birth = yes
+	}
+	2694.1.1 = {
+		death = yes
+	}
+}
+
+1967297 = {
+	name = "Amalrick"
+	dynasty = 1784064 # Zinn
+	diplomacy = 3
+	martial = 8
+	stewardship = 2
+	intrigue = 7
+	learning = 6
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "thrifty_clerk"
+	trait = "greedy"
+	trait = "patient"
+	trait = "diligent"
+	father = 1967293 # Martin Zinn
+	mother = 1967294 # Alyssa
+	2614.1.1 = {
+		birth = yes
+	}
+	2641.1.1 = {
+		add_spouse = 1967298 # Chelsea
+	}
+	2689.1.1 = {
+		death = yes
+	}
+}
+
+1967298 = {
+	name = "Chelsea"
+	female = yes
+	diplomacy = 5
+	martial = 4
+	stewardship = 6
+	intrigue = 8
+	learning = 6
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "intricate_webweaver"
+	trait = "patient"
+	trait = "stubborn"
+	2620.1.1 = {
+		birth = yes
+	}
+	2692.1.1 = {
+		death = yes
+	}
+}
+
+1967299 = {
+	name = "Cheryl"
+	female = yes
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "thrifty_clerk"
+	trait = "stubborn"
+	trait = "shy"
+	trait = "erudite"
+	2613.1.1 = {
+		birth = yes
+	}
+	2689.1.1 = {
+		death = yes
+	}
+}
+
+1967300 = {
+	name = "Henrich"
+	dynasty = 1784064 # Zinn
+	diplomacy = 5
+	martial = 8
+	stewardship = 7
+	intrigue = 3
+	learning = 4
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "skilled_tactician"
+	trait = "brave"
+	trait = "trusting"
+	trait = "diligent"
+	father = 1821003 # Mathias Zinn
+	mother = 1967299 # Cheryl
+	2636.1.1 = {
+		birth = yes
+	}
+	2701.1.1 = {
+		death = yes
+	}
+}
+
+1967301 = {
+	name = "Hugo"
+	dynasty = 1784064 # Zinn
+	diplomacy = 6
+	martial = 4
+	stewardship = 8
+	intrigue = 5
+	learning = 3
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "fortune_builder"
+	trait = "patient"
+	trait = "temperate"
+	trait = "content"
+	father = 1821003 # Mathias Zinn
+	mother = 1967299 # Cheryl
+	2642.1.1 = {
+		birth = yes
+	}
+	2721.1.1 = {
+		death = yes
+	}
+}
+
+1967302 = {
+	name = "Heather"
+	female = yes
+	dynasty = 1784064 # Zinn
+	diplomacy = 8
+	martial = 6
+	stewardship = 5
+	intrigue = 6
+	learning = 5
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "charismatic_negotiator"
+	trait = "kind"
+	trait = "brave"
+	father = 1821003 # Mathias Zinn
+	mother = 1967299 # Cheryl
+	2649.1.1 = {
+		birth = yes
+	}
+	2719.1.1 = {
+		death = yes
+	}
+}
+
+1967303 = {
+	name = "Lawrenz"
+	dynasty = 1784064 # Zinn
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 6
+	learning = 5
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "tough_soldier"
+	trait = "wroth"
+	trait = "proud"
+	trait = "diligent"
+	father = 1967295 # Florent Zinn
+	mother = 1967296 # Natalie
+	2639.1.1 = {
+		birth = yes
+	}
+	2695.1.1 = {
+		death = yes
+	}
+}
+
+1967304 = {
+	name = "Sofia"
+	female = yes
+	dynasty = 1784064 # Zinn
+	diplomacy = 8
+	martial = 4
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "charismatic_negotiator"
+	trait = "patient"
+	trait = "gregarious"
+	trait = "just"
+	father = 1967295 # Florent Zinn
+	mother = 1967296 # Natalie
+	2643.1.1 = {
+		birth = yes
+	}
+	2718.1.1 = {
+		death = yes
+	}
+}
+
+1967305 = {
+	name = "Zwentibold"
+	dynasty = 1784064 # Zinn
+	diplomacy = 5
+	martial = 6
+	stewardship = 8
+	intrigue = 4
+	learning = 3
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "thrifty_clerk"
+	trait = "gregarious"
+	trait = "diligent"
+	father = 1967297 # Amalrick Zinn
+	mother = 1967298 # Chelsea
+	2646.1.1 = {
+		birth = yes
+	}
+	2721.1.1 = {
+		death = yes
+	}
+}
+
+1967306 = {
+	name = "Edgar"
+	dynasty = 1784064 # Zinn
+	diplomacy = 6
+	martial = 4
+	stewardship = 3
+	intrigue = 5
+	learning = 8
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "scholarly_theologian"
+	trait = "zealous"
+	trait = "humble"
+	father = 1967297 # Amalrick Zinn
+	mother = 1967298 # Chelsea
+	2648.1.1 = {
+		birth = yes
+	}
+	2726.1.1 = {
+		death = yes
+	}
+}
+
+### Procter (1967307-1967324) ###
+
+1967307 = {
+	name = "Willelm"
+	dynasty = 1784078 # Procter
+	diplomacy = 5
+	martial = 3
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "midas_touched"
+	trait = "shrewd"
+	trait = "diligent"
+	2544.1.1 = {
+		birth = yes
+	}
+	2573.1.1 = {
+		add_spouse = 1967308 # Melissa
+	}
+	2626.1.1 = {
+		death = yes
+	}
+}
+
+1967308 = {
+	name = "Melissa"
+	female = yes
+	diplomacy = 7
+	martial = 4
+	stewardship = 3
+	intrigue = 6
+	learning = 4
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "charismatic_negotiator"
+	trait = "kind"
+	trait = "just"
+	2550.1.1 = {
+		birth = yes
+	}
+	2632.1.1 = {
+		death = yes
+	}
+}
+
+1967309 = {
+	name = "Filip"
+	dynasty = 1784078 # Procter
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 5
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "fortune_builder"
+	trait = "just"
+	trait = "patient"
+	father = 1967307 # Willelm
+	mother = 1967308 # Melissa
+	2576.1.1 = {
+		birth = yes
+	}
+	2604.1.1 = {
+		add_spouse = 1967310 # Regina
+	}
+	2649.1.1 = {
+		death = yes
+	}
+}
+
+1967310 = {
+	name = "Regina"
+	female = yes
+	diplomacy = 7
+	martial = 3
+	stewardship = 5
+	intrigue = 4
+	learning = 7
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "scholarly_theologian"
+	trait = "zealous"
+	trait = "proud"
+	2582.1.1 = {
+		birth = yes
+	}
+	2658.1.1 = {
+		death = yes
+	}
+}
+
+1967311 = {
+	name = "Erik"
+	dynasty = 1784078 # Procter
+	diplomacy = 7
+	martial = 3
+	stewardship = 5
+	intrigue = 7
+	learning = 5
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "charismatic_negotiator"
+	trait = "gregarious"
+	trait = "chaste"
+	father = 1967307 # Willelm
+	mother = 1967308 # Melissa
+	2581.1.1 = {
+		birth = yes
+	}
+	2607.1.1 = {
+		add_spouse = 1967312 # Susan
+	}
+	2656.1.1 = {
+		death = yes
+	}
+}
+
+1967312 = {
+	name = "Susan"
+	female = yes
+	diplomacy = 4
+	martial = 3
+	stewardship = 6
+	intrigue = 7
+	learning = 4
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "intricate_webweaver"
+	trait = "patient"
+	trait = "gregarious"
+	2587.1.1 = {
+		birth = yes
+	}
+	2663.1.1 = {
+		death = yes
+	}
+}
+
+1967313 = {
+	name = "Benjamin"
+	dynasty = 1784078 # Procter
+	diplomacy = 5
+	martial = 6
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "fortune_builder"
+	trait = "humble"
+	trait = "kind"
+	father = 1967309 # Filip
+	mother = 1967310 # Regina
+	2609.1.1 = {
+		birth = yes
+	}
+	2637.1.1 = {
+		add_spouse = 1967314 # Josefina
+	}
+	2681.1.1 = {
+		death = yes
+	}
+}
+
+1967314 = {
+	name = "Josefina"
+	female = yes
+	diplomacy = 7
+	martial = 3
+	stewardship = 5
+	intrigue = 7
+	learning = 4
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "underhanded_rogue"
+	trait = "humble"
+	trait = "honest"
+	2617.1.1 = {
+		birth = yes
+	}
+	2692.1.1 = {
+		death = yes
+	}
+}
+
+1967315 = {
+	name = "Dexter"
+	dynasty = 1784078 # Procter
+	diplomacy = 3
+	martial = 7
+	stewardship = 5
+	intrigue = 7
+	learning = 5
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "skilled_tactician"
+	trait = "gregarious"
+	trait = "chaste"
+	father = 1967311 # Erik
+	mother = 1967312 # Susan
+	2611.1.1 = {
+		birth = yes
+	}
+	2641.1.1 = {
+		add_spouse = 1967316 # Rachel
+	}
+	2685.1.1 = {
+		death = yes
+	}
+}
+
+1967316 = {
+	name = "Rachel"
+	female = yes
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "thrifty_clerk"
+	trait = "temperate"
+	trait = "content"
+	2619.1.1 = {
+		birth = yes
+	}
+	2696.1.1 = {
+		death = yes
+	}
+}
+
+1967317 = {
+	name = "Wilbur"
+	dynasty = 1784078 # Procter
+	diplomacy = 7
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "underhanded_rogue"
+	trait = "diligent"
+	trait = "proud"
+	father = 1967313 # Benjamin
+	mother = 1967314 # Josefina
+	2639.1.1 = {
+		birth = yes
+	}
+	2715.1.1 = {
+		death = yes
+	}
+}
+
+1967318 = {
+	name = "Nathan"
+	dynasty = 1784078 # Procter
+	diplomacy = 5
+	martial = 7
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "tough_soldier"
+	trait = "brave"
+	trait = "paranoid"
+	father = 1967313 # Benjamin
+	mother = 1967314 # Josefina
+	2641.1.1 = {
+		birth = yes
+	}
+	2709.1.1 = {
+		death = yes
+	}
+}
+
+1967319 = {
+	name = "Helene"
+	female = yes
+	dynasty = 1784078 # Procter
+	diplomacy = 6
+	martial = 3
+	stewardship = 6
+	intrigue = 7
+	learning = 5
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "flamboyant_schemer"
+	trait = "patient"
+	trait = "deceitful"
+	father = 1967313 # Benjamin
+	mother = 1967314 # Josefina
+	2645.1.1 = {
+		birth = yes
+	}
+	2719.1.1 = {
+		death = yes
+	}
+}
+
+1967320 = {
+	name = "Ann"
+	female = yes
+	dynasty = 1784078 # Procter
+	diplomacy = 6
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 4
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "thrifty_clerk"
+	trait = "charitable"
+	trait = "diligent"
+	father = 1967313 # Benjamin
+	mother = 1967314 # Josefina
+	2649.1.1 = {
+		birth = yes
+	}
+	2726.1.1 = {
+		death = yes
+	}
+}
+
+1967321 = {
+	name = "Rainalt"
+	dynasty = 1784078 # Procter
+	diplomacy = 6
+	martial = 4
+	stewardship = 7
+	intrigue = 4
+	learning = 7
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "scholarly_theologian"
+	trait = "humble"
+	trait = "patient"
+	father = 1967315 # Dexter
+	mother = 1967316 # Rachel
+	2643.1.1 = {
+		birth = yes
+	}
+	2719.1.1 = {
+		death = yes
+	}
+}
+
+1967322 = {
+	name = "Idebelle"
+	female = yes
+	dynasty = 1784078 # Procter
+	diplomacy = 5
+	martial = 3
+	stewardship = 4
+	intrigue = 7
+	learning = 6
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "intricate_webweaver"
+	trait = "shy"
+	trait = "patient"
+	father = 1967315 # Dexter
+	mother = 1967316 # Rachel
+	2646.1.1 = {
+		birth = yes
+	}
+	2725.1.1 = {
+		death = yes
+	}
+}
+
+1967323 = {
+	name = "Theodor"
+	dynasty = 1784078 # Procter
+	diplomacy = 7
+	martial = 5
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "charismatic_negotiator"
+	trait = "gregarious"
+	trait = "just"
+	father = 1967315 # Dexter
+	mother = 1967316 # Rachel
+	2648.1.1 = {
+		birth = yes
+	}
+	2721.1.1 = {
+		death = yes
+	}
+}
+
+1967324 = {
+	name = "Rohardt"
+	dynasty = 1784078 # Procter
+	diplomacy = 6
+	martial = 4
+	stewardship = 8
+	intrigue = 4
+	learning = 6
+	religion = "americanist"
+	culture = "rostmann"
+	trait = "thrifty_clerk"
+	trait = "greedy"
+	trait = "kind"
+	father = 1967315 # Dexter
+	mother = 1967316 # Rachel
+	2650.1.1 = {
+		birth = yes
+	}
+	2718.1.1 = {
+		death = yes
+	}
+}
+
+### Gamble (1967325-1967340) ###
+
+1967325 = {
+	name = "Jim"
+	dynasty = 1791066 # Gamble
+	diplomacy = 5
+	martial = 4
+	stewardship = 8
+	intrigue = 5
+	learning = 7
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "midas_touched"
+	trait = "ambitious"
+	trait = "diligent"
+	2546.1.1 = {
+		birth = yes
+	}
+	2571.1.1 = {
+		add_spouse = 1967326 # Antona
+	}
+	2634.1.1 = {
+		death = yes
+	}
+}
+
+1967326 = {
+	name = "Antona"
+	female = yes
+	diplomacy = 8
+	martial = 3
+	stewardship = 6
+	intrigue = 7
+	learning = 5
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "grey_eminence"
+	trait = "kind"
+	trait = "gregarious"
+	2552.1.1 = {
+		birth = yes
+	}
+	2632.1.1 = {
+		death = yes
+	}
+}
+
+1967327 = {
+	name = "Samuel"
+	dynasty = 1791066 # Gamble
+	diplomacy = 7
+	martial = 4
+	stewardship = 8
+	intrigue = 5
+	learning = 4
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "fortune_builder"
+	trait = "greedy"
+	trait = "temperate"
+	father = 1967325 # Jim Gamble
+	mother = 1967326 # Antona
+	2573.1.1 = {
+		birth = yes
+	}
+	2599.1.1 = {
+		add_spouse = 1967328 # Harriet
+	}
+	2649.1.1 = {
+		death = yes
+	}
+}
+
+1967328 = {
+	name = "Harriet"
+	female = yes
+	diplomacy = 5
+	martial = 3
+	stewardship = 6
+	intrigue = 8
+	learning = 7
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "intricate_webweaver"
+	trait = "patient"
+	trait = "envious"
+	2577.1.1 = {
+		birth = yes
+	}
+	2654.1.1 = {
+		death = yes
+	}
+}
+
+1967329 = {
+	name = "Patrick"
+	dynasty = 1791066 # Gamble
+	diplomacy = 7
+	martial = 4
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "fortune_builder"
+	trait = "ambitious"
+	trait = "diligent"
+	father = 1967327 # Samuel Gamble
+	mother = 1967328 # Harriet
+	2602.1.1 = {
+		birth = yes
+	}
+	2625.1.1 = {
+		add_spouse = 1967330 # Juniper
+	}
+	2662.1.1 = {
+		death = yes
+	}
+}
+
+1967330 = {
+	name = "Juniper"
+	female = yes
+	diplomacy = 8
+	martial = 4
+	stewardship = 4
+	intrigue = 7
+	learning = 5
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "charismatic_negotiator"
+	trait = "humble"
+	trait = "zealous"
+	2605.1.1 = {
+		birth = yes
+	}
+	2677.1.1 = {
+		death = yes
+	}
+}
+
+1967331 = {
+	name = "Laurel"
+	dynasty = 1791066 # Gamble
+	diplomacy = 8
+	martial = 5
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "charismatic_negotiator"
+	trait = "humble"
+	trait = "diligent"
+	father = 1967329 # Patrick Gamble
+	mother = 1967330 # Juniper
+	2627.1.1 = {
+		birth = yes
+	}
+	2703.1.1 = {
+		death = yes
+	}
+}
+
+1967332 = {
+	name = "Clarence"
+	dynasty = 1791066 # Gamble
+	diplomacy = 5
+	martial = 8
+	stewardship = 4
+	intrigue = 6
+	learning = 3
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "skilled_tactician"
+	trait = "stubborn"
+	trait = "brave"
+	father = 1967329 # Patrick Gamble
+	mother = 1967330 # Juniper
+	2629.1.1 = {
+		birth = yes
+	}
+	2707.1.1 = {
+		death = yes
+	}
+}
+
+1967333 = {
+	name = "Ellis"
+	dynasty = 1791066 # Gamble
+	diplomacy = 6
+	martial = 5
+	stewardship = 5
+	intrigue = 8
+	learning = 6
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "flamboyant_schemer"
+	trait = "patient"
+	trait = "proud"
+	father = 1967329 # Patrick Gamble
+	mother = 1967330 # Juniper
+	2631.1.1 = {
+		birth = yes
+	}
+	2711.1.1 = {
+		death = yes
+	}
+}
+
+1967334 = {
+	name = "Beauregard"
+	dynasty = 1791066 # Gamble
+	diplomacy = 5
+	martial = 7
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "thrifty_clerk"
+	trait = "charitable"
+	trait = "diligent"
+	father = 1967329 # Patrick Gamble
+	mother = 1967330 # Juniper
+	2633.1.1 = {
+		birth = yes
+	}
+	2710.1.1 = {
+		death = yes
+	}
+}
+
+1967335 = {
+	name = "Clyde"
+	dynasty = 1791066 # Gamble
+	diplomacy = 4
+	martial = 3
+	stewardship = 7
+	intrigue = 6
+	learning = 8
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "martial_cleric"
+	trait = "paranoid"
+	trait = "devout"
+	father = 1967329 # Patrick Gamble
+	mother = 1967330 # Juniper
+	2634.1.1 = {
+		birth = yes
+	}
+	2708.1.1 = {
+		death = yes
+	}
+}
+
+1967336 = {
+	name = "Benton"
+	dynasty = 1791066 # Gamble
+	diplomacy = 5
+	martial = 4
+	stewardship = 8
+	intrigue = 7
+	learning = 5
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "thrifty_clerk"
+	trait = "charitable"
+	trait = "temperate"
+	father = 1967329 # Patrick Gamble
+	mother = 1967330 # Juniper
+	2637.1.1 = {
+		birth = yes
+	}
+	2713.1.1 = {
+		death = yes
+	}
+}
+
+1967337 = {
+	name = "Lucille"
+	female = yes
+	dynasty = 1791066 # Gamble
+	diplomacy = 8
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 6
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "underhanded_rogue"
+	trait = "kind"
+	trait = "content"
+	father = 1967329 # Patrick Gamble
+	mother = 1967330 # Juniper
+	2640.1.1 = {
+		birth = yes
+	}
+	2719.1.1 = {
+		death = yes
+	}
+}
+
+1967338 = {
+	name = "Matilda"
+	female = yes
+	dynasty = 1791066 # Gamble
+	diplomacy = 7
+	martial = 4
+	stewardship = 8
+	intrigue = 6
+	learning = 5
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "fortune_builder"
+	trait = "diligent"
+	trait = "patient"
+	father = 1967329 # Patrick Gamble
+	mother = 1967330 # Juniper
+	2642.1.1 = {
+		birth = yes
+	}
+	2715.1.1 = {
+		death = yes
+	}
+}
+
+1967339 = {
+	name = "Iris"
+	female = yes
+	dynasty = 1791066 # Gamble
+	diplomacy = 8
+	martial = 3
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "charismatic_negotiator"
+	trait = "gregarious"
+	trait = "humble"
+	father = 1967329 # Patrick Gamble
+	mother = 1967330 # Juniper
+	2644.1.1 = {
+		birth = yes
+	}
+	2720.1.1 = {
+		death = yes
+	}
+}
+
+1967340 = {
+	name = "Morgan"
+	dynasty = 1791066 # Gamble
+	diplomacy = 7
+	martial = 9
+	stewardship = 6
+	intrigue = 6
+	learning = 6
+	religion = "catholic"
+	culture = "riverlander"
+	trait = "skilled_tactician"
+	trait = "robust"
+	trait = "brave"
+	father = 1967327 # Samuel Gamble
+	mother = 1967328 # Harriet
+	2612.1.1 = {
+		birth = yes
+	}
+	2692.1.1 = {
+		death = yes
+	}
+}
+
+### Ashland Dynasty Extended (1967341-1967349) ###
+
+1967341 = {
+	name = "Stefan"
+	dynasty = 1789083 # Ashland
+	diplomacy = 7
+	martial = 6
+	stewardship = 8
+	intrigue = 6
+	learning = 5
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "midas_touched"
+	trait = "quick"
+	trait = "administrator"
+	trait = "ambitious"
+	trait = "just"
+	father = 1967342 # Ignatius Ashland
+	2459.1.1 = {
+		birth = yes
+	}
+	2512.1.1 = {
+		death = yes
+	}
+}
+
+1967342 = {
+	name = "Ignatius"
+	dynasty = 1789083 # Ashland
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 6
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "skilled_tactician"
+	trait = "quick"
+	trait = "ambitious"
+	trait = "brave"
+	father = 1967343 # Bernard Ashland
+	2434.1.1 = {
+		birth = yes
+	}
+	2500.1.1 = {
+		death = yes
+	}
+}
+
+1967343 = {
+	name = "Bernard"
+	dynasty = 1789083 # Ashland
+	diplomacy = 6
+	martial = 8
+	stewardship = 7
+	intrigue = 7
+	learning = 5
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "skilled_tactician"
+	trait = "quick"
+	trait = "diligent"
+	trait = "proud"
+	father = 1967344 # Fabian Ashland
+	2406.1.1 = {
+		birth = yes
+	}
+	2478.1.1 = {
+		death = yes
+	}
+}
+
+1967344 = {
+	name = "Fabian"
+	dynasty = 1789083 # Ashland
+	diplomacy = 8
+	martial = 6
+	stewardship = 7
+	intrigue = 6
+	learning = 5
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "charismatic_negotiator"
+	trait = "quick"
+	trait = "content"
+	trait = "charitable"
+	father = 1967345 # Clarendon Ashland
+	2374.1.1 = {
+		birth = yes
+	}
+	2447.1.1 = {
+		death = yes
+	}
+}
+
+1967345 = {
+	name = "Clarendon"
+	dynasty = 1789083 # Ashland
+	diplomacy = 7
+	martial = 7
+	stewardship = 6
+	intrigue = 6
+	learning = 8
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "scholarly_theologian"
+	trait = "quick"
+	trait = "mystic"
+	trait = "zealous"
+	trait = "chaste"
+	father = 1967346 # Ashburn Ashland
+	2339.1.1 = {
+		birth = yes
+	}
+	2420.1.1 = {
+		death = yes
+	}
+}
+
+1967346 = {
+	name = "Ashburn"
+	dynasty = 1789083 # Ashland
+	diplomacy = 2
+	martial = 10
+	stewardship = 6
+	intrigue = 8
+	learning = 6
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "brilliant_strategist"
+	trait = "shrewd"
+	trait = "duelist"
+	trait = "ambitious"
+	trait = "wroth"
+	trait = "zealous"
+	trait = "paranoid"
+	father = 1967347 # Mathias Ashland
+	2312.1.1 = {
+		birth = yes
+	}
+	2367.1.1 = {
+		death = yes
+	}
+}
+
+1967347 = {
+	name = "Mathias"
+	dynasty = 1789083 # Ashland
+	diplomacy = 4
+	martial = 7
+	stewardship = 7
+	intrigue = 9
+	learning = 5
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "elusive_shadow"
+	trait = "shrewd"
+	trait = "schemer"
+	trait = "ambitious"
+	trait = "patient"
+	trait = "cynical"
+	trait = "diligent"
+	father = 1967348 # Richard Ashland
+	2286.1.1 = {
+		birth = yes
+	}
+	2357.1.1 = {
+		death = yes
+	}
+}
+
+1967348 = {
+	name = "Richard"
+	dynasty = 1789083 # Ashland
+	diplomacy = 8
+	martial = 6
+	stewardship = 7
+	intrigue = 6
+	learning = 6
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "grey_eminence"
+	trait = "socializer"
+	trait = "ambitious"
+	trait = "kind"
+	trait = "diligent"
+	trait = "charitable"
+	father = 1967349 # Ashton Ashland
+	2251.1.1 = {
+		birth = yes
+	}
+	2329.1.1 = {
+		death = yes
+	}
+}
+
+1967349 = {
+	name = "Ashton"
+	dynasty = 1789083 # Ashland
+	diplomacy = 8
+	martial = 5
+	stewardship = 6
+	intrigue = 6
+	learning = 7
+	religion = "catholic"
+	culture = "chicagoan"
+	occluded = yes
+	trait = "charismatic_negotiator"
+	trait = "legendary"
+	trait = "kind"
+	trait = "gregarious"
+	trait = "charitable"
+	trait = "diligent"
+	trait = "proud"
+	2218.1.1 = {
+		birth = yes
+	}
+	2295.1.1 = {
+		death = yes
+	}
+}
+
+### Sheridan Dynasty Extended (1967350-) ###
+
+1967350 = {
+	name = "John"
+	dynasty = 1789091 # Sheridan
+	diplomacy = 8
+	martial = 6
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "charismatic_negotiator"
+	trait = "shrewd"
+	trait = "just"
+	trait = "charitable"
+	trait = "diligent"
+	father = 1967351 # Alastar Sheridan
+	2365.1.1 = {
+		birth = yes
+	}
+	2424.1.1 = {
+		death = yes
+	}
+}
+
+1967351 = {
+	name = "Alastar"
+	dynasty = 1789091 # Sheridan
+	diplomacy = 8
+	martial = 9
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "skilled_tactician"
+	trait = "strong"
+	trait = "ambitious"
+	trait = "brave"
+	trait = "just"
+	father = 1967352 # Morgan Sheridan
+	2345.1.1 = {
+		birth = yes
+	}
+	2414.1.1 = {
+		death = yes
+	}
+}
+
+1967352 = {
+	name = "Morgan"
+	dynasty = 1789091 # Sheridan
+	diplomacy = 7
+	martial = 7
+	stewardship = 8
+	intrigue = 6
+	learning = 4
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "fortune_builder"
+	trait = "diligent"
+	trait = "patient"
+	father = 1967353 # Brian Sheridan
+	2323.1.1 = {
+		birth = yes
+	}
+	2389.1.1 = {
+		death = yes
+	}
+}
+
+1967353 = {
+	name = "Brian"
+	dynasty = 1789091 # Sheridan
+	diplomacy = 8
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 5
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "charismatic_negotiator"
+	trait = "kind"
+	trait = "paranoid"
+	father = 1967354 # Paul Sheridan
+	2300.1.1 = {
+		birth = yes
+	}
+	2375.1.1 = {
+		death = yes
+	}
+}
+
+1967354 = {
+	name = "Paul"
+	dynasty = 1789091 # Sheridan
+	diplomacy = 7
+	martial = 5
+	stewardship = 5
+	intrigue = 8
+	learning = 6
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "intricate_webweaver"
+	trait = "cynical"
+	trait = "patient"
+	father = 1967355 # Alastar Sheridan
+	2280.1.1 = {
+		birth = yes
+	}
+	2348.1.1 = {
+		death = yes
+	}
+}
+
+1967355 = {
+	name = "David" # David Sheridan II, son of John J. Sheridan - Babylon 5
+	dynasty = 1789091 # Sheridan
+	diplomacy = 8
+	martial = 8
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	religion = "catholic"
+	culture = "chicagoan"
+	trait = "charismatic_negotiator"
+	trait = "brave"
+	trait = "gregarious"
+	trait = "diligent"
+	father = 1967356 # John Sheridan
+	2262.12.15 = { # His date of birth in the show
+		birth = yes
+	}
+	2335.1.1 = {
+		death = yes
+	}
+}
+
+1967356 = {
+	name = "John" # John J. Sheridan - Babylon 5
+	dynasty = 1789091 # Sheridan
+	diplomacy = 8
+	martial = 9
+	stewardship = 7
+	intrigue = 7
+	learning = 7
+	religion = "catholic"
+	culture = "chicagoan"
+	occluded = yes
+	trait = "brilliant_strategist"
+	trait = "legendary"
+	trait = "shrewd"
+	trait = "inspiring_leader"
+	trait = "just"
+	trait = "brave"
+	trait = "diligent"
+	father = 1967357 # David Sheridan
+	2215.5.12 = { # His date of birth in the show
+		birth = yes
+	}
+	2281.1.14 = { # His date of death in the show
+		death = yes
+	}
+}
+
+1967357 = {
+	name = "David" # David Sheridan - Babylon 5
+	dynasty = 1789091 # Sheridan
+	diplomacy = 9
+	martial = 5
+	stewardship = 8
+	intrigue = 6
+	learning = 7
+	religion = "catholic"
+	culture = "chicagoan"
+	occluded = yes
+	trait = "charismatic_negotiator"
+	trait = "legendary"
+	trait = "shrewd"
+	trait = "gardener"
+	trait = "patient"
+	trait = "kind"
+	trait = "just"
+	2188.1.1 = {
+		birth = yes
+	}
+	2270.1.1 = {
 		death = yes
 	}
 }

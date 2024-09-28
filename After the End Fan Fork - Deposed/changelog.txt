@@ -7,8 +7,8 @@ Changelog for version 0.4 (?? ??, 20??):
 	  
 	- The files "adjacencies.csv", "climate.txt", "default.map", "definition.csv", "geographical_region.txt", 
 	  "positions.txt", "provinces.bmp", "terrain.bmp" and "topology.bmp" within the map folder have all been edited to add 
-	  in many new provinces and duchies. The Mississippi and Illinois Rivers are also now fully navigable, allowing 
-	  Merchant Republics to form along them.
+	  in many new provinces and duchies. The Mississippi, Illinois, Ohio, Wabash and Kentucky Rivers are also now fully 
+	  navigable, allowing Merchant Republics to form along them.
 	  
 	- The files "00_am_titles.csv" and "00_provinces.csv" within the localisation folder have been edited to add new 
 	  provinces and titles. New files "00_deposed_patrician_titles.csv" and "00_deposed_new_titles.csv" have also been 
@@ -26,7 +26,7 @@ Changelog for version 0.4 (?? ??, 20??):
 	  
 	- Edited and added 38 files within the "history/titles" folder.
 	  
-	- 8 new duchy titles have been added: 7 to the Kingdom of Chicagloand (Galena, Rockford, Waukegan, Aurora, Calumet, 
+	- 8 new duchy titles have been added: 7 to the Kingdom of Chicagoland (Galena, Rockford, Waukegan, Aurora, Calumet, 
 	  Peoria and Chambana) and 1 to the Kingdom of Missouri (Kaskaskia). Galena is split off from the Duchy of Coulee. 
 	  Rockford, Waukegan and Aurora have replaced the Duchy of Outer Chicagoland. Calumet is split off from the Duchy of 
 	  Michiana. Peoria is split off from the Duchy of Illinois. Chambana is split off from the Duchy of Wabash. Kaskaskia 
@@ -39,17 +39,26 @@ Changelog for version 0.4 (?? ??, 20??):
 	  
 	- Terrence "Godspeaker" Davis has been moved from Waukegan to the new neighboring county of McHenry.
 	  
-	- Petras Ashland now rules over the County of Waukegan as a vassal of Duke Robert II of Cook. His family has ruled 
-	  Waukegan for the last 2 centuries. He and his family are Chicagoan in culture and Catholic in religion.
+	- Brian Sheridan now rules over the County of Waukegan as a vassal of Duke Robert II of Cook. His family has ruled 
+	  Waukegan for the last 4 centuries. The Sheridan family is a reference to Philip Henry Sheridan, a Union general of 
+	  the American Civil War who later became the Commanding General of the U.S. Army. He also aided Chicago during the 
+	  Great Fire of 1871. Sheridan Road, which leads from Chicago, IL to Racine, WI, is named after him and goes through 
+	  Waukegan. The founder of the dynasty, his son and grandson (David, John and David, respectively) are references to 
+	  Babylon 5, the three characters are also descendants of Philip Henry Sheridan in the show. The Sheridan dynasty is 
+	  Chicagoan in culture and Catholic in religion.
 	  
 	- Jake Blues now rules the new County of Joliet as a vassal of Duke Robert II of Cook. He and his brother, Elwood are 
 	  references to The Blues Brothers. Both have the "Old World Shades" artifact and are Chicagoan in culture and 
 	  Catholic in religion. Due to his hatred of Illinois Nazis in the film, Jake Blues is a rival to William Francis 
 	  Rockwell, a Count in the Duchy of Illinois.
 	  
-	- Artur Aurora now rules the new County of Aurora as a vassal of Duke Robert II of Cook. His family has ruled ruled 
-	  Aurora for about 3 centuries. The family once owned much land in the area long ago, but now they are confined to 
-	  just Aurora. Artur and his family are Chicagoan in culture and Catholic in religion.
+	- Artur Pulaski now rules the new County of Aurora as a vassal of Duke Robert II of Cook. His family has ruled Aurora 
+	  for about 3 centuries. The family once owned much land in the area long ago, but now they are confined to just 
+	  Aurora. The Pulaski family is a reference to Casimir Pulaski, "The Father of American cavalry", a Polish nobleman 
+	  and military commander who aided the U.S. during the American Revolution. He died during the war and is one of only 
+	  8 non-U.S. citizens to be granted Honorary U.S. Citizenship, although posthumously. Pulaski Road in Chicago is named 
+	  after him. All Pulaski family members have Polish first names. Artur and his family are Chicagoan in culture and 
+	  Catholic in religion.
 	  
 	- Theodore Kaczynski now rules the new County of Geneva as a vassal of Duke Robert II of Cook. He is a Mastermind 
 	  Theologian, a Scholar and a Genius. He is a direct reference to Theodore "Uncle Ted" Kaczynski, the Unabomber. With 
@@ -58,12 +67,11 @@ Changelog for version 0.4 (?? ??, 20??):
 	- Leroy "the Bloody" DeSalle, brother of Duke Robert II Desalle of Cook, now rules the new Counties of DeKalb and 
 	  LeSalle as his brother's vassal. Aside from some minor stat changes, he remains unchanged.
 	  
-	- Alfred Ashford now rules the County of Rockford as a vassal of Duke Robert II of Cook. His family has ruled Rockford 
-	  for about 1 century and is a Cadet Branch of the Ashland Dynasty. His ancestor, Veronica Ashford once ruled much of 
-	  Northwest Illinois, but those days are long gone, and the family is now a mere shadow of its former self. Alfred and 
-	  his family are references to the Ashford family from Resident Evil - Code: Veronica, with one family member being a 
-	  reference to Klaes Ashford from The Espanse. Alfred and his family are all Chicagoan in culture and Catholic in 
-	  religion.
+	- Alfred Ashland now rules the County of Rockford as a vassal of Duke Robert II of Cook. His family has ruled Rockford 
+	  for about 4 centuries. His ancestor, Veronica Ashland once ruled much of Northwest Illinois, but those days are long 
+	  gone, and the family is now a mere shadow of its former self. The Ashland family and CoA are references to the 
+	  Ashford family from Resident Evil - Code: Veronica, with one family member being a reference to Klaes Ashford from 
+	  The Expanse. The Ashlands are all Chicagoan in culture and Catholic in religion.
 	  
 	- Vincentz Steinbach now rules the Petty Kingdom of Illinois. His sister, Amanda, is now in the court of her son, 
 	  Kasimir. His older brother, Franjo, ruled Illinois briefly after their father's death, before being deposed by 
@@ -114,8 +122,8 @@ Changelog for version 0.4 (?? ??, 20??):
 	  he somehow became king at birth).
 	  
 	- The provinces of Chicago, Calumet, Rockford, Peoria, Rock Island, Scott, Galena, Sterling, Fandon, Sangamon, 
-	  Kickapoo and La Crosse have extra walls and fortifications built to deter Norse attacks. These may or may not be 
-	  removed at a later date.
+	  Kickapoo, La Crosse and Cincinnati have extra walls and fortifications built to deter Norse and other attacks. 
+	  These may or may not be removed at a later date.
 	  
 	- Edited the file "common/trade_routes/00_interstate.txt" to include the new provinces.
 	  
@@ -144,7 +152,7 @@ Changelog for version 0.4 (?? ??, 20??):
 	  Watseka since at least 2583. There are 4 living members of the family and all are Rostmann in culture and Catholic 
 	  in religion.
 	  
-	- Added 2 new dynasties. 1 Chicagoan, 1 Motowner.
+	- Added 7 new dynasties. 3 Chicagoan, 2 Rostmann, 1 Motowner, 1 Riverlander.
 	  
 	- The Duchy of Kern and the Kingdoms of Socal and Nevada have had most of their provinces reshaped.
 	  
@@ -182,26 +190,73 @@ Changelog for version 0.4 (?? ??, 20??):
 	- Chief Cotton Boomer is no longer the Count of Plymouth as he now rules the County of Quiet Corner as a vassal to 
 	  High Chief Onesiphorus Miskaton of Nogad in New England.
 	  
-	- Johnathan Paul Kennedy now rules the County of Plymouth in New England. He is an independent ruler. The family is a 
-	  reference to the IRL US political family. His nephew, Leon Scott Kennedy, is a reference to the same character from 
+	- Jonathan Paul Kennedy now rules the County of Plymouth in New England. He is an independent ruler. He is a reference 
+	  to the IRL Joseph P. Kennedy through his initials. The family is a reference to the IRL US political family. 
+	  Jonathan Paul's first two sons, Jonathan Paul Jr. and Jerome Francis are references to Joseph P. Kennedy's first two
+	  sons via their initials (JPK Jr. and JFK). His nephew, Leon Scott Kennedy, is a reference to the same character from 
 	  the Resident Evil franchise. The Kennedy family has called Plymouth home since before the Event, as it's the 
-	  location of the IRL Kennedy Compound. All memebers of the family are Yankee in culture and Occultist in religion. 
-	  Their names, culture, religion and number of members will likely be changed in the near future.
+	  location of the IRL Kennedy Compound. All members of the Kennedy family share the same naming conventions as the IRL 
+	  Kennedy family (They all have two first names). All members of the family are Yankee in culture and Americanist in 
+	  religion. Their names, culture and number of members will likely be changed in the near future.
 	  
-	- Christian Weston Chandler is no longer immortal (Events for this may be added later, tied to the Absurd Events game 
-	  rule).
+	- Christian Weston Chandler is no longer immortal. However, a new event that only appears when the Absurd Events game 
+	  rule is active gives him the Immortal trait, his IRL birthdate and replaces his weakened artifacts with their True 
+	  and Honest versons at game start.
 	  
 	- The "The True and Honest Sonichu Medallion" and "The Sonic Totem" artifacts have been renamed to "The True and 
 	  Honest Hedgerat Medallion" and "The Blue Hedgehog Totem", respectively. They both have had their quality and effects 
-	  greatly diminished. More adjustments (Either positive or negative) may be made to these artifacts in the future.
+	  greatly diminished. More adjustments (Either positive or negative) may be made to these artifacts in the future. Two 
+	  "new" artifacts have been added that are identical to the older, more powerful, versions of the Medallion and Totem, 
+	  keeping their original names. These two artifacts will only appear when the Absurd Events game rule is active.
 	  
 	- Clarification on an earlier change in the changelog for version 0.3.1: The Rockwell dynasty's CoA is actually an 
 	  edited fascist flag of the Free State of Prussia.
 	  
 	- Duke Hank Hillwalker of Metroplex no longer starts with extra raised levies. This was carried over from when Denton 
-	  Wise was Duke of Metroplex. This was done as he doesn't start at war, so he really doesn't need them.
+	  Wise was Duke of Metroplex. He doesn't start at war, so he really doesn't need them.
 	  
-	- 
+	- Added the IRL Coat of Arms of the IRL Pulaski family. The Pulaskis were one of about 993 Polish families that used 
+	  the same CoA IRL.
+	  
+	- Added the IRL Coat of Arms of the Sheridan family.
+	  
+	- Added one of the IRL Coat of Arms for the Archer family.
+	
+	- Added the extinct Archer dynasty to the history of the County of Joliet. The dynasty is named after William Beatty 
+	  Archer, a captain in the Black Hawk War. He was also involved in the construction of the Illinois & Michigan Canal, 
+	  along which Joliet sits. All landed male members of the family are named after roads that intersect with or meet 
+	  with Archer Ave. IRL, going from east to west, starting from the founder. The final member of the family, Mary 
+	  Archer, is a reference to Resurrection Mary, a Chicago ghost story of a young woman that was struck and killed in 
+	  a hit-and-run on Archer Ave. and now appears as a vanishing hitchiker to men driving along the road. She is married 
+	  to the founder of the Pulaski dynasty (Pulaski is also a road that intersects with Archer IRL). Members of the 
+	  Archer family are all Chicagoan in culture, but their religion goes from Evangelical to Americanist and finally to 
+	  Catholic.
+	  
+	- The County of Plymouth is now Americanist, to match that of the holder, Johnathan Paul Kennedy.
+	  
+	- The Province of Zinzinnati (Cincinnati) has had its max number of settlements increased from 5 to 6.
+	  
+	- The Duchy of Zinzinnati (Cincy) has been converted into a Merchant Republic. Mathias Zinn still holds Zinzinnati as
+	  Speaker. The five patrician families of Zinzinnati are: Zinn, Wise, Crosley, Procter, and Gamble. Todres is the head 
+	  of House Wise. Raymund is the head of House Crosley, Benjamin is the head of House Procter, and Laurel is the head 
+	  of House Gamble. All of the patrician families have 10 living members to ensure they don't die out early.
+	  
+			- House Zinn is Americanist and Rostmann.
+			
+			- House Wise is Reform and Yiddish. It's named after Isaac Mayer Wise, a Reform rabbi. He moved to Cincinnati 
+			  from Bohemia. Isaac Mayer Wise already had a reference character in-game, Rabbi Issac Wise of Amberley.
+			
+			- House Crosley is Rust Cultist and Rostmann. It's named after Powel Crosley Jr., an inventor, industrialist 
+			  and entrepreneur. Crosley Field, a stadium in Cincinnati, was renamed for him.
+			  
+			- House Procter is Americanist and Rostmann. It's named after William Procter, co-founder of Procter & Gamble.
+			  He moved to Cincinnati from England.
+			
+			- House Gamble is Catholic and Riverlander. It's named after James Gamble, co-founder of Procter & Gamble. 
+			  The house is Riverlander due to James Gamble and his family having arrived in Cincinnati via a flat boat on 
+			  the Ohio River. His family moved to Cincinnati from Nothern Ireland.
+			  
+	  - 
 
 Changelog for version 0.3.1 (August 9, 2024):
 

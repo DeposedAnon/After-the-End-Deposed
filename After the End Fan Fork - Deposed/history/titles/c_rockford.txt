@@ -1,29 +1,56 @@
+2259.1.1 = { #MyAddition
+	holder = 1967349 # Ashton Ashland
+}
+2295.1.1 = { #MyAddition
+	holder = 1967348 # Richard Ashland
+}
+2329.1.1 = { #MyAddition
+	holder = 1967347 # Mathias Ashland
+}
+2357.1.1 = { #MyAddition
+	holder = 1967346 # Ashburn Ashland
+}
+2367.1.1 = { #MyAddition
+	holder = 1967345 # Clarendon Ashland
+}
+2420.1.1 = { #MyAddition
+	holder = 1967344 # Fabian Ashland
+}
+2447.1.1 = { #MyAddition
+	holder = 1967343 # Bernard Ashland
+}
+2478.1.1 = { #MyAddition
+	holder = 1967342 # Ignatius Ashland
+}
+2500.1.1 = { #MyAddition
+	holder = 1967341 # Stefan Ashland
+}
 2512.1.1 = { #MyAddition
-	holder = 1967136 # Veronica Ashford
+	holder = 1967136 # Veronica Ashland
 	liege = d_rockford
 }
 2567.1.1 = { #MyAddition
-	holder = 1967137 # Stanley Ashford
+	holder = 1967137 # Stanley Ashland
 }
 2570.1.1 = { #MyAddition
-	holder = 1967138 # Tomas Ashford
+	holder = 1967138 # Tomas Ashland
 }
 2582.1.1 = { #MyAddition
-	holder = 1967139 # Artur Ashford
+	holder = 1967139 # Artur Ashland
 }
 2620.1.1 = { #MyAddition
-	holder = 1967140 # Edward Ashford
+	holder = 1967140 # Edward Ashland
 }
 2628.6.21 = { #MyAddition
 	holder = 1919000 # Albert Soady, conquers Cook, Waukegan, Rockford and Aurora
 	liege = k_superior
 }
 2653.1.1 = { #MyAddition
-	holder = 1967141 # Alecksander Ashford
+	holder = 1967141 # Alecksander Ashland
 	liege = d_cook
 }
 2655.1.1 = { #MyAddition
-	holder = 1967143 # Alfred Ashford
+	holder = 1967143 # Alfred Ashland
 }
 # 2660.1.1 = { #MyEdit: Commented out.
 	# holder = 1967007

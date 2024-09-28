@@ -1,3 +1,13 @@
+#MyAddition: Sheridan Line
+2537.1.1 = {
+	holder = 1967128 # Douglas I Sheridan
+}
+2545.1.1 = {
+	holder = 1967129 # John III Sheridan
+}
+2587.1.1 = {
+	holder = 1967130 # Kenneth I Sheridan
+}
 2595.1.1 = { #MyAddition
 	holder = 1920016 # Heinrich Stoklasa
 }
